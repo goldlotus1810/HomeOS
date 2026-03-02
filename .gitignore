@@ -1,0 +1,10 @@
+# Build output
+/homeos
+*.exe
+
+# Data
+/data/
+
+# Go
+*.test
+*.out
