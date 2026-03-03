@@ -1,0 +1,22 @@
+# 𮔟 — CJK UNIFIED IDEOGRAPH-2E51F
+
+codepoint: U+2E51F
+decimal:   189727
+utf-8:     f0 ae 94 9f
+utf-32:    0002E51F
+
+category:  Lo (Other Letter)
+block:     CJK Extension F  (U+2CEB0–U+2EBEF)
+bidi:      L
+
+## Character
+
+𮔟
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-2E51F
+
+## Block
+
+CJK Extension F

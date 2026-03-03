@@ -1,0 +1,348 @@
+# Linear A
+
+Unicode block: U+10600–U+1077F  |  range size: 384
+Assigned characters: 341  |  Unassigned slots: 43
+
+| # | Char | U+ | Name | Cat |
+|---|------|----|------|-----|
+| 1 | `𐘀` | 10600 | LINEAR A SIGN AB001 | Lo (Other Letter) |
+| 2 | `𐘁` | 10601 | LINEAR A SIGN AB002 | Lo (Other Letter) |
+| 3 | `𐘂` | 10602 | LINEAR A SIGN AB003 | Lo (Other Letter) |
+| 4 | `𐘃` | 10603 | LINEAR A SIGN AB004 | Lo (Other Letter) |
+| 5 | `𐘄` | 10604 | LINEAR A SIGN AB005 | Lo (Other Letter) |
+| 6 | `𐘅` | 10605 | LINEAR A SIGN AB006 | Lo (Other Letter) |
+| 7 | `𐘆` | 10606 | LINEAR A SIGN AB007 | Lo (Other Letter) |
+| 8 | `𐘇` | 10607 | LINEAR A SIGN AB008 | Lo (Other Letter) |
+| 9 | `𐘈` | 10608 | LINEAR A SIGN AB009 | Lo (Other Letter) |
+| 10 | `𐘉` | 10609 | LINEAR A SIGN AB010 | Lo (Other Letter) |
+| 11 | `𐘊` | 1060A | LINEAR A SIGN AB011 | Lo (Other Letter) |
+| 12 | `𐘋` | 1060B | LINEAR A SIGN AB013 | Lo (Other Letter) |
+| 13 | `𐘌` | 1060C | LINEAR A SIGN AB016 | Lo (Other Letter) |
+| 14 | `𐘍` | 1060D | LINEAR A SIGN AB017 | Lo (Other Letter) |
+| 15 | `𐘎` | 1060E | LINEAR A SIGN AB020 | Lo (Other Letter) |
+| 16 | `𐘏` | 1060F | LINEAR A SIGN AB021 | Lo (Other Letter) |
+| 17 | `𐘐` | 10610 | LINEAR A SIGN AB021F | Lo (Other Letter) |
+| 18 | `𐘑` | 10611 | LINEAR A SIGN AB021M | Lo (Other Letter) |
+| 19 | `𐘒` | 10612 | LINEAR A SIGN AB022 | Lo (Other Letter) |
+| 20 | `𐘓` | 10613 | LINEAR A SIGN AB022F | Lo (Other Letter) |
+| 21 | `𐘔` | 10614 | LINEAR A SIGN AB022M | Lo (Other Letter) |
+| 22 | `𐘕` | 10615 | LINEAR A SIGN AB023 | Lo (Other Letter) |
+| 23 | `𐘖` | 10616 | LINEAR A SIGN AB023M | Lo (Other Letter) |
+| 24 | `𐘗` | 10617 | LINEAR A SIGN AB024 | Lo (Other Letter) |
+| 25 | `𐘘` | 10618 | LINEAR A SIGN AB026 | Lo (Other Letter) |
+| 26 | `𐘙` | 10619 | LINEAR A SIGN AB027 | Lo (Other Letter) |
+| 27 | `𐘚` | 1061A | LINEAR A SIGN AB028 | Lo (Other Letter) |
+| 28 | `𐘛` | 1061B | LINEAR A SIGN A028B | Lo (Other Letter) |
+| 29 | `𐘜` | 1061C | LINEAR A SIGN AB029 | Lo (Other Letter) |
+| 30 | `𐘝` | 1061D | LINEAR A SIGN AB030 | Lo (Other Letter) |
+| 31 | `𐘞` | 1061E | LINEAR A SIGN AB031 | Lo (Other Letter) |
+| 32 | `𐘟` | 1061F | LINEAR A SIGN AB034 | Lo (Other Letter) |
+| 33 | `𐘠` | 10620 | LINEAR A SIGN AB037 | Lo (Other Letter) |
+| 34 | `𐘡` | 10621 | LINEAR A SIGN AB038 | Lo (Other Letter) |
+| 35 | `𐘢` | 10622 | LINEAR A SIGN AB039 | Lo (Other Letter) |
+| 36 | `𐘣` | 10623 | LINEAR A SIGN AB040 | Lo (Other Letter) |
+| 37 | `𐘤` | 10624 | LINEAR A SIGN AB041 | Lo (Other Letter) |
+| 38 | `𐘥` | 10625 | LINEAR A SIGN AB044 | Lo (Other Letter) |
+| 39 | `𐘦` | 10626 | LINEAR A SIGN AB045 | Lo (Other Letter) |
+| 40 | `𐘧` | 10627 | LINEAR A SIGN AB046 | Lo (Other Letter) |
+| 41 | `𐘨` | 10628 | LINEAR A SIGN AB047 | Lo (Other Letter) |
+| 42 | `𐘩` | 10629 | LINEAR A SIGN AB048 | Lo (Other Letter) |
+| 43 | `𐘪` | 1062A | LINEAR A SIGN AB049 | Lo (Other Letter) |
+| 44 | `𐘫` | 1062B | LINEAR A SIGN AB050 | Lo (Other Letter) |
+| 45 | `𐘬` | 1062C | LINEAR A SIGN AB051 | Lo (Other Letter) |
+| 46 | `𐘭` | 1062D | LINEAR A SIGN AB053 | Lo (Other Letter) |
+| 47 | `𐘮` | 1062E | LINEAR A SIGN AB054 | Lo (Other Letter) |
+| 48 | `𐘯` | 1062F | LINEAR A SIGN AB055 | Lo (Other Letter) |
+| 49 | `𐘰` | 10630 | LINEAR A SIGN AB056 | Lo (Other Letter) |
+| 50 | `𐘱` | 10631 | LINEAR A SIGN AB057 | Lo (Other Letter) |
+| 51 | `𐘲` | 10632 | LINEAR A SIGN AB058 | Lo (Other Letter) |
+| 52 | `𐘳` | 10633 | LINEAR A SIGN AB059 | Lo (Other Letter) |
+| 53 | `𐘴` | 10634 | LINEAR A SIGN AB060 | Lo (Other Letter) |
+| 54 | `𐘵` | 10635 | LINEAR A SIGN AB061 | Lo (Other Letter) |
+| 55 | `𐘶` | 10636 | LINEAR A SIGN AB065 | Lo (Other Letter) |
+| 56 | `𐘷` | 10637 | LINEAR A SIGN AB066 | Lo (Other Letter) |
+| 57 | `𐘸` | 10638 | LINEAR A SIGN AB067 | Lo (Other Letter) |
+| 58 | `𐘹` | 10639 | LINEAR A SIGN AB069 | Lo (Other Letter) |
+| 59 | `𐘺` | 1063A | LINEAR A SIGN AB070 | Lo (Other Letter) |
+| 60 | `𐘻` | 1063B | LINEAR A SIGN AB073 | Lo (Other Letter) |
+| 61 | `𐘼` | 1063C | LINEAR A SIGN AB074 | Lo (Other Letter) |
+| 62 | `𐘽` | 1063D | LINEAR A SIGN AB076 | Lo (Other Letter) |
+| 63 | `𐘾` | 1063E | LINEAR A SIGN AB077 | Lo (Other Letter) |
+| 64 | `𐘿` | 1063F | LINEAR A SIGN AB078 | Lo (Other Letter) |
+| 65 | `𐙀` | 10640 | LINEAR A SIGN AB079 | Lo (Other Letter) |
+| 66 | `𐙁` | 10641 | LINEAR A SIGN AB080 | Lo (Other Letter) |
+| 67 | `𐙂` | 10642 | LINEAR A SIGN AB081 | Lo (Other Letter) |
+| 68 | `𐙃` | 10643 | LINEAR A SIGN AB082 | Lo (Other Letter) |
+| 69 | `𐙄` | 10644 | LINEAR A SIGN AB085 | Lo (Other Letter) |
+| 70 | `𐙅` | 10645 | LINEAR A SIGN AB086 | Lo (Other Letter) |
+| 71 | `𐙆` | 10646 | LINEAR A SIGN AB087 | Lo (Other Letter) |
+| 72 | `𐙇` | 10647 | LINEAR A SIGN A100-102 | Lo (Other Letter) |
+| 73 | `𐙈` | 10648 | LINEAR A SIGN AB118 | Lo (Other Letter) |
+| 74 | `𐙉` | 10649 | LINEAR A SIGN AB120 | Lo (Other Letter) |
+| 75 | `𐙊` | 1064A | LINEAR A SIGN A120B | Lo (Other Letter) |
+| 76 | `𐙋` | 1064B | LINEAR A SIGN AB122 | Lo (Other Letter) |
+| 77 | `𐙌` | 1064C | LINEAR A SIGN AB123 | Lo (Other Letter) |
+| 78 | `𐙍` | 1064D | LINEAR A SIGN AB131A | Lo (Other Letter) |
+| 79 | `𐙎` | 1064E | LINEAR A SIGN AB131B | Lo (Other Letter) |
+| 80 | `𐙏` | 1064F | LINEAR A SIGN A131C | Lo (Other Letter) |
+| 81 | `𐙐` | 10650 | LINEAR A SIGN AB164 | Lo (Other Letter) |
+| 82 | `𐙑` | 10651 | LINEAR A SIGN AB171 | Lo (Other Letter) |
+| 83 | `𐙒` | 10652 | LINEAR A SIGN AB180 | Lo (Other Letter) |
+| 84 | `𐙓` | 10653 | LINEAR A SIGN AB188 | Lo (Other Letter) |
+| 85 | `𐙔` | 10654 | LINEAR A SIGN AB191 | Lo (Other Letter) |
+| 86 | `𐙕` | 10655 | LINEAR A SIGN A301 | Lo (Other Letter) |
+| 87 | `𐙖` | 10656 | LINEAR A SIGN A302 | Lo (Other Letter) |
+| 88 | `𐙗` | 10657 | LINEAR A SIGN A303 | Lo (Other Letter) |
+| 89 | `𐙘` | 10658 | LINEAR A SIGN A304 | Lo (Other Letter) |
+| 90 | `𐙙` | 10659 | LINEAR A SIGN A305 | Lo (Other Letter) |
+| 91 | `𐙚` | 1065A | LINEAR A SIGN A306 | Lo (Other Letter) |
+| 92 | `𐙛` | 1065B | LINEAR A SIGN A307 | Lo (Other Letter) |
+| 93 | `𐙜` | 1065C | LINEAR A SIGN A308 | Lo (Other Letter) |
+| 94 | `𐙝` | 1065D | LINEAR A SIGN A309A | Lo (Other Letter) |
+| 95 | `𐙞` | 1065E | LINEAR A SIGN A309B | Lo (Other Letter) |
+| 96 | `𐙟` | 1065F | LINEAR A SIGN A309C | Lo (Other Letter) |
+| 97 | `𐙠` | 10660 | LINEAR A SIGN A310 | Lo (Other Letter) |
+| 98 | `𐙡` | 10661 | LINEAR A SIGN A311 | Lo (Other Letter) |
+| 99 | `𐙢` | 10662 | LINEAR A SIGN A312 | Lo (Other Letter) |
+| 100 | `𐙣` | 10663 | LINEAR A SIGN A313A | Lo (Other Letter) |
+| 101 | `𐙤` | 10664 | LINEAR A SIGN A313B | Lo (Other Letter) |
+| 102 | `𐙥` | 10665 | LINEAR A SIGN A313C | Lo (Other Letter) |
+| 103 | `𐙦` | 10666 | LINEAR A SIGN A314 | Lo (Other Letter) |
+| 104 | `𐙧` | 10667 | LINEAR A SIGN A315 | Lo (Other Letter) |
+| 105 | `𐙨` | 10668 | LINEAR A SIGN A316 | Lo (Other Letter) |
+| 106 | `𐙩` | 10669 | LINEAR A SIGN A317 | Lo (Other Letter) |
+| 107 | `𐙪` | 1066A | LINEAR A SIGN A318 | Lo (Other Letter) |
+| 108 | `𐙫` | 1066B | LINEAR A SIGN A319 | Lo (Other Letter) |
+| 109 | `𐙬` | 1066C | LINEAR A SIGN A320 | Lo (Other Letter) |
+| 110 | `𐙭` | 1066D | LINEAR A SIGN A321 | Lo (Other Letter) |
+| 111 | `𐙮` | 1066E | LINEAR A SIGN A322 | Lo (Other Letter) |
+| 112 | `𐙯` | 1066F | LINEAR A SIGN A323 | Lo (Other Letter) |
+| 113 | `𐙰` | 10670 | LINEAR A SIGN A324 | Lo (Other Letter) |
+| 114 | `𐙱` | 10671 | LINEAR A SIGN A325 | Lo (Other Letter) |
+| 115 | `𐙲` | 10672 | LINEAR A SIGN A326 | Lo (Other Letter) |
+| 116 | `𐙳` | 10673 | LINEAR A SIGN A327 | Lo (Other Letter) |
+| 117 | `𐙴` | 10674 | LINEAR A SIGN A328 | Lo (Other Letter) |
+| 118 | `𐙵` | 10675 | LINEAR A SIGN A329 | Lo (Other Letter) |
+| 119 | `𐙶` | 10676 | LINEAR A SIGN A330 | Lo (Other Letter) |
+| 120 | `𐙷` | 10677 | LINEAR A SIGN A331 | Lo (Other Letter) |
+| 121 | `𐙸` | 10678 | LINEAR A SIGN A332 | Lo (Other Letter) |
+| 122 | `𐙹` | 10679 | LINEAR A SIGN A333 | Lo (Other Letter) |
+| 123 | `𐙺` | 1067A | LINEAR A SIGN A334 | Lo (Other Letter) |
+| 124 | `𐙻` | 1067B | LINEAR A SIGN A335 | Lo (Other Letter) |
+| 125 | `𐙼` | 1067C | LINEAR A SIGN A336 | Lo (Other Letter) |
+| 126 | `𐙽` | 1067D | LINEAR A SIGN A337 | Lo (Other Letter) |
+| 127 | `𐙾` | 1067E | LINEAR A SIGN A338 | Lo (Other Letter) |
+| 128 | `𐙿` | 1067F | LINEAR A SIGN A339 | Lo (Other Letter) |
+| 129 | `𐚀` | 10680 | LINEAR A SIGN A340 | Lo (Other Letter) |
+| 130 | `𐚁` | 10681 | LINEAR A SIGN A341 | Lo (Other Letter) |
+| 131 | `𐚂` | 10682 | LINEAR A SIGN A342 | Lo (Other Letter) |
+| 132 | `𐚃` | 10683 | LINEAR A SIGN A343 | Lo (Other Letter) |
+| 133 | `𐚄` | 10684 | LINEAR A SIGN A344 | Lo (Other Letter) |
+| 134 | `𐚅` | 10685 | LINEAR A SIGN A345 | Lo (Other Letter) |
+| 135 | `𐚆` | 10686 | LINEAR A SIGN A346 | Lo (Other Letter) |
+| 136 | `𐚇` | 10687 | LINEAR A SIGN A347 | Lo (Other Letter) |
+| 137 | `𐚈` | 10688 | LINEAR A SIGN A348 | Lo (Other Letter) |
+| 138 | `𐚉` | 10689 | LINEAR A SIGN A349 | Lo (Other Letter) |
+| 139 | `𐚊` | 1068A | LINEAR A SIGN A350 | Lo (Other Letter) |
+| 140 | `𐚋` | 1068B | LINEAR A SIGN A351 | Lo (Other Letter) |
+| 141 | `𐚌` | 1068C | LINEAR A SIGN A352 | Lo (Other Letter) |
+| 142 | `𐚍` | 1068D | LINEAR A SIGN A353 | Lo (Other Letter) |
+| 143 | `𐚎` | 1068E | LINEAR A SIGN A354 | Lo (Other Letter) |
+| 144 | `𐚏` | 1068F | LINEAR A SIGN A355 | Lo (Other Letter) |
+| 145 | `𐚐` | 10690 | LINEAR A SIGN A356 | Lo (Other Letter) |
+| 146 | `𐚑` | 10691 | LINEAR A SIGN A357 | Lo (Other Letter) |
+| 147 | `𐚒` | 10692 | LINEAR A SIGN A358 | Lo (Other Letter) |
+| 148 | `𐚓` | 10693 | LINEAR A SIGN A359 | Lo (Other Letter) |
+| 149 | `𐚔` | 10694 | LINEAR A SIGN A360 | Lo (Other Letter) |
+| 150 | `𐚕` | 10695 | LINEAR A SIGN A361 | Lo (Other Letter) |
+| 151 | `𐚖` | 10696 | LINEAR A SIGN A362 | Lo (Other Letter) |
+| 152 | `𐚗` | 10697 | LINEAR A SIGN A363 | Lo (Other Letter) |
+| 153 | `𐚘` | 10698 | LINEAR A SIGN A364 | Lo (Other Letter) |
+| 154 | `𐚙` | 10699 | LINEAR A SIGN A365 | Lo (Other Letter) |
+| 155 | `𐚚` | 1069A | LINEAR A SIGN A366 | Lo (Other Letter) |
+| 156 | `𐚛` | 1069B | LINEAR A SIGN A367 | Lo (Other Letter) |
+| 157 | `𐚜` | 1069C | LINEAR A SIGN A368 | Lo (Other Letter) |
+| 158 | `𐚝` | 1069D | LINEAR A SIGN A369 | Lo (Other Letter) |
+| 159 | `𐚞` | 1069E | LINEAR A SIGN A370 | Lo (Other Letter) |
+| 160 | `𐚟` | 1069F | LINEAR A SIGN A371 | Lo (Other Letter) |
+| 161 | `𐚠` | 106A0 | LINEAR A SIGN A400-VAS | Lo (Other Letter) |
+| 162 | `𐚡` | 106A1 | LINEAR A SIGN A401-VAS | Lo (Other Letter) |
+| 163 | `𐚢` | 106A2 | LINEAR A SIGN A402-VAS | Lo (Other Letter) |
+| 164 | `𐚣` | 106A3 | LINEAR A SIGN A403-VAS | Lo (Other Letter) |
+| 165 | `𐚤` | 106A4 | LINEAR A SIGN A404-VAS | Lo (Other Letter) |
+| 166 | `𐚥` | 106A5 | LINEAR A SIGN A405-VAS | Lo (Other Letter) |
+| 167 | `𐚦` | 106A6 | LINEAR A SIGN A406-VAS | Lo (Other Letter) |
+| 168 | `𐚧` | 106A7 | LINEAR A SIGN A407-VAS | Lo (Other Letter) |
+| 169 | `𐚨` | 106A8 | LINEAR A SIGN A408-VAS | Lo (Other Letter) |
+| 170 | `𐚩` | 106A9 | LINEAR A SIGN A409-VAS | Lo (Other Letter) |
+| 171 | `𐚪` | 106AA | LINEAR A SIGN A410-VAS | Lo (Other Letter) |
+| 172 | `𐚫` | 106AB | LINEAR A SIGN A411-VAS | Lo (Other Letter) |
+| 173 | `𐚬` | 106AC | LINEAR A SIGN A412-VAS | Lo (Other Letter) |
+| 174 | `𐚭` | 106AD | LINEAR A SIGN A413-VAS | Lo (Other Letter) |
+| 175 | `𐚮` | 106AE | LINEAR A SIGN A414-VAS | Lo (Other Letter) |
+| 176 | `𐚯` | 106AF | LINEAR A SIGN A415-VAS | Lo (Other Letter) |
+| 177 | `𐚰` | 106B0 | LINEAR A SIGN A416-VAS | Lo (Other Letter) |
+| 178 | `𐚱` | 106B1 | LINEAR A SIGN A417-VAS | Lo (Other Letter) |
+| 179 | `𐚲` | 106B2 | LINEAR A SIGN A418-VAS | Lo (Other Letter) |
+| 180 | `𐚳` | 106B3 | LINEAR A SIGN A501 | Lo (Other Letter) |
+| 181 | `𐚴` | 106B4 | LINEAR A SIGN A502 | Lo (Other Letter) |
+| 182 | `𐚵` | 106B5 | LINEAR A SIGN A503 | Lo (Other Letter) |
+| 183 | `𐚶` | 106B6 | LINEAR A SIGN A504 | Lo (Other Letter) |
+| 184 | `𐚷` | 106B7 | LINEAR A SIGN A505 | Lo (Other Letter) |
+| 185 | `𐚸` | 106B8 | LINEAR A SIGN A506 | Lo (Other Letter) |
+| 186 | `𐚹` | 106B9 | LINEAR A SIGN A508 | Lo (Other Letter) |
+| 187 | `𐚺` | 106BA | LINEAR A SIGN A509 | Lo (Other Letter) |
+| 188 | `𐚻` | 106BB | LINEAR A SIGN A510 | Lo (Other Letter) |
+| 189 | `𐚼` | 106BC | LINEAR A SIGN A511 | Lo (Other Letter) |
+| 190 | `𐚽` | 106BD | LINEAR A SIGN A512 | Lo (Other Letter) |
+| 191 | `𐚾` | 106BE | LINEAR A SIGN A513 | Lo (Other Letter) |
+| 192 | `𐚿` | 106BF | LINEAR A SIGN A515 | Lo (Other Letter) |
+| 193 | `𐛀` | 106C0 | LINEAR A SIGN A516 | Lo (Other Letter) |
+| 194 | `𐛁` | 106C1 | LINEAR A SIGN A520 | Lo (Other Letter) |
+| 195 | `𐛂` | 106C2 | LINEAR A SIGN A521 | Lo (Other Letter) |
+| 196 | `𐛃` | 106C3 | LINEAR A SIGN A523 | Lo (Other Letter) |
+| 197 | `𐛄` | 106C4 | LINEAR A SIGN A524 | Lo (Other Letter) |
+| 198 | `𐛅` | 106C5 | LINEAR A SIGN A525 | Lo (Other Letter) |
+| 199 | `𐛆` | 106C6 | LINEAR A SIGN A526 | Lo (Other Letter) |
+| 200 | `𐛇` | 106C7 | LINEAR A SIGN A527 | Lo (Other Letter) |
+| 201 | `𐛈` | 106C8 | LINEAR A SIGN A528 | Lo (Other Letter) |
+| 202 | `𐛉` | 106C9 | LINEAR A SIGN A529 | Lo (Other Letter) |
+| 203 | `𐛊` | 106CA | LINEAR A SIGN A530 | Lo (Other Letter) |
+| 204 | `𐛋` | 106CB | LINEAR A SIGN A531 | Lo (Other Letter) |
+| 205 | `𐛌` | 106CC | LINEAR A SIGN A532 | Lo (Other Letter) |
+| 206 | `𐛍` | 106CD | LINEAR A SIGN A534 | Lo (Other Letter) |
+| 207 | `𐛎` | 106CE | LINEAR A SIGN A535 | Lo (Other Letter) |
+| 208 | `𐛏` | 106CF | LINEAR A SIGN A536 | Lo (Other Letter) |
+| 209 | `𐛐` | 106D0 | LINEAR A SIGN A537 | Lo (Other Letter) |
+| 210 | `𐛑` | 106D1 | LINEAR A SIGN A538 | Lo (Other Letter) |
+| 211 | `𐛒` | 106D2 | LINEAR A SIGN A539 | Lo (Other Letter) |
+| 212 | `𐛓` | 106D3 | LINEAR A SIGN A540 | Lo (Other Letter) |
+| 213 | `𐛔` | 106D4 | LINEAR A SIGN A541 | Lo (Other Letter) |
+| 214 | `𐛕` | 106D5 | LINEAR A SIGN A542 | Lo (Other Letter) |
+| 215 | `𐛖` | 106D6 | LINEAR A SIGN A545 | Lo (Other Letter) |
+| 216 | `𐛗` | 106D7 | LINEAR A SIGN A547 | Lo (Other Letter) |
+| 217 | `𐛘` | 106D8 | LINEAR A SIGN A548 | Lo (Other Letter) |
+| 218 | `𐛙` | 106D9 | LINEAR A SIGN A549 | Lo (Other Letter) |
+| 219 | `𐛚` | 106DA | LINEAR A SIGN A550 | Lo (Other Letter) |
+| 220 | `𐛛` | 106DB | LINEAR A SIGN A551 | Lo (Other Letter) |
+| 221 | `𐛜` | 106DC | LINEAR A SIGN A552 | Lo (Other Letter) |
+| 222 | `𐛝` | 106DD | LINEAR A SIGN A553 | Lo (Other Letter) |
+| 223 | `𐛞` | 106DE | LINEAR A SIGN A554 | Lo (Other Letter) |
+| 224 | `𐛟` | 106DF | LINEAR A SIGN A555 | Lo (Other Letter) |
+| 225 | `𐛠` | 106E0 | LINEAR A SIGN A556 | Lo (Other Letter) |
+| 226 | `𐛡` | 106E1 | LINEAR A SIGN A557 | Lo (Other Letter) |
+| 227 | `𐛢` | 106E2 | LINEAR A SIGN A559 | Lo (Other Letter) |
+| 228 | `𐛣` | 106E3 | LINEAR A SIGN A563 | Lo (Other Letter) |
+| 229 | `𐛤` | 106E4 | LINEAR A SIGN A564 | Lo (Other Letter) |
+| 230 | `𐛥` | 106E5 | LINEAR A SIGN A565 | Lo (Other Letter) |
+| 231 | `𐛦` | 106E6 | LINEAR A SIGN A566 | Lo (Other Letter) |
+| 232 | `𐛧` | 106E7 | LINEAR A SIGN A568 | Lo (Other Letter) |
+| 233 | `𐛨` | 106E8 | LINEAR A SIGN A569 | Lo (Other Letter) |
+| 234 | `𐛩` | 106E9 | LINEAR A SIGN A570 | Lo (Other Letter) |
+| 235 | `𐛪` | 106EA | LINEAR A SIGN A571 | Lo (Other Letter) |
+| 236 | `𐛫` | 106EB | LINEAR A SIGN A572 | Lo (Other Letter) |
+| 237 | `𐛬` | 106EC | LINEAR A SIGN A573 | Lo (Other Letter) |
+| 238 | `𐛭` | 106ED | LINEAR A SIGN A574 | Lo (Other Letter) |
+| 239 | `𐛮` | 106EE | LINEAR A SIGN A575 | Lo (Other Letter) |
+| 240 | `𐛯` | 106EF | LINEAR A SIGN A576 | Lo (Other Letter) |
+| 241 | `𐛰` | 106F0 | LINEAR A SIGN A577 | Lo (Other Letter) |
+| 242 | `𐛱` | 106F1 | LINEAR A SIGN A578 | Lo (Other Letter) |
+| 243 | `𐛲` | 106F2 | LINEAR A SIGN A579 | Lo (Other Letter) |
+| 244 | `𐛳` | 106F3 | LINEAR A SIGN A580 | Lo (Other Letter) |
+| 245 | `𐛴` | 106F4 | LINEAR A SIGN A581 | Lo (Other Letter) |
+| 246 | `𐛵` | 106F5 | LINEAR A SIGN A582 | Lo (Other Letter) |
+| 247 | `𐛶` | 106F6 | LINEAR A SIGN A583 | Lo (Other Letter) |
+| 248 | `𐛷` | 106F7 | LINEAR A SIGN A584 | Lo (Other Letter) |
+| 249 | `𐛸` | 106F8 | LINEAR A SIGN A585 | Lo (Other Letter) |
+| 250 | `𐛹` | 106F9 | LINEAR A SIGN A586 | Lo (Other Letter) |
+| 251 | `𐛺` | 106FA | LINEAR A SIGN A587 | Lo (Other Letter) |
+| 252 | `𐛻` | 106FB | LINEAR A SIGN A588 | Lo (Other Letter) |
+| 253 | `𐛼` | 106FC | LINEAR A SIGN A589 | Lo (Other Letter) |
+| 254 | `𐛽` | 106FD | LINEAR A SIGN A591 | Lo (Other Letter) |
+| 255 | `𐛾` | 106FE | LINEAR A SIGN A592 | Lo (Other Letter) |
+| 256 | `𐛿` | 106FF | LINEAR A SIGN A594 | Lo (Other Letter) |
+| 257 | `𐜀` | 10700 | LINEAR A SIGN A595 | Lo (Other Letter) |
+| 258 | `𐜁` | 10701 | LINEAR A SIGN A596 | Lo (Other Letter) |
+| 259 | `𐜂` | 10702 | LINEAR A SIGN A598 | Lo (Other Letter) |
+| 260 | `𐜃` | 10703 | LINEAR A SIGN A600 | Lo (Other Letter) |
+| 261 | `𐜄` | 10704 | LINEAR A SIGN A601 | Lo (Other Letter) |
+| 262 | `𐜅` | 10705 | LINEAR A SIGN A602 | Lo (Other Letter) |
+| 263 | `𐜆` | 10706 | LINEAR A SIGN A603 | Lo (Other Letter) |
+| 264 | `𐜇` | 10707 | LINEAR A SIGN A604 | Lo (Other Letter) |
+| 265 | `𐜈` | 10708 | LINEAR A SIGN A606 | Lo (Other Letter) |
+| 266 | `𐜉` | 10709 | LINEAR A SIGN A608 | Lo (Other Letter) |
+| 267 | `𐜊` | 1070A | LINEAR A SIGN A609 | Lo (Other Letter) |
+| 268 | `𐜋` | 1070B | LINEAR A SIGN A610 | Lo (Other Letter) |
+| 269 | `𐜌` | 1070C | LINEAR A SIGN A611 | Lo (Other Letter) |
+| 270 | `𐜍` | 1070D | LINEAR A SIGN A612 | Lo (Other Letter) |
+| 271 | `𐜎` | 1070E | LINEAR A SIGN A613 | Lo (Other Letter) |
+| 272 | `𐜏` | 1070F | LINEAR A SIGN A614 | Lo (Other Letter) |
+| 273 | `𐜐` | 10710 | LINEAR A SIGN A615 | Lo (Other Letter) |
+| 274 | `𐜑` | 10711 | LINEAR A SIGN A616 | Lo (Other Letter) |
+| 275 | `𐜒` | 10712 | LINEAR A SIGN A617 | Lo (Other Letter) |
+| 276 | `𐜓` | 10713 | LINEAR A SIGN A618 | Lo (Other Letter) |
+| 277 | `𐜔` | 10714 | LINEAR A SIGN A619 | Lo (Other Letter) |
+| 278 | `𐜕` | 10715 | LINEAR A SIGN A620 | Lo (Other Letter) |
+| 279 | `𐜖` | 10716 | LINEAR A SIGN A621 | Lo (Other Letter) |
+| 280 | `𐜗` | 10717 | LINEAR A SIGN A622 | Lo (Other Letter) |
+| 281 | `𐜘` | 10718 | LINEAR A SIGN A623 | Lo (Other Letter) |
+| 282 | `𐜙` | 10719 | LINEAR A SIGN A624 | Lo (Other Letter) |
+| 283 | `𐜚` | 1071A | LINEAR A SIGN A626 | Lo (Other Letter) |
+| 284 | `𐜛` | 1071B | LINEAR A SIGN A627 | Lo (Other Letter) |
+| 285 | `𐜜` | 1071C | LINEAR A SIGN A628 | Lo (Other Letter) |
+| 286 | `𐜝` | 1071D | LINEAR A SIGN A629 | Lo (Other Letter) |
+| 287 | `𐜞` | 1071E | LINEAR A SIGN A634 | Lo (Other Letter) |
+| 288 | `𐜟` | 1071F | LINEAR A SIGN A637 | Lo (Other Letter) |
+| 289 | `𐜠` | 10720 | LINEAR A SIGN A638 | Lo (Other Letter) |
+| 290 | `𐜡` | 10721 | LINEAR A SIGN A640 | Lo (Other Letter) |
+| 291 | `𐜢` | 10722 | LINEAR A SIGN A642 | Lo (Other Letter) |
+| 292 | `𐜣` | 10723 | LINEAR A SIGN A643 | Lo (Other Letter) |
+| 293 | `𐜤` | 10724 | LINEAR A SIGN A644 | Lo (Other Letter) |
+| 294 | `𐜥` | 10725 | LINEAR A SIGN A645 | Lo (Other Letter) |
+| 295 | `𐜦` | 10726 | LINEAR A SIGN A646 | Lo (Other Letter) |
+| 296 | `𐜧` | 10727 | LINEAR A SIGN A648 | Lo (Other Letter) |
+| 297 | `𐜨` | 10728 | LINEAR A SIGN A649 | Lo (Other Letter) |
+| 298 | `𐜩` | 10729 | LINEAR A SIGN A651 | Lo (Other Letter) |
+| 299 | `𐜪` | 1072A | LINEAR A SIGN A652 | Lo (Other Letter) |
+| 300 | `𐜫` | 1072B | LINEAR A SIGN A653 | Lo (Other Letter) |
+| 301 | `𐜬` | 1072C | LINEAR A SIGN A654 | Lo (Other Letter) |
+| 302 | `𐜭` | 1072D | LINEAR A SIGN A655 | Lo (Other Letter) |
+| 303 | `𐜮` | 1072E | LINEAR A SIGN A656 | Lo (Other Letter) |
+| 304 | `𐜯` | 1072F | LINEAR A SIGN A657 | Lo (Other Letter) |
+| 305 | `𐜰` | 10730 | LINEAR A SIGN A658 | Lo (Other Letter) |
+| 306 | `𐜱` | 10731 | LINEAR A SIGN A659 | Lo (Other Letter) |
+| 307 | `𐜲` | 10732 | LINEAR A SIGN A660 | Lo (Other Letter) |
+| 308 | `𐜳` | 10733 | LINEAR A SIGN A661 | Lo (Other Letter) |
+| 309 | `𐜴` | 10734 | LINEAR A SIGN A662 | Lo (Other Letter) |
+| 310 | `𐜵` | 10735 | LINEAR A SIGN A663 | Lo (Other Letter) |
+| 311 | `𐜶` | 10736 | LINEAR A SIGN A664 | Lo (Other Letter) |
+| 312 | `𐝀` | 10740 | LINEAR A SIGN A701 A | Lo (Other Letter) |
+| 313 | `𐝁` | 10741 | LINEAR A SIGN A702 B | Lo (Other Letter) |
+| 314 | `𐝂` | 10742 | LINEAR A SIGN A703 D | Lo (Other Letter) |
+| 315 | `𐝃` | 10743 | LINEAR A SIGN A704 E | Lo (Other Letter) |
+| 316 | `𐝄` | 10744 | LINEAR A SIGN A705 F | Lo (Other Letter) |
+| 317 | `𐝅` | 10745 | LINEAR A SIGN A706 H | Lo (Other Letter) |
+| 318 | `𐝆` | 10746 | LINEAR A SIGN A707 J | Lo (Other Letter) |
+| 319 | `𐝇` | 10747 | LINEAR A SIGN A708 K | Lo (Other Letter) |
+| 320 | `𐝈` | 10748 | LINEAR A SIGN A709 L | Lo (Other Letter) |
+| 321 | `𐝉` | 10749 | LINEAR A SIGN A709-2 L2 | Lo (Other Letter) |
+| 322 | `𐝊` | 1074A | LINEAR A SIGN A709-3 L3 | Lo (Other Letter) |
+| 323 | `𐝋` | 1074B | LINEAR A SIGN A709-4 L4 | Lo (Other Letter) |
+| 324 | `𐝌` | 1074C | LINEAR A SIGN A709-6 L6 | Lo (Other Letter) |
+| 325 | `𐝍` | 1074D | LINEAR A SIGN A710 W | Lo (Other Letter) |
+| 326 | `𐝎` | 1074E | LINEAR A SIGN A711 X | Lo (Other Letter) |
+| 327 | `𐝏` | 1074F | LINEAR A SIGN A712 Y | Lo (Other Letter) |
+| 328 | `𐝐` | 10750 | LINEAR A SIGN A713 OMEGA | Lo (Other Letter) |
+| 329 | `𐝑` | 10751 | LINEAR A SIGN A714 ABB | Lo (Other Letter) |
+| 330 | `𐝒` | 10752 | LINEAR A SIGN A715 BB | Lo (Other Letter) |
+| 331 | `𐝓` | 10753 | LINEAR A SIGN A717 DD | Lo (Other Letter) |
+| 332 | `𐝔` | 10754 | LINEAR A SIGN A726 EYYY | Lo (Other Letter) |
+| 333 | `𐝕` | 10755 | LINEAR A SIGN A732 JE | Lo (Other Letter) |
+| 334 | `𐝠` | 10760 | LINEAR A SIGN A800 | Lo (Other Letter) |
+| 335 | `𐝡` | 10761 | LINEAR A SIGN A801 | Lo (Other Letter) |
+| 336 | `𐝢` | 10762 | LINEAR A SIGN A802 | Lo (Other Letter) |
+| 337 | `𐝣` | 10763 | LINEAR A SIGN A803 | Lo (Other Letter) |
+| 338 | `𐝤` | 10764 | LINEAR A SIGN A804 | Lo (Other Letter) |
+| 339 | `𐝥` | 10765 | LINEAR A SIGN A805 | Lo (Other Letter) |
+| 340 | `𐝦` | 10766 | LINEAR A SIGN A806 | Lo (Other Letter) |
+| 341 | `𐝧` | 10767 | LINEAR A SIGN A807 | Lo (Other Letter) |

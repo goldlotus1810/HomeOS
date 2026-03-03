@@ -1,0 +1,79 @@
+# Osage
+
+Unicode block: U+104B0–U+104FF  |  range size: 80
+Assigned characters: 72  |  Unassigned slots: 8
+
+| # | Char | U+ | Name | Cat |
+|---|------|----|------|-----|
+| 1 | `𐒰` | 104B0 | OSAGE CAPITAL LETTER A | Lu (Uppercase Letter) |
+| 2 | `𐒱` | 104B1 | OSAGE CAPITAL LETTER AI | Lu (Uppercase Letter) |
+| 3 | `𐒲` | 104B2 | OSAGE CAPITAL LETTER AIN | Lu (Uppercase Letter) |
+| 4 | `𐒳` | 104B3 | OSAGE CAPITAL LETTER AH | Lu (Uppercase Letter) |
+| 5 | `𐒴` | 104B4 | OSAGE CAPITAL LETTER BRA | Lu (Uppercase Letter) |
+| 6 | `𐒵` | 104B5 | OSAGE CAPITAL LETTER CHA | Lu (Uppercase Letter) |
+| 7 | `𐒶` | 104B6 | OSAGE CAPITAL LETTER EHCHA | Lu (Uppercase Letter) |
+| 8 | `𐒷` | 104B7 | OSAGE CAPITAL LETTER E | Lu (Uppercase Letter) |
+| 9 | `𐒸` | 104B8 | OSAGE CAPITAL LETTER EIN | Lu (Uppercase Letter) |
+| 10 | `𐒹` | 104B9 | OSAGE CAPITAL LETTER HA | Lu (Uppercase Letter) |
+| 11 | `𐒺` | 104BA | OSAGE CAPITAL LETTER HYA | Lu (Uppercase Letter) |
+| 12 | `𐒻` | 104BB | OSAGE CAPITAL LETTER I | Lu (Uppercase Letter) |
+| 13 | `𐒼` | 104BC | OSAGE CAPITAL LETTER KA | Lu (Uppercase Letter) |
+| 14 | `𐒽` | 104BD | OSAGE CAPITAL LETTER EHKA | Lu (Uppercase Letter) |
+| 15 | `𐒾` | 104BE | OSAGE CAPITAL LETTER KYA | Lu (Uppercase Letter) |
+| 16 | `𐒿` | 104BF | OSAGE CAPITAL LETTER LA | Lu (Uppercase Letter) |
+| 17 | `𐓀` | 104C0 | OSAGE CAPITAL LETTER MA | Lu (Uppercase Letter) |
+| 18 | `𐓁` | 104C1 | OSAGE CAPITAL LETTER NA | Lu (Uppercase Letter) |
+| 19 | `𐓂` | 104C2 | OSAGE CAPITAL LETTER O | Lu (Uppercase Letter) |
+| 20 | `𐓃` | 104C3 | OSAGE CAPITAL LETTER OIN | Lu (Uppercase Letter) |
+| 21 | `𐓄` | 104C4 | OSAGE CAPITAL LETTER PA | Lu (Uppercase Letter) |
+| 22 | `𐓅` | 104C5 | OSAGE CAPITAL LETTER EHPA | Lu (Uppercase Letter) |
+| 23 | `𐓆` | 104C6 | OSAGE CAPITAL LETTER SA | Lu (Uppercase Letter) |
+| 24 | `𐓇` | 104C7 | OSAGE CAPITAL LETTER SHA | Lu (Uppercase Letter) |
+| 25 | `𐓈` | 104C8 | OSAGE CAPITAL LETTER TA | Lu (Uppercase Letter) |
+| 26 | `𐓉` | 104C9 | OSAGE CAPITAL LETTER EHTA | Lu (Uppercase Letter) |
+| 27 | `𐓊` | 104CA | OSAGE CAPITAL LETTER TSA | Lu (Uppercase Letter) |
+| 28 | `𐓋` | 104CB | OSAGE CAPITAL LETTER EHTSA | Lu (Uppercase Letter) |
+| 29 | `𐓌` | 104CC | OSAGE CAPITAL LETTER TSHA | Lu (Uppercase Letter) |
+| 30 | `𐓍` | 104CD | OSAGE CAPITAL LETTER DHA | Lu (Uppercase Letter) |
+| 31 | `𐓎` | 104CE | OSAGE CAPITAL LETTER U | Lu (Uppercase Letter) |
+| 32 | `𐓏` | 104CF | OSAGE CAPITAL LETTER WA | Lu (Uppercase Letter) |
+| 33 | `𐓐` | 104D0 | OSAGE CAPITAL LETTER KHA | Lu (Uppercase Letter) |
+| 34 | `𐓑` | 104D1 | OSAGE CAPITAL LETTER GHA | Lu (Uppercase Letter) |
+| 35 | `𐓒` | 104D2 | OSAGE CAPITAL LETTER ZA | Lu (Uppercase Letter) |
+| 36 | `𐓓` | 104D3 | OSAGE CAPITAL LETTER ZHA | Lu (Uppercase Letter) |
+| 37 | `𐓘` | 104D8 | OSAGE SMALL LETTER A | Ll (Lowercase Letter) |
+| 38 | `𐓙` | 104D9 | OSAGE SMALL LETTER AI | Ll (Lowercase Letter) |
+| 39 | `𐓚` | 104DA | OSAGE SMALL LETTER AIN | Ll (Lowercase Letter) |
+| 40 | `𐓛` | 104DB | OSAGE SMALL LETTER AH | Ll (Lowercase Letter) |
+| 41 | `𐓜` | 104DC | OSAGE SMALL LETTER BRA | Ll (Lowercase Letter) |
+| 42 | `𐓝` | 104DD | OSAGE SMALL LETTER CHA | Ll (Lowercase Letter) |
+| 43 | `𐓞` | 104DE | OSAGE SMALL LETTER EHCHA | Ll (Lowercase Letter) |
+| 44 | `𐓟` | 104DF | OSAGE SMALL LETTER E | Ll (Lowercase Letter) |
+| 45 | `𐓠` | 104E0 | OSAGE SMALL LETTER EIN | Ll (Lowercase Letter) |
+| 46 | `𐓡` | 104E1 | OSAGE SMALL LETTER HA | Ll (Lowercase Letter) |
+| 47 | `𐓢` | 104E2 | OSAGE SMALL LETTER HYA | Ll (Lowercase Letter) |
+| 48 | `𐓣` | 104E3 | OSAGE SMALL LETTER I | Ll (Lowercase Letter) |
+| 49 | `𐓤` | 104E4 | OSAGE SMALL LETTER KA | Ll (Lowercase Letter) |
+| 50 | `𐓥` | 104E5 | OSAGE SMALL LETTER EHKA | Ll (Lowercase Letter) |
+| 51 | `𐓦` | 104E6 | OSAGE SMALL LETTER KYA | Ll (Lowercase Letter) |
+| 52 | `𐓧` | 104E7 | OSAGE SMALL LETTER LA | Ll (Lowercase Letter) |
+| 53 | `𐓨` | 104E8 | OSAGE SMALL LETTER MA | Ll (Lowercase Letter) |
+| 54 | `𐓩` | 104E9 | OSAGE SMALL LETTER NA | Ll (Lowercase Letter) |
+| 55 | `𐓪` | 104EA | OSAGE SMALL LETTER O | Ll (Lowercase Letter) |
+| 56 | `𐓫` | 104EB | OSAGE SMALL LETTER OIN | Ll (Lowercase Letter) |
+| 57 | `𐓬` | 104EC | OSAGE SMALL LETTER PA | Ll (Lowercase Letter) |
+| 58 | `𐓭` | 104ED | OSAGE SMALL LETTER EHPA | Ll (Lowercase Letter) |
+| 59 | `𐓮` | 104EE | OSAGE SMALL LETTER SA | Ll (Lowercase Letter) |
+| 60 | `𐓯` | 104EF | OSAGE SMALL LETTER SHA | Ll (Lowercase Letter) |
+| 61 | `𐓰` | 104F0 | OSAGE SMALL LETTER TA | Ll (Lowercase Letter) |
+| 62 | `𐓱` | 104F1 | OSAGE SMALL LETTER EHTA | Ll (Lowercase Letter) |
+| 63 | `𐓲` | 104F2 | OSAGE SMALL LETTER TSA | Ll (Lowercase Letter) |
+| 64 | `𐓳` | 104F3 | OSAGE SMALL LETTER EHTSA | Ll (Lowercase Letter) |
+| 65 | `𐓴` | 104F4 | OSAGE SMALL LETTER TSHA | Ll (Lowercase Letter) |
+| 66 | `𐓵` | 104F5 | OSAGE SMALL LETTER DHA | Ll (Lowercase Letter) |
+| 67 | `𐓶` | 104F6 | OSAGE SMALL LETTER U | Ll (Lowercase Letter) |
+| 68 | `𐓷` | 104F7 | OSAGE SMALL LETTER WA | Ll (Lowercase Letter) |
+| 69 | `𐓸` | 104F8 | OSAGE SMALL LETTER KHA | Ll (Lowercase Letter) |
+| 70 | `𐓹` | 104F9 | OSAGE SMALL LETTER GHA | Ll (Lowercase Letter) |
+| 71 | `𐓺` | 104FA | OSAGE SMALL LETTER ZA | Ll (Lowercase Letter) |
+| 72 | `𐓻` | 104FB | OSAGE SMALL LETTER ZHA | Ll (Lowercase Letter) |

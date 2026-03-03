@@ -1,0 +1,22 @@
+# 𔗯 — ANATOLIAN HIEROGLYPH A442
+
+codepoint: U+145EF
+decimal:   83439
+utf-8:     f0 94 97 af
+utf-32:    000145EF
+
+category:  Lo (Other Letter)
+block:     Anatolian Hieroglyphs  (U+14400–U+1467F)
+bidi:      L
+
+## Character
+
+𔗯
+
+## Unicode name
+
+ANATOLIAN HIEROGLYPH A442
+
+## Block
+
+Anatolian Hieroglyphs

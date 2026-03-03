@@ -1,0 +1,18 @@
+# 🬏 — BLOCK SEXTANT-5
+
+codepoint: U+1FB0F
+decimal:   129807
+utf-8:     f0 9f ac 8f
+utf-32:    0001FB0F
+
+category:  So (Other Symbol)
+block:     Symbols for Legacy Computing  (U+1FB00–U+1FBFF)
+bidi:      ON
+
+## Character
+
+🬏
+
+## Unicode name
+
+BLOCK SEXTANT-5

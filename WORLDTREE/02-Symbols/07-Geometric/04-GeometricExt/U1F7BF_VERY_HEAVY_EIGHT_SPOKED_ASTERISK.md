@@ -1,0 +1,22 @@
+# 🞿 — VERY HEAVY EIGHT SPOKED ASTERISK
+
+codepoint: U+1F7BF
+decimal:   128959
+utf-8:     f0 9f 9e bf
+utf-32:    0001F7BF
+
+category:  So (Other Symbol)
+block:     Geometric Shapes Extended  (U+1F780–U+1F7FF)
+bidi:      ON
+
+## Character
+
+🞿
+
+## Unicode name
+
+VERY HEAVY EIGHT SPOKED ASTERISK
+
+## Block
+
+Geometric Shapes Extended

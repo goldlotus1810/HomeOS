@@ -1,0 +1,22 @@
+# 𑩺 — SOYOMBO LETTER -A
+
+codepoint: U+11A7A
+decimal:   72314
+utf-8:     f0 91 a9 ba
+utf-32:    00011A7A
+
+category:  Lo (Other Letter)
+block:     Soyombo  (U+11A50–U+11AAF)
+bidi:      L
+
+## Character
+
+𑩺
+
+## Unicode name
+
+SOYOMBO LETTER -A
+
+## Block
+
+Soyombo

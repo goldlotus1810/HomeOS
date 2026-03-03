@@ -1,0 +1,22 @@
+# 𩪒 — CJK UNIFIED IDEOGRAPH-29A92
+
+codepoint: U+29A92
+decimal:   170642
+utf-8:     f0 a9 aa 92
+utf-32:    00029A92
+
+category:  Lo (Other Letter)
+block:     CJK Extension B  (U+20000–U+2A6DF)
+bidi:      L
+
+## Character
+
+𩪒
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-29A92
+
+## Block
+
+CJK Extension B

@@ -1,0 +1,22 @@
+# 䞁 — CJK UNIFIED IDEOGRAPH-4781
+
+codepoint: U+4781
+decimal:   18305
+utf-8:     e4 9e 81
+utf-32:    00004781
+
+category:  Lo (Other Letter)
+block:     CJK Extension A  (U+3400–U+4DBF)
+bidi:      L
+
+## Character
+
+䞁
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-4781
+
+## Block
+
+CJK Extension A

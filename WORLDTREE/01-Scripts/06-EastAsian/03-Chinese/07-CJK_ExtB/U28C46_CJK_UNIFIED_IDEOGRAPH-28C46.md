@@ -1,0 +1,22 @@
+# 𨱆 — CJK UNIFIED IDEOGRAPH-28C46
+
+codepoint: U+28C46
+decimal:   166982
+utf-8:     f0 a8 b1 86
+utf-32:    00028C46
+
+category:  Lo (Other Letter)
+block:     CJK Extension B  (U+20000–U+2A6DF)
+bidi:      L
+
+## Character
+
+𨱆
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-28C46
+
+## Block
+
+CJK Extension B

@@ -1,0 +1,22 @@
+# 虍 — CJK UNIFIED IDEOGRAPH-864D
+
+codepoint: U+864D
+decimal:   34381
+utf-8:     e8 99 8d
+utf-32:    0000864D
+
+category:  Lo (Other Letter)
+block:     CJK Unified Ideographs  (U+4E00–U+9FFF)
+bidi:      L
+
+## Character
+
+虍
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-864D
+
+## Block
+
+CJK Unified Ideographs

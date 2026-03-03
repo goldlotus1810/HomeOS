@@ -1,0 +1,80 @@
+# Old Turkic
+
+Unicode block: U+10C00–U+10C4F  |  range size: 80
+Assigned characters: 73  |  Unassigned slots: 7
+
+| # | Char | U+ | Name | Cat |
+|---|------|----|------|-----|
+| 1 | `𐰀` | 10C00 | OLD TURKIC LETTER ORKHON A | Lo (Other Letter) |
+| 2 | `𐰁` | 10C01 | OLD TURKIC LETTER YENISEI A | Lo (Other Letter) |
+| 3 | `𐰂` | 10C02 | OLD TURKIC LETTER YENISEI AE | Lo (Other Letter) |
+| 4 | `𐰃` | 10C03 | OLD TURKIC LETTER ORKHON I | Lo (Other Letter) |
+| 5 | `𐰄` | 10C04 | OLD TURKIC LETTER YENISEI I | Lo (Other Letter) |
+| 6 | `𐰅` | 10C05 | OLD TURKIC LETTER YENISEI E | Lo (Other Letter) |
+| 7 | `𐰆` | 10C06 | OLD TURKIC LETTER ORKHON O | Lo (Other Letter) |
+| 8 | `𐰇` | 10C07 | OLD TURKIC LETTER ORKHON OE | Lo (Other Letter) |
+| 9 | `𐰈` | 10C08 | OLD TURKIC LETTER YENISEI OE | Lo (Other Letter) |
+| 10 | `𐰉` | 10C09 | OLD TURKIC LETTER ORKHON AB | Lo (Other Letter) |
+| 11 | `𐰊` | 10C0A | OLD TURKIC LETTER YENISEI AB | Lo (Other Letter) |
+| 12 | `𐰋` | 10C0B | OLD TURKIC LETTER ORKHON AEB | Lo (Other Letter) |
+| 13 | `𐰌` | 10C0C | OLD TURKIC LETTER YENISEI AEB | Lo (Other Letter) |
+| 14 | `𐰍` | 10C0D | OLD TURKIC LETTER ORKHON AG | Lo (Other Letter) |
+| 15 | `𐰎` | 10C0E | OLD TURKIC LETTER YENISEI AG | Lo (Other Letter) |
+| 16 | `𐰏` | 10C0F | OLD TURKIC LETTER ORKHON AEG | Lo (Other Letter) |
+| 17 | `𐰐` | 10C10 | OLD TURKIC LETTER YENISEI AEG | Lo (Other Letter) |
+| 18 | `𐰑` | 10C11 | OLD TURKIC LETTER ORKHON AD | Lo (Other Letter) |
+| 19 | `𐰒` | 10C12 | OLD TURKIC LETTER YENISEI AD | Lo (Other Letter) |
+| 20 | `𐰓` | 10C13 | OLD TURKIC LETTER ORKHON AED | Lo (Other Letter) |
+| 21 | `𐰔` | 10C14 | OLD TURKIC LETTER ORKHON EZ | Lo (Other Letter) |
+| 22 | `𐰕` | 10C15 | OLD TURKIC LETTER YENISEI EZ | Lo (Other Letter) |
+| 23 | `𐰖` | 10C16 | OLD TURKIC LETTER ORKHON AY | Lo (Other Letter) |
+| 24 | `𐰗` | 10C17 | OLD TURKIC LETTER YENISEI AY | Lo (Other Letter) |
+| 25 | `𐰘` | 10C18 | OLD TURKIC LETTER ORKHON AEY | Lo (Other Letter) |
+| 26 | `𐰙` | 10C19 | OLD TURKIC LETTER YENISEI AEY | Lo (Other Letter) |
+| 27 | `𐰚` | 10C1A | OLD TURKIC LETTER ORKHON AEK | Lo (Other Letter) |
+| 28 | `𐰛` | 10C1B | OLD TURKIC LETTER YENISEI AEK | Lo (Other Letter) |
+| 29 | `𐰜` | 10C1C | OLD TURKIC LETTER ORKHON OEK | Lo (Other Letter) |
+| 30 | `𐰝` | 10C1D | OLD TURKIC LETTER YENISEI OEK | Lo (Other Letter) |
+| 31 | `𐰞` | 10C1E | OLD TURKIC LETTER ORKHON AL | Lo (Other Letter) |
+| 32 | `𐰟` | 10C1F | OLD TURKIC LETTER YENISEI AL | Lo (Other Letter) |
+| 33 | `𐰠` | 10C20 | OLD TURKIC LETTER ORKHON AEL | Lo (Other Letter) |
+| 34 | `𐰡` | 10C21 | OLD TURKIC LETTER ORKHON ELT | Lo (Other Letter) |
+| 35 | `𐰢` | 10C22 | OLD TURKIC LETTER ORKHON EM | Lo (Other Letter) |
+| 36 | `𐰣` | 10C23 | OLD TURKIC LETTER ORKHON AN | Lo (Other Letter) |
+| 37 | `𐰤` | 10C24 | OLD TURKIC LETTER ORKHON AEN | Lo (Other Letter) |
+| 38 | `𐰥` | 10C25 | OLD TURKIC LETTER YENISEI AEN | Lo (Other Letter) |
+| 39 | `𐰦` | 10C26 | OLD TURKIC LETTER ORKHON ENT | Lo (Other Letter) |
+| 40 | `𐰧` | 10C27 | OLD TURKIC LETTER YENISEI ENT | Lo (Other Letter) |
+| 41 | `𐰨` | 10C28 | OLD TURKIC LETTER ORKHON ENC | Lo (Other Letter) |
+| 42 | `𐰩` | 10C29 | OLD TURKIC LETTER YENISEI ENC | Lo (Other Letter) |
+| 43 | `𐰪` | 10C2A | OLD TURKIC LETTER ORKHON ENY | Lo (Other Letter) |
+| 44 | `𐰫` | 10C2B | OLD TURKIC LETTER YENISEI ENY | Lo (Other Letter) |
+| 45 | `𐰬` | 10C2C | OLD TURKIC LETTER YENISEI ANG | Lo (Other Letter) |
+| 46 | `𐰭` | 10C2D | OLD TURKIC LETTER ORKHON ENG | Lo (Other Letter) |
+| 47 | `𐰮` | 10C2E | OLD TURKIC LETTER YENISEI AENG | Lo (Other Letter) |
+| 48 | `𐰯` | 10C2F | OLD TURKIC LETTER ORKHON EP | Lo (Other Letter) |
+| 49 | `𐰰` | 10C30 | OLD TURKIC LETTER ORKHON OP | Lo (Other Letter) |
+| 50 | `𐰱` | 10C31 | OLD TURKIC LETTER ORKHON IC | Lo (Other Letter) |
+| 51 | `𐰲` | 10C32 | OLD TURKIC LETTER ORKHON EC | Lo (Other Letter) |
+| 52 | `𐰳` | 10C33 | OLD TURKIC LETTER YENISEI EC | Lo (Other Letter) |
+| 53 | `𐰴` | 10C34 | OLD TURKIC LETTER ORKHON AQ | Lo (Other Letter) |
+| 54 | `𐰵` | 10C35 | OLD TURKIC LETTER YENISEI AQ | Lo (Other Letter) |
+| 55 | `𐰶` | 10C36 | OLD TURKIC LETTER ORKHON IQ | Lo (Other Letter) |
+| 56 | `𐰷` | 10C37 | OLD TURKIC LETTER YENISEI IQ | Lo (Other Letter) |
+| 57 | `𐰸` | 10C38 | OLD TURKIC LETTER ORKHON OQ | Lo (Other Letter) |
+| 58 | `𐰹` | 10C39 | OLD TURKIC LETTER YENISEI OQ | Lo (Other Letter) |
+| 59 | `𐰺` | 10C3A | OLD TURKIC LETTER ORKHON AR | Lo (Other Letter) |
+| 60 | `𐰻` | 10C3B | OLD TURKIC LETTER YENISEI AR | Lo (Other Letter) |
+| 61 | `𐰼` | 10C3C | OLD TURKIC LETTER ORKHON AER | Lo (Other Letter) |
+| 62 | `𐰽` | 10C3D | OLD TURKIC LETTER ORKHON AS | Lo (Other Letter) |
+| 63 | `𐰾` | 10C3E | OLD TURKIC LETTER ORKHON AES | Lo (Other Letter) |
+| 64 | `𐰿` | 10C3F | OLD TURKIC LETTER ORKHON ASH | Lo (Other Letter) |
+| 65 | `𐱀` | 10C40 | OLD TURKIC LETTER YENISEI ASH | Lo (Other Letter) |
+| 66 | `𐱁` | 10C41 | OLD TURKIC LETTER ORKHON ESH | Lo (Other Letter) |
+| 67 | `𐱂` | 10C42 | OLD TURKIC LETTER YENISEI ESH | Lo (Other Letter) |
+| 68 | `𐱃` | 10C43 | OLD TURKIC LETTER ORKHON AT | Lo (Other Letter) |
+| 69 | `𐱄` | 10C44 | OLD TURKIC LETTER YENISEI AT | Lo (Other Letter) |
+| 70 | `𐱅` | 10C45 | OLD TURKIC LETTER ORKHON AET | Lo (Other Letter) |
+| 71 | `𐱆` | 10C46 | OLD TURKIC LETTER YENISEI AET | Lo (Other Letter) |
+| 72 | `𐱇` | 10C47 | OLD TURKIC LETTER ORKHON OT | Lo (Other Letter) |
+| 73 | `𐱈` | 10C48 | OLD TURKIC LETTER ORKHON BASH | Lo (Other Letter) |

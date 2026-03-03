@@ -1,0 +1,30 @@
+{
+  "worldtree_version": "1.0.1",
+  "unicode_version": "17.0.0",
+  "python_unicode": "15.0.0",
+  "built_at": "2026-03-03T03:23:05Z",
+  "total_chars": 142776,
+  "total_blocks": 342,
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-03-03",
+      "summary": "Initial build: 140,662 chars across 303 blocks",
+      "unicode": "17.0.0",
+      "entries_count": 140662
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-03-03",
+      "at": "2026-03-03T03:22:14Z",
+      "unicode": "17.0.0",
+      "summary": "+2 file(s), 1 char(s), 1 block(s)",
+      "added": [
+        "04-Custom/test-block/INDEX.md",
+        "04-Custom/test-block/UE0001_LANGUAGE_TAG.md"
+      ],
+      "removed": []
+    }
+  ],
+  "total_files": 143118
+}

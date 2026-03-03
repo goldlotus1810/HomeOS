@@ -1,0 +1,22 @@
+# 𬥞 — CJK UNIFIED IDEOGRAPH-2C95E
+
+codepoint: U+2C95E
+decimal:   182622
+utf-8:     f0 ac a5 9e
+utf-32:    0002C95E
+
+category:  Lo (Other Letter)
+block:     CJK Extension E  (U+2B820–U+2CEAF)
+bidi:      L
+
+## Character
+
+𬥞
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-2C95E
+
+## Block
+
+CJK Extension E

@@ -1,0 +1,22 @@
+# 𠕱 — CJK UNIFIED IDEOGRAPH-20571
+
+codepoint: U+20571
+decimal:   132465
+utf-8:     f0 a0 95 b1
+utf-32:    00020571
+
+category:  Lo (Other Letter)
+block:     CJK Extension B  (U+20000–U+2A6DF)
+bidi:      L
+
+## Character
+
+𠕱
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-20571
+
+## Block
+
+CJK Extension B

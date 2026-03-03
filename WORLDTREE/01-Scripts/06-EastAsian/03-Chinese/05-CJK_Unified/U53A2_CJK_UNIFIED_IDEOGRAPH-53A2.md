@@ -1,0 +1,22 @@
+# 厢 — CJK UNIFIED IDEOGRAPH-53A2
+
+codepoint: U+53A2
+decimal:   21410
+utf-8:     e5 8e a2
+utf-32:    000053A2
+
+category:  Lo (Other Letter)
+block:     CJK Unified Ideographs  (U+4E00–U+9FFF)
+bidi:      L
+
+## Character
+
+厢
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-53A2
+
+## Block
+
+CJK Unified Ideographs

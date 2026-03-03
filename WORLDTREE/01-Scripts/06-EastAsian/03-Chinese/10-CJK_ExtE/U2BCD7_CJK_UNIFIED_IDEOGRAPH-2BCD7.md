@@ -1,0 +1,22 @@
+# 𫳗 — CJK UNIFIED IDEOGRAPH-2BCD7
+
+codepoint: U+2BCD7
+decimal:   179415
+utf-8:     f0 ab b3 97
+utf-32:    0002BCD7
+
+category:  Lo (Other Letter)
+block:     CJK Extension E  (U+2B820–U+2CEAF)
+bidi:      L
+
+## Character
+
+𫳗
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-2BCD7
+
+## Block
+
+CJK Extension E

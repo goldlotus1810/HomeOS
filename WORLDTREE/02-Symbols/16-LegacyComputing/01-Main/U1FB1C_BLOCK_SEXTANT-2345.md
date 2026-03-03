@@ -1,0 +1,22 @@
+# 🬜 — BLOCK SEXTANT-2345
+
+codepoint: U+1FB1C
+decimal:   129820
+utf-8:     f0 9f ac 9c
+utf-32:    0001FB1C
+
+category:  So (Other Symbol)
+block:     Symbols for Legacy Computing  (U+1FB00–U+1FBFF)
+bidi:      ON
+
+## Character
+
+🬜
+
+## Unicode name
+
+BLOCK SEXTANT-2345
+
+## Block
+
+Symbols for Legacy Computing

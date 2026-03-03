@@ -1,0 +1,22 @@
+# 췕 — HANGUL SYLLABLE CWELG
+
+codepoint: U+CDD5
+decimal:   52693
+utf-8:     ec b7 95
+utf-32:    0000CDD5
+
+category:  Lo (Other Letter)
+block:     Hangul Syllables  (U+AC00–U+D7AF)
+bidi:      L
+
+## Character
+
+췕
+
+## Unicode name
+
+HANGUL SYLLABLE CWELG
+
+## Block
+
+Hangul Syllables

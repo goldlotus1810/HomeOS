@@ -1,0 +1,79 @@
+# Hangul Jamo Extended-B
+
+Unicode block: U+D7B0–U+D7FF  |  range size: 80
+Assigned characters: 72  |  Unassigned slots: 8
+
+| # | Char | U+ | Name | Cat |
+|---|------|----|------|-----|
+| 1 | `ힰ` | D7B0 | HANGUL JUNGSEONG O-YEO | Lo (Other Letter) |
+| 2 | `ힱ` | D7B1 | HANGUL JUNGSEONG O-O-I | Lo (Other Letter) |
+| 3 | `ힲ` | D7B2 | HANGUL JUNGSEONG YO-A | Lo (Other Letter) |
+| 4 | `ힳ` | D7B3 | HANGUL JUNGSEONG YO-AE | Lo (Other Letter) |
+| 5 | `ힴ` | D7B4 | HANGUL JUNGSEONG YO-EO | Lo (Other Letter) |
+| 6 | `ힵ` | D7B5 | HANGUL JUNGSEONG U-YEO | Lo (Other Letter) |
+| 7 | `ힶ` | D7B6 | HANGUL JUNGSEONG U-I-I | Lo (Other Letter) |
+| 8 | `ힷ` | D7B7 | HANGUL JUNGSEONG YU-AE | Lo (Other Letter) |
+| 9 | `ힸ` | D7B8 | HANGUL JUNGSEONG YU-O | Lo (Other Letter) |
+| 10 | `ힹ` | D7B9 | HANGUL JUNGSEONG EU-A | Lo (Other Letter) |
+| 11 | `ힺ` | D7BA | HANGUL JUNGSEONG EU-EO | Lo (Other Letter) |
+| 12 | `ힻ` | D7BB | HANGUL JUNGSEONG EU-E | Lo (Other Letter) |
+| 13 | `ힼ` | D7BC | HANGUL JUNGSEONG EU-O | Lo (Other Letter) |
+| 14 | `ힽ` | D7BD | HANGUL JUNGSEONG I-YA-O | Lo (Other Letter) |
+| 15 | `ힾ` | D7BE | HANGUL JUNGSEONG I-YAE | Lo (Other Letter) |
+| 16 | `ힿ` | D7BF | HANGUL JUNGSEONG I-YEO | Lo (Other Letter) |
+| 17 | `ퟀ` | D7C0 | HANGUL JUNGSEONG I-YE | Lo (Other Letter) |
+| 18 | `ퟁ` | D7C1 | HANGUL JUNGSEONG I-O-I | Lo (Other Letter) |
+| 19 | `ퟂ` | D7C2 | HANGUL JUNGSEONG I-YO | Lo (Other Letter) |
+| 20 | `ퟃ` | D7C3 | HANGUL JUNGSEONG I-YU | Lo (Other Letter) |
+| 21 | `ퟄ` | D7C4 | HANGUL JUNGSEONG I-I | Lo (Other Letter) |
+| 22 | `ퟅ` | D7C5 | HANGUL JUNGSEONG ARAEA-A | Lo (Other Letter) |
+| 23 | `ퟆ` | D7C6 | HANGUL JUNGSEONG ARAEA-E | Lo (Other Letter) |
+| 24 | `ퟋ` | D7CB | HANGUL JONGSEONG NIEUN-RIEUL | Lo (Other Letter) |
+| 25 | `ퟌ` | D7CC | HANGUL JONGSEONG NIEUN-CHIEUCH | Lo (Other Letter) |
+| 26 | `ퟍ` | D7CD | HANGUL JONGSEONG SSANGTIKEUT | Lo (Other Letter) |
+| 27 | `ퟎ` | D7CE | HANGUL JONGSEONG SSANGTIKEUT-PIEUP | Lo (Other Letter) |
+| 28 | `ퟏ` | D7CF | HANGUL JONGSEONG TIKEUT-PIEUP | Lo (Other Letter) |
+| 29 | `ퟐ` | D7D0 | HANGUL JONGSEONG TIKEUT-SIOS | Lo (Other Letter) |
+| 30 | `ퟑ` | D7D1 | HANGUL JONGSEONG TIKEUT-SIOS-KIYEOK | Lo (Other Letter) |
+| 31 | `ퟒ` | D7D2 | HANGUL JONGSEONG TIKEUT-CIEUC | Lo (Other Letter) |
+| 32 | `ퟓ` | D7D3 | HANGUL JONGSEONG TIKEUT-CHIEUCH | Lo (Other Letter) |
+| 33 | `ퟔ` | D7D4 | HANGUL JONGSEONG TIKEUT-THIEUTH | Lo (Other Letter) |
+| 34 | `ퟕ` | D7D5 | HANGUL JONGSEONG RIEUL-SSANGKIYEOK | Lo (Other Letter) |
+| 35 | `ퟖ` | D7D6 | HANGUL JONGSEONG RIEUL-KIYEOK-HIEUH | Lo (Other Letter) |
+| 36 | `ퟗ` | D7D7 | HANGUL JONGSEONG SSANGRIEUL-KHIEUKH | Lo (Other Letter) |
+| 37 | `ퟘ` | D7D8 | HANGUL JONGSEONG RIEUL-MIEUM-HIEUH | Lo (Other Letter) |
+| 38 | `ퟙ` | D7D9 | HANGUL JONGSEONG RIEUL-PIEUP-TIKEUT | Lo (Other Letter) |
+| 39 | `ퟚ` | D7DA | HANGUL JONGSEONG RIEUL-PIEUP-PHIEUPH | Lo (Other Letter) |
+| 40 | `ퟛ` | D7DB | HANGUL JONGSEONG RIEUL-YESIEUNG | Lo (Other Letter) |
+| 41 | `ퟜ` | D7DC | HANGUL JONGSEONG RIEUL-YEORINHIEUH-HIEUH | Lo (Other Letter) |
+| 42 | `ퟝ` | D7DD | HANGUL JONGSEONG KAPYEOUNRIEUL | Lo (Other Letter) |
+| 43 | `ퟞ` | D7DE | HANGUL JONGSEONG MIEUM-NIEUN | Lo (Other Letter) |
+| 44 | `ퟟ` | D7DF | HANGUL JONGSEONG MIEUM-SSANGNIEUN | Lo (Other Letter) |
+| 45 | `ퟠ` | D7E0 | HANGUL JONGSEONG SSANGMIEUM | Lo (Other Letter) |
+| 46 | `ퟡ` | D7E1 | HANGUL JONGSEONG MIEUM-PIEUP-SIOS | Lo (Other Letter) |
+| 47 | `ퟢ` | D7E2 | HANGUL JONGSEONG MIEUM-CIEUC | Lo (Other Letter) |
+| 48 | `ퟣ` | D7E3 | HANGUL JONGSEONG PIEUP-TIKEUT | Lo (Other Letter) |
+| 49 | `ퟤ` | D7E4 | HANGUL JONGSEONG PIEUP-RIEUL-PHIEUPH | Lo (Other Letter) |
+| 50 | `ퟥ` | D7E5 | HANGUL JONGSEONG PIEUP-MIEUM | Lo (Other Letter) |
+| 51 | `ퟦ` | D7E6 | HANGUL JONGSEONG SSANGPIEUP | Lo (Other Letter) |
+| 52 | `ퟧ` | D7E7 | HANGUL JONGSEONG PIEUP-SIOS-TIKEUT | Lo (Other Letter) |
+| 53 | `ퟨ` | D7E8 | HANGUL JONGSEONG PIEUP-CIEUC | Lo (Other Letter) |
+| 54 | `ퟩ` | D7E9 | HANGUL JONGSEONG PIEUP-CHIEUCH | Lo (Other Letter) |
+| 55 | `ퟪ` | D7EA | HANGUL JONGSEONG SIOS-MIEUM | Lo (Other Letter) |
+| 56 | `ퟫ` | D7EB | HANGUL JONGSEONG SIOS-KAPYEOUNPIEUP | Lo (Other Letter) |
+| 57 | `ퟬ` | D7EC | HANGUL JONGSEONG SSANGSIOS-KIYEOK | Lo (Other Letter) |
+| 58 | `ퟭ` | D7ED | HANGUL JONGSEONG SSANGSIOS-TIKEUT | Lo (Other Letter) |
+| 59 | `ퟮ` | D7EE | HANGUL JONGSEONG SIOS-PANSIOS | Lo (Other Letter) |
+| 60 | `ퟯ` | D7EF | HANGUL JONGSEONG SIOS-CIEUC | Lo (Other Letter) |
+| 61 | `ퟰ` | D7F0 | HANGUL JONGSEONG SIOS-CHIEUCH | Lo (Other Letter) |
+| 62 | `ퟱ` | D7F1 | HANGUL JONGSEONG SIOS-THIEUTH | Lo (Other Letter) |
+| 63 | `ퟲ` | D7F2 | HANGUL JONGSEONG SIOS-HIEUH | Lo (Other Letter) |
+| 64 | `ퟳ` | D7F3 | HANGUL JONGSEONG PANSIOS-PIEUP | Lo (Other Letter) |
+| 65 | `ퟴ` | D7F4 | HANGUL JONGSEONG PANSIOS-KAPYEOUNPIEUP | Lo (Other Letter) |
+| 66 | `ퟵ` | D7F5 | HANGUL JONGSEONG YESIEUNG-MIEUM | Lo (Other Letter) |
+| 67 | `ퟶ` | D7F6 | HANGUL JONGSEONG YESIEUNG-HIEUH | Lo (Other Letter) |
+| 68 | `ퟷ` | D7F7 | HANGUL JONGSEONG CIEUC-PIEUP | Lo (Other Letter) |
+| 69 | `ퟸ` | D7F8 | HANGUL JONGSEONG CIEUC-SSANGPIEUP | Lo (Other Letter) |
+| 70 | `ퟹ` | D7F9 | HANGUL JONGSEONG SSANGCIEUC | Lo (Other Letter) |
+| 71 | `ퟺ` | D7FA | HANGUL JONGSEONG PHIEUPH-SIOS | Lo (Other Letter) |
+| 72 | `ퟻ` | D7FB | HANGUL JONGSEONG PHIEUPH-THIEUTH | Lo (Other Letter) |

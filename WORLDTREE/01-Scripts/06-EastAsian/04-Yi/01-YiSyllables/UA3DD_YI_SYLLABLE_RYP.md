@@ -1,0 +1,22 @@
+# ꏝ — YI SYLLABLE RYP
+
+codepoint: U+A3DD
+decimal:   41949
+utf-8:     ea 8f 9d
+utf-32:    0000A3DD
+
+category:  Lo (Other Letter)
+block:     Yi Syllables  (U+A000–U+A48F)
+bidi:      L
+
+## Character
+
+ꏝ
+
+## Unicode name
+
+YI SYLLABLE RYP
+
+## Block
+
+Yi Syllables

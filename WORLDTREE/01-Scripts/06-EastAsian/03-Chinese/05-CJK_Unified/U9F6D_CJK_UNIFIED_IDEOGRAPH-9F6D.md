@@ -1,0 +1,22 @@
+# 齭 — CJK UNIFIED IDEOGRAPH-9F6D
+
+codepoint: U+9F6D
+decimal:   40813
+utf-8:     e9 bd ad
+utf-32:    00009F6D
+
+category:  Lo (Other Letter)
+block:     CJK Unified Ideographs  (U+4E00–U+9FFF)
+bidi:      L
+
+## Character
+
+齭
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-9F6D
+
+## Block
+
+CJK Unified Ideographs

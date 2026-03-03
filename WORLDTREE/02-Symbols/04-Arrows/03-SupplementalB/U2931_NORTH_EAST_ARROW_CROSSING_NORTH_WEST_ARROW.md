@@ -1,0 +1,22 @@
+# ⤱ — NORTH EAST ARROW CROSSING NORTH WEST ARROW
+
+codepoint: U+2931
+decimal:   10545
+utf-8:     e2 a4 b1
+utf-32:    00002931
+
+category:  Sm (Math Symbol)
+block:     Supplemental Arrows-B  (U+2900–U+297F)
+bidi:      ON
+
+## Character
+
+⤱
+
+## Unicode name
+
+NORTH EAST ARROW CROSSING NORTH WEST ARROW
+
+## Block
+
+Supplemental Arrows-B

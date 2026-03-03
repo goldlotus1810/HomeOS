@@ -1,0 +1,87 @@
+# Cherokee Supplement
+
+Unicode block: U+AB70–U+ABBF  |  range size: 80
+Assigned characters: 80  |  Unassigned slots: 0
+
+| # | Char | U+ | Name | Cat |
+|---|------|----|------|-----|
+| 1 | `ꭰ` | AB70 | CHEROKEE SMALL LETTER A | Ll (Lowercase Letter) |
+| 2 | `ꭱ` | AB71 | CHEROKEE SMALL LETTER E | Ll (Lowercase Letter) |
+| 3 | `ꭲ` | AB72 | CHEROKEE SMALL LETTER I | Ll (Lowercase Letter) |
+| 4 | `ꭳ` | AB73 | CHEROKEE SMALL LETTER O | Ll (Lowercase Letter) |
+| 5 | `ꭴ` | AB74 | CHEROKEE SMALL LETTER U | Ll (Lowercase Letter) |
+| 6 | `ꭵ` | AB75 | CHEROKEE SMALL LETTER V | Ll (Lowercase Letter) |
+| 7 | `ꭶ` | AB76 | CHEROKEE SMALL LETTER GA | Ll (Lowercase Letter) |
+| 8 | `ꭷ` | AB77 | CHEROKEE SMALL LETTER KA | Ll (Lowercase Letter) |
+| 9 | `ꭸ` | AB78 | CHEROKEE SMALL LETTER GE | Ll (Lowercase Letter) |
+| 10 | `ꭹ` | AB79 | CHEROKEE SMALL LETTER GI | Ll (Lowercase Letter) |
+| 11 | `ꭺ` | AB7A | CHEROKEE SMALL LETTER GO | Ll (Lowercase Letter) |
+| 12 | `ꭻ` | AB7B | CHEROKEE SMALL LETTER GU | Ll (Lowercase Letter) |
+| 13 | `ꭼ` | AB7C | CHEROKEE SMALL LETTER GV | Ll (Lowercase Letter) |
+| 14 | `ꭽ` | AB7D | CHEROKEE SMALL LETTER HA | Ll (Lowercase Letter) |
+| 15 | `ꭾ` | AB7E | CHEROKEE SMALL LETTER HE | Ll (Lowercase Letter) |
+| 16 | `ꭿ` | AB7F | CHEROKEE SMALL LETTER HI | Ll (Lowercase Letter) |
+| 17 | `ꮀ` | AB80 | CHEROKEE SMALL LETTER HO | Ll (Lowercase Letter) |
+| 18 | `ꮁ` | AB81 | CHEROKEE SMALL LETTER HU | Ll (Lowercase Letter) |
+| 19 | `ꮂ` | AB82 | CHEROKEE SMALL LETTER HV | Ll (Lowercase Letter) |
+| 20 | `ꮃ` | AB83 | CHEROKEE SMALL LETTER LA | Ll (Lowercase Letter) |
+| 21 | `ꮄ` | AB84 | CHEROKEE SMALL LETTER LE | Ll (Lowercase Letter) |
+| 22 | `ꮅ` | AB85 | CHEROKEE SMALL LETTER LI | Ll (Lowercase Letter) |
+| 23 | `ꮆ` | AB86 | CHEROKEE SMALL LETTER LO | Ll (Lowercase Letter) |
+| 24 | `ꮇ` | AB87 | CHEROKEE SMALL LETTER LU | Ll (Lowercase Letter) |
+| 25 | `ꮈ` | AB88 | CHEROKEE SMALL LETTER LV | Ll (Lowercase Letter) |
+| 26 | `ꮉ` | AB89 | CHEROKEE SMALL LETTER MA | Ll (Lowercase Letter) |
+| 27 | `ꮊ` | AB8A | CHEROKEE SMALL LETTER ME | Ll (Lowercase Letter) |
+| 28 | `ꮋ` | AB8B | CHEROKEE SMALL LETTER MI | Ll (Lowercase Letter) |
+| 29 | `ꮌ` | AB8C | CHEROKEE SMALL LETTER MO | Ll (Lowercase Letter) |
+| 30 | `ꮍ` | AB8D | CHEROKEE SMALL LETTER MU | Ll (Lowercase Letter) |
+| 31 | `ꮎ` | AB8E | CHEROKEE SMALL LETTER NA | Ll (Lowercase Letter) |
+| 32 | `ꮏ` | AB8F | CHEROKEE SMALL LETTER HNA | Ll (Lowercase Letter) |
+| 33 | `ꮐ` | AB90 | CHEROKEE SMALL LETTER NAH | Ll (Lowercase Letter) |
+| 34 | `ꮑ` | AB91 | CHEROKEE SMALL LETTER NE | Ll (Lowercase Letter) |
+| 35 | `ꮒ` | AB92 | CHEROKEE SMALL LETTER NI | Ll (Lowercase Letter) |
+| 36 | `ꮓ` | AB93 | CHEROKEE SMALL LETTER NO | Ll (Lowercase Letter) |
+| 37 | `ꮔ` | AB94 | CHEROKEE SMALL LETTER NU | Ll (Lowercase Letter) |
+| 38 | `ꮕ` | AB95 | CHEROKEE SMALL LETTER NV | Ll (Lowercase Letter) |
+| 39 | `ꮖ` | AB96 | CHEROKEE SMALL LETTER QUA | Ll (Lowercase Letter) |
+| 40 | `ꮗ` | AB97 | CHEROKEE SMALL LETTER QUE | Ll (Lowercase Letter) |
+| 41 | `ꮘ` | AB98 | CHEROKEE SMALL LETTER QUI | Ll (Lowercase Letter) |
+| 42 | `ꮙ` | AB99 | CHEROKEE SMALL LETTER QUO | Ll (Lowercase Letter) |
+| 43 | `ꮚ` | AB9A | CHEROKEE SMALL LETTER QUU | Ll (Lowercase Letter) |
+| 44 | `ꮛ` | AB9B | CHEROKEE SMALL LETTER QUV | Ll (Lowercase Letter) |
+| 45 | `ꮜ` | AB9C | CHEROKEE SMALL LETTER SA | Ll (Lowercase Letter) |
+| 46 | `ꮝ` | AB9D | CHEROKEE SMALL LETTER S | Ll (Lowercase Letter) |
+| 47 | `ꮞ` | AB9E | CHEROKEE SMALL LETTER SE | Ll (Lowercase Letter) |
+| 48 | `ꮟ` | AB9F | CHEROKEE SMALL LETTER SI | Ll (Lowercase Letter) |
+| 49 | `ꮠ` | ABA0 | CHEROKEE SMALL LETTER SO | Ll (Lowercase Letter) |
+| 50 | `ꮡ` | ABA1 | CHEROKEE SMALL LETTER SU | Ll (Lowercase Letter) |
+| 51 | `ꮢ` | ABA2 | CHEROKEE SMALL LETTER SV | Ll (Lowercase Letter) |
+| 52 | `ꮣ` | ABA3 | CHEROKEE SMALL LETTER DA | Ll (Lowercase Letter) |
+| 53 | `ꮤ` | ABA4 | CHEROKEE SMALL LETTER TA | Ll (Lowercase Letter) |
+| 54 | `ꮥ` | ABA5 | CHEROKEE SMALL LETTER DE | Ll (Lowercase Letter) |
+| 55 | `ꮦ` | ABA6 | CHEROKEE SMALL LETTER TE | Ll (Lowercase Letter) |
+| 56 | `ꮧ` | ABA7 | CHEROKEE SMALL LETTER DI | Ll (Lowercase Letter) |
+| 57 | `ꮨ` | ABA8 | CHEROKEE SMALL LETTER TI | Ll (Lowercase Letter) |
+| 58 | `ꮩ` | ABA9 | CHEROKEE SMALL LETTER DO | Ll (Lowercase Letter) |
+| 59 | `ꮪ` | ABAA | CHEROKEE SMALL LETTER DU | Ll (Lowercase Letter) |
+| 60 | `ꮫ` | ABAB | CHEROKEE SMALL LETTER DV | Ll (Lowercase Letter) |
+| 61 | `ꮬ` | ABAC | CHEROKEE SMALL LETTER DLA | Ll (Lowercase Letter) |
+| 62 | `ꮭ` | ABAD | CHEROKEE SMALL LETTER TLA | Ll (Lowercase Letter) |
+| 63 | `ꮮ` | ABAE | CHEROKEE SMALL LETTER TLE | Ll (Lowercase Letter) |
+| 64 | `ꮯ` | ABAF | CHEROKEE SMALL LETTER TLI | Ll (Lowercase Letter) |
+| 65 | `ꮰ` | ABB0 | CHEROKEE SMALL LETTER TLO | Ll (Lowercase Letter) |
+| 66 | `ꮱ` | ABB1 | CHEROKEE SMALL LETTER TLU | Ll (Lowercase Letter) |
+| 67 | `ꮲ` | ABB2 | CHEROKEE SMALL LETTER TLV | Ll (Lowercase Letter) |
+| 68 | `ꮳ` | ABB3 | CHEROKEE SMALL LETTER TSA | Ll (Lowercase Letter) |
+| 69 | `ꮴ` | ABB4 | CHEROKEE SMALL LETTER TSE | Ll (Lowercase Letter) |
+| 70 | `ꮵ` | ABB5 | CHEROKEE SMALL LETTER TSI | Ll (Lowercase Letter) |
+| 71 | `ꮶ` | ABB6 | CHEROKEE SMALL LETTER TSO | Ll (Lowercase Letter) |
+| 72 | `ꮷ` | ABB7 | CHEROKEE SMALL LETTER TSU | Ll (Lowercase Letter) |
+| 73 | `ꮸ` | ABB8 | CHEROKEE SMALL LETTER TSV | Ll (Lowercase Letter) |
+| 74 | `ꮹ` | ABB9 | CHEROKEE SMALL LETTER WA | Ll (Lowercase Letter) |
+| 75 | `ꮺ` | ABBA | CHEROKEE SMALL LETTER WE | Ll (Lowercase Letter) |
+| 76 | `ꮻ` | ABBB | CHEROKEE SMALL LETTER WI | Ll (Lowercase Letter) |
+| 77 | `ꮼ` | ABBC | CHEROKEE SMALL LETTER WO | Ll (Lowercase Letter) |
+| 78 | `ꮽ` | ABBD | CHEROKEE SMALL LETTER WU | Ll (Lowercase Letter) |
+| 79 | `ꮾ` | ABBE | CHEROKEE SMALL LETTER WV | Ll (Lowercase Letter) |
+| 80 | `ꮿ` | ABBF | CHEROKEE SMALL LETTER YA | Ll (Lowercase Letter) |

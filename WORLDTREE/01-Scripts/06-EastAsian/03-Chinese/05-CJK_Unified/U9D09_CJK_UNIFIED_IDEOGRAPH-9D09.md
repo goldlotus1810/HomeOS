@@ -1,0 +1,22 @@
+# 鴉 — CJK UNIFIED IDEOGRAPH-9D09
+
+codepoint: U+9D09
+decimal:   40201
+utf-8:     e9 b4 89
+utf-32:    00009D09
+
+category:  Lo (Other Letter)
+block:     CJK Unified Ideographs  (U+4E00–U+9FFF)
+bidi:      L
+
+## Character
+
+鴉
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-9D09
+
+## Block
+
+CJK Unified Ideographs

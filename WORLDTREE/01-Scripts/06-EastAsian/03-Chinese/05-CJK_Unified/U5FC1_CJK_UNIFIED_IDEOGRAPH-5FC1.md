@@ -1,0 +1,22 @@
+# 忁 — CJK UNIFIED IDEOGRAPH-5FC1
+
+codepoint: U+5FC1
+decimal:   24513
+utf-8:     e5 bf 81
+utf-32:    00005FC1
+
+category:  Lo (Other Letter)
+block:     CJK Unified Ideographs  (U+4E00–U+9FFF)
+bidi:      L
+
+## Character
+
+忁
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-5FC1
+
+## Block
+
+CJK Unified Ideographs

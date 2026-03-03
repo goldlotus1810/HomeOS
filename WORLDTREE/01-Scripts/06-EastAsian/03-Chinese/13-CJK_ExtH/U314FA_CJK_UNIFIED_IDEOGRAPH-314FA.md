@@ -1,0 +1,22 @@
+# 𱓺 — CJK UNIFIED IDEOGRAPH-314FA
+
+codepoint: U+314FA
+decimal:   201978
+utf-8:     f0 b1 93 ba
+utf-32:    000314FA
+
+category:  Lo (Other Letter)
+block:     CJK Extension H  (U+31350–U+323AF)
+bidi:      L
+
+## Character
+
+𱓺
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-314FA
+
+## Block
+
+CJK Extension H

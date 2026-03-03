@@ -1,0 +1,22 @@
+# 𱰆 — CJK UNIFIED IDEOGRAPH-31C06
+
+codepoint: U+31C06
+decimal:   203782
+utf-8:     f0 b1 b0 86
+utf-32:    00031C06
+
+category:  Lo (Other Letter)
+block:     CJK Extension H  (U+31350–U+323AF)
+bidi:      L
+
+## Character
+
+𱰆
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-31C06
+
+## Block
+
+CJK Extension H

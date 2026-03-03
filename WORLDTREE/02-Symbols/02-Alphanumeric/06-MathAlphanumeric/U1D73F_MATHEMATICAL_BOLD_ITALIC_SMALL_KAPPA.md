@@ -1,0 +1,23 @@
+# 𝜿 — MATHEMATICAL BOLD ITALIC SMALL KAPPA
+
+codepoint: U+1D73F
+decimal:   120639
+utf-8:     f0 9d 9c bf
+utf-32:    0001D73F
+
+category:  Ll (Lowercase Letter)
+block:     Mathematical Alphanumeric Symbols  (U+1D400–U+1D7FF)
+bidi:      L
+decomp:    <font> 03BA
+
+## Character
+
+𝜿
+
+## Unicode name
+
+MATHEMATICAL BOLD ITALIC SMALL KAPPA
+
+## Block
+
+Mathematical Alphanumeric Symbols

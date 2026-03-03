@@ -1,0 +1,22 @@
+# 焺 — CJK UNIFIED IDEOGRAPH-713A
+
+codepoint: U+713A
+decimal:   28986
+utf-8:     e7 84 ba
+utf-32:    0000713A
+
+category:  Lo (Other Letter)
+block:     CJK Unified Ideographs  (U+4E00–U+9FFF)
+bidi:      L
+
+## Character
+
+焺
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-713A
+
+## Block
+
+CJK Unified Ideographs

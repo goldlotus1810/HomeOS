@@ -1,0 +1,22 @@
+# 𰾰 — CJK UNIFIED IDEOGRAPH-30FB0
+
+codepoint: U+30FB0
+decimal:   200624
+utf-8:     f0 b0 be b0
+utf-32:    00030FB0
+
+category:  Lo (Other Letter)
+block:     CJK Extension G  (U+30000–U+3134F)
+bidi:      L
+
+## Character
+
+𰾰
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-30FB0
+
+## Block
+
+CJK Extension G

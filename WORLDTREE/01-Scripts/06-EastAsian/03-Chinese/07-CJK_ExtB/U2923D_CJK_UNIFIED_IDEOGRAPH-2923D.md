@@ -1,0 +1,22 @@
+# 𩈽 — CJK UNIFIED IDEOGRAPH-2923D
+
+codepoint: U+2923D
+decimal:   168509
+utf-8:     f0 a9 88 bd
+utf-32:    0002923D
+
+category:  Lo (Other Letter)
+block:     CJK Extension B  (U+20000–U+2A6DF)
+bidi:      L
+
+## Character
+
+𩈽
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-2923D
+
+## Block
+
+CJK Extension B

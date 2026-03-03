@@ -1,0 +1,22 @@
+# ꏍ — YI SYLLABLE ROT
+
+codepoint: U+A3CD
+decimal:   41933
+utf-8:     ea 8f 8d
+utf-32:    0000A3CD
+
+category:  Lo (Other Letter)
+block:     Yi Syllables  (U+A000–U+A48F)
+bidi:      L
+
+## Character
+
+ꏍ
+
+## Unicode name
+
+YI SYLLABLE ROT
+
+## Block
+
+Yi Syllables

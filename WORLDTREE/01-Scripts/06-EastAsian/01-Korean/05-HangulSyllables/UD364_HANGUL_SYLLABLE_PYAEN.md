@@ -1,0 +1,22 @@
+# 퍤 — HANGUL SYLLABLE PYAEN
+
+codepoint: U+D364
+decimal:   54116
+utf-8:     ed 8d a4
+utf-32:    0000D364
+
+category:  Lo (Other Letter)
+block:     Hangul Syllables  (U+AC00–U+D7AF)
+bidi:      L
+
+## Character
+
+퍤
+
+## Unicode name
+
+HANGUL SYLLABLE PYAEN
+
+## Block
+
+Hangul Syllables

@@ -1,0 +1,150 @@
+# Arabic Mathematical Alphabetic Symbols
+
+Unicode block: U+1EE00–U+1EEFF  |  range size: 256
+Assigned characters: 143  |  Unassigned slots: 113
+
+| # | Char | U+ | Name | Cat |
+|---|------|----|------|-----|
+| 1 | `𞸀` | 1EE00 | ARABIC MATHEMATICAL ALEF | Lo (Other Letter) |
+| 2 | `𞸁` | 1EE01 | ARABIC MATHEMATICAL BEH | Lo (Other Letter) |
+| 3 | `𞸂` | 1EE02 | ARABIC MATHEMATICAL JEEM | Lo (Other Letter) |
+| 4 | `𞸃` | 1EE03 | ARABIC MATHEMATICAL DAL | Lo (Other Letter) |
+| 5 | `𞸅` | 1EE05 | ARABIC MATHEMATICAL WAW | Lo (Other Letter) |
+| 6 | `𞸆` | 1EE06 | ARABIC MATHEMATICAL ZAIN | Lo (Other Letter) |
+| 7 | `𞸇` | 1EE07 | ARABIC MATHEMATICAL HAH | Lo (Other Letter) |
+| 8 | `𞸈` | 1EE08 | ARABIC MATHEMATICAL TAH | Lo (Other Letter) |
+| 9 | `𞸉` | 1EE09 | ARABIC MATHEMATICAL YEH | Lo (Other Letter) |
+| 10 | `𞸊` | 1EE0A | ARABIC MATHEMATICAL KAF | Lo (Other Letter) |
+| 11 | `𞸋` | 1EE0B | ARABIC MATHEMATICAL LAM | Lo (Other Letter) |
+| 12 | `𞸌` | 1EE0C | ARABIC MATHEMATICAL MEEM | Lo (Other Letter) |
+| 13 | `𞸍` | 1EE0D | ARABIC MATHEMATICAL NOON | Lo (Other Letter) |
+| 14 | `𞸎` | 1EE0E | ARABIC MATHEMATICAL SEEN | Lo (Other Letter) |
+| 15 | `𞸏` | 1EE0F | ARABIC MATHEMATICAL AIN | Lo (Other Letter) |
+| 16 | `𞸐` | 1EE10 | ARABIC MATHEMATICAL FEH | Lo (Other Letter) |
+| 17 | `𞸑` | 1EE11 | ARABIC MATHEMATICAL SAD | Lo (Other Letter) |
+| 18 | `𞸒` | 1EE12 | ARABIC MATHEMATICAL QAF | Lo (Other Letter) |
+| 19 | `𞸓` | 1EE13 | ARABIC MATHEMATICAL REH | Lo (Other Letter) |
+| 20 | `𞸔` | 1EE14 | ARABIC MATHEMATICAL SHEEN | Lo (Other Letter) |
+| 21 | `𞸕` | 1EE15 | ARABIC MATHEMATICAL TEH | Lo (Other Letter) |
+| 22 | `𞸖` | 1EE16 | ARABIC MATHEMATICAL THEH | Lo (Other Letter) |
+| 23 | `𞸗` | 1EE17 | ARABIC MATHEMATICAL KHAH | Lo (Other Letter) |
+| 24 | `𞸘` | 1EE18 | ARABIC MATHEMATICAL THAL | Lo (Other Letter) |
+| 25 | `𞸙` | 1EE19 | ARABIC MATHEMATICAL DAD | Lo (Other Letter) |
+| 26 | `𞸚` | 1EE1A | ARABIC MATHEMATICAL ZAH | Lo (Other Letter) |
+| 27 | `𞸛` | 1EE1B | ARABIC MATHEMATICAL GHAIN | Lo (Other Letter) |
+| 28 | `𞸜` | 1EE1C | ARABIC MATHEMATICAL DOTLESS BEH | Lo (Other Letter) |
+| 29 | `𞸝` | 1EE1D | ARABIC MATHEMATICAL DOTLESS NOON | Lo (Other Letter) |
+| 30 | `𞸞` | 1EE1E | ARABIC MATHEMATICAL DOTLESS FEH | Lo (Other Letter) |
+| 31 | `𞸟` | 1EE1F | ARABIC MATHEMATICAL DOTLESS QAF | Lo (Other Letter) |
+| 32 | `𞸡` | 1EE21 | ARABIC MATHEMATICAL INITIAL BEH | Lo (Other Letter) |
+| 33 | `𞸢` | 1EE22 | ARABIC MATHEMATICAL INITIAL JEEM | Lo (Other Letter) |
+| 34 | `𞸤` | 1EE24 | ARABIC MATHEMATICAL INITIAL HEH | Lo (Other Letter) |
+| 35 | `𞸧` | 1EE27 | ARABIC MATHEMATICAL INITIAL HAH | Lo (Other Letter) |
+| 36 | `𞸩` | 1EE29 | ARABIC MATHEMATICAL INITIAL YEH | Lo (Other Letter) |
+| 37 | `𞸪` | 1EE2A | ARABIC MATHEMATICAL INITIAL KAF | Lo (Other Letter) |
+| 38 | `𞸫` | 1EE2B | ARABIC MATHEMATICAL INITIAL LAM | Lo (Other Letter) |
+| 39 | `𞸬` | 1EE2C | ARABIC MATHEMATICAL INITIAL MEEM | Lo (Other Letter) |
+| 40 | `𞸭` | 1EE2D | ARABIC MATHEMATICAL INITIAL NOON | Lo (Other Letter) |
+| 41 | `𞸮` | 1EE2E | ARABIC MATHEMATICAL INITIAL SEEN | Lo (Other Letter) |
+| 42 | `𞸯` | 1EE2F | ARABIC MATHEMATICAL INITIAL AIN | Lo (Other Letter) |
+| 43 | `𞸰` | 1EE30 | ARABIC MATHEMATICAL INITIAL FEH | Lo (Other Letter) |
+| 44 | `𞸱` | 1EE31 | ARABIC MATHEMATICAL INITIAL SAD | Lo (Other Letter) |
+| 45 | `𞸲` | 1EE32 | ARABIC MATHEMATICAL INITIAL QAF | Lo (Other Letter) |
+| 46 | `𞸴` | 1EE34 | ARABIC MATHEMATICAL INITIAL SHEEN | Lo (Other Letter) |
+| 47 | `𞸵` | 1EE35 | ARABIC MATHEMATICAL INITIAL TEH | Lo (Other Letter) |
+| 48 | `𞸶` | 1EE36 | ARABIC MATHEMATICAL INITIAL THEH | Lo (Other Letter) |
+| 49 | `𞸷` | 1EE37 | ARABIC MATHEMATICAL INITIAL KHAH | Lo (Other Letter) |
+| 50 | `𞸹` | 1EE39 | ARABIC MATHEMATICAL INITIAL DAD | Lo (Other Letter) |
+| 51 | `𞸻` | 1EE3B | ARABIC MATHEMATICAL INITIAL GHAIN | Lo (Other Letter) |
+| 52 | `𞹂` | 1EE42 | ARABIC MATHEMATICAL TAILED JEEM | Lo (Other Letter) |
+| 53 | `𞹇` | 1EE47 | ARABIC MATHEMATICAL TAILED HAH | Lo (Other Letter) |
+| 54 | `𞹉` | 1EE49 | ARABIC MATHEMATICAL TAILED YEH | Lo (Other Letter) |
+| 55 | `𞹋` | 1EE4B | ARABIC MATHEMATICAL TAILED LAM | Lo (Other Letter) |
+| 56 | `𞹍` | 1EE4D | ARABIC MATHEMATICAL TAILED NOON | Lo (Other Letter) |
+| 57 | `𞹎` | 1EE4E | ARABIC MATHEMATICAL TAILED SEEN | Lo (Other Letter) |
+| 58 | `𞹏` | 1EE4F | ARABIC MATHEMATICAL TAILED AIN | Lo (Other Letter) |
+| 59 | `𞹑` | 1EE51 | ARABIC MATHEMATICAL TAILED SAD | Lo (Other Letter) |
+| 60 | `𞹒` | 1EE52 | ARABIC MATHEMATICAL TAILED QAF | Lo (Other Letter) |
+| 61 | `𞹔` | 1EE54 | ARABIC MATHEMATICAL TAILED SHEEN | Lo (Other Letter) |
+| 62 | `𞹗` | 1EE57 | ARABIC MATHEMATICAL TAILED KHAH | Lo (Other Letter) |
+| 63 | `𞹙` | 1EE59 | ARABIC MATHEMATICAL TAILED DAD | Lo (Other Letter) |
+| 64 | `𞹛` | 1EE5B | ARABIC MATHEMATICAL TAILED GHAIN | Lo (Other Letter) |
+| 65 | `𞹝` | 1EE5D | ARABIC MATHEMATICAL TAILED DOTLESS NOON | Lo (Other Letter) |
+| 66 | `𞹟` | 1EE5F | ARABIC MATHEMATICAL TAILED DOTLESS QAF | Lo (Other Letter) |
+| 67 | `𞹡` | 1EE61 | ARABIC MATHEMATICAL STRETCHED BEH | Lo (Other Letter) |
+| 68 | `𞹢` | 1EE62 | ARABIC MATHEMATICAL STRETCHED JEEM | Lo (Other Letter) |
+| 69 | `𞹤` | 1EE64 | ARABIC MATHEMATICAL STRETCHED HEH | Lo (Other Letter) |
+| 70 | `𞹧` | 1EE67 | ARABIC MATHEMATICAL STRETCHED HAH | Lo (Other Letter) |
+| 71 | `𞹨` | 1EE68 | ARABIC MATHEMATICAL STRETCHED TAH | Lo (Other Letter) |
+| 72 | `𞹩` | 1EE69 | ARABIC MATHEMATICAL STRETCHED YEH | Lo (Other Letter) |
+| 73 | `𞹪` | 1EE6A | ARABIC MATHEMATICAL STRETCHED KAF | Lo (Other Letter) |
+| 74 | `𞹬` | 1EE6C | ARABIC MATHEMATICAL STRETCHED MEEM | Lo (Other Letter) |
+| 75 | `𞹭` | 1EE6D | ARABIC MATHEMATICAL STRETCHED NOON | Lo (Other Letter) |
+| 76 | `𞹮` | 1EE6E | ARABIC MATHEMATICAL STRETCHED SEEN | Lo (Other Letter) |
+| 77 | `𞹯` | 1EE6F | ARABIC MATHEMATICAL STRETCHED AIN | Lo (Other Letter) |
+| 78 | `𞹰` | 1EE70 | ARABIC MATHEMATICAL STRETCHED FEH | Lo (Other Letter) |
+| 79 | `𞹱` | 1EE71 | ARABIC MATHEMATICAL STRETCHED SAD | Lo (Other Letter) |
+| 80 | `𞹲` | 1EE72 | ARABIC MATHEMATICAL STRETCHED QAF | Lo (Other Letter) |
+| 81 | `𞹴` | 1EE74 | ARABIC MATHEMATICAL STRETCHED SHEEN | Lo (Other Letter) |
+| 82 | `𞹵` | 1EE75 | ARABIC MATHEMATICAL STRETCHED TEH | Lo (Other Letter) |
+| 83 | `𞹶` | 1EE76 | ARABIC MATHEMATICAL STRETCHED THEH | Lo (Other Letter) |
+| 84 | `𞹷` | 1EE77 | ARABIC MATHEMATICAL STRETCHED KHAH | Lo (Other Letter) |
+| 85 | `𞹹` | 1EE79 | ARABIC MATHEMATICAL STRETCHED DAD | Lo (Other Letter) |
+| 86 | `𞹺` | 1EE7A | ARABIC MATHEMATICAL STRETCHED ZAH | Lo (Other Letter) |
+| 87 | `𞹻` | 1EE7B | ARABIC MATHEMATICAL STRETCHED GHAIN | Lo (Other Letter) |
+| 88 | `𞹼` | 1EE7C | ARABIC MATHEMATICAL STRETCHED DOTLESS BEH | Lo (Other Letter) |
+| 89 | `𞹾` | 1EE7E | ARABIC MATHEMATICAL STRETCHED DOTLESS FEH | Lo (Other Letter) |
+| 90 | `𞺀` | 1EE80 | ARABIC MATHEMATICAL LOOPED ALEF | Lo (Other Letter) |
+| 91 | `𞺁` | 1EE81 | ARABIC MATHEMATICAL LOOPED BEH | Lo (Other Letter) |
+| 92 | `𞺂` | 1EE82 | ARABIC MATHEMATICAL LOOPED JEEM | Lo (Other Letter) |
+| 93 | `𞺃` | 1EE83 | ARABIC MATHEMATICAL LOOPED DAL | Lo (Other Letter) |
+| 94 | `𞺄` | 1EE84 | ARABIC MATHEMATICAL LOOPED HEH | Lo (Other Letter) |
+| 95 | `𞺅` | 1EE85 | ARABIC MATHEMATICAL LOOPED WAW | Lo (Other Letter) |
+| 96 | `𞺆` | 1EE86 | ARABIC MATHEMATICAL LOOPED ZAIN | Lo (Other Letter) |
+| 97 | `𞺇` | 1EE87 | ARABIC MATHEMATICAL LOOPED HAH | Lo (Other Letter) |
+| 98 | `𞺈` | 1EE88 | ARABIC MATHEMATICAL LOOPED TAH | Lo (Other Letter) |
+| 99 | `𞺉` | 1EE89 | ARABIC MATHEMATICAL LOOPED YEH | Lo (Other Letter) |
+| 100 | `𞺋` | 1EE8B | ARABIC MATHEMATICAL LOOPED LAM | Lo (Other Letter) |
+| 101 | `𞺌` | 1EE8C | ARABIC MATHEMATICAL LOOPED MEEM | Lo (Other Letter) |
+| 102 | `𞺍` | 1EE8D | ARABIC MATHEMATICAL LOOPED NOON | Lo (Other Letter) |
+| 103 | `𞺎` | 1EE8E | ARABIC MATHEMATICAL LOOPED SEEN | Lo (Other Letter) |
+| 104 | `𞺏` | 1EE8F | ARABIC MATHEMATICAL LOOPED AIN | Lo (Other Letter) |
+| 105 | `𞺐` | 1EE90 | ARABIC MATHEMATICAL LOOPED FEH | Lo (Other Letter) |
+| 106 | `𞺑` | 1EE91 | ARABIC MATHEMATICAL LOOPED SAD | Lo (Other Letter) |
+| 107 | `𞺒` | 1EE92 | ARABIC MATHEMATICAL LOOPED QAF | Lo (Other Letter) |
+| 108 | `𞺓` | 1EE93 | ARABIC MATHEMATICAL LOOPED REH | Lo (Other Letter) |
+| 109 | `𞺔` | 1EE94 | ARABIC MATHEMATICAL LOOPED SHEEN | Lo (Other Letter) |
+| 110 | `𞺕` | 1EE95 | ARABIC MATHEMATICAL LOOPED TEH | Lo (Other Letter) |
+| 111 | `𞺖` | 1EE96 | ARABIC MATHEMATICAL LOOPED THEH | Lo (Other Letter) |
+| 112 | `𞺗` | 1EE97 | ARABIC MATHEMATICAL LOOPED KHAH | Lo (Other Letter) |
+| 113 | `𞺘` | 1EE98 | ARABIC MATHEMATICAL LOOPED THAL | Lo (Other Letter) |
+| 114 | `𞺙` | 1EE99 | ARABIC MATHEMATICAL LOOPED DAD | Lo (Other Letter) |
+| 115 | `𞺚` | 1EE9A | ARABIC MATHEMATICAL LOOPED ZAH | Lo (Other Letter) |
+| 116 | `𞺛` | 1EE9B | ARABIC MATHEMATICAL LOOPED GHAIN | Lo (Other Letter) |
+| 117 | `𞺡` | 1EEA1 | ARABIC MATHEMATICAL DOUBLE-STRUCK BEH | Lo (Other Letter) |
+| 118 | `𞺢` | 1EEA2 | ARABIC MATHEMATICAL DOUBLE-STRUCK JEEM | Lo (Other Letter) |
+| 119 | `𞺣` | 1EEA3 | ARABIC MATHEMATICAL DOUBLE-STRUCK DAL | Lo (Other Letter) |
+| 120 | `𞺥` | 1EEA5 | ARABIC MATHEMATICAL DOUBLE-STRUCK WAW | Lo (Other Letter) |
+| 121 | `𞺦` | 1EEA6 | ARABIC MATHEMATICAL DOUBLE-STRUCK ZAIN | Lo (Other Letter) |
+| 122 | `𞺧` | 1EEA7 | ARABIC MATHEMATICAL DOUBLE-STRUCK HAH | Lo (Other Letter) |
+| 123 | `𞺨` | 1EEA8 | ARABIC MATHEMATICAL DOUBLE-STRUCK TAH | Lo (Other Letter) |
+| 124 | `𞺩` | 1EEA9 | ARABIC MATHEMATICAL DOUBLE-STRUCK YEH | Lo (Other Letter) |
+| 125 | `𞺫` | 1EEAB | ARABIC MATHEMATICAL DOUBLE-STRUCK LAM | Lo (Other Letter) |
+| 126 | `𞺬` | 1EEAC | ARABIC MATHEMATICAL DOUBLE-STRUCK MEEM | Lo (Other Letter) |
+| 127 | `𞺭` | 1EEAD | ARABIC MATHEMATICAL DOUBLE-STRUCK NOON | Lo (Other Letter) |
+| 128 | `𞺮` | 1EEAE | ARABIC MATHEMATICAL DOUBLE-STRUCK SEEN | Lo (Other Letter) |
+| 129 | `𞺯` | 1EEAF | ARABIC MATHEMATICAL DOUBLE-STRUCK AIN | Lo (Other Letter) |
+| 130 | `𞺰` | 1EEB0 | ARABIC MATHEMATICAL DOUBLE-STRUCK FEH | Lo (Other Letter) |
+| 131 | `𞺱` | 1EEB1 | ARABIC MATHEMATICAL DOUBLE-STRUCK SAD | Lo (Other Letter) |
+| 132 | `𞺲` | 1EEB2 | ARABIC MATHEMATICAL DOUBLE-STRUCK QAF | Lo (Other Letter) |
+| 133 | `𞺳` | 1EEB3 | ARABIC MATHEMATICAL DOUBLE-STRUCK REH | Lo (Other Letter) |
+| 134 | `𞺴` | 1EEB4 | ARABIC MATHEMATICAL DOUBLE-STRUCK SHEEN | Lo (Other Letter) |
+| 135 | `𞺵` | 1EEB5 | ARABIC MATHEMATICAL DOUBLE-STRUCK TEH | Lo (Other Letter) |
+| 136 | `𞺶` | 1EEB6 | ARABIC MATHEMATICAL DOUBLE-STRUCK THEH | Lo (Other Letter) |
+| 137 | `𞺷` | 1EEB7 | ARABIC MATHEMATICAL DOUBLE-STRUCK KHAH | Lo (Other Letter) |
+| 138 | `𞺸` | 1EEB8 | ARABIC MATHEMATICAL DOUBLE-STRUCK THAL | Lo (Other Letter) |
+| 139 | `𞺹` | 1EEB9 | ARABIC MATHEMATICAL DOUBLE-STRUCK DAD | Lo (Other Letter) |
+| 140 | `𞺺` | 1EEBA | ARABIC MATHEMATICAL DOUBLE-STRUCK ZAH | Lo (Other Letter) |
+| 141 | `𞺻` | 1EEBB | ARABIC MATHEMATICAL DOUBLE-STRUCK GHAIN | Lo (Other Letter) |
+| 142 | `𞻰` | 1EEF0 | ARABIC MATHEMATICAL OPERATOR MEEM WITH HAH WITH TATWEEL | Sm (Math Symbol) |
+| 143 | `𞻱` | 1EEF1 | ARABIC MATHEMATICAL OPERATOR HAH WITH DAL | Sm (Math Symbol) |

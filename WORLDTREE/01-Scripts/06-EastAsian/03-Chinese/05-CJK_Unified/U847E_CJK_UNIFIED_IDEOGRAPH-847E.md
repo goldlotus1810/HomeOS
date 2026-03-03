@@ -1,0 +1,22 @@
+# 葾 — CJK UNIFIED IDEOGRAPH-847E
+
+codepoint: U+847E
+decimal:   33918
+utf-8:     e8 91 be
+utf-32:    0000847E
+
+category:  Lo (Other Letter)
+block:     CJK Unified Ideographs  (U+4E00–U+9FFF)
+bidi:      L
+
+## Character
+
+葾
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-847E
+
+## Block
+
+CJK Unified Ideographs

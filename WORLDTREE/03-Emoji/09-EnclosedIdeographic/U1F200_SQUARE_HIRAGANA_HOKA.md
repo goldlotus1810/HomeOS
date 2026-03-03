@@ -1,0 +1,23 @@
+# 🈀 — SQUARE HIRAGANA HOKA
+
+codepoint: U+1F200
+decimal:   127488
+utf-8:     f0 9f 88 80
+utf-32:    0001F200
+
+category:  So (Other Symbol)
+block:     Enclosed Ideographic Supplement  (U+1F200–U+1F2FF)
+bidi:      L
+decomp:    <square> 307B 304B
+
+## Character
+
+🈀
+
+## Unicode name
+
+SQUARE HIRAGANA HOKA
+
+## Block
+
+Enclosed Ideographic Supplement

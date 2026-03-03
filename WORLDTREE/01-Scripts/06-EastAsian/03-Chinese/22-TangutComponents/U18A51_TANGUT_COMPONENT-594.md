@@ -1,0 +1,22 @@
+# 𘩑 — TANGUT COMPONENT-594
+
+codepoint: U+18A51
+decimal:   100945
+utf-8:     f0 98 a9 91
+utf-32:    00018A51
+
+category:  Lo (Other Letter)
+block:     Tangut Components  (U+18800–U+18AFF)
+bidi:      L
+
+## Character
+
+𘩑
+
+## Unicode name
+
+TANGUT COMPONENT-594
+
+## Block
+
+Tangut Components

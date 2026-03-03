@@ -1,0 +1,22 @@
+# ⤍ — RIGHTWARDS DOUBLE DASH ARROW
+
+codepoint: U+290D
+decimal:   10509
+utf-8:     e2 a4 8d
+utf-32:    0000290D
+
+category:  Sm (Math Symbol)
+block:     Supplemental Arrows-B  (U+2900–U+297F)
+bidi:      ON
+
+## Character
+
+⤍
+
+## Unicode name
+
+RIGHTWARDS DOUBLE DASH ARROW
+
+## Block
+
+Supplemental Arrows-B

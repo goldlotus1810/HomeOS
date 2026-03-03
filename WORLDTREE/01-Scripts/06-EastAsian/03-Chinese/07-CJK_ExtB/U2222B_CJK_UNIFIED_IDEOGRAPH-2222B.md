@@ -1,0 +1,22 @@
+# 𢈫 — CJK UNIFIED IDEOGRAPH-2222B
+
+codepoint: U+2222B
+decimal:   139819
+utf-8:     f0 a2 88 ab
+utf-32:    0002222B
+
+category:  Lo (Other Letter)
+block:     CJK Extension B  (U+20000–U+2A6DF)
+bidi:      L
+
+## Character
+
+𢈫
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-2222B
+
+## Block
+
+CJK Extension B

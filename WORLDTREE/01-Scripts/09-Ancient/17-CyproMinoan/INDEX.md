@@ -1,0 +1,106 @@
+# Cypro-Minoan
+
+Unicode block: U+12F90–U+12FFF  |  range size: 112
+Assigned characters: 99  |  Unassigned slots: 13
+
+| # | Char | U+ | Name | Cat |
+|---|------|----|------|-----|
+| 1 | `𒾐` | 12F90 | CYPRO-MINOAN SIGN CM001 | Lo (Other Letter) |
+| 2 | `𒾑` | 12F91 | CYPRO-MINOAN SIGN CM002 | Lo (Other Letter) |
+| 3 | `𒾒` | 12F92 | CYPRO-MINOAN SIGN CM004 | Lo (Other Letter) |
+| 4 | `𒾓` | 12F93 | CYPRO-MINOAN SIGN CM005 | Lo (Other Letter) |
+| 5 | `𒾔` | 12F94 | CYPRO-MINOAN SIGN CM006 | Lo (Other Letter) |
+| 6 | `𒾕` | 12F95 | CYPRO-MINOAN SIGN CM007 | Lo (Other Letter) |
+| 7 | `𒾖` | 12F96 | CYPRO-MINOAN SIGN CM008 | Lo (Other Letter) |
+| 8 | `𒾗` | 12F97 | CYPRO-MINOAN SIGN CM009 | Lo (Other Letter) |
+| 9 | `𒾘` | 12F98 | CYPRO-MINOAN SIGN CM010 | Lo (Other Letter) |
+| 10 | `𒾙` | 12F99 | CYPRO-MINOAN SIGN CM011 | Lo (Other Letter) |
+| 11 | `𒾚` | 12F9A | CYPRO-MINOAN SIGN CM012 | Lo (Other Letter) |
+| 12 | `𒾛` | 12F9B | CYPRO-MINOAN SIGN CM012B | Lo (Other Letter) |
+| 13 | `𒾜` | 12F9C | CYPRO-MINOAN SIGN CM013 | Lo (Other Letter) |
+| 14 | `𒾝` | 12F9D | CYPRO-MINOAN SIGN CM015 | Lo (Other Letter) |
+| 15 | `𒾞` | 12F9E | CYPRO-MINOAN SIGN CM017 | Lo (Other Letter) |
+| 16 | `𒾟` | 12F9F | CYPRO-MINOAN SIGN CM019 | Lo (Other Letter) |
+| 17 | `𒾠` | 12FA0 | CYPRO-MINOAN SIGN CM021 | Lo (Other Letter) |
+| 18 | `𒾡` | 12FA1 | CYPRO-MINOAN SIGN CM023 | Lo (Other Letter) |
+| 19 | `𒾢` | 12FA2 | CYPRO-MINOAN SIGN CM024 | Lo (Other Letter) |
+| 20 | `𒾣` | 12FA3 | CYPRO-MINOAN SIGN CM025 | Lo (Other Letter) |
+| 21 | `𒾤` | 12FA4 | CYPRO-MINOAN SIGN CM026 | Lo (Other Letter) |
+| 22 | `𒾥` | 12FA5 | CYPRO-MINOAN SIGN CM027 | Lo (Other Letter) |
+| 23 | `𒾦` | 12FA6 | CYPRO-MINOAN SIGN CM028 | Lo (Other Letter) |
+| 24 | `𒾧` | 12FA7 | CYPRO-MINOAN SIGN CM029 | Lo (Other Letter) |
+| 25 | `𒾨` | 12FA8 | CYPRO-MINOAN SIGN CM030 | Lo (Other Letter) |
+| 26 | `𒾩` | 12FA9 | CYPRO-MINOAN SIGN CM033 | Lo (Other Letter) |
+| 27 | `𒾪` | 12FAA | CYPRO-MINOAN SIGN CM034 | Lo (Other Letter) |
+| 28 | `𒾫` | 12FAB | CYPRO-MINOAN SIGN CM035 | Lo (Other Letter) |
+| 29 | `𒾬` | 12FAC | CYPRO-MINOAN SIGN CM036 | Lo (Other Letter) |
+| 30 | `𒾭` | 12FAD | CYPRO-MINOAN SIGN CM037 | Lo (Other Letter) |
+| 31 | `𒾮` | 12FAE | CYPRO-MINOAN SIGN CM038 | Lo (Other Letter) |
+| 32 | `𒾯` | 12FAF | CYPRO-MINOAN SIGN CM039 | Lo (Other Letter) |
+| 33 | `𒾰` | 12FB0 | CYPRO-MINOAN SIGN CM040 | Lo (Other Letter) |
+| 34 | `𒾱` | 12FB1 | CYPRO-MINOAN SIGN CM041 | Lo (Other Letter) |
+| 35 | `𒾲` | 12FB2 | CYPRO-MINOAN SIGN CM044 | Lo (Other Letter) |
+| 36 | `𒾳` | 12FB3 | CYPRO-MINOAN SIGN CM046 | Lo (Other Letter) |
+| 37 | `𒾴` | 12FB4 | CYPRO-MINOAN SIGN CM047 | Lo (Other Letter) |
+| 38 | `𒾵` | 12FB5 | CYPRO-MINOAN SIGN CM049 | Lo (Other Letter) |
+| 39 | `𒾶` | 12FB6 | CYPRO-MINOAN SIGN CM050 | Lo (Other Letter) |
+| 40 | `𒾷` | 12FB7 | CYPRO-MINOAN SIGN CM051 | Lo (Other Letter) |
+| 41 | `𒾸` | 12FB8 | CYPRO-MINOAN SIGN CM052 | Lo (Other Letter) |
+| 42 | `𒾹` | 12FB9 | CYPRO-MINOAN SIGN CM053 | Lo (Other Letter) |
+| 43 | `𒾺` | 12FBA | CYPRO-MINOAN SIGN CM054 | Lo (Other Letter) |
+| 44 | `𒾻` | 12FBB | CYPRO-MINOAN SIGN CM055 | Lo (Other Letter) |
+| 45 | `𒾼` | 12FBC | CYPRO-MINOAN SIGN CM056 | Lo (Other Letter) |
+| 46 | `𒾽` | 12FBD | CYPRO-MINOAN SIGN CM058 | Lo (Other Letter) |
+| 47 | `𒾾` | 12FBE | CYPRO-MINOAN SIGN CM059 | Lo (Other Letter) |
+| 48 | `𒾿` | 12FBF | CYPRO-MINOAN SIGN CM060 | Lo (Other Letter) |
+| 49 | `𒿀` | 12FC0 | CYPRO-MINOAN SIGN CM061 | Lo (Other Letter) |
+| 50 | `𒿁` | 12FC1 | CYPRO-MINOAN SIGN CM062 | Lo (Other Letter) |
+| 51 | `𒿂` | 12FC2 | CYPRO-MINOAN SIGN CM063 | Lo (Other Letter) |
+| 52 | `𒿃` | 12FC3 | CYPRO-MINOAN SIGN CM064 | Lo (Other Letter) |
+| 53 | `𒿄` | 12FC4 | CYPRO-MINOAN SIGN CM066 | Lo (Other Letter) |
+| 54 | `𒿅` | 12FC5 | CYPRO-MINOAN SIGN CM067 | Lo (Other Letter) |
+| 55 | `𒿆` | 12FC6 | CYPRO-MINOAN SIGN CM068 | Lo (Other Letter) |
+| 56 | `𒿇` | 12FC7 | CYPRO-MINOAN SIGN CM069 | Lo (Other Letter) |
+| 57 | `𒿈` | 12FC8 | CYPRO-MINOAN SIGN CM070 | Lo (Other Letter) |
+| 58 | `𒿉` | 12FC9 | CYPRO-MINOAN SIGN CM071 | Lo (Other Letter) |
+| 59 | `𒿊` | 12FCA | CYPRO-MINOAN SIGN CM072 | Lo (Other Letter) |
+| 60 | `𒿋` | 12FCB | CYPRO-MINOAN SIGN CM073 | Lo (Other Letter) |
+| 61 | `𒿌` | 12FCC | CYPRO-MINOAN SIGN CM074 | Lo (Other Letter) |
+| 62 | `𒿍` | 12FCD | CYPRO-MINOAN SIGN CM075 | Lo (Other Letter) |
+| 63 | `𒿎` | 12FCE | CYPRO-MINOAN SIGN CM075B | Lo (Other Letter) |
+| 64 | `𒿏` | 12FCF | CYPRO-MINOAN SIGN CM076 | Lo (Other Letter) |
+| 65 | `𒿐` | 12FD0 | CYPRO-MINOAN SIGN CM078 | Lo (Other Letter) |
+| 66 | `𒿑` | 12FD1 | CYPRO-MINOAN SIGN CM079 | Lo (Other Letter) |
+| 67 | `𒿒` | 12FD2 | CYPRO-MINOAN SIGN CM080 | Lo (Other Letter) |
+| 68 | `𒿓` | 12FD3 | CYPRO-MINOAN SIGN CM081 | Lo (Other Letter) |
+| 69 | `𒿔` | 12FD4 | CYPRO-MINOAN SIGN CM082 | Lo (Other Letter) |
+| 70 | `𒿕` | 12FD5 | CYPRO-MINOAN SIGN CM083 | Lo (Other Letter) |
+| 71 | `𒿖` | 12FD6 | CYPRO-MINOAN SIGN CM084 | Lo (Other Letter) |
+| 72 | `𒿗` | 12FD7 | CYPRO-MINOAN SIGN CM085 | Lo (Other Letter) |
+| 73 | `𒿘` | 12FD8 | CYPRO-MINOAN SIGN CM086 | Lo (Other Letter) |
+| 74 | `𒿙` | 12FD9 | CYPRO-MINOAN SIGN CM087 | Lo (Other Letter) |
+| 75 | `𒿚` | 12FDA | CYPRO-MINOAN SIGN CM088 | Lo (Other Letter) |
+| 76 | `𒿛` | 12FDB | CYPRO-MINOAN SIGN CM089 | Lo (Other Letter) |
+| 77 | `𒿜` | 12FDC | CYPRO-MINOAN SIGN CM090 | Lo (Other Letter) |
+| 78 | `𒿝` | 12FDD | CYPRO-MINOAN SIGN CM091 | Lo (Other Letter) |
+| 79 | `𒿞` | 12FDE | CYPRO-MINOAN SIGN CM092 | Lo (Other Letter) |
+| 80 | `𒿟` | 12FDF | CYPRO-MINOAN SIGN CM094 | Lo (Other Letter) |
+| 81 | `𒿠` | 12FE0 | CYPRO-MINOAN SIGN CM095 | Lo (Other Letter) |
+| 82 | `𒿡` | 12FE1 | CYPRO-MINOAN SIGN CM096 | Lo (Other Letter) |
+| 83 | `𒿢` | 12FE2 | CYPRO-MINOAN SIGN CM097 | Lo (Other Letter) |
+| 84 | `𒿣` | 12FE3 | CYPRO-MINOAN SIGN CM098 | Lo (Other Letter) |
+| 85 | `𒿤` | 12FE4 | CYPRO-MINOAN SIGN CM099 | Lo (Other Letter) |
+| 86 | `𒿥` | 12FE5 | CYPRO-MINOAN SIGN CM100 | Lo (Other Letter) |
+| 87 | `𒿦` | 12FE6 | CYPRO-MINOAN SIGN CM101 | Lo (Other Letter) |
+| 88 | `𒿧` | 12FE7 | CYPRO-MINOAN SIGN CM102 | Lo (Other Letter) |
+| 89 | `𒿨` | 12FE8 | CYPRO-MINOAN SIGN CM103 | Lo (Other Letter) |
+| 90 | `𒿩` | 12FE9 | CYPRO-MINOAN SIGN CM104 | Lo (Other Letter) |
+| 91 | `𒿪` | 12FEA | CYPRO-MINOAN SIGN CM105 | Lo (Other Letter) |
+| 92 | `𒿫` | 12FEB | CYPRO-MINOAN SIGN CM107 | Lo (Other Letter) |
+| 93 | `𒿬` | 12FEC | CYPRO-MINOAN SIGN CM108 | Lo (Other Letter) |
+| 94 | `𒿭` | 12FED | CYPRO-MINOAN SIGN CM109 | Lo (Other Letter) |
+| 95 | `𒿮` | 12FEE | CYPRO-MINOAN SIGN CM110 | Lo (Other Letter) |
+| 96 | `𒿯` | 12FEF | CYPRO-MINOAN SIGN CM112 | Lo (Other Letter) |
+| 97 | `𒿰` | 12FF0 | CYPRO-MINOAN SIGN CM114 | Lo (Other Letter) |
+| 98 | `𒿱` | 12FF1 | CYPRO-MINOAN SIGN CM301 | Po (Other Punct) |
+| 99 | `𒿲` | 12FF2 | CYPRO-MINOAN SIGN CM302 | Po (Other Punct) |

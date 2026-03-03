@@ -1,0 +1,22 @@
+# 𐩓 — KHAROSHTHI PUNCTUATION CRESCENT BAR
+
+codepoint: U+10A53
+decimal:   68179
+utf-8:     f0 90 a9 93
+utf-32:    00010A53
+
+category:  Po (Other Punct)
+block:     Kharoshthi  (U+10A00–U+10A5F)
+bidi:      R
+
+## Character
+
+𐩓
+
+## Unicode name
+
+KHAROSHTHI PUNCTUATION CRESCENT BAR
+
+## Block
+
+Kharoshthi

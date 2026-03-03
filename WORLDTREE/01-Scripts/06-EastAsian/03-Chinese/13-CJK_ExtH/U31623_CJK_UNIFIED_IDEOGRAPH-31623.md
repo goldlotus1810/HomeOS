@@ -1,0 +1,22 @@
+# 𱘣 — CJK UNIFIED IDEOGRAPH-31623
+
+codepoint: U+31623
+decimal:   202275
+utf-8:     f0 b1 98 a3
+utf-32:    00031623
+
+category:  Lo (Other Letter)
+block:     CJK Extension H  (U+31350–U+323AF)
+bidi:      L
+
+## Character
+
+𱘣
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-31623
+
+## Block
+
+CJK Extension H

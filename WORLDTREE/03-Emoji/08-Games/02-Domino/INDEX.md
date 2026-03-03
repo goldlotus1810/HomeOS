@@ -1,0 +1,107 @@
+# Domino Tiles
+
+Unicode block: U+1F030–U+1F09F  |  range size: 112
+Assigned characters: 100  |  Unassigned slots: 12
+
+| # | Char | U+ | Name | Cat |
+|---|------|----|------|-----|
+| 1 | `🀰` | 1F030 | DOMINO TILE HORIZONTAL BACK | So (Other Symbol) |
+| 2 | `🀱` | 1F031 | DOMINO TILE HORIZONTAL-00-00 | So (Other Symbol) |
+| 3 | `🀲` | 1F032 | DOMINO TILE HORIZONTAL-00-01 | So (Other Symbol) |
+| 4 | `🀳` | 1F033 | DOMINO TILE HORIZONTAL-00-02 | So (Other Symbol) |
+| 5 | `🀴` | 1F034 | DOMINO TILE HORIZONTAL-00-03 | So (Other Symbol) |
+| 6 | `🀵` | 1F035 | DOMINO TILE HORIZONTAL-00-04 | So (Other Symbol) |
+| 7 | `🀶` | 1F036 | DOMINO TILE HORIZONTAL-00-05 | So (Other Symbol) |
+| 8 | `🀷` | 1F037 | DOMINO TILE HORIZONTAL-00-06 | So (Other Symbol) |
+| 9 | `🀸` | 1F038 | DOMINO TILE HORIZONTAL-01-00 | So (Other Symbol) |
+| 10 | `🀹` | 1F039 | DOMINO TILE HORIZONTAL-01-01 | So (Other Symbol) |
+| 11 | `🀺` | 1F03A | DOMINO TILE HORIZONTAL-01-02 | So (Other Symbol) |
+| 12 | `🀻` | 1F03B | DOMINO TILE HORIZONTAL-01-03 | So (Other Symbol) |
+| 13 | `🀼` | 1F03C | DOMINO TILE HORIZONTAL-01-04 | So (Other Symbol) |
+| 14 | `🀽` | 1F03D | DOMINO TILE HORIZONTAL-01-05 | So (Other Symbol) |
+| 15 | `🀾` | 1F03E | DOMINO TILE HORIZONTAL-01-06 | So (Other Symbol) |
+| 16 | `🀿` | 1F03F | DOMINO TILE HORIZONTAL-02-00 | So (Other Symbol) |
+| 17 | `🁀` | 1F040 | DOMINO TILE HORIZONTAL-02-01 | So (Other Symbol) |
+| 18 | `🁁` | 1F041 | DOMINO TILE HORIZONTAL-02-02 | So (Other Symbol) |
+| 19 | `🁂` | 1F042 | DOMINO TILE HORIZONTAL-02-03 | So (Other Symbol) |
+| 20 | `🁃` | 1F043 | DOMINO TILE HORIZONTAL-02-04 | So (Other Symbol) |
+| 21 | `🁄` | 1F044 | DOMINO TILE HORIZONTAL-02-05 | So (Other Symbol) |
+| 22 | `🁅` | 1F045 | DOMINO TILE HORIZONTAL-02-06 | So (Other Symbol) |
+| 23 | `🁆` | 1F046 | DOMINO TILE HORIZONTAL-03-00 | So (Other Symbol) |
+| 24 | `🁇` | 1F047 | DOMINO TILE HORIZONTAL-03-01 | So (Other Symbol) |
+| 25 | `🁈` | 1F048 | DOMINO TILE HORIZONTAL-03-02 | So (Other Symbol) |
+| 26 | `🁉` | 1F049 | DOMINO TILE HORIZONTAL-03-03 | So (Other Symbol) |
+| 27 | `🁊` | 1F04A | DOMINO TILE HORIZONTAL-03-04 | So (Other Symbol) |
+| 28 | `🁋` | 1F04B | DOMINO TILE HORIZONTAL-03-05 | So (Other Symbol) |
+| 29 | `🁌` | 1F04C | DOMINO TILE HORIZONTAL-03-06 | So (Other Symbol) |
+| 30 | `🁍` | 1F04D | DOMINO TILE HORIZONTAL-04-00 | So (Other Symbol) |
+| 31 | `🁎` | 1F04E | DOMINO TILE HORIZONTAL-04-01 | So (Other Symbol) |
+| 32 | `🁏` | 1F04F | DOMINO TILE HORIZONTAL-04-02 | So (Other Symbol) |
+| 33 | `🁐` | 1F050 | DOMINO TILE HORIZONTAL-04-03 | So (Other Symbol) |
+| 34 | `🁑` | 1F051 | DOMINO TILE HORIZONTAL-04-04 | So (Other Symbol) |
+| 35 | `🁒` | 1F052 | DOMINO TILE HORIZONTAL-04-05 | So (Other Symbol) |
+| 36 | `🁓` | 1F053 | DOMINO TILE HORIZONTAL-04-06 | So (Other Symbol) |
+| 37 | `🁔` | 1F054 | DOMINO TILE HORIZONTAL-05-00 | So (Other Symbol) |
+| 38 | `🁕` | 1F055 | DOMINO TILE HORIZONTAL-05-01 | So (Other Symbol) |
+| 39 | `🁖` | 1F056 | DOMINO TILE HORIZONTAL-05-02 | So (Other Symbol) |
+| 40 | `🁗` | 1F057 | DOMINO TILE HORIZONTAL-05-03 | So (Other Symbol) |
+| 41 | `🁘` | 1F058 | DOMINO TILE HORIZONTAL-05-04 | So (Other Symbol) |
+| 42 | `🁙` | 1F059 | DOMINO TILE HORIZONTAL-05-05 | So (Other Symbol) |
+| 43 | `🁚` | 1F05A | DOMINO TILE HORIZONTAL-05-06 | So (Other Symbol) |
+| 44 | `🁛` | 1F05B | DOMINO TILE HORIZONTAL-06-00 | So (Other Symbol) |
+| 45 | `🁜` | 1F05C | DOMINO TILE HORIZONTAL-06-01 | So (Other Symbol) |
+| 46 | `🁝` | 1F05D | DOMINO TILE HORIZONTAL-06-02 | So (Other Symbol) |
+| 47 | `🁞` | 1F05E | DOMINO TILE HORIZONTAL-06-03 | So (Other Symbol) |
+| 48 | `🁟` | 1F05F | DOMINO TILE HORIZONTAL-06-04 | So (Other Symbol) |
+| 49 | `🁠` | 1F060 | DOMINO TILE HORIZONTAL-06-05 | So (Other Symbol) |
+| 50 | `🁡` | 1F061 | DOMINO TILE HORIZONTAL-06-06 | So (Other Symbol) |
+| 51 | `🁢` | 1F062 | DOMINO TILE VERTICAL BACK | So (Other Symbol) |
+| 52 | `🁣` | 1F063 | DOMINO TILE VERTICAL-00-00 | So (Other Symbol) |
+| 53 | `🁤` | 1F064 | DOMINO TILE VERTICAL-00-01 | So (Other Symbol) |
+| 54 | `🁥` | 1F065 | DOMINO TILE VERTICAL-00-02 | So (Other Symbol) |
+| 55 | `🁦` | 1F066 | DOMINO TILE VERTICAL-00-03 | So (Other Symbol) |
+| 56 | `🁧` | 1F067 | DOMINO TILE VERTICAL-00-04 | So (Other Symbol) |
+| 57 | `🁨` | 1F068 | DOMINO TILE VERTICAL-00-05 | So (Other Symbol) |
+| 58 | `🁩` | 1F069 | DOMINO TILE VERTICAL-00-06 | So (Other Symbol) |
+| 59 | `🁪` | 1F06A | DOMINO TILE VERTICAL-01-00 | So (Other Symbol) |
+| 60 | `🁫` | 1F06B | DOMINO TILE VERTICAL-01-01 | So (Other Symbol) |
+| 61 | `🁬` | 1F06C | DOMINO TILE VERTICAL-01-02 | So (Other Symbol) |
+| 62 | `🁭` | 1F06D | DOMINO TILE VERTICAL-01-03 | So (Other Symbol) |
+| 63 | `🁮` | 1F06E | DOMINO TILE VERTICAL-01-04 | So (Other Symbol) |
+| 64 | `🁯` | 1F06F | DOMINO TILE VERTICAL-01-05 | So (Other Symbol) |
+| 65 | `🁰` | 1F070 | DOMINO TILE VERTICAL-01-06 | So (Other Symbol) |
+| 66 | `🁱` | 1F071 | DOMINO TILE VERTICAL-02-00 | So (Other Symbol) |
+| 67 | `🁲` | 1F072 | DOMINO TILE VERTICAL-02-01 | So (Other Symbol) |
+| 68 | `🁳` | 1F073 | DOMINO TILE VERTICAL-02-02 | So (Other Symbol) |
+| 69 | `🁴` | 1F074 | DOMINO TILE VERTICAL-02-03 | So (Other Symbol) |
+| 70 | `🁵` | 1F075 | DOMINO TILE VERTICAL-02-04 | So (Other Symbol) |
+| 71 | `🁶` | 1F076 | DOMINO TILE VERTICAL-02-05 | So (Other Symbol) |
+| 72 | `🁷` | 1F077 | DOMINO TILE VERTICAL-02-06 | So (Other Symbol) |
+| 73 | `🁸` | 1F078 | DOMINO TILE VERTICAL-03-00 | So (Other Symbol) |
+| 74 | `🁹` | 1F079 | DOMINO TILE VERTICAL-03-01 | So (Other Symbol) |
+| 75 | `🁺` | 1F07A | DOMINO TILE VERTICAL-03-02 | So (Other Symbol) |
+| 76 | `🁻` | 1F07B | DOMINO TILE VERTICAL-03-03 | So (Other Symbol) |
+| 77 | `🁼` | 1F07C | DOMINO TILE VERTICAL-03-04 | So (Other Symbol) |
+| 78 | `🁽` | 1F07D | DOMINO TILE VERTICAL-03-05 | So (Other Symbol) |
+| 79 | `🁾` | 1F07E | DOMINO TILE VERTICAL-03-06 | So (Other Symbol) |
+| 80 | `🁿` | 1F07F | DOMINO TILE VERTICAL-04-00 | So (Other Symbol) |
+| 81 | `🂀` | 1F080 | DOMINO TILE VERTICAL-04-01 | So (Other Symbol) |
+| 82 | `🂁` | 1F081 | DOMINO TILE VERTICAL-04-02 | So (Other Symbol) |
+| 83 | `🂂` | 1F082 | DOMINO TILE VERTICAL-04-03 | So (Other Symbol) |
+| 84 | `🂃` | 1F083 | DOMINO TILE VERTICAL-04-04 | So (Other Symbol) |
+| 85 | `🂄` | 1F084 | DOMINO TILE VERTICAL-04-05 | So (Other Symbol) |
+| 86 | `🂅` | 1F085 | DOMINO TILE VERTICAL-04-06 | So (Other Symbol) |
+| 87 | `🂆` | 1F086 | DOMINO TILE VERTICAL-05-00 | So (Other Symbol) |
+| 88 | `🂇` | 1F087 | DOMINO TILE VERTICAL-05-01 | So (Other Symbol) |
+| 89 | `🂈` | 1F088 | DOMINO TILE VERTICAL-05-02 | So (Other Symbol) |
+| 90 | `🂉` | 1F089 | DOMINO TILE VERTICAL-05-03 | So (Other Symbol) |
+| 91 | `🂊` | 1F08A | DOMINO TILE VERTICAL-05-04 | So (Other Symbol) |
+| 92 | `🂋` | 1F08B | DOMINO TILE VERTICAL-05-05 | So (Other Symbol) |
+| 93 | `🂌` | 1F08C | DOMINO TILE VERTICAL-05-06 | So (Other Symbol) |
+| 94 | `🂍` | 1F08D | DOMINO TILE VERTICAL-06-00 | So (Other Symbol) |
+| 95 | `🂎` | 1F08E | DOMINO TILE VERTICAL-06-01 | So (Other Symbol) |
+| 96 | `🂏` | 1F08F | DOMINO TILE VERTICAL-06-02 | So (Other Symbol) |
+| 97 | `🂐` | 1F090 | DOMINO TILE VERTICAL-06-03 | So (Other Symbol) |
+| 98 | `🂑` | 1F091 | DOMINO TILE VERTICAL-06-04 | So (Other Symbol) |
+| 99 | `🂒` | 1F092 | DOMINO TILE VERTICAL-06-05 | So (Other Symbol) |
+| 100 | `🂓` | 1F093 | DOMINO TILE VERTICAL-06-06 | So (Other Symbol) |

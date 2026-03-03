@@ -1,0 +1,22 @@
+# 𘩝 — TANGUT COMPONENT-606
+
+codepoint: U+18A5D
+decimal:   100957
+utf-8:     f0 98 a9 9d
+utf-32:    00018A5D
+
+category:  Lo (Other Letter)
+block:     Tangut Components  (U+18800–U+18AFF)
+bidi:      L
+
+## Character
+
+𘩝
+
+## Unicode name
+
+TANGUT COMPONENT-606
+
+## Block
+
+Tangut Components

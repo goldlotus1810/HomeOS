@@ -1,0 +1,22 @@
+# 䴄 — CJK UNIFIED IDEOGRAPH-4D04
+
+codepoint: U+4D04
+decimal:   19716
+utf-8:     e4 b4 84
+utf-32:    00004D04
+
+category:  Lo (Other Letter)
+block:     CJK Extension A  (U+3400–U+4DBF)
+bidi:      L
+
+## Character
+
+䴄
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-4D04
+
+## Block
+
+CJK Extension A

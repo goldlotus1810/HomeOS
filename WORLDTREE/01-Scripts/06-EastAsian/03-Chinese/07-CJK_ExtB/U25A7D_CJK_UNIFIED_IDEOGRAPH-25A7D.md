@@ -1,0 +1,22 @@
+# 𥩽 — CJK UNIFIED IDEOGRAPH-25A7D
+
+codepoint: U+25A7D
+decimal:   154237
+utf-8:     f0 a5 a9 bd
+utf-32:    00025A7D
+
+category:  Lo (Other Letter)
+block:     CJK Extension B  (U+20000–U+2A6DF)
+bidi:      L
+
+## Character
+
+𥩽
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-25A7D
+
+## Block
+
+CJK Extension B

@@ -1,0 +1,22 @@
+# 🔗 — LINK SYMBOL
+
+codepoint: U+1F517
+decimal:   128279
+utf-8:     f0 9f 94 97
+utf-32:    0001F517
+
+category:  So (Other Symbol)
+block:     Miscellaneous Symbols and Pictographs  (U+1F300–U+1F5FF)
+bidi:      ON
+
+## Character
+
+🔗
+
+## Unicode name
+
+LINK SYMBOL
+
+## Block
+
+Miscellaneous Symbols and Pictographs

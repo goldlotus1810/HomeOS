@@ -1,0 +1,22 @@
+# 𱡝 — CJK UNIFIED IDEOGRAPH-3185D
+
+codepoint: U+3185D
+decimal:   202845
+utf-8:     f0 b1 a1 9d
+utf-32:    0003185D
+
+category:  Lo (Other Letter)
+block:     CJK Extension H  (U+31350–U+323AF)
+bidi:      L
+
+## Character
+
+𱡝
+
+## Unicode name
+
+CJK UNIFIED IDEOGRAPH-3185D
+
+## Block
+
+CJK Extension H

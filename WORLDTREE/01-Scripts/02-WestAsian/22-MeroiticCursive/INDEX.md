@@ -1,0 +1,97 @@
+# Meroitic Cursive
+
+Unicode block: U+109A0–U+109FF  |  range size: 96
+Assigned characters: 90  |  Unassigned slots: 6
+
+| # | Char | U+ | Name | Cat |
+|---|------|----|------|-----|
+| 1 | `𐦠` | 109A0 | MEROITIC CURSIVE LETTER A | Lo (Other Letter) |
+| 2 | `𐦡` | 109A1 | MEROITIC CURSIVE LETTER E | Lo (Other Letter) |
+| 3 | `𐦢` | 109A2 | MEROITIC CURSIVE LETTER I | Lo (Other Letter) |
+| 4 | `𐦣` | 109A3 | MEROITIC CURSIVE LETTER O | Lo (Other Letter) |
+| 5 | `𐦤` | 109A4 | MEROITIC CURSIVE LETTER YA | Lo (Other Letter) |
+| 6 | `𐦥` | 109A5 | MEROITIC CURSIVE LETTER WA | Lo (Other Letter) |
+| 7 | `𐦦` | 109A6 | MEROITIC CURSIVE LETTER BA | Lo (Other Letter) |
+| 8 | `𐦧` | 109A7 | MEROITIC CURSIVE LETTER PA | Lo (Other Letter) |
+| 9 | `𐦨` | 109A8 | MEROITIC CURSIVE LETTER MA | Lo (Other Letter) |
+| 10 | `𐦩` | 109A9 | MEROITIC CURSIVE LETTER NA | Lo (Other Letter) |
+| 11 | `𐦪` | 109AA | MEROITIC CURSIVE LETTER NE | Lo (Other Letter) |
+| 12 | `𐦫` | 109AB | MEROITIC CURSIVE LETTER RA | Lo (Other Letter) |
+| 13 | `𐦬` | 109AC | MEROITIC CURSIVE LETTER LA | Lo (Other Letter) |
+| 14 | `𐦭` | 109AD | MEROITIC CURSIVE LETTER KHA | Lo (Other Letter) |
+| 15 | `𐦮` | 109AE | MEROITIC CURSIVE LETTER HHA | Lo (Other Letter) |
+| 16 | `𐦯` | 109AF | MEROITIC CURSIVE LETTER SA | Lo (Other Letter) |
+| 17 | `𐦰` | 109B0 | MEROITIC CURSIVE LETTER ARCHAIC SA | Lo (Other Letter) |
+| 18 | `𐦱` | 109B1 | MEROITIC CURSIVE LETTER SE | Lo (Other Letter) |
+| 19 | `𐦲` | 109B2 | MEROITIC CURSIVE LETTER KA | Lo (Other Letter) |
+| 20 | `𐦳` | 109B3 | MEROITIC CURSIVE LETTER QA | Lo (Other Letter) |
+| 21 | `𐦴` | 109B4 | MEROITIC CURSIVE LETTER TA | Lo (Other Letter) |
+| 22 | `𐦵` | 109B5 | MEROITIC CURSIVE LETTER TE | Lo (Other Letter) |
+| 23 | `𐦶` | 109B6 | MEROITIC CURSIVE LETTER TO | Lo (Other Letter) |
+| 24 | `𐦷` | 109B7 | MEROITIC CURSIVE LETTER DA | Lo (Other Letter) |
+| 25 | `𐦼` | 109BC | MEROITIC CURSIVE FRACTION ELEVEN TWELFTHS | No (Other Number) |
+| 26 | `𐦽` | 109BD | MEROITIC CURSIVE FRACTION ONE HALF | No (Other Number) |
+| 27 | `𐦾` | 109BE | MEROITIC CURSIVE LOGOGRAM RMT | Lo (Other Letter) |
+| 28 | `𐦿` | 109BF | MEROITIC CURSIVE LOGOGRAM IMN | Lo (Other Letter) |
+| 29 | `𐧀` | 109C0 | MEROITIC CURSIVE NUMBER ONE | No (Other Number) |
+| 30 | `𐧁` | 109C1 | MEROITIC CURSIVE NUMBER TWO | No (Other Number) |
+| 31 | `𐧂` | 109C2 | MEROITIC CURSIVE NUMBER THREE | No (Other Number) |
+| 32 | `𐧃` | 109C3 | MEROITIC CURSIVE NUMBER FOUR | No (Other Number) |
+| 33 | `𐧄` | 109C4 | MEROITIC CURSIVE NUMBER FIVE | No (Other Number) |
+| 34 | `𐧅` | 109C5 | MEROITIC CURSIVE NUMBER SIX | No (Other Number) |
+| 35 | `𐧆` | 109C6 | MEROITIC CURSIVE NUMBER SEVEN | No (Other Number) |
+| 36 | `𐧇` | 109C7 | MEROITIC CURSIVE NUMBER EIGHT | No (Other Number) |
+| 37 | `𐧈` | 109C8 | MEROITIC CURSIVE NUMBER NINE | No (Other Number) |
+| 38 | `𐧉` | 109C9 | MEROITIC CURSIVE NUMBER TEN | No (Other Number) |
+| 39 | `𐧊` | 109CA | MEROITIC CURSIVE NUMBER TWENTY | No (Other Number) |
+| 40 | `𐧋` | 109CB | MEROITIC CURSIVE NUMBER THIRTY | No (Other Number) |
+| 41 | `𐧌` | 109CC | MEROITIC CURSIVE NUMBER FORTY | No (Other Number) |
+| 42 | `𐧍` | 109CD | MEROITIC CURSIVE NUMBER FIFTY | No (Other Number) |
+| 43 | `𐧎` | 109CE | MEROITIC CURSIVE NUMBER SIXTY | No (Other Number) |
+| 44 | `𐧏` | 109CF | MEROITIC CURSIVE NUMBER SEVENTY | No (Other Number) |
+| 45 | `𐧒` | 109D2 | MEROITIC CURSIVE NUMBER ONE HUNDRED | No (Other Number) |
+| 46 | `𐧓` | 109D3 | MEROITIC CURSIVE NUMBER TWO HUNDRED | No (Other Number) |
+| 47 | `𐧔` | 109D4 | MEROITIC CURSIVE NUMBER THREE HUNDRED | No (Other Number) |
+| 48 | `𐧕` | 109D5 | MEROITIC CURSIVE NUMBER FOUR HUNDRED | No (Other Number) |
+| 49 | `𐧖` | 109D6 | MEROITIC CURSIVE NUMBER FIVE HUNDRED | No (Other Number) |
+| 50 | `𐧗` | 109D7 | MEROITIC CURSIVE NUMBER SIX HUNDRED | No (Other Number) |
+| 51 | `𐧘` | 109D8 | MEROITIC CURSIVE NUMBER SEVEN HUNDRED | No (Other Number) |
+| 52 | `𐧙` | 109D9 | MEROITIC CURSIVE NUMBER EIGHT HUNDRED | No (Other Number) |
+| 53 | `𐧚` | 109DA | MEROITIC CURSIVE NUMBER NINE HUNDRED | No (Other Number) |
+| 54 | `𐧛` | 109DB | MEROITIC CURSIVE NUMBER ONE THOUSAND | No (Other Number) |
+| 55 | `𐧜` | 109DC | MEROITIC CURSIVE NUMBER TWO THOUSAND | No (Other Number) |
+| 56 | `𐧝` | 109DD | MEROITIC CURSIVE NUMBER THREE THOUSAND | No (Other Number) |
+| 57 | `𐧞` | 109DE | MEROITIC CURSIVE NUMBER FOUR THOUSAND | No (Other Number) |
+| 58 | `𐧟` | 109DF | MEROITIC CURSIVE NUMBER FIVE THOUSAND | No (Other Number) |
+| 59 | `𐧠` | 109E0 | MEROITIC CURSIVE NUMBER SIX THOUSAND | No (Other Number) |
+| 60 | `𐧡` | 109E1 | MEROITIC CURSIVE NUMBER SEVEN THOUSAND | No (Other Number) |
+| 61 | `𐧢` | 109E2 | MEROITIC CURSIVE NUMBER EIGHT THOUSAND | No (Other Number) |
+| 62 | `𐧣` | 109E3 | MEROITIC CURSIVE NUMBER NINE THOUSAND | No (Other Number) |
+| 63 | `𐧤` | 109E4 | MEROITIC CURSIVE NUMBER TEN THOUSAND | No (Other Number) |
+| 64 | `𐧥` | 109E5 | MEROITIC CURSIVE NUMBER TWENTY THOUSAND | No (Other Number) |
+| 65 | `𐧦` | 109E6 | MEROITIC CURSIVE NUMBER THIRTY THOUSAND | No (Other Number) |
+| 66 | `𐧧` | 109E7 | MEROITIC CURSIVE NUMBER FORTY THOUSAND | No (Other Number) |
+| 67 | `𐧨` | 109E8 | MEROITIC CURSIVE NUMBER FIFTY THOUSAND | No (Other Number) |
+| 68 | `𐧩` | 109E9 | MEROITIC CURSIVE NUMBER SIXTY THOUSAND | No (Other Number) |
+| 69 | `𐧪` | 109EA | MEROITIC CURSIVE NUMBER SEVENTY THOUSAND | No (Other Number) |
+| 70 | `𐧫` | 109EB | MEROITIC CURSIVE NUMBER EIGHTY THOUSAND | No (Other Number) |
+| 71 | `𐧬` | 109EC | MEROITIC CURSIVE NUMBER NINETY THOUSAND | No (Other Number) |
+| 72 | `𐧭` | 109ED | MEROITIC CURSIVE NUMBER ONE HUNDRED THOUSAND | No (Other Number) |
+| 73 | `𐧮` | 109EE | MEROITIC CURSIVE NUMBER TWO HUNDRED THOUSAND | No (Other Number) |
+| 74 | `𐧯` | 109EF | MEROITIC CURSIVE NUMBER THREE HUNDRED THOUSAND | No (Other Number) |
+| 75 | `𐧰` | 109F0 | MEROITIC CURSIVE NUMBER FOUR HUNDRED THOUSAND | No (Other Number) |
+| 76 | `𐧱` | 109F1 | MEROITIC CURSIVE NUMBER FIVE HUNDRED THOUSAND | No (Other Number) |
+| 77 | `𐧲` | 109F2 | MEROITIC CURSIVE NUMBER SIX HUNDRED THOUSAND | No (Other Number) |
+| 78 | `𐧳` | 109F3 | MEROITIC CURSIVE NUMBER SEVEN HUNDRED THOUSAND | No (Other Number) |
+| 79 | `𐧴` | 109F4 | MEROITIC CURSIVE NUMBER EIGHT HUNDRED THOUSAND | No (Other Number) |
+| 80 | `𐧵` | 109F5 | MEROITIC CURSIVE NUMBER NINE HUNDRED THOUSAND | No (Other Number) |
+| 81 | `𐧶` | 109F6 | MEROITIC CURSIVE FRACTION ONE TWELFTH | No (Other Number) |
+| 82 | `𐧷` | 109F7 | MEROITIC CURSIVE FRACTION TWO TWELFTHS | No (Other Number) |
+| 83 | `𐧸` | 109F8 | MEROITIC CURSIVE FRACTION THREE TWELFTHS | No (Other Number) |
+| 84 | `𐧹` | 109F9 | MEROITIC CURSIVE FRACTION FOUR TWELFTHS | No (Other Number) |
+| 85 | `𐧺` | 109FA | MEROITIC CURSIVE FRACTION FIVE TWELFTHS | No (Other Number) |
+| 86 | `𐧻` | 109FB | MEROITIC CURSIVE FRACTION SIX TWELFTHS | No (Other Number) |
+| 87 | `𐧼` | 109FC | MEROITIC CURSIVE FRACTION SEVEN TWELFTHS | No (Other Number) |
+| 88 | `𐧽` | 109FD | MEROITIC CURSIVE FRACTION EIGHT TWELFTHS | No (Other Number) |
+| 89 | `𐧾` | 109FE | MEROITIC CURSIVE FRACTION NINE TWELFTHS | No (Other Number) |
+| 90 | `𐧿` | 109FF | MEROITIC CURSIVE FRACTION TEN TWELFTHS | No (Other Number) |
