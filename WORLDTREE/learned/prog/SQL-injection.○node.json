@@ -1,0 +1,56 @@
+{
+  "name": "SQL-injection",
+  "sym": "⊗SQL",
+  "symbol": "⊗SQL",
+  "layer": 5,
+  "category": "vulnerability",
+  "sdf": [
+    -0.6,
+    -0.8,
+    -0.5
+  ],
+  "isl": [
+    5,
+    2,
+    1,
+    0
+  ],
+  "summary": "User input trong SQL query không được sanitize → attacker thực thi SQL tùy ý. OWASP #1.",
+  "facts": [
+    {
+      "sym": "example",
+      "text": "' OR 1=1 -- trong input → leak toàn bộ table"
+    },
+    {
+      "sym": "prevention",
+      "text": "parameterized queries / prepared statements — không interpolate"
+    },
+    {
+      "sym": "ORM",
+      "text": "ORM không tự động safe nếu dùng raw query"
+    }
+  ],
+  "tags": [
+    "sql-injection",
+    "security",
+    "owasp",
+    "database"
+  ],
+  "related": [
+    "SQL",
+    "database",
+    "XSS",
+    "input-validation",
+    "parameterized-query"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "data breach toàn bộ database",
+    "authentication bypass",
+    "OS command execution qua xp_cmdshell"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "recursion",
+  "sym": "↺𝑓",
+  "symbol": "↺𝑓",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.5,
+    -0.2,
+    -0.3
+  ],
+  "isl": [
+    3,
+    0,
+    5,
+    0
+  ],
+  "summary": "Function tự gọi mình. Base case để dừng. Có thể thay bằng loop (tail recursion).",
+  "facts": [
+    {
+      "sym": "base case",
+      "text": "luôn cần base case để tránh infinite recursion"
+    },
+    {
+      "sym": "stack",
+      "text": "mỗi call = 1 stack frame → stack overflow nếu quá sâu"
+    },
+    {
+      "sym": "tail",
+      "text": "tail recursion: compiler optimize thành loop (Haskell, Rust TCO không guarantee)"
+    }
+  ],
+  "tags": [
+    "recursion",
+    "recursive",
+    "stack",
+    "divide-conquer"
+  ],
+  "related": [
+    "call",
+    "stack",
+    "tail-call",
+    "dynamic-programming",
+    "tree-traversal"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python",
+    "Haskell"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "stack overflow: quá sâu",
+    "Go/Python: không có TCO"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

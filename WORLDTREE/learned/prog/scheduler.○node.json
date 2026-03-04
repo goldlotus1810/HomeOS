@@ -1,0 +1,53 @@
+{
+  "name": "scheduler",
+  "sym": "⏱sched",
+  "symbol": "⏱sched",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    -0.6,
+    -0.5,
+    -0.62
+  ],
+  "isl": [
+    5,
+    3,
+    5,
+    0
+  ],
+  "summary": "OS scheduler: quyết định process/thread nào chạy. CFS (Linux), preemptive, priority-based.",
+  "facts": [
+    {
+      "sym": "CFS",
+      "text": "Linux CFS: Completely Fair Scheduler, vruntime"
+    },
+    {
+      "sym": "preemptive",
+      "text": "preemptive: kernel có thể preempt tại any time"
+    },
+    {
+      "sym": "Go scheduler",
+      "text": "Go: M:N scheduler — M goroutines trên N OS threads"
+    }
+  ],
+  "tags": [
+    "scheduler",
+    "os",
+    "goroutine",
+    "thread",
+    "preemptive"
+  ],
+  "related": [
+    "goroutine",
+    "thread",
+    "process",
+    "Go",
+    "BEAM"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

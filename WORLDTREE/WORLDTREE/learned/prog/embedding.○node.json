@@ -1,0 +1,53 @@
+{
+  "name": "embedding",
+  "sym": "→ℝⁿ",
+  "symbol": "→ℝⁿ",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.82,
+    0.78,
+    0.72
+  ],
+  "isl": [
+    5,
+    4,
+    4,
+    0
+  ],
+  "summary": "Map discrete objects (words, nodes) sang continuous vector space. Similar objects → similar vectors.",
+  "facts": [
+    {
+      "sym": "Word2Vec",
+      "text": "Word2Vec: king - man + woman ≈ queen"
+    },
+    {
+      "sym": "cosine similarity",
+      "text": "cosine similarity: góc giữa vectors = semantic distance"
+    },
+    {
+      "sym": "dimension",
+      "text": "dimension: 128-4096. Tradeoff giữa expressiveness và cost"
+    }
+  ],
+  "tags": [
+    "embedding",
+    "vector",
+    "nlp",
+    "ml",
+    "similarity"
+  ],
+  "related": [
+    "neural-network",
+    "transformer",
+    "linear-algebra",
+    "hashmap",
+    "cosine-similarity"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

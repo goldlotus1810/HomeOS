@@ -1,0 +1,58 @@
+{
+  "name": "priority-queue",
+  "sym": "⬆Q",
+  "symbol": "⬆Q",
+  "layer": 6,
+  "category": "concept",
+  "sdf": [
+    0.0,
+    0.1,
+    -0.15
+  ],
+  "isl": [
+    6,
+    1,
+    4,
+    0
+  ],
+  "summary": "Queue với priority. Luôn dequeue phần tử priority cao nhất. Implement bằng heap. O(log n) enqueue/dequeue.",
+  "facts": [
+    {
+      "sym": "min-heap",
+      "text": "min priority queue: dequeue minimum"
+    },
+    {
+      "sym": "max-heap",
+      "text": "max priority queue: dequeue maximum"
+    },
+    {
+      "sym": "O(log n)",
+      "text": "enqueue/dequeue: O(log n). peek: O(1)"
+    }
+  ],
+  "tags": [
+    "priority-queue",
+    "heap",
+    "min-heap",
+    "scheduling"
+  ],
+  "related": [
+    "heapsort",
+    "Dijkstra",
+    "BFS",
+    "sort",
+    "array"
+  ],
+  "exists_in": [
+    "C++",
+    "Java",
+    "Python",
+    "Rust",
+    "Go"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

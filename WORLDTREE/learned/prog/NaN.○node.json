@@ -1,0 +1,60 @@
+{
+  "name": "NaN",
+  "sym": "NaN",
+  "symbol": "NaN",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.8,
+    -0.7,
+    -0.785
+  ],
+  "isl": [
+    1,
+    0,
+    20,
+    0
+  ],
+  "summary": "Not a Number. Kết quả của 0/0, sqrt(-1), Inf-Inf. NaN != NaN là true.",
+  "facts": [
+    {
+      "sym": "NaN!=NaN",
+      "text": "NaN là giá trị duy nhất không bằng chính nó"
+    },
+    {
+      "sym": "propagate",
+      "text": "mọi phép toán với NaN → NaN"
+    },
+    {
+      "sym": "check",
+      "text": "dùng math.IsNaN() để check, không dùng x == NaN"
+    }
+  ],
+  "tags": [
+    "nan",
+    "floating-point",
+    "error"
+  ],
+  "related": [
+    "float32",
+    "float64",
+    "divide",
+    "infinity"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python",
+    "JavaScript"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "silent: NaN lan truyền mà không báo lỗi",
+    "comparison: x == NaN luôn false"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

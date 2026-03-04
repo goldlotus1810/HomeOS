@@ -1,0 +1,68 @@
+{
+  "name": "SIMD",
+  "sym": "vec→∥",
+  "symbol": "vec→∥",
+  "layer": 2,
+  "category": "hardware",
+  "sdf": [
+    -0.95,
+    -0.95,
+    -0.95
+  ],
+  "isl": [
+    2,
+    3,
+    2,
+    0
+  ],
+  "summary": "Single Instruction Multiple Data. x86: SSE/AVX/AVX-512. Process 4/8/16 floats in 1 instruction.",
+  "facts": [
+    {
+      "sym": "AVX-256",
+      "text": "AVX-256: 8 float32 hoặc 4 float64 per instruction"
+    },
+    {
+      "sym": "autovectorize",
+      "text": "compiler auto-vectorize loop thường xuyên — đừng ngăn cản"
+    },
+    {
+      "sym": "intrinsics",
+      "text": "_mm256_add_ps(): explicit SIMD với intrinsics"
+    }
+  ],
+  "tags": [
+    "simd",
+    "avx",
+    "sse",
+    "hardware",
+    "parallel",
+    "vectorize"
+  ],
+  "related": [
+    "CPU-cache",
+    "matrix",
+    "float32",
+    "array",
+    "LLVM",
+    "bit-manipulation"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "C++"
+  ],
+  "not_in": [
+    "Python",
+    "Go(no manual)"
+  ],
+  "NOT_in": [
+    "Python",
+    "Go"
+  ],
+  "danger": [
+    "alignment: unaligned load có thể penalty hoặc fault",
+    "portability: AVX không có trên tất cả CPU"
+  ],
+  "confidence": 0.97,
+  "source": "builtin"
+}

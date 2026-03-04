@@ -1,0 +1,53 @@
+{
+  "name": "bloom-filter",
+  "sym": "∈?",
+  "symbol": "∈?",
+  "layer": 6,
+  "category": "concept",
+  "sdf": [
+    0.0,
+    0.2,
+    -0.05
+  ],
+  "isl": [
+    6,
+    1,
+    7,
+    0
+  ],
+  "summary": "Probabilistic set membership. False positives possible, không false negatives. O(1) space-efficient.",
+  "facts": [
+    {
+      "sym": "false positive",
+      "text": "may return true cho element không có mặt"
+    },
+    {
+      "sym": "no false negative",
+      "text": "nếu return false → element chắc chắn không có"
+    },
+    {
+      "sym": "use case",
+      "text": "spell checker, CDN cache, database (check before disk hit)"
+    }
+  ],
+  "tags": [
+    "bloom-filter",
+    "probabilistic",
+    "set",
+    "membership"
+  ],
+  "related": [
+    "hashmap",
+    "cache",
+    "database",
+    "B-tree"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "false positive rate tăng khi fill factor cao"
+  ],
+  "confidence": 0.97,
+  "source": "builtin"
+}

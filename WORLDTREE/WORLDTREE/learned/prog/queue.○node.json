@@ -1,0 +1,59 @@
+{
+  "name": "queue",
+  "sym": "→Q←",
+  "symbol": "→Q←",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    -0.38,
+    -0.28,
+    -0.4
+  ],
+  "isl": [
+    3,
+    2,
+    26,
+    0
+  ],
+  "summary": "FIFO data structure. Enqueue tại tail, dequeue tại head. BFS dùng queue. Ring buffer implement.",
+  "facts": [
+    {
+      "sym": "FIFO",
+      "text": "First In First Out"
+    },
+    {
+      "sym": "ring buffer",
+      "text": "circular buffer: O(1) enqueue/dequeue với fixed size"
+    },
+    {
+      "sym": "BFS",
+      "text": "BFS algorithm dùng queue để traverse level-by-level"
+    }
+  ],
+  "tags": [
+    "queue",
+    "fifo",
+    "data-structure",
+    "bfs"
+  ],
+  "related": [
+    "BFS",
+    "priority-queue",
+    "stack",
+    "linked-list",
+    "channel",
+    "ring-buffer"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

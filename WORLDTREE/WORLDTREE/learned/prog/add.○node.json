@@ -1,0 +1,55 @@
+{
+  "name": "add",
+  "sym": "⊕",
+  "symbol": "⊕",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.8,
+    -0.7,
+    -0.8
+  ],
+  "isl": [
+    2,
+    0,
+    1,
+    0
+  ],
+  "summary": "Phép cộng. Overflow khi vượt quá range. checked_add() trong Rust để xử lý an toàn.",
+  "facts": [
+    {
+      "sym": "overflow",
+      "text": "signed overflow → UB trong C, wrap trong Rust i32"
+    },
+    {
+      "sym": "float",
+      "text": "float: không phải giao hoán hoàn toàn (a+b+c có thể != b+a+c)"
+    }
+  ],
+  "tags": [
+    "add",
+    "arithmetic",
+    "overflow"
+  ],
+  "related": [
+    "subtract",
+    "multiply",
+    "overflow",
+    "int32",
+    "float64"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "assembly"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "overflow UB trong C signed integers"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

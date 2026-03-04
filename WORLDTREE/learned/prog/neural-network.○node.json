@@ -1,0 +1,57 @@
+{
+  "name": "neural-network",
+  "sym": "🧠NN",
+  "symbol": "🧠NN",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.8,
+    0.75,
+    0.7
+  ],
+  "isl": [
+    5,
+    4,
+    1,
+    0
+  ],
+  "summary": "Layers của neurons với weights. Forward pass + backprop. Universal function approximator.",
+  "facts": [
+    {
+      "sym": "perceptron",
+      "text": "y = activation(W·x + b)"
+    },
+    {
+      "sym": "backprop",
+      "text": "backpropagation: chain rule của gradient"
+    },
+    {
+      "sym": "universal",
+      "text": "Universal approximation theorem: 1 hidden layer đủ để approximate bất kỳ function"
+    }
+  ],
+  "tags": [
+    "neural-network",
+    "ml",
+    "ai",
+    "deep-learning",
+    "weights"
+  ],
+  "related": [
+    "gradient-descent",
+    "backpropagation",
+    "GPU",
+    "linear-algebra",
+    "tensor"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "overfitting",
+    "hallucination",
+    "adversarial examples"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

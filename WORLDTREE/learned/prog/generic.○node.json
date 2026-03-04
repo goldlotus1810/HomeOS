@@ -1,0 +1,62 @@
+{
+  "name": "generic",
+  "sym": "<T>",
+  "symbol": "<T>",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.25,
+    -0.15,
+    -0.2
+  ],
+  "isl": [
+    1,
+    0,
+    29,
+    0
+  ],
+  "summary": "Code tham số hóa theo kiểu. Tái sử dụng logic cho nhiều kiểu khác nhau.",
+  "facts": [
+    {
+      "sym": "monomorphize",
+      "text": "Rust/C++: monomorphization — tạo code riêng cho mỗi type"
+    },
+    {
+      "sym": "type erasure",
+      "text": "Java: type erasure — mất type info tại runtime"
+    },
+    {
+      "sym": "zero cost",
+      "text": "Rust generics: zero cost abstraction (no runtime overhead)"
+    }
+  ],
+  "tags": [
+    "generic",
+    "template",
+    "parametric"
+  ],
+  "related": [
+    "trait",
+    "interface",
+    "type-erasure",
+    "monomorphization",
+    "OOP"
+  ],
+  "exists_in": [
+    "Rust",
+    "Go",
+    "Java",
+    "C++",
+    "Haskell",
+    "TypeScript"
+  ],
+  "not_in": [
+    "C"
+  ],
+  "NOT_in": [
+    "C"
+  ],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

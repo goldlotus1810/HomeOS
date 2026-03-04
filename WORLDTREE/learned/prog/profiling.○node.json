@@ -1,0 +1,53 @@
+{
+  "name": "profiling",
+  "sym": "⏱→",
+  "symbol": "⏱→",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.1,
+    0.4,
+    0.0
+  ],
+  "isl": [
+    7,
+    0,
+    8,
+    0
+  ],
+  "summary": "Đo performance thực tế. Đừng guess, đo trước khi optimize. Amdahl's law.",
+  "facts": [
+    {
+      "sym": "measure first",
+      "text": "premature optimization is the root of all evil — Knuth"
+    },
+    {
+      "sym": "hotspot",
+      "text": "80/20: thường 20% code chiếm 80% time → tìm hotspot"
+    },
+    {
+      "sym": "tools",
+      "text": "Go: pprof. Python: cProfile. Rust: flamegraph, perf"
+    }
+  ],
+  "tags": [
+    "profiling",
+    "performance",
+    "optimization",
+    "measurement"
+  ],
+  "related": [
+    "complexity-analysis",
+    "caching",
+    "algorithm",
+    "benchmarking"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "micro-benchmark: đo sai context → misleading"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

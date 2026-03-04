@@ -1,0 +1,53 @@
+{
+  "name": "documentation",
+  "sym": "📝→",
+  "symbol": "📝→",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.45,
+    0.7,
+    0.35
+  ],
+  "isl": [
+    7,
+    0,
+    14,
+    0
+  ],
+  "summary": "Code comments, README, API docs, architecture docs. Cho người sau (kể cả future you).",
+  "facts": [
+    {
+      "sym": "why not what",
+      "text": "comment WHY, không what — code đã nói what"
+    },
+    {
+      "sym": "README",
+      "text": "README: setup, usage, architecture, contributing"
+    },
+    {
+      "sym": "outdated",
+      "text": "outdated docs tệ hơn không có — maintain cùng code"
+    }
+  ],
+  "tags": [
+    "documentation",
+    "comments",
+    "readme",
+    "knowledge"
+  ],
+  "related": [
+    "code-review",
+    "API-design",
+    "technical-debt",
+    "git"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "lying docs: code thay đổi, docs không cập nhật → mislead"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

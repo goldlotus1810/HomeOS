@@ -1,0 +1,61 @@
+{
+  "name": "JSON",
+  "sym": "{}JSON",
+  "symbol": "{}JSON",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.6,
+    0.7,
+    0.4
+  ],
+  "isl": [
+    5,
+    1,
+    11,
+    0
+  ],
+  "summary": "JavaScript Object Notation. Human-readable data format. Key-value, arrays, nested. 94% của web APIs.",
+  "facts": [
+    {
+      "sym": "types",
+      "text": "string, number, boolean, null, array, object"
+    },
+    {
+      "sym": "vs XML",
+      "text": "JSON nhẹ hơn XML, dễ đọc hơn"
+    },
+    {
+      "sym": "Schema",
+      "text": "JSON Schema: validate structure của JSON"
+    },
+    {
+      "sym": "streaming",
+      "text": "large JSON: streaming parse thay vì load hết vào RAM"
+    }
+  ],
+  "tags": [
+    "json",
+    "data",
+    "format",
+    "serialization",
+    "web"
+  ],
+  "related": [
+    "API",
+    "HTTP",
+    "REST",
+    "YAML",
+    "protobuf",
+    "serialization"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "injection: không bao giờ eval() JSON user input",
+    "large payload: OOM nếu không stream parse"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

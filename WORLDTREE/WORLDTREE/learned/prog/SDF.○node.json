@@ -1,0 +1,63 @@
+{
+  "name": "SDF",
+  "sym": "d(p)",
+  "symbol": "d(p)",
+  "layer": 4,
+  "category": "math",
+  "sdf": [
+    -0.3,
+    0.1,
+    -0.6
+  ],
+  "isl": [
+    4,
+    2,
+    4,
+    0
+  ],
+  "summary": "Signed Distance Function. f(p) = khoảng cách từ point p đến surface (âm=trong, dương=ngoài). Raymarching, CSG.",
+  "facts": [
+    {
+      "sym": "sphere",
+      "text": "sdSphere(p, r) = |p| - r"
+    },
+    {
+      "sym": "smooth union",
+      "text": "opSmoothUnion(a,b,k): blend hai SDF mượt mà"
+    },
+    {
+      "sym": "raymarching",
+      "text": "raymarching: advance ray theo SDF value → hit surface khi d < epsilon"
+    },
+    {
+      "sym": "CSG",
+      "text": "CSG: union=min, intersection=max, subtraction=max(a,-b)"
+    }
+  ],
+  "tags": [
+    "sdf",
+    "signed-distance",
+    "graphics",
+    "math",
+    "geometry"
+  ],
+  "related": [
+    "opSmoothUnion",
+    "raymarching",
+    "CSG",
+    "float64",
+    "vector",
+    "WORLDTREE"
+  ],
+  "exists_in": [
+    "GLSL",
+    "Rust",
+    "C++",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

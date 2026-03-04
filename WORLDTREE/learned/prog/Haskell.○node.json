@@ -1,0 +1,62 @@
+{
+  "name": "Haskell",
+  "sym": "λH",
+  "symbol": "λH",
+  "layer": 5,
+  "category": "language",
+  "sdf": [
+    0.85,
+    0.6,
+    0.7
+  ],
+  "isl": [
+    5,
+    0,
+    8,
+    0
+  ],
+  "summary": "Pure functional. Lazy evaluation, strong static typing, Monad, type classes. Học để hiểu FP.",
+  "facts": [
+    {
+      "sym": "pure",
+      "text": "pure functions mặc định: side effects phải explicit trong Monad"
+    },
+    {
+      "sym": "lazy",
+      "text": "lazy evaluation: compute khi cần — vô hạn list có thể"
+    },
+    {
+      "sym": "type inference",
+      "text": "Hindley-Milner: type inference mạnh, ít phải annotate"
+    },
+    {
+      "sym": "Monad",
+      "text": "IO Monad: side effects an toàn trong type system"
+    }
+  ],
+  "tags": [
+    "haskell",
+    "functional",
+    "lazy",
+    "monad",
+    "pure"
+  ],
+  "related": [
+    "Monad",
+    "Functor",
+    "lazy-evaluation",
+    "functional",
+    "type-system",
+    "pattern-matching"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "space leak: lazy thunk tích lũy",
+    "hard to reason about performance",
+    "steep learning curve"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

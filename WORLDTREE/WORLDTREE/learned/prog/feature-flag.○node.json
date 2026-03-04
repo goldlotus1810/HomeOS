@@ -1,0 +1,55 @@
+{
+  "name": "feature-flag",
+  "sym": "🚩",
+  "symbol": "🚩",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.48,
+    0.68,
+    0.33
+  ],
+  "isl": [
+    7,
+    2,
+    5,
+    0
+  ],
+  "summary": "Toggle feature tại runtime không deploy lại. A/B testing, canary release, kill switch.",
+  "facts": [
+    {
+      "sym": "decouple",
+      "text": "decouple deploy từ release: deploy code ẩn, enable sau"
+    },
+    {
+      "sym": "percentage",
+      "text": "rollout: enable cho 5% users trước khi 100%"
+    },
+    {
+      "sym": "kill switch",
+      "text": "kill switch: disable ngay nếu có issue"
+    }
+  ],
+  "tags": [
+    "feature-flag",
+    "toggle",
+    "a-b-test",
+    "canary",
+    "devops"
+  ],
+  "related": [
+    "CI-CD",
+    "A-B-testing",
+    "canary-deployment",
+    "monitoring"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "technical debt: unused flags",
+    "complexity: conditional code everywhere"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

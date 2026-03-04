@@ -1,0 +1,75 @@
+{
+  "name": "GC",
+  "sym": "♻",
+  "symbol": "♻",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    -0.1,
+    0.7,
+    -0.1
+  ],
+  "isl": [
+    3,
+    2,
+    22,
+    0
+  ],
+  "summary": "Garbage Collection: tự động reclaim unreachable memory. Tránh memory leak/use-after-free nhưng có overhead.",
+  "facts": [
+    {
+      "sym": "tracing",
+      "text": "tracing GC: mark reachable objects, sweep unreachable"
+    },
+    {
+      "sym": "ref counting",
+      "text": "reference counting: Python, Swift — không handle cycles"
+    },
+    {
+      "sym": "generational",
+      "text": "generational: young gen (short-lived) collected thường xuyên"
+    },
+    {
+      "sym": "Go GC",
+      "text": "Go concurrent GC: pause < 1ms thường. Tunable với GOGC"
+    }
+  ],
+  "tags": [
+    "gc",
+    "garbage-collection",
+    "memory",
+    "runtime"
+  ],
+  "related": [
+    "garbage-collector",
+    "heap",
+    "malloc",
+    "ownership",
+    "RAII",
+    "reference-counting"
+  ],
+  "exists_in": [
+    "Go",
+    "Java",
+    "Python",
+    "JavaScript",
+    "C#"
+  ],
+  "not_in": [
+    "C",
+    "C++",
+    "Rust"
+  ],
+  "NOT_in": [
+    "C",
+    "C++",
+    "Rust"
+  ],
+  "danger": [
+    "latency spike: GC pause",
+    "memory bloat: GC chưa collect",
+    "reference cycles: ref counting không handle"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

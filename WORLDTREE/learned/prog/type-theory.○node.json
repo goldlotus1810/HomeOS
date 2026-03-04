@@ -1,0 +1,53 @@
+{
+  "name": "type-theory",
+  "sym": "τ",
+  "symbol": "τ",
+  "layer": 6,
+  "category": "math",
+  "sdf": [
+    0.2,
+    0.5,
+    -0.2
+  ],
+  "isl": [
+    6,
+    2,
+    12,
+    0
+  ],
+  "summary": "Mathematical framework cho types. Simply typed lambda calculus → Hindley-Milner → Dependent Types.",
+  "facts": [
+    {
+      "sym": "Curry-Howard",
+      "text": "Curry-Howard: types = propositions, programs = proofs"
+    },
+    {
+      "sym": "HM",
+      "text": "Hindley-Milner: type inference cho ML/Haskell"
+    },
+    {
+      "sym": "dependent types",
+      "text": "dependent types: types phụ thuộc values (Coq, Agda, Lean)"
+    }
+  ],
+  "tags": [
+    "types",
+    "theory",
+    "haskell",
+    "dependent-types",
+    "curry-howard"
+  ],
+  "related": [
+    "type-system",
+    "Haskell",
+    "lambda-calculus",
+    "generic",
+    "trait"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

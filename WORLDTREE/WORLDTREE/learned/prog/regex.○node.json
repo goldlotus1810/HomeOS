@@ -1,0 +1,67 @@
+{
+  "name": "regex",
+  "sym": ".*",
+  "symbol": ".*",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    -0.1,
+    0.7,
+    0.1
+  ],
+  "isl": [
+    5,
+    1,
+    10,
+    0
+  ],
+  "summary": "Regular expressions. Pattern matching trong string. NFA/DFA. Catastrophic backtracking nguy hiểm.",
+  "facts": [
+    {
+      "sym": "NFA",
+      "text": "most regex engines: NFA — backtracking"
+    },
+    {
+      "sym": "catastrophic",
+      "text": "(a+)+ với input 'aaaaab' → exponential backtracking"
+    },
+    {
+      "sym": "groups",
+      "text": "capture groups: (match), non-capture: (?:match)"
+    },
+    {
+      "sym": "RE2",
+      "text": "RE2/Go regex: linear time guarantee — no backtracking"
+    }
+  ],
+  "tags": [
+    "regex",
+    "pattern",
+    "string",
+    "text",
+    "matching"
+  ],
+  "related": [
+    "string",
+    "KMP",
+    "Rabin-Karp",
+    "DFA",
+    "NFA"
+  ],
+  "exists_in": [
+    "Python",
+    "JavaScript",
+    "Go",
+    "Java",
+    "Rust",
+    "Perl"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "ReDoS: catastrophic backtracking với user input",
+    "complex regex: unreadable, hard to maintain"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "API",
+  "sym": "⊃→⊃",
+  "symbol": "⊃→⊃",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.5,
+    0.6,
+    0.35
+  ],
+  "isl": [
+    5,
+    1,
+    3,
+    0
+  ],
+  "summary": "Application Programming Interface. Contract giữa caller và provider. REST, gRPC, GraphQL, SDK.",
+  "facts": [
+    {
+      "sym": "REST",
+      "text": "REST: HTTP verbs (GET/POST/PUT/DELETE), stateless, JSON"
+    },
+    {
+      "sym": "gRPC",
+      "text": "gRPC: Protocol Buffers, binary, bidirectional streaming"
+    },
+    {
+      "sym": "idempotent",
+      "text": "GET/PUT/DELETE: idempotent. POST: không idempotent"
+    },
+    {
+      "sym": "versioning",
+      "text": "versioning: /v1/, Accept: vnd.api+json;version=2"
+    }
+  ],
+  "tags": [
+    "api",
+    "rest",
+    "grpc",
+    "contract",
+    "http"
+  ],
+  "related": [
+    "API-design",
+    "REST",
+    "gRPC",
+    "rate-limiting",
+    "circuit-breaker",
+    "microservice"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "SQL injection qua API",
+    "broken authentication",
+    "mass assignment"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

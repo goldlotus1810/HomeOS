@@ -1,0 +1,55 @@
+{
+  "name": "void",
+  "sym": "()",
+  "symbol": "()",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.7,
+    -0.8,
+    -0.75
+  ],
+  "isl": [
+    1,
+    0,
+    31,
+    0
+  ],
+  "summary": "Kiểu không có giá trị. C: function không trả về. Rust: unit type ().",
+  "facts": [
+    {
+      "sym": "C void",
+      "text": "C: void = không có giá trị trả về"
+    },
+    {
+      "sym": "Rust ()",
+      "text": "Rust: () là unit type — có đúng 1 giá trị"
+    },
+    {
+      "sym": "Go",
+      "text": "Go: không có void — omit return type"
+    }
+  ],
+  "tags": [
+    "void",
+    "unit",
+    "empty"
+  ],
+  "related": [
+    "function",
+    "never",
+    "return"
+  ],
+  "exists_in": [
+    "C",
+    "C++",
+    "Java",
+    "Go",
+    "Rust"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

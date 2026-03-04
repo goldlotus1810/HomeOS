@@ -1,0 +1,58 @@
+{
+  "name": "segment-tree",
+  "sym": "🌲seg",
+  "symbol": "🌲seg",
+  "layer": 6,
+  "category": "concept",
+  "sdf": [
+    -0.1,
+    0.08,
+    -0.2
+  ],
+  "isl": [
+    6,
+    3,
+    2,
+    0
+  ],
+  "summary": "Range query + point update: O(log n). Sum, min, max trên range. Competitive programming staple.",
+  "facts": [
+    {
+      "sym": "range query",
+      "text": "query [l, r]: O(log n)"
+    },
+    {
+      "sym": "update",
+      "text": "point update: O(log n)"
+    },
+    {
+      "sym": "lazy prop",
+      "text": "lazy propagation: range update O(log n)"
+    }
+  ],
+  "tags": [
+    "segment-tree",
+    "range-query",
+    "competitive",
+    "data-structure"
+  ],
+  "related": [
+    "BFS",
+    "DFS",
+    "dynamic-programming",
+    "array",
+    "bit-indexed-tree"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

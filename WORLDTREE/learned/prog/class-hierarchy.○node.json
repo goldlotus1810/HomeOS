@@ -1,0 +1,71 @@
+{
+  "name": "class-hierarchy",
+  "sym": "⊂⊂C",
+  "symbol": "⊂⊂C",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    0.23,
+    0.24,
+    -0.11
+  ],
+  "isl": [
+    3,
+    4,
+    5,
+    0
+  ],
+  "summary": "Cây kế thừa của classes. Depth ảnh hưởng maintenance. Deep hierarchy → fragile base class problem.",
+  "facts": [
+    {
+      "sym": "fragile base",
+      "text": "thay đổi base class ảnh hưởng tất cả subclasses"
+    },
+    {
+      "sym": "favor composition",
+      "text": "GoF: favor composition over inheritance"
+    },
+    {
+      "sym": "depth",
+      "text": "heuristic: hierarchy depth > 3-4 → xem xét lại design"
+    }
+  ],
+  "tags": [
+    "class",
+    "hierarchy",
+    "inheritance",
+    "oop"
+  ],
+  "related": [
+    "class",
+    "inheritance",
+    "OOP",
+    "SOLID",
+    "composition",
+    "interface"
+  ],
+  "exists_in": [
+    "Java",
+    "Python",
+    "C++",
+    "C#",
+    "Kotlin"
+  ],
+  "not_in": [
+    "Rust",
+    "Go",
+    "Haskell"
+  ],
+  "NOT_in": [
+    "Rust",
+    "Go",
+    "Haskell"
+  ],
+  "danger": [
+    "fragile base class",
+    "god class",
+    "tight coupling"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

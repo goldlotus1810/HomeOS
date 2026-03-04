@@ -1,0 +1,58 @@
+{
+  "name": "left-shift",
+  "sym": "<<",
+  "symbol": "<<",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.9,
+    -0.85,
+    -0.89
+  ],
+  "isl": [
+    2,
+    0,
+    10,
+    0
+  ],
+  "summary": "Shift left. x << n = x * 2^n. Nhanh hơn multiply.",
+  "facts": [
+    {
+      "sym": "multiply by 2",
+      "text": "x << 1 = x * 2 (nếu không overflow)"
+    },
+    {
+      "sym": "1 << 31",
+      "text": "1 << 31: cẩn thận sign bit trên i32"
+    },
+    {
+      "sym": "undefined",
+      "text": "C: shift >= width type là UB"
+    }
+  ],
+  "tags": [
+    "shift",
+    "left",
+    "multiply"
+  ],
+  "related": [
+    "right-shift",
+    "bitwise-and",
+    "multiply",
+    "bit"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "assembly"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "C: shift amount >= bit width là UB"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

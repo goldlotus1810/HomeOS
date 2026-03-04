@@ -1,0 +1,60 @@
+{
+  "name": "Go",
+  "sym": "🐹",
+  "symbol": "🐹",
+  "layer": 5,
+  "category": "language",
+  "sdf": [
+    -0.05,
+    0.25,
+    -0.3
+  ],
+  "isl": [
+    5,
+    0,
+    1,
+    0
+  ],
+  "summary": "Google 2009. Compiled, GC, concurrency via goroutine+channel. Simple, fast compile, batteries included.",
+  "facts": [
+    {
+      "sym": "goroutine",
+      "text": "goroutine: 2KB green thread, go func() để launch"
+    },
+    {
+      "sym": "channel",
+      "text": "channel: CSP model, type-safe message passing"
+    },
+    {
+      "sym": "GC",
+      "text": "concurrent GC, pause < 1ms"
+    },
+    {
+      "sym": "no generics<1.18",
+      "text": "generics thêm vào Go 1.18 (2022)"
+    }
+  ],
+  "tags": [
+    "go",
+    "golang",
+    "concurrent",
+    "compiled"
+  ],
+  "related": [
+    "goroutine",
+    "channel",
+    "GC",
+    "CSP",
+    "interface",
+    "garbage-collector"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "nil interface != nil pointer — subtle",
+    "goroutine leak nếu channel không receive"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

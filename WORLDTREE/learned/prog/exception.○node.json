@@ -1,0 +1,74 @@
+{
+  "name": "exception",
+  "sym": "⚡!",
+  "symbol": "⚡!",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    0.1,
+    0.5,
+    0.1
+  ],
+  "isl": [
+    3,
+    2,
+    4,
+    0
+  ],
+  "summary": "Java/Python mechanism: throw exception, unwind stack, catch ở caller. Có thể bỏ qua (unchecked).",
+  "facts": [
+    {
+      "sym": "checked",
+      "text": "Java checked exception: phải handle hoặc khai báo throws"
+    },
+    {
+      "sym": "unchecked",
+      "text": "Java unchecked (RuntimeException): không bắt buộc handle"
+    },
+    {
+      "sym": "try-catch",
+      "text": "try { } catch(E e) { } finally { cleanup }"
+    },
+    {
+      "sym": "cost",
+      "text": "exception creation đắt hơn trả error value"
+    }
+  ],
+  "tags": [
+    "exception",
+    "throw",
+    "catch",
+    "error-handling"
+  ],
+  "related": [
+    "error-handling",
+    "result-type",
+    "stack",
+    "Java",
+    "Python",
+    "try-catch"
+  ],
+  "exists_in": [
+    "Java",
+    "Python",
+    "C++",
+    "JavaScript",
+    "C#"
+  ],
+  "not_in": [
+    "Rust",
+    "Go",
+    "C"
+  ],
+  "NOT_in": [
+    "Rust",
+    "Go",
+    "C"
+  ],
+  "danger": [
+    "swallowed exception: catch(E e) { } — silent failure",
+    "unchecked exceptions không visible trong signature"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

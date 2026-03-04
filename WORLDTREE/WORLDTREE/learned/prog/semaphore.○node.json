@@ -1,0 +1,61 @@
+{
+  "name": "semaphore",
+  "sym": "⟨s⟩",
+  "symbol": "⟨s⟩",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    -0.2,
+    0.1,
+    -0.3
+  ],
+  "isl": [
+    3,
+    5,
+    1,
+    0
+  ],
+  "summary": "Counting semaphore: điều phối số goroutines/threads truy cập resource cùng lúc. sync.WaitGroup tương tự.",
+  "facts": [
+    {
+      "sym": "binary",
+      "text": "binary semaphore = mutex"
+    },
+    {
+      "sym": "counting",
+      "text": "counting: cho phép N concurrent access"
+    },
+    {
+      "sym": "Go",
+      "text": "Go: chan struct{} với buffer N = semaphore pattern"
+    }
+  ],
+  "tags": [
+    "semaphore",
+    "concurrency",
+    "synchronization",
+    "go"
+  ],
+  "related": [
+    "mutex",
+    "goroutine",
+    "thread",
+    "channel",
+    "WaitGroup"
+  ],
+  "exists_in": [
+    "C",
+    "Go",
+    "Java",
+    "Python",
+    "Rust"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "deadlock nếu không release",
+    "priority inversion"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

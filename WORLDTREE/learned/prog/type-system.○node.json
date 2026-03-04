@@ -1,0 +1,52 @@
+{
+  "name": "type-system",
+  "sym": "T:",
+  "symbol": "T:",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.3,
+    -0.05,
+    -0.2
+  ],
+  "isl": [
+    3,
+    0,
+    23,
+    0
+  ],
+  "summary": "Tập hợp các quy tắc về kiểu dữ liệu. Static vs Dynamic. Strong vs Weak.",
+  "facts": [
+    {
+      "sym": "static",
+      "text": "static typing: check tại compile time (Rust, Go, Java)"
+    },
+    {
+      "sym": "dynamic",
+      "text": "dynamic typing: check tại runtime (Python, JavaScript)"
+    },
+    {
+      "sym": "strong",
+      "text": "strong typing: không implicit coercion (Rust, Haskell)"
+    }
+  ],
+  "tags": [
+    "type",
+    "system",
+    "static",
+    "dynamic"
+  ],
+  "related": [
+    "generic",
+    "interface",
+    "trait",
+    "duck-typing",
+    "type-inference"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

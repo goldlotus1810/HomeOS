@@ -1,0 +1,52 @@
+{
+  "name": "zero-trust",
+  "sym": "⊗0trust",
+  "symbol": "⊗0trust",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    -0.45,
+    -0.65,
+    -0.35
+  ],
+  "isl": [
+    5,
+    2,
+    10,
+    0
+  ],
+  "summary": "Never trust, always verify. Mọi request phải authenticated/authorized bất kể source. Network perimeter không đủ.",
+  "facts": [
+    {
+      "sym": "verify",
+      "text": "verify mọi request: internal và external"
+    },
+    {
+      "sym": "least privilege",
+      "text": "minimum access tại mọi thời điểm"
+    },
+    {
+      "sym": "mTLS",
+      "text": "mTLS giữa services: mutual authentication"
+    }
+  ],
+  "tags": [
+    "zero-trust",
+    "security",
+    "network",
+    "architecture"
+  ],
+  "related": [
+    "authentication",
+    "authorization",
+    "TLS",
+    "mTLS",
+    "microservice"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Zig",
+  "sym": "⚡Zig",
+  "symbol": "⚡Zig",
+  "layer": 5,
+  "category": "language",
+  "sdf": [
+    -0.8,
+    -0.4,
+    -0.85
+  ],
+  "isl": [
+    5,
+    4,
+    3,
+    0
+  ],
+  "summary": "C replacement. Manual memory, comptime, no hidden control flow, no exceptions. Cross-compile.",
+  "facts": [
+    {
+      "sym": "comptime",
+      "text": "comptime: compile-time code execution, generic, reflection"
+    },
+    {
+      "sym": "no hidden",
+      "text": "không hidden allocations, không operator overloading, không exceptions"
+    },
+    {
+      "sym": "C interop",
+      "text": "C header import: @cImport — trivial C interop"
+    }
+  ],
+  "tags": [
+    "zig",
+    "systems",
+    "c",
+    "manual-memory",
+    "comptime"
+  ],
+  "related": [
+    "C",
+    "Rust",
+    "assembly",
+    "LLVM",
+    "cross-compile"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "manual memory: như C nhưng explicit allocator",
+    "still experimental ecosystem"
+  ],
+  "confidence": 0.96,
+  "source": "builtin"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "immutability",
+  "sym": "const",
+  "symbol": "const",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    0.4,
+    0.7,
+    0.6
+  ],
+  "isl": [
+    3,
+    2,
+    7,
+    0
+  ],
+  "summary": "Giá trị không thể thay đổi sau khi tạo. Rust: default immutable. Haskell: everything immutable. Thread-safe.",
+  "facts": [
+    {
+      "sym": "default",
+      "text": "Rust: biến immutable by default. let mut x = 5 để mutate"
+    },
+    {
+      "sym": "thread safe",
+      "text": "immutable data: tự động thread-safe (không cần lock)"
+    },
+    {
+      "sym": "string",
+      "text": "Java/Python string: immutable. Tạo mới thay vì sửa"
+    }
+  ],
+  "tags": [
+    "immutable",
+    "const",
+    "functional",
+    "thread-safe"
+  ],
+  "related": [
+    "functional",
+    "Rust",
+    "Haskell",
+    "ownership",
+    "const",
+    "thread",
+    "data-race"
+  ],
+  "exists_in": [
+    "Rust",
+    "Haskell",
+    "Clojure",
+    "Java(String)"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

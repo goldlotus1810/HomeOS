@@ -1,0 +1,57 @@
+{
+  "name": "UTF-32",
+  "sym": "U+○",
+  "symbol": "U+○",
+  "layer": 4,
+  "category": "encoding",
+  "sdf": [
+    -0.2,
+    0.8,
+    0.0
+  ],
+  "isl": [
+    4,
+    1,
+    1,
+    0
+  ],
+  "summary": "Fixed-width 4-byte encoding. Mỗi code point = đúng 4 bytes. Đơn giản nhất nhưng dùng nhiều bộ nhớ nhất.",
+  "facts": [
+    {
+      "sym": "fixed 4 bytes",
+      "text": "mỗi Unicode code point: chính xác 4 bytes"
+    },
+    {
+      "sym": "random access",
+      "text": "text[i] tại O(1) — không như UTF-8 (O(n) cho index)"
+    },
+    {
+      "sym": "memory",
+      "text": "ASCII: 4x dung lượng UTF-8. Latin text: 2x UTF-16"
+    }
+  ],
+  "tags": [
+    "utf-32",
+    "unicode",
+    "encoding",
+    "codepoint"
+  ],
+  "related": [
+    "rune",
+    "char",
+    "Unicode",
+    "UTF-8",
+    "UTF-16",
+    "ISL",
+    "WORLDTREE"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "memory: 4x hơn UTF-8 cho ASCII text",
+    "endianness: BOM cần thiết"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

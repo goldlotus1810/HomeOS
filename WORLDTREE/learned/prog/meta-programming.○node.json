@@ -1,0 +1,67 @@
+{
+  "name": "meta-programming",
+  "sym": "code(code)",
+  "symbol": "code(code)",
+  "layer": 4,
+  "category": "paradigm",
+  "sdf": [
+    0.4,
+    0.1,
+    0.3
+  ],
+  "isl": [
+    4,
+    0,
+    8,
+    0
+  ],
+  "summary": "Code sinh ra code. Macros, reflection, code generation, templates.",
+  "facts": [
+    {
+      "sym": "compile-time",
+      "text": "Rust macros, C++ templates: generate code tại compile time"
+    },
+    {
+      "sym": "runtime",
+      "text": "Python reflection, Java reflection: inspect/modify tại runtime"
+    },
+    {
+      "sym": "DSL",
+      "text": "metaprogramming tạo DSLs"
+    }
+  ],
+  "tags": [
+    "meta",
+    "codegen",
+    "reflection",
+    "macro"
+  ],
+  "related": [
+    "macro",
+    "generic",
+    "template",
+    "reflection",
+    "Rust",
+    "Python"
+  ],
+  "exists_in": [
+    "Rust",
+    "C++",
+    "Python",
+    "Ruby",
+    "Lisp"
+  ],
+  "not_in": [
+    "Go"
+  ],
+  "NOT_in": [
+    "Go"
+  ],
+  "danger": [
+    "compile time overhead",
+    "hard to debug",
+    "complexity"
+  ],
+  "confidence": 0.97,
+  "source": "builtin"
+}

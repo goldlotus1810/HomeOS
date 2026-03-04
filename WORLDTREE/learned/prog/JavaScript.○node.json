@@ -1,0 +1,62 @@
+{
+  "name": "JavaScript",
+  "sym": "🌐JS",
+  "symbol": "🌐JS",
+  "layer": 5,
+  "category": "language",
+  "sdf": [
+    0.7,
+    0.65,
+    0.35
+  ],
+  "isl": [
+    5,
+    0,
+    4,
+    0
+  ],
+  "summary": "Brendan Eich 1995. Ngôn ngữ duy nhất của browser. Event loop, async/await, prototype-based.",
+  "facts": [
+    {
+      "sym": "event loop",
+      "text": "single-threaded event loop: non-blocking I/O"
+    },
+    {
+      "sym": "prototype",
+      "text": "prototype-based OOP (không phải class-based truyền thống)"
+    },
+    {
+      "sym": "== coercion",
+      "text": "== type coercion: 0 == '0' = true (dùng ===)"
+    },
+    {
+      "sym": "V8",
+      "text": "V8 engine: JIT compilation, rất nhanh"
+    }
+  ],
+  "tags": [
+    "javascript",
+    "browser",
+    "event-loop",
+    "async"
+  ],
+  "related": [
+    "async-await",
+    "closure",
+    "event-loop",
+    "prototype",
+    "TypeScript",
+    "node.js"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "== coercion",
+    "NaN == NaN = false",
+    "typeof null = 'object'",
+    "async/await forgotten"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

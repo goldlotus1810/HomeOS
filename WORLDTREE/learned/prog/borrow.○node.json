@@ -1,0 +1,63 @@
+{
+  "name": "borrow",
+  "sym": "&T",
+  "symbol": "&T",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.12,
+    -0.745,
+    -0.355
+  ],
+  "isl": [
+    3,
+    0,
+    7,
+    0
+  ],
+  "summary": "Rust: mượn reference mà không lấy ownership. &T (shared) hoặc &mut T (exclusive).",
+  "facts": [
+    {
+      "sym": "shared",
+      "text": "&T: nhiều reader, không ai write"
+    },
+    {
+      "sym": "exclusive",
+      "text": "&mut T: 1 writer, không ai read/write khác"
+    },
+    {
+      "sym": "lifetime",
+      "text": "borrow không được sống lâu hơn owner"
+    }
+  ],
+  "tags": [
+    "borrow",
+    "reference",
+    "rust"
+  ],
+  "related": [
+    "ownership",
+    "lifetime",
+    "RAII",
+    "data-race",
+    "Rust"
+  ],
+  "exists_in": [
+    "Rust"
+  ],
+  "not_in": [
+    "C",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "NOT_in": [
+    "C",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

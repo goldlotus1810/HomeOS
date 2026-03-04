@@ -1,0 +1,56 @@
+{
+  "name": "eventual-consistency",
+  "sym": "⟶≡",
+  "symbol": "⟶≡",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.56,
+    0.66,
+    0.36
+  ],
+  "isl": [
+    5,
+    5,
+    7,
+    0
+  ],
+  "summary": "Distributed system: nodes converge to same state eventually. Trade-off từ CAP theorem. Cassandra, DynamoDB.",
+  "facts": [
+    {
+      "sym": "CAP",
+      "text": "AP system trong CAP: available + partition tolerant → eventually consistent"
+    },
+    {
+      "sym": "read-repair",
+      "text": "read repair: detect và fix inconsistency khi read"
+    },
+    {
+      "sym": "vector clock",
+      "text": "vector clock: track causality giữa nodes"
+    }
+  ],
+  "tags": [
+    "eventual-consistency",
+    "distributed",
+    "cap",
+    "consistency",
+    "nosql"
+  ],
+  "related": [
+    "CAP-theorem",
+    "ACID",
+    "database",
+    "microservice",
+    "CQRS"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "read stale data",
+    "conflict resolution: last-write-wins có thể lose data"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

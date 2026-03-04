@@ -1,0 +1,54 @@
+{
+  "name": "multiply",
+  "sym": "⊗",
+  "symbol": "⊗",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.79,
+    -0.69,
+    -0.79
+  ],
+  "isl": [
+    2,
+    0,
+    3,
+    0
+  ],
+  "summary": "Phép nhân. Overflow xảy ra thường hơn add. checked_mul() trong Rust.",
+  "facts": [
+    {
+      "sym": "overflow",
+      "text": "dễ overflow hơn add: 2^31 * 2 overflow ngay"
+    },
+    {
+      "sym": "widening",
+      "text": "Rust: i32 * i32 không tự widening sang i64"
+    }
+  ],
+  "tags": [
+    "multiply",
+    "arithmetic",
+    "overflow"
+  ],
+  "related": [
+    "add",
+    "divide",
+    "overflow",
+    "bitwise-left-shift"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "assembly"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "overflow thường gặp hơn cộng trừ"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "concurrent",
+  "sym": "∥→",
+  "symbol": "∥→",
+  "layer": 4,
+  "category": "paradigm",
+  "sdf": [
+    0.1,
+    0.35,
+    -0.15
+  ],
+  "isl": [
+    4,
+    0,
+    4,
+    0
+  ],
+  "summary": "Concurrent programming paradigm. Tasks overlap in time. Nền tảng của server, UI, systems.",
+  "facts": [
+    {
+      "sym": "CSP",
+      "text": "Go: goroutine + channel (CSP model)"
+    },
+    {
+      "sym": "actor",
+      "text": "Erlang: actor model — isolated processes, message passing"
+    },
+    {
+      "sym": "async",
+      "text": "JavaScript: event loop + async/await"
+    }
+  ],
+  "tags": [
+    "concurrent",
+    "parallel",
+    "async",
+    "actor"
+  ],
+  "related": [
+    "Go",
+    "Erlang",
+    "goroutine",
+    "thread",
+    "CSP",
+    "actor",
+    "async-await"
+  ],
+  "exists_in": [
+    "Go",
+    "Erlang",
+    "Elixir",
+    "Rust",
+    "Java"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "data race",
+    "deadlock",
+    "race condition"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

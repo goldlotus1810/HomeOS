@@ -1,0 +1,53 @@
+{
+  "name": "information-theory",
+  "sym": "H(X)",
+  "symbol": "H(X)",
+  "layer": 6,
+  "category": "math",
+  "sdf": [
+    0.65,
+    0.15,
+    0.55
+  ],
+  "isl": [
+    6,
+    2,
+    14,
+    0
+  ],
+  "summary": "Shannon entropy, compression limits, channel capacity. H(X) = -Σ p(x) log₂ p(x).",
+  "facts": [
+    {
+      "sym": "entropy",
+      "text": "H(X): average surprise / information content"
+    },
+    {
+      "sym": "compression",
+      "text": "Shannon limit: không thể compress dưới entropy"
+    },
+    {
+      "sym": "Huffman",
+      "text": "Huffman coding: optimal prefix-free code — O(n log n)"
+    }
+  ],
+  "tags": [
+    "information-theory",
+    "entropy",
+    "compression",
+    "shannon",
+    "coding"
+  ],
+  "related": [
+    "hashing",
+    "probability",
+    "compression",
+    "FFT",
+    "Huffman"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

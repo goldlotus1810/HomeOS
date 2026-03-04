@@ -1,0 +1,68 @@
+{
+  "name": "floating-point",
+  "sym": "±e·m",
+  "symbol": "±e·m",
+  "layer": 2,
+  "category": "concept",
+  "sdf": [
+    -0.7,
+    -0.5,
+    -0.65
+  ],
+  "isl": [
+    2,
+    2,
+    1,
+    0
+  ],
+  "summary": "IEEE 754. Xấp xỉ số thực. float32/float64. Không thể represent chính xác mọi số thập phân.",
+  "facts": [
+    {
+      "sym": "not exact",
+      "text": "0.1 + 0.2 ≠ 0.3 trong float64"
+    },
+    {
+      "sym": "NaN",
+      "text": "NaN: Not a Number. NaN ≠ NaN (duy nhất!)"
+    },
+    {
+      "sym": "infinity",
+      "text": "1.0/0.0 = +Inf, không exception"
+    },
+    {
+      "sym": "epsilon",
+      "text": "machine epsilon: smallest x where 1+x ≠ 1"
+    }
+  ],
+  "tags": [
+    "float",
+    "floating-point",
+    "ieee754",
+    "numeric"
+  ],
+  "related": [
+    "NaN",
+    "float32",
+    "float64",
+    "overflow",
+    "numeric-stability"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python",
+    "JavaScript",
+    "hardware"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "equality comparison: dùng |a-b| < epsilon",
+    "NaN comparisons luôn false",
+    "accumulation error"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

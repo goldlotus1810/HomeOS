@@ -1,0 +1,56 @@
+{
+  "name": "bitwise-xor",
+  "sym": "⊕b",
+  "symbol": "⊕b",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.91,
+    -0.86,
+    -0.9
+  ],
+  "isl": [
+    2,
+    0,
+    8,
+    0
+  ],
+  "summary": "Bitwise XOR. Toggle bits. x ^ x = 0. Dùng trong crypto, swap.",
+  "facts": [
+    {
+      "sym": "toggle",
+      "text": "x ^ (1<<n) → toggle bit n"
+    },
+    {
+      "sym": "swap",
+      "text": "a^=b; b^=a; a^=b → swap không cần temp (không nên dùng)"
+    },
+    {
+      "sym": "crypto",
+      "text": "XOR cipher, checksums, hash functions"
+    }
+  ],
+  "tags": [
+    "bitwise",
+    "xor",
+    "toggle"
+  ],
+  "related": [
+    "bitwise-and",
+    "bitwise-or",
+    "bitwise-not",
+    "bit"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "assembly"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

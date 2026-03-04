@@ -1,0 +1,62 @@
+{
+  "name": "PostgreSQL",
+  "sym": "🐘PG",
+  "symbol": "🐘PG",
+  "layer": 5,
+  "category": "tool",
+  "sdf": [
+    0.48,
+    0.58,
+    0.22
+  ],
+  "isl": [
+    5,
+    3,
+    10,
+    0
+  ],
+  "summary": "Advanced open-source RDBMS. ACID, JSON support, extensions (pgvector, PostGIS, TimescaleDB).",
+  "facts": [
+    {
+      "sym": "MVCC",
+      "text": "MVCC: Multi-Version Concurrency Control — readers không block writers"
+    },
+    {
+      "sym": "JSON",
+      "text": "JSONB: binary JSON column — indexable"
+    },
+    {
+      "sym": "extensions",
+      "text": "extensions: pgvector (vectors), PostGIS (geo), pg_trgm (fuzzy search)"
+    },
+    {
+      "sym": "EXPLAIN",
+      "text": "EXPLAIN ANALYZE: query execution plan — find slow queries"
+    }
+  ],
+  "tags": [
+    "postgresql",
+    "database",
+    "sql",
+    "rdbms",
+    "acid"
+  ],
+  "related": [
+    "SQL",
+    "ACID",
+    "B-tree",
+    "index",
+    "database",
+    "JSON"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "vacuum: bloat nếu không autovacuum",
+    "N+1 queries",
+    "missing index"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

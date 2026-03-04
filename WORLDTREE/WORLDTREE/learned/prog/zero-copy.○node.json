@@ -1,0 +1,58 @@
+{
+  "name": "zero-copy",
+  "sym": "0copy",
+  "symbol": "0copy",
+  "layer": 2,
+  "category": "concept",
+  "sdf": [
+    -0.7,
+    0.05,
+    -0.6
+  ],
+  "isl": [
+    2,
+    1,
+    9,
+    0
+  ],
+  "summary": "Truyền data không copy trong memory. sendfile(), splice(), io_uring, DMA. Tối ưu I/O performance.",
+  "facts": [
+    {
+      "sym": "sendfile",
+      "text": "sendfile(): kernel copy từ file buffer → socket buffer, không user space"
+    },
+    {
+      "sym": "DMA",
+      "text": "DMA: hardware transfer trực tiếp, không tốn CPU"
+    },
+    {
+      "sym": "io_uring",
+      "text": "io_uring: async I/O với shared ring buffer, zero-copy"
+    }
+  ],
+  "tags": [
+    "zero-copy",
+    "io",
+    "performance",
+    "kernel",
+    "network"
+  ],
+  "related": [
+    "memory-layout",
+    "cache",
+    "load",
+    "store",
+    "network",
+    "Linux"
+  ],
+  "exists_in": [
+    "Linux",
+    "C",
+    "Rust"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "binary-search",
+  "sym": "⟨½⟩",
+  "symbol": "⟨½⟩",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.2,
+    0.02,
+    -0.25
+  ],
+  "isl": [
+    6,
+    0,
+    3,
+    0
+  ],
+  "summary": "O(log n). Yêu cầu sorted array. Mỗi bước loại nửa. Off-by-one rất dễ sai.",
+  "facts": [
+    {
+      "sym": "sorted",
+      "text": "PHẢI sorted trước khi search"
+    },
+    {
+      "sym": "off-by-one",
+      "text": "off-by-one bug: lo <= hi vs lo < hi, mid = lo+(hi-lo)/2"
+    },
+    {
+      "sym": "mid overflow",
+      "text": "mid = (lo+hi)/2 → overflow nếu lo+hi > INT_MAX. Dùng lo+(hi-lo)/2"
+    }
+  ],
+  "tags": [
+    "binary-search",
+    "search",
+    "sorted",
+    "O(logn)"
+  ],
+  "related": [
+    "quicksort",
+    "mergesort",
+    "B-tree",
+    "array",
+    "divide-conquer"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "off-by-one",
+    "integer overflow trong mid calculation",
+    "không check sorted trước"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

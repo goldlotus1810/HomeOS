@@ -1,0 +1,52 @@
+{
+  "name": "circuit-breaker",
+  "sym": "⚡⊗",
+  "symbol": "⚡⊗",
+  "layer": 6,
+  "category": "pattern",
+  "sdf": [
+    0.4,
+    0.5,
+    0.2
+  ],
+  "isl": [
+    6,
+    0,
+    14,
+    0
+  ],
+  "summary": "Ngăn cascade failure. 3 states: Closed→Open→Half-Open. Fail fast thay vì timeout.",
+  "facts": [
+    {
+      "sym": "closed",
+      "text": "Closed: normal, count failures"
+    },
+    {
+      "sym": "open",
+      "text": "Open: fail fast immediately, không gọi downstream"
+    },
+    {
+      "sym": "half-open",
+      "text": "Half-Open: thử 1 request, nếu OK → Closed, nếu fail → Open"
+    }
+  ],
+  "tags": [
+    "circuit-breaker",
+    "resilience",
+    "microservice",
+    "pattern"
+  ],
+  "related": [
+    "retry",
+    "timeout",
+    "rate-limiting",
+    "microservice",
+    "load-balancer"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

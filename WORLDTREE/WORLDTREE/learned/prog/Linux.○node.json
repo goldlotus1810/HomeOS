@@ -1,0 +1,58 @@
+{
+  "name": "Linux",
+  "sym": "🐧",
+  "symbol": "🐧",
+  "layer": 5,
+  "category": "os",
+  "sdf": [
+    -0.6,
+    -0.7,
+    -0.4
+  ],
+  "isl": [
+    5,
+    3,
+    2,
+    0
+  ],
+  "summary": "Open source Unix-like OS kernel. Monolithic. ~98% servers. Cgroups, namespaces → Docker/Kubernetes.",
+  "facts": [
+    {
+      "sym": "kernel",
+      "text": "monolithic kernel: device drivers trong kernel space"
+    },
+    {
+      "sym": "cgroups",
+      "text": "cgroups: resource limits cho process groups — Docker dùng"
+    },
+    {
+      "sym": "namespaces",
+      "text": "namespaces: isolate PID, network, mount — container primitives"
+    },
+    {
+      "sym": "everything is file",
+      "text": "everything is a file: /proc, /sys, devices, sockets"
+    }
+  ],
+  "tags": [
+    "linux",
+    "os",
+    "kernel",
+    "unix",
+    "server"
+  ],
+  "related": [
+    "process",
+    "socket",
+    "pipe",
+    "Docker",
+    "Kubernetes",
+    "bash"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

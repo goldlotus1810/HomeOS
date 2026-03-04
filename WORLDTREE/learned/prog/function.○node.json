@@ -1,0 +1,59 @@
+{
+  "name": "function",
+  "sym": "𝑓()",
+  "symbol": "𝑓()",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.5,
+    -0.2,
+    -0.3
+  ],
+  "isl": [
+    1,
+    0,
+    21,
+    0
+  ],
+  "summary": "Đơn vị code có thể tái sử dụng. Nhận input (params), trả output (return value).",
+  "facts": [
+    {
+      "sym": "pure",
+      "text": "pure function: chỉ phụ thuộc vào input, không có side effects"
+    },
+    {
+      "sym": "first-class",
+      "text": "first-class: function có thể pass như value (Rust, Go, JS, Python)"
+    },
+    {
+      "sym": "arity",
+      "text": "arity = số params. Unary(1), Binary(2), Variadic(n)"
+    }
+  ],
+  "tags": [
+    "function",
+    "procedure",
+    "callable"
+  ],
+  "related": [
+    "closure",
+    "lambda",
+    "higher-order-function",
+    "recursion",
+    "call"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python",
+    "JavaScript",
+    "Haskell"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

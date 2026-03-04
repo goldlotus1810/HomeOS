@@ -1,0 +1,71 @@
+{
+  "name": "tail-call",
+  "sym": "→𝑓tail",
+  "symbol": "→𝑓tail",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.48,
+    0.18,
+    -0.28
+  ],
+  "isl": [
+    3,
+    2,
+    14,
+    0
+  ],
+  "summary": "Recursive call là operation cuối cùng trong function. Compiler optimize thành loop. Không tốn stack frame.",
+  "facts": [
+    {
+      "sym": "TCO",
+      "text": "Tail Call Optimization: compiler biến tail call thành jump"
+    },
+    {
+      "sym": "Scheme",
+      "text": "Scheme/Haskell: TCO là requirement của spec"
+    },
+    {
+      "sym": "Rust/Go",
+      "text": "Rust/Go: không guarantee TCO — có thể stack overflow"
+    }
+  ],
+  "tags": [
+    "tail-call",
+    "tco",
+    "recursion",
+    "optimization"
+  ],
+  "related": [
+    "recursion",
+    "call",
+    "stack",
+    "Haskell",
+    "functional",
+    "Scheme"
+  ],
+  "exists_in": [
+    "Haskell",
+    "Scheme",
+    "Erlang",
+    "Scala",
+    "Swift"
+  ],
+  "not_in": [
+    "Rust(no guarantee)",
+    "Go",
+    "Python",
+    "Java"
+  ],
+  "NOT_in": [
+    "Rust(limited)",
+    "Go",
+    "Python",
+    "Java"
+  ],
+  "danger": [
+    "Rust/Go/Python: không có TCO → stack overflow với deep recursion"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

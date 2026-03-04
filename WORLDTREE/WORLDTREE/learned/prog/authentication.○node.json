@@ -1,0 +1,63 @@
+{
+  "name": "authentication",
+  "sym": "🔑→",
+  "symbol": "🔑→",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.45,
+    0.55,
+    0.25
+  ],
+  "isl": [
+    5,
+    2,
+    4,
+    0
+  ],
+  "summary": "Verify identity: who are you? Passwords, JWT, OAuth, API keys. Khác với authorization.",
+  "facts": [
+    {
+      "sym": "password",
+      "text": "store: bcrypt/argon2 hash — không md5/sha1"
+    },
+    {
+      "sym": "JWT",
+      "text": "JWT: header.payload.signature — stateless, verify bằng secret"
+    },
+    {
+      "sym": "OAuth2",
+      "text": "OAuth2: delegated authorization, không phải authentication"
+    },
+    {
+      "sym": "MFA",
+      "text": "MFA: something you know + have + are"
+    }
+  ],
+  "tags": [
+    "auth",
+    "authentication",
+    "jwt",
+    "oauth",
+    "security"
+  ],
+  "related": [
+    "authorization",
+    "JWT",
+    "OAuth",
+    "TLS",
+    "session",
+    "password-hashing"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "weak passwords",
+    "JWT none algorithm",
+    "OAuth redirect_uri manipulation",
+    "session fixation"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

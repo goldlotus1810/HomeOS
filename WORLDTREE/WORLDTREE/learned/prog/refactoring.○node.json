@@ -1,0 +1,57 @@
+{
+  "name": "refactoring",
+  "sym": "↺clean",
+  "symbol": "↺clean",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.2,
+    0.5,
+    0.15
+  ],
+  "isl": [
+    7,
+    1,
+    1,
+    0
+  ],
+  "summary": "Cải thiện code structure mà không thay đổi behavior. Extract function, rename, inline, move method.",
+  "facts": [
+    {
+      "sym": "behavior",
+      "text": "phải pass all tests sau refactor — behavior unchanged"
+    },
+    {
+      "sym": "small steps",
+      "text": "refactor từng bước nhỏ, commit thường xuyên"
+    },
+    {
+      "sym": "Fowler",
+      "text": "Martin Fowler: Refactoring — catalog of refactoring patterns"
+    }
+  ],
+  "tags": [
+    "refactoring",
+    "clean-code",
+    "design",
+    "quality"
+  ],
+  "related": [
+    "TDD",
+    "DRY",
+    "SOLID",
+    "technical-debt",
+    "testing",
+    "code-review"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "refactor không có tests → dễ break",
+    "big-bang refactor → merge conflicts",
+    "wrong abstraction tệ hơn duplication"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

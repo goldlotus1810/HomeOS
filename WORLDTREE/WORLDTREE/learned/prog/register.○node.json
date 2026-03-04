@@ -1,0 +1,64 @@
+{
+  "name": "register",
+  "sym": "r₀",
+  "symbol": "r₀",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.98,
+    -0.95,
+    -0.98
+  ],
+  "isl": [
+    1,
+    0,
+    19,
+    0
+  ],
+  "summary": "Vùng nhớ cực nhỏ trong CPU. Nhanh nhất. x86-64: rax,rbx,rcx,rdx,rsi,rdi,r8-r15.",
+  "facts": [
+    {
+      "sym": "1 cycle",
+      "text": "register access = 1 cycle. RAM = 100-300 cycles"
+    },
+    {
+      "sym": "x86-64",
+      "text": "16 GPR: rax,rbx,rcx,rdx,rsi,rdi,rsp,rbp,r8-r15"
+    },
+    {
+      "sym": "spill",
+      "text": "khi hết register → spill ra stack (chậm hơn)"
+    }
+  ],
+  "tags": [
+    "register",
+    "cpu",
+    "hardware"
+  ],
+  "related": [
+    "assembly",
+    "x86-64",
+    "bit",
+    "byte",
+    "risc-v"
+  ],
+  "exists_in": [
+    "assembly",
+    "x86-64",
+    "arm",
+    "risc-v"
+  ],
+  "not_in": [
+    "Python",
+    "JavaScript",
+    "Java"
+  ],
+  "NOT_in": [
+    "Python",
+    "JavaScript",
+    "Java"
+  ],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

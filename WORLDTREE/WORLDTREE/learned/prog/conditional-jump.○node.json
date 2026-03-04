@@ -1,0 +1,66 @@
+{
+  "name": "conditional-jump",
+  "sym": "?jmp",
+  "symbol": "?jmp",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.95,
+    -0.9,
+    -0.95
+  ],
+  "isl": [
+    2,
+    1,
+    5,
+    0
+  ],
+  "summary": "Assembly: jump nếu condition đúng. Nền tảng của mọi if/loop. JE, JNE, JL, JG, JLE, JGE.",
+  "facts": [
+    {
+      "sym": "flags",
+      "text": "CMP instruction set flags, conditional jump test flags"
+    },
+    {
+      "sym": "JE/JNE",
+      "text": "JE: jump if equal. JNE: jump if not equal"
+    },
+    {
+      "sym": "branch prediction",
+      "text": "CPU branch predictor: đoán trước để fill pipeline"
+    }
+  ],
+  "tags": [
+    "jump",
+    "branch",
+    "assembly",
+    "control-flow"
+  ],
+  "related": [
+    "assembly",
+    "register",
+    "if-else",
+    "loop",
+    "bool",
+    "x86-64"
+  ],
+  "exists_in": [
+    "assembly",
+    "x86-64",
+    "arm",
+    "risc-v"
+  ],
+  "not_in": [
+    "Python",
+    "JavaScript",
+    "Java"
+  ],
+  "NOT_in": [
+    "Python",
+    "JavaScript",
+    "Java"
+  ],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

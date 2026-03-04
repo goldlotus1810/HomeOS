@@ -1,0 +1,64 @@
+{
+  "name": "mmap",
+  "sym": "mmap",
+  "symbol": "mmap",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.88,
+    -0.83,
+    -0.86
+  ],
+  "isl": [
+    2,
+    2,
+    2,
+    0
+  ],
+  "summary": "Map file hoặc anonymous memory vào address space. Efficient I/O. Shared memory giữa processes.",
+  "facts": [
+    {
+      "sym": "file-backed",
+      "text": "file-backed mmap: lazy load — page fault khi access"
+    },
+    {
+      "sym": "anonymous",
+      "text": "anonymous mmap: heap allocator (malloc) dùng cho large alloc"
+    },
+    {
+      "sym": "shared",
+      "text": "MAP_SHARED: changes visible tới other processes (IPC)"
+    }
+  ],
+  "tags": [
+    "mmap",
+    "memory",
+    "linux",
+    "io",
+    "ipc"
+  ],
+  "related": [
+    "malloc",
+    "file-descriptor",
+    "process",
+    "cache",
+    "zero-copy",
+    "syscall"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Linux"
+  ],
+  "not_in": [
+    "Java",
+    "Python(direct)"
+  ],
+  "NOT_in": [],
+  "danger": [
+    "SIGBUS: file truncated sau mmap",
+    "alignment requirements"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

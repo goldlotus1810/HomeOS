@@ -1,0 +1,56 @@
+{
+  "name": "DNS",
+  "sym": "name→IP",
+  "symbol": "name→IP",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.58,
+    0.68,
+    0.38
+  ],
+  "isl": [
+    5,
+    3,
+    6,
+    0
+  ],
+  "summary": "Domain Name System. Phân giải hostname → IP. Hierarchical, cached. TTL. A, CNAME, MX, TXT records.",
+  "facts": [
+    {
+      "sym": "recursive",
+      "text": "recursive resolver: query root → TLD → authoritative"
+    },
+    {
+      "sym": "TTL",
+      "text": "TTL: Time To Live — bao lâu DNS record được cache"
+    },
+    {
+      "sym": "records",
+      "text": "A: IPv4. AAAA: IPv6. CNAME: alias. MX: mail. TXT: verification"
+    }
+  ],
+  "tags": [
+    "dns",
+    "networking",
+    "hostname",
+    "ip",
+    "resolution"
+  ],
+  "related": [
+    "TCP",
+    "HTTP",
+    "CDN",
+    "load-balancer",
+    "TLS"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "DNS poisoning/spoofing",
+    "TTL quá cao: slow propagation sau thay đổi"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

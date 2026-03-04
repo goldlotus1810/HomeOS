@@ -1,0 +1,57 @@
+{
+  "name": "Huffman",
+  "sym": "H-code",
+  "symbol": "H-code",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.06,
+    0.06,
+    -0.16
+  ],
+  "isl": [
+    6,
+    2,
+    15,
+    0
+  ],
+  "summary": "Optimal prefix-free variable-length encoding. Priority queue build code tree. O(n log n).",
+  "facts": [
+    {
+      "sym": "prefix-free",
+      "text": "no code is prefix of another → unambiguous decode"
+    },
+    {
+      "sym": "greedy",
+      "text": "greedy: merge 2 least-frequent symbols first"
+    },
+    {
+      "sym": "used in",
+      "text": "DEFLATE (gzip, PNG), JPEG, MP3 dùng Huffman"
+    }
+  ],
+  "tags": [
+    "huffman",
+    "compression",
+    "coding",
+    "greedy"
+  ],
+  "related": [
+    "information-theory",
+    "priority-queue",
+    "greedy",
+    "binary-search",
+    "tree"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Python",
+    "Java"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

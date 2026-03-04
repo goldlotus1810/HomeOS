@@ -1,0 +1,58 @@
+{
+  "name": "gradient-descent",
+  "sym": "∇↓",
+  "symbol": "∇↓",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    0.75,
+    0.65,
+    0.65
+  ],
+  "isl": [
+    6,
+    3,
+    1,
+    0
+  ],
+  "summary": "Optimize bằng cách đi theo hướng ngược gradient. SGD, Adam, RMSprop. Learning rate critical.",
+  "facts": [
+    {
+      "sym": "update",
+      "text": "θ = θ - α·∇L(θ): θ=params, α=learning rate, L=loss"
+    },
+    {
+      "sym": "SGD",
+      "text": "SGD: gradient trên mini-batch, không full dataset"
+    },
+    {
+      "sym": "Adam",
+      "text": "Adam: adaptive learning rate + momentum — phổ biến nhất"
+    }
+  ],
+  "tags": [
+    "gradient-descent",
+    "optimization",
+    "ml",
+    "sgd",
+    "adam"
+  ],
+  "related": [
+    "neural-network",
+    "backpropagation",
+    "learning-rate",
+    "loss-function",
+    "convex-optimization"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "vanishing gradient",
+    "exploding gradient",
+    "local minima",
+    "learning rate too high → diverge"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

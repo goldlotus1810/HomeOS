@@ -1,0 +1,62 @@
+{
+  "name": "signal",
+  "sym": "~sig",
+  "symbol": "~sig",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    -0.55,
+    -0.45,
+    -0.57
+  ],
+  "isl": [
+    5,
+    3,
+    7,
+    0
+  ],
+  "summary": "Async notification tới process. SIGTERM, SIGKILL, SIGINT. Graceful shutdown.",
+  "facts": [
+    {
+      "sym": "SIGTERM",
+      "text": "SIGTERM: request terminate. Process có thể handle, cleanup"
+    },
+    {
+      "sym": "SIGKILL",
+      "text": "SIGKILL: force kill. Không thể block/handle"
+    },
+    {
+      "sym": "graceful",
+      "text": "handle SIGTERM → cleanup connections, flush buffers, exit"
+    }
+  ],
+  "tags": [
+    "signal",
+    "unix",
+    "os",
+    "process",
+    "graceful-shutdown"
+  ],
+  "related": [
+    "process",
+    "goroutine",
+    "pipe",
+    "file-descriptor"
+  ],
+  "exists_in": [
+    "C",
+    "Go",
+    "Rust",
+    "Python",
+    "shell"
+  ],
+  "not_in": [
+    "Windows(limited)"
+  ],
+  "NOT_in": [],
+  "danger": [
+    "SIGKILL: không cleanup → corrupted state"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

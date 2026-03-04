@@ -1,0 +1,79 @@
+{
+  "name": "inheritance",
+  "sym": "⊂C",
+  "symbol": "⊂C",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    0.22,
+    0.23,
+    -0.12
+  ],
+  "isl": [
+    3,
+    2,
+    9,
+    0
+  ],
+  "summary": "Class con kế thừa fields/methods từ class cha. OOP pillar. Thường bị lạm dụng — prefer composition.",
+  "facts": [
+    {
+      "sym": "is-a",
+      "text": "inheritance = is-a relationship. Dog is-a Animal"
+    },
+    {
+      "sym": "override",
+      "text": "subclass override method của parent"
+    },
+    {
+      "sym": "diamond",
+      "text": "diamond problem: C++ multiple inheritance conflict"
+    },
+    {
+      "sym": "composition",
+      "text": "'Favor composition over inheritance' — GoF"
+    }
+  ],
+  "tags": [
+    "inheritance",
+    "oop",
+    "subclass",
+    "extend"
+  ],
+  "related": [
+    "class",
+    "interface",
+    "OOP",
+    "polymorphism",
+    "composition",
+    "SOLID",
+    "Java",
+    "Python"
+  ],
+  "exists_in": [
+    "Java",
+    "Python",
+    "C++",
+    "C#",
+    "Kotlin",
+    "Ruby"
+  ],
+  "not_in": [
+    "Rust",
+    "Go",
+    "Haskell"
+  ],
+  "NOT_in": [
+    "Rust",
+    "Go",
+    "Haskell"
+  ],
+  "danger": [
+    "fragile base class",
+    "deep hierarchy",
+    "diamond problem (C++)",
+    "tight coupling"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "divide",
+  "sym": "÷",
+  "symbol": "÷",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.785,
+    -0.685,
+    -0.785
+  ],
+  "isl": [
+    2,
+    0,
+    4,
+    0
+  ],
+  "summary": "Phép chia. Division by zero: crash trong C/Go, panic trong Rust, Infinity trong float.",
+  "facts": [
+    {
+      "sym": "div by zero",
+      "text": "integer: divide by zero → crash/panic"
+    },
+    {
+      "sym": "float",
+      "text": "float: 1.0/0.0 = Infinity, 0.0/0.0 = NaN"
+    },
+    {
+      "sym": "truncation",
+      "text": "integer division truncates toward zero"
+    }
+  ],
+  "tags": [
+    "divide",
+    "arithmetic",
+    "zero"
+  ],
+  "related": [
+    "multiply",
+    "modulo",
+    "NaN",
+    "float32"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "assembly"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "divide by zero → panic/crash",
+    "float: silent NaN"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

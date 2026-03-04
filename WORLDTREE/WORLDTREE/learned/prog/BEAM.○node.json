@@ -1,0 +1,58 @@
+{
+  "name": "BEAM",
+  "sym": "☀BEAM",
+  "symbol": "☀BEAM",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.3,
+    0.5,
+    -0.1
+  ],
+  "isl": [
+    5,
+    1,
+    6,
+    0
+  ],
+  "summary": "Erlang VM. Lightweight processes (~300 bytes). Preemptive scheduling. Fault tolerant. Hot code reload.",
+  "facts": [
+    {
+      "sym": "300 bytes",
+      "text": "BEAM process: ~300 bytes. OS thread: ~1-8MB"
+    },
+    {
+      "sym": "preemptive",
+      "text": "preemptive scheduling: không process nào starve"
+    },
+    {
+      "sym": "soft realtime",
+      "text": "soft realtime: consistent low latency"
+    },
+    {
+      "sym": "hot reload",
+      "text": "hot code reload: update code tại runtime không downtime"
+    }
+  ],
+  "tags": [
+    "beam",
+    "erlang",
+    "elixir",
+    "vm",
+    "actor"
+  ],
+  "related": [
+    "Erlang",
+    "Elixir",
+    "actor",
+    "goroutine",
+    "CSP",
+    "fault-tolerant"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

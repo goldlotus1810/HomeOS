@@ -1,0 +1,57 @@
+{
+  "name": "XSS",
+  "sym": "⊗XSS",
+  "symbol": "⊗XSS",
+  "layer": 5,
+  "category": "vulnerability",
+  "sdf": [
+    -0.58,
+    -0.79,
+    -0.48
+  ],
+  "isl": [
+    5,
+    2,
+    2,
+    0
+  ],
+  "summary": "Cross-Site Scripting. Inject JavaScript vào page → steal cookies, credentials, redirect.",
+  "facts": [
+    {
+      "sym": "reflected",
+      "text": "reflected XSS: input ngay lập tức reflect vào page"
+    },
+    {
+      "sym": "stored",
+      "text": "stored XSS: lưu vào DB, mọi user thấy đều bị"
+    },
+    {
+      "sym": "CSP",
+      "text": "Content Security Policy: giảm impact XSS"
+    }
+  ],
+  "tags": [
+    "xss",
+    "security",
+    "javascript",
+    "web",
+    "owasp"
+  ],
+  "related": [
+    "SQL-injection",
+    "CSRF",
+    "input-validation",
+    "JavaScript",
+    "HTTP"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "session hijacking",
+    "credential theft",
+    "malware distribution"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "UTF-8",
+  "sym": "U+8",
+  "symbol": "U+8",
+  "layer": 4,
+  "category": "encoding",
+  "sdf": [
+    -0.1,
+    0.85,
+    0.1
+  ],
+  "isl": [
+    4,
+    1,
+    2,
+    0
+  ],
+  "summary": "Variable-width 1-4 bytes. ASCII backward-compatible. Phổ biến nhất web (94% websites).",
+  "facts": [
+    {
+      "sym": "ASCII compat",
+      "text": "ASCII 0-127: 1 byte — backward compatible"
+    },
+    {
+      "sym": "variable",
+      "text": "1-4 bytes tùy code point range"
+    },
+    {
+      "sym": "94%",
+      "text": "94% websites dùng UTF-8 (W3Techs 2024)"
+    }
+  ],
+  "tags": [
+    "utf-8",
+    "unicode",
+    "encoding",
+    "ascii"
+  ],
+  "related": [
+    "UTF-32",
+    "rune",
+    "char",
+    "string",
+    "Go",
+    "Python"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "len(str) trả bytes không phải chars trong nhiều ngôn ngữ",
+    "index vào giữa multi-byte char → invalid UTF-8"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

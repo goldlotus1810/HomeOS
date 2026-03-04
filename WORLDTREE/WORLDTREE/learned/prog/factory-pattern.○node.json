@@ -1,0 +1,56 @@
+{
+  "name": "factory-pattern",
+  "sym": "🏭→T",
+  "symbol": "🏭→T",
+  "layer": 6,
+  "category": "pattern",
+  "sdf": [
+    0.23,
+    0.33,
+    0.08
+  ],
+  "isl": [
+    6,
+    0,
+    13,
+    0
+  ],
+  "summary": "Tạo objects mà không expose creation logic. Decouple caller từ concrete type.",
+  "facts": [
+    {
+      "sym": "interface",
+      "text": "factory trả về interface, không phải concrete type"
+    },
+    {
+      "sym": "DI",
+      "text": "kết hợp tốt với Dependency Injection"
+    },
+    {
+      "sym": "variants",
+      "text": "Simple Factory, Factory Method, Abstract Factory"
+    }
+  ],
+  "tags": [
+    "factory",
+    "pattern",
+    "creational",
+    "oop"
+  ],
+  "related": [
+    "dependency-injection",
+    "interface",
+    "OOP",
+    "builder-pattern"
+  ],
+  "exists_in": [
+    "Java",
+    "Python",
+    "Go",
+    "C++"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

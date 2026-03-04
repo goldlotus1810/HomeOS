@@ -1,0 +1,63 @@
+{
+  "name": "null",
+  "sym": "∅",
+  "symbol": "∅",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.35,
+    -0.55,
+    -0.35
+  ],
+  "isl": [
+    1,
+    0,
+    30,
+    0
+  ],
+  "summary": "Giá trị vắng mặt. 'Billion dollar mistake' (Tony Hoare). Nguyên nhân của vô số NullPointerException.",
+  "facts": [
+    {
+      "sym": "billion dollar",
+      "text": "Tony Hoare: 'I call it my billion-dollar mistake'"
+    },
+    {
+      "sym": "NPE",
+      "text": "NullPointerException — lỗi phổ biến nhất Java"
+    },
+    {
+      "sym": "Option",
+      "text": "Rust/Haskell dùng Option<T> thay thế null an toàn"
+    }
+  ],
+  "tags": [
+    "null",
+    "nil",
+    "absence"
+  ],
+  "related": [
+    "Option",
+    "null-safety",
+    "pointer",
+    "NullPointerException"
+  ],
+  "exists_in": [
+    "C",
+    "Java",
+    "Python",
+    "JavaScript"
+  ],
+  "not_in": [
+    "Rust",
+    "Haskell"
+  ],
+  "NOT_in": [
+    "Rust",
+    "Haskell"
+  ],
+  "danger": [
+    "null deref: dùng null không check → crash/NPE"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

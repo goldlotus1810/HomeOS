@@ -1,0 +1,69 @@
+{
+  "name": "memory-layout",
+  "sym": "[]mem",
+  "symbol": "[]mem",
+  "layer": 2,
+  "category": "concept",
+  "sdf": [
+    -0.85,
+    -0.8,
+    -0.87
+  ],
+  "isl": [
+    2,
+    1,
+    8,
+    0
+  ],
+  "summary": "Cách data tổ chức trong memory. Alignment, padding, ABI. Ảnh hưởng performance (cache) và correctness.",
+  "facts": [
+    {
+      "sym": "alignment",
+      "text": "int32 phải align tại địa chỉ chia hết 4. Misalign → fault trên ARM"
+    },
+    {
+      "sym": "padding",
+      "text": "compiler thêm padding để align fields"
+    },
+    {
+      "sym": "AoS vs SoA",
+      "text": "Array of Structs vs Struct of Arrays — SoA cache-friendly hơn"
+    }
+  ],
+  "tags": [
+    "memory",
+    "layout",
+    "alignment",
+    "padding",
+    "cache"
+  ],
+  "related": [
+    "struct",
+    "array",
+    "cache",
+    "pointer",
+    "byte",
+    "register"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "C++"
+  ],
+  "not_in": [
+    "Python",
+    "Java",
+    "JavaScript"
+  ],
+  "NOT_in": [
+    "Python",
+    "Java",
+    "JavaScript"
+  ],
+  "danger": [
+    "misaligned access: fault hoặc performance hit",
+    "wrong sizeof: không tính padding"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

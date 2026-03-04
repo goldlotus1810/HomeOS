@@ -1,0 +1,56 @@
+{
+  "name": "TCP",
+  "sym": "🔗TCP",
+  "symbol": "🔗TCP",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.55,
+    0.65,
+    0.45
+  ],
+  "isl": [
+    5,
+    1,
+    9,
+    0
+  ],
+  "summary": "Transmission Control Protocol. Reliable, ordered delivery. 3-way handshake. Flow control, congestion control.",
+  "facts": [
+    {
+      "sym": "3-way",
+      "text": "SYN → SYN-ACK → ACK: establish connection"
+    },
+    {
+      "sym": "reliable",
+      "text": "ACK + retransmit: mọi packet được deliver đúng thứ tự"
+    },
+    {
+      "sym": "congestion",
+      "text": "slow start, congestion avoidance: TCP Cubic, BBR"
+    }
+  ],
+  "tags": [
+    "tcp",
+    "networking",
+    "protocol",
+    "reliable"
+  ],
+  "related": [
+    "UDP",
+    "HTTP",
+    "TLS",
+    "socket",
+    "network",
+    "port"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "SYN flood attack",
+    "TIME_WAIT state: many connections"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

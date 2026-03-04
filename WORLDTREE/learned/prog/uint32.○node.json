@@ -1,0 +1,57 @@
+{
+  "name": "uint32",
+  "sym": "𝐮32",
+  "symbol": "𝐮32",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.85,
+    -0.675,
+    -0.82
+  ],
+  "isl": [
+    1,
+    0,
+    9,
+    0
+  ],
+  "summary": "Số nguyên không dấu 32-bit. 0 đến 4,294,967,295. IPv4 address.",
+  "facts": [
+    {
+      "sym": "0..2^32",
+      "text": "range: 0 đến 4,294,967,295"
+    },
+    {
+      "sym": "IPv4",
+      "text": "IPv4 address = uint32"
+    },
+    {
+      "sym": "color",
+      "text": "RGBA color = uint32"
+    }
+  ],
+  "tags": [
+    "uint32",
+    "unsigned",
+    "ipv4"
+  ],
+  "related": [
+    "uint16",
+    "uint64",
+    "int32"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go"
+  ],
+  "not_in": [
+    "Java"
+  ],
+  "NOT_in": [
+    "Java"
+  ],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

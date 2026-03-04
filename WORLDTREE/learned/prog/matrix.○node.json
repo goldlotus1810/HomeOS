@@ -1,0 +1,66 @@
+{
+  "name": "matrix",
+  "sym": "[[]]",
+  "symbol": "[[]]",
+  "layer": 4,
+  "category": "math",
+  "sdf": [
+    0.2,
+    0.0,
+    0.4
+  ],
+  "isl": [
+    4,
+    2,
+    3,
+    0
+  ],
+  "summary": "2D array. Matrix multiply: O(n³) naive, O(n^2.37) Strassen. Dùng trong ML (tensors), graphics.",
+  "facts": [
+    {
+      "sym": "multiply",
+      "text": "(n×m) × (m×k) = (n×k), O(nmk)"
+    },
+    {
+      "sym": "BLAS",
+      "text": "BLAS/LAPACK: highly optimized — không tự viết"
+    },
+    {
+      "sym": "GPU",
+      "text": "GPU: parallel matrix multiply — CUDA cuBLAS"
+    },
+    {
+      "sym": "row major",
+      "text": "row-major (C/Rust) vs col-major (Fortran/Matlab) — cache matters"
+    }
+  ],
+  "tags": [
+    "matrix",
+    "linear-algebra",
+    "math",
+    "ml",
+    "graphics"
+  ],
+  "related": [
+    "array",
+    "cache",
+    "GPU",
+    "float64",
+    "ML",
+    "SIMD"
+  ],
+  "exists_in": [
+    "C",
+    "Python(numpy)",
+    "Rust",
+    "Julia"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "cache misses: column access in row-major",
+    "floating-point accumulation error"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

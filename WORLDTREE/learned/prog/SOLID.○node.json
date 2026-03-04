@@ -1,0 +1,63 @@
+{
+  "name": "SOLID",
+  "sym": "S·O·L·I·D",
+  "symbol": "S·O·L·I·D",
+  "layer": 6,
+  "category": "pattern",
+  "sdf": [
+    0.2,
+    0.4,
+    0.1
+  ],
+  "isl": [
+    6,
+    0,
+    20,
+    0
+  ],
+  "summary": "5 principles OOP: Single Responsibility, Open/Closed, Liskov, Interface Segregation, Dependency Inversion.",
+  "facts": [
+    {
+      "sym": "SRP",
+      "text": "Single Responsibility: 1 class 1 lý do thay đổi"
+    },
+    {
+      "sym": "OCP",
+      "text": "Open/Closed: mở để extend, đóng để modify"
+    },
+    {
+      "sym": "LSP",
+      "text": "Liskov: subtype phải thay thế được base type"
+    },
+    {
+      "sym": "DIP",
+      "text": "Dependency Inversion: depend on abstractions, not concretions"
+    }
+  ],
+  "tags": [
+    "solid",
+    "oop",
+    "design",
+    "principles"
+  ],
+  "related": [
+    "OOP",
+    "dependency-injection",
+    "interface",
+    "abstraction",
+    "refactoring"
+  ],
+  "exists_in": [
+    "Java",
+    "Python",
+    "C++",
+    "C#"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "over-engineering: SOLID quá cứng nhắc → complexity"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

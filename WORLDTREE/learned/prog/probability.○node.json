@@ -1,0 +1,53 @@
+{
+  "name": "probability",
+  "sym": "P(X)",
+  "symbol": "P(X)",
+  "layer": 6,
+  "category": "math",
+  "sdf": [
+    0.5,
+    0.2,
+    0.45
+  ],
+  "isl": [
+    6,
+    2,
+    6,
+    0
+  ],
+  "summary": "Xác suất. P(A) ∈ [0,1]. Conditional P(A|B). Bayes theorem. Monte Carlo. Dùng trong ML, testing.",
+  "facts": [
+    {
+      "sym": "Bayes",
+      "text": "P(A|B) = P(B|A)·P(A) / P(B)"
+    },
+    {
+      "sym": "Monte Carlo",
+      "text": "Monte Carlo: ước tính bằng random sampling"
+    },
+    {
+      "sym": "expected value",
+      "text": "E[X] = Σ x·P(X=x)"
+    }
+  ],
+  "tags": [
+    "probability",
+    "statistics",
+    "math",
+    "bayes",
+    "random"
+  ],
+  "related": [
+    "random",
+    "Bayesian",
+    "Monte-Carlo",
+    "statistics",
+    "bloom-filter"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

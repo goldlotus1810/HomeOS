@@ -1,0 +1,61 @@
+{
+  "name": "Kubernetes",
+  "sym": "☸",
+  "symbol": "☸",
+  "layer": 5,
+  "category": "tool",
+  "sdf": [
+    0.65,
+    0.75,
+    0.45
+  ],
+  "isl": [
+    5,
+    1,
+    7,
+    0
+  ],
+  "summary": "Container orchestration. Deploy, scale, heal containers tự động. Pod, Service, Deployment, Ingress.",
+  "facts": [
+    {
+      "sym": "Pod",
+      "text": "Pod: smallest unit, 1+ containers share network/storage"
+    },
+    {
+      "sym": "Service",
+      "text": "Service: stable DNS + load balance cho Pods"
+    },
+    {
+      "sym": "Deployment",
+      "text": "Deployment: declarative desired state, rolling update"
+    },
+    {
+      "sym": "Ingress",
+      "text": "Ingress: HTTP routing từ ngoài vào Services"
+    }
+  ],
+  "tags": [
+    "kubernetes",
+    "k8s",
+    "container",
+    "orchestration",
+    "devops"
+  ],
+  "related": [
+    "Docker",
+    "microservice",
+    "load-balancer",
+    "CI-CD",
+    "DevOps"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "resource limits không set → noisy neighbor",
+    "insecure defaults: RBAC, network policy",
+    "secret management"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

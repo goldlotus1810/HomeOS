@@ -1,0 +1,61 @@
+{
+  "name": "scope",
+  "sym": "{}|",
+  "symbol": "{}|",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.45,
+    0.08,
+    -0.35
+  ],
+  "isl": [
+    3,
+    0,
+    22,
+    0
+  ],
+  "summary": "Vùng code nơi variable tồn tại. Block scope trong C/Go/Rust. Lexical scoping.",
+  "facts": [
+    {
+      "sym": "block",
+      "text": "{ } tạo scope mới trong C/Go/Rust/Java"
+    },
+    {
+      "sym": "lexical",
+      "text": "scope xác định tại compile time bởi code structure"
+    },
+    {
+      "sym": "closure",
+      "text": "closure capture variables từ enclosing scope"
+    }
+  ],
+  "tags": [
+    "scope",
+    "variable",
+    "lifetime",
+    "block"
+  ],
+  "related": [
+    "closure",
+    "lifetime",
+    "borrow",
+    "ownership",
+    "variable"
+  ],
+  "exists_in": [
+    "C",
+    "Go",
+    "Rust",
+    "Java",
+    "Python",
+    "JavaScript"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "JS var: function scope không phải block scope (dùng let/const)"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

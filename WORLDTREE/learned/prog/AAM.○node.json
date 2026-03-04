@@ -1,0 +1,55 @@
+{
+  "name": "AAM",
+  "sym": "⬡AAM",
+  "symbol": "⬡AAM",
+  "layer": 4,
+  "category": "homeos",
+  "sdf": [
+    0.1,
+    0.8,
+    0.2
+  ],
+  "isl": [
+    4,
+    3,
+    3,
+    0
+  ],
+  "summary": "Agent AI Master. Giao diện duy nhất với người dùng. Pipeline: Ledger→WORLDTREE→Claude→Learn.",
+  "facts": [
+    {
+      "sym": "pipeline",
+      "text": "1.check ledger 2.check ○ 3.ask Claude 4.learn→○ 5.learn→ledger"
+    },
+    {
+      "sym": "threshold",
+      "text": "confidence ≥ 0.72 → tạo ○ node mới"
+    },
+    {
+      "sym": "hierarchy",
+      "text": "AAM↔Chief↔Agent. AAM không trực tiếp gọi Agent"
+    }
+  ],
+  "tags": [
+    "aam",
+    "homeos",
+    "agent",
+    "pipeline",
+    "ai"
+  ],
+  "related": [
+    "WORLDTREE",
+    "ISL",
+    "LeoAI",
+    "KnowledgeAgent",
+    "Claude"
+  ],
+  "exists_in": [
+    "HomeOS"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

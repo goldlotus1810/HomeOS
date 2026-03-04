@@ -1,0 +1,60 @@
+{
+  "name": "float64",
+  "sym": "𝐟64",
+  "symbol": "𝐟64",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.81,
+    -0.71,
+    -0.79
+  ],
+  "isl": [
+    1,
+    0,
+    13,
+    0
+  ],
+  "summary": "Số thực 64-bit (IEEE 754 double precision). 15-16 chữ số thập phân.",
+  "facts": [
+    {
+      "sym": "15 digits",
+      "text": "~15-16 chữ số thập phân chính xác"
+    },
+    {
+      "sym": "default",
+      "text": "Python/JavaScript dùng float64 cho mọi số thực"
+    },
+    {
+      "sym": "NaN",
+      "text": "vẫn có NaN và Infinity"
+    }
+  ],
+  "tags": [
+    "float64",
+    "double",
+    "ieee754"
+  ],
+  "related": [
+    "float32",
+    "NaN",
+    "divide",
+    "int64"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python",
+    "JavaScript"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "NaN != NaN",
+    "rounding errors tích lũy"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

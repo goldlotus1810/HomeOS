@@ -1,0 +1,67 @@
+{
+  "name": "monomorphization",
+  "sym": "T→concrete",
+  "symbol": "T→concrete",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    -0.3,
+    0.05,
+    -0.3
+  ],
+  "isl": [
+    3,
+    4,
+    4,
+    0
+  ],
+  "summary": "Rust/C++: generic được compile thành concrete type per instantiation. Zero-cost abstraction.",
+  "facts": [
+    {
+      "sym": "zero cost",
+      "text": "không virtual dispatch overhead — inline-able"
+    },
+    {
+      "sym": "code size",
+      "text": "code bloat: fn f<T> với 10 types → 10 copies"
+    },
+    {
+      "sym": "vs dynamic",
+      "text": "vs dyn Trait (dynamic dispatch): tradeoff code size vs runtime flexibility"
+    }
+  ],
+  "tags": [
+    "monomorphization",
+    "generic",
+    "rust",
+    "zero-cost",
+    "compile-time"
+  ],
+  "related": [
+    "generic",
+    "template",
+    "Rust",
+    "C++",
+    "code-size",
+    "LLVM"
+  ],
+  "exists_in": [
+    "Rust",
+    "C++"
+  ],
+  "not_in": [
+    "Java",
+    "Python",
+    "Go"
+  ],
+  "NOT_in": [
+    "Java",
+    "Python",
+    "Go"
+  ],
+  "danger": [
+    "binary size tăng với nhiều type instantiations"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

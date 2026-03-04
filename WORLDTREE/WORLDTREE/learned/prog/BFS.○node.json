@@ -1,0 +1,60 @@
+{
+  "name": "BFS",
+  "sym": "→∀🌊",
+  "symbol": "→∀🌊",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.15,
+    0.1,
+    -0.22
+  ],
+  "isl": [
+    6,
+    0,
+    4,
+    0
+  ],
+  "summary": "Breadth-First Search. O(V+E). Tìm shortest path unweighted. Dùng queue.",
+  "facts": [
+    {
+      "sym": "queue",
+      "text": "dùng queue (FIFO): explore level by level"
+    },
+    {
+      "sym": "shortest",
+      "text": "BFS tìm shortest path trong unweighted graph"
+    },
+    {
+      "sym": "O(V+E)",
+      "text": "time: O(V+E), space: O(V)"
+    }
+  ],
+  "tags": [
+    "bfs",
+    "graph",
+    "shortest-path",
+    "queue"
+  ],
+  "related": [
+    "DFS",
+    "Dijkstra",
+    "queue",
+    "graph",
+    "shortest-path"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "space: O(V) queue có thể lớn với wide graph"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

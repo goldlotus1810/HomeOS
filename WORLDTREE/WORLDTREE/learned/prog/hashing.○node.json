@@ -1,0 +1,61 @@
+{
+  "name": "hashing",
+  "sym": "H()",
+  "symbol": "H()",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.38,
+    0.58,
+    0.18
+  ],
+  "isl": [
+    5,
+    2,
+    7,
+    0
+  ],
+  "summary": "One-way function: data → fixed-size digest. SHA-256, bcrypt, argon2. Khác với encryption (irreversible).",
+  "facts": [
+    {
+      "sym": "SHA-256",
+      "text": "SHA-256: 256-bit hash. Không dùng cho passwords"
+    },
+    {
+      "sym": "bcrypt",
+      "text": "bcrypt: adaptive, intentionally slow — cho passwords"
+    },
+    {
+      "sym": "argon2",
+      "text": "argon2id: winner Password Hashing Competition, memory-hard"
+    },
+    {
+      "sym": "collision",
+      "text": "collision resistance: khó tìm 2 inputs cùng hash"
+    }
+  ],
+  "tags": [
+    "hash",
+    "sha256",
+    "bcrypt",
+    "argon2",
+    "security"
+  ],
+  "related": [
+    "authentication",
+    "encryption",
+    "hashmap",
+    "password",
+    "rainbow-table"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "MD5/SHA1: không dùng cho security",
+    "plain hash cho passwords: rainbow table",
+    "salt thiếu → dictionary attack"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

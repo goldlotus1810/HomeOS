@@ -1,0 +1,55 @@
+{
+  "name": "bit",
+  "sym": "𝟎𝟏",
+  "symbol": "𝟎𝟏",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.95,
+    -0.9,
+    -0.95
+  ],
+  "isl": [
+    1,
+    0,
+    1,
+    0
+  ],
+  "summary": "Đơn vị thông tin nhỏ nhất. 0 hoặc 1. Nền tảng của mọi dữ liệu số.",
+  "facts": [
+    {
+      "sym": "0|1",
+      "text": "chỉ có 2 trạng thái: 0 (false) và 1 (true)"
+    },
+    {
+      "sym": "8 bits",
+      "text": "8 bits = 1 byte — đơn vị cơ bản của memory"
+    },
+    {
+      "sym": "binary",
+      "text": "mọi số đều biểu diễn bằng binary (cơ số 2)"
+    }
+  ],
+  "tags": [
+    "bit",
+    "binary",
+    "primitive"
+  ],
+  "related": [
+    "byte",
+    "bool",
+    "int8",
+    "register"
+  ],
+  "exists_in": [
+    "assembly",
+    "C",
+    "Rust",
+    "hardware"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

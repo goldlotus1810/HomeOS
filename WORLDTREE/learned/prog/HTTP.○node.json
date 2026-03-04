@@ -1,0 +1,62 @@
+{
+  "name": "HTTP",
+  "sym": "🌐HTTP",
+  "symbol": "🌐HTTP",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.6,
+    0.7,
+    0.5
+  ],
+  "isl": [
+    5,
+    1,
+    8,
+    0
+  ],
+  "summary": "HyperText Transfer Protocol. Request/Response. Stateless. HTTP/1.1, HTTP/2, HTTP/3 (QUIC).",
+  "facts": [
+    {
+      "sym": "methods",
+      "text": "GET(read), POST(create), PUT(replace), PATCH(update), DELETE"
+    },
+    {
+      "sym": "status",
+      "text": "200 OK, 201 Created, 400 Bad Request, 401 Unauthorized, 404 Not Found, 500 Internal Error"
+    },
+    {
+      "sym": "HTTP/2",
+      "text": "HTTP/2: multiplexing, header compression, server push"
+    },
+    {
+      "sym": "HTTPS",
+      "text": "HTTPS: HTTP + TLS — encrypt in transit"
+    }
+  ],
+  "tags": [
+    "http",
+    "rest",
+    "web",
+    "protocol",
+    "networking"
+  ],
+  "related": [
+    "API",
+    "REST",
+    "TLS",
+    "TCP",
+    "DNS",
+    "microservice"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "MITM nếu không dùng HTTPS",
+    "HTTP headers injection",
+    "CORS misconfiguration"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

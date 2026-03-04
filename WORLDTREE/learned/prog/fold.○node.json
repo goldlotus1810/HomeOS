@@ -1,0 +1,63 @@
+{
+  "name": "fold",
+  "sym": "𝑓fold",
+  "symbol": "𝑓fold",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    0.47,
+    0.27,
+    0.57
+  ],
+  "isl": [
+    3,
+    2,
+    18,
+    0
+  ],
+  "summary": "Reduce collection thành single value. fold_left/fold_right. Tổng, tích, max, string join đều là fold.",
+  "facts": [
+    {
+      "sym": "accumulator",
+      "text": "fold(f, acc, list): acc = f(acc, elem) cho mỗi elem"
+    },
+    {
+      "sym": "sum",
+      "text": "sum = fold(+, 0, list)"
+    },
+    {
+      "sym": "Rust",
+      "text": "Rust: iter().fold(0, |acc, x| acc + x)"
+    },
+    {
+      "sym": "left vs right",
+      "text": "fold_left vs fold_right: khác với non-associative operations"
+    }
+  ],
+  "tags": [
+    "fold",
+    "reduce",
+    "accumulate",
+    "functional"
+  ],
+  "related": [
+    "map-function",
+    "filter-function",
+    "iterator",
+    "higher-order-function",
+    "functional",
+    "recursion"
+  ],
+  "exists_in": [
+    "Rust",
+    "Python",
+    "Haskell",
+    "JavaScript",
+    "Scala"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

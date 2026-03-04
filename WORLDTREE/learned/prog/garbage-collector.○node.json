@@ -1,0 +1,71 @@
+{
+  "name": "garbage-collector",
+  "sym": "♻m",
+  "symbol": "♻m",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.1,
+    0.7,
+    -0.1
+  ],
+  "isl": [
+    3,
+    0,
+    24,
+    0
+  ],
+  "summary": "Tự động reclaim memory không còn referenced. Stop-the-world pauses. Go/Java/Python.",
+  "facts": [
+    {
+      "sym": "mark-sweep",
+      "text": "mark: trace từ roots. sweep: free unreachable"
+    },
+    {
+      "sym": "generational",
+      "text": "generational GC: young gen collected thường xuyên hơn"
+    },
+    {
+      "sym": "pause",
+      "text": "Go GC: concurrent, pause ngắn <1ms. Java: có thể 10s+"
+    }
+  ],
+  "tags": [
+    "gc",
+    "garbage-collector",
+    "memory",
+    "runtime"
+  ],
+  "related": [
+    "heap",
+    "ownership",
+    "RAII",
+    "malloc",
+    "reference-counting",
+    "Go",
+    "Java"
+  ],
+  "exists_in": [
+    "Go",
+    "Java",
+    "Python",
+    "JavaScript",
+    "C#"
+  ],
+  "not_in": [
+    "C",
+    "C++",
+    "Rust"
+  ],
+  "NOT_in": [
+    "C",
+    "C++",
+    "Rust"
+  ],
+  "danger": [
+    "pause: stop-the-world → latency spike",
+    "memory bloat: GC không collect ngay lập tức"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

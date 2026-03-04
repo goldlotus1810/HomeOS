@@ -1,0 +1,62 @@
+{
+  "name": "data-race",
+  "sym": "∥⚡",
+  "symbol": "∥⚡",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.08,
+    0.28,
+    -0.18
+  ],
+  "isl": [
+    3,
+    0,
+    18,
+    0
+  ],
+  "summary": "Hai goroutines/threads access cùng memory, ít nhất 1 write, không sync. Undefined Behavior.",
+  "facts": [
+    {
+      "sym": "UB",
+      "text": "data race = undefined behavior trong C/C++/Go(runtime panic)"
+    },
+    {
+      "sym": "Rust",
+      "text": "Rust: borrow checker ngăn data race at compile time"
+    },
+    {
+      "sym": "Go race",
+      "text": "go run -race: race detector runtime"
+    }
+  ],
+  "tags": [
+    "data-race",
+    "concurrency",
+    "unsafe"
+  ],
+  "related": [
+    "mutex",
+    "goroutine",
+    "thread",
+    "atomic-op",
+    "Rust",
+    "Go"
+  ],
+  "exists_in": [
+    "C",
+    "Go",
+    "Java"
+  ],
+  "not_in": [
+    "Rust"
+  ],
+  "NOT_in": [
+    "Rust"
+  ],
+  "danger": [
+    "data race → undefined behavior, silent corruption, nondeterministic crashes"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

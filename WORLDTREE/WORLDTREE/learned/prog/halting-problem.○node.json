@@ -1,0 +1,52 @@
+{
+  "name": "halting-problem",
+  "sym": "∄halt",
+  "symbol": "∄halt",
+  "layer": 6,
+  "category": "math",
+  "sdf": [
+    0.7,
+    0.2,
+    0.6
+  ],
+  "isl": [
+    6,
+    2,
+    4,
+    0
+  ],
+  "summary": "Không thể tạo program tổng quát quyết định program khác có halt hay loop mãi. Turing 1936.",
+  "facts": [
+    {
+      "sym": "undecidable",
+      "text": "undecidable: không có algorithm tổng quát"
+    },
+    {
+      "sym": "proof",
+      "text": "proof by contradiction: giả sử có HALT(P,I) → paradox"
+    },
+    {
+      "sym": "implications",
+      "text": "nhiều bài toán undecidable: equivalence of programs, type inference tổng quát"
+    }
+  ],
+  "tags": [
+    "halting",
+    "computability",
+    "turing",
+    "theory",
+    "undecidable"
+  ],
+  "related": [
+    "P-vs-NP",
+    "Turing-machine",
+    "recursive",
+    "algorithm"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

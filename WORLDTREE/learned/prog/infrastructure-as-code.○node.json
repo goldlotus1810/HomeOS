@@ -1,0 +1,56 @@
+{
+  "name": "infrastructure-as-code",
+  "sym": "code→infra",
+  "symbol": "code→infra",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.6,
+    0.8,
+    0.45
+  ],
+  "isl": [
+    7,
+    2,
+    4,
+    0
+  ],
+  "summary": "Quản lý infrastructure bằng code. Terraform, Pulumi, Ansible. Version controlled, reproducible.",
+  "facts": [
+    {
+      "sym": "declarative",
+      "text": "declare desired state, tool figure out how"
+    },
+    {
+      "sym": "Terraform",
+      "text": "Terraform: HCL, plan → apply, state file"
+    },
+    {
+      "sym": "immutable",
+      "text": "immutable infra: thay vì modify, replace"
+    }
+  ],
+  "tags": [
+    "iac",
+    "terraform",
+    "devops",
+    "infrastructure",
+    "automation"
+  ],
+  "related": [
+    "CI-CD",
+    "Docker",
+    "Kubernetes",
+    "git",
+    "monitoring"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "state drift: infra thay đổi ngoài Terraform",
+    "terraform destroy: xóa production"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

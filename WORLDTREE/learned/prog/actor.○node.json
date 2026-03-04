@@ -1,0 +1,58 @@
+{
+  "name": "actor",
+  "sym": "○→○",
+  "symbol": "○→○",
+  "layer": 4,
+  "category": "paradigm",
+  "sdf": [
+    0.18,
+    0.32,
+    -0.22
+  ],
+  "isl": [
+    4,
+    0,
+    7,
+    0
+  ],
+  "summary": "Actor model. Isolated entities nhận message, process, gửi messages. No shared state.",
+  "facts": [
+    {
+      "sym": "mailbox",
+      "text": "mỗi actor có mailbox, process 1 message 1 lúc → no race"
+    },
+    {
+      "sym": "location transparent",
+      "text": "actor có thể ở bất kỳ node nào trong cluster"
+    },
+    {
+      "sym": "supervision",
+      "text": "supervisor restart failed actors — fault tolerance"
+    }
+  ],
+  "tags": [
+    "actor",
+    "erlang",
+    "message",
+    "isolation"
+  ],
+  "related": [
+    "Erlang",
+    "Elixir",
+    "BEAM",
+    "CSP",
+    "goroutine",
+    "concurrent"
+  ],
+  "exists_in": [
+    "Erlang",
+    "Elixir",
+    "Scala(Akka)",
+    "Rust(Actix)"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

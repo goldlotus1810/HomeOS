@@ -1,0 +1,62 @@
+{
+  "name": "functional",
+  "sym": "𝑓→𝑓",
+  "symbol": "𝑓→𝑓",
+  "layer": 4,
+  "category": "paradigm",
+  "sdf": [
+    0.6,
+    0.35,
+    0.7
+  ],
+  "isl": [
+    4,
+    0,
+    1,
+    0
+  ],
+  "summary": "Lập trình hàm. Pure functions, immutability, no side effects. Compose nhỏ thành lớn.",
+  "facts": [
+    {
+      "sym": "pure",
+      "text": "pure function: cùng input → cùng output, không side effect"
+    },
+    {
+      "sym": "immutable",
+      "text": "immutable data: không thay đổi, tạo mới"
+    },
+    {
+      "sym": "compose",
+      "text": "f(g(x)) — function composition"
+    }
+  ],
+  "tags": [
+    "functional",
+    "pure",
+    "immutable",
+    "compose"
+  ],
+  "related": [
+    "Haskell",
+    "Scala",
+    "Erlang",
+    "lambda",
+    "immutability",
+    "Monad",
+    "Functor",
+    "closure"
+  ],
+  "exists_in": [
+    "Haskell",
+    "Scala",
+    "Erlang",
+    "Elixir",
+    "Clojure",
+    "ML"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Rabin-Karp",
+  "sym": "RK",
+  "symbol": "RK",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.14,
+    0.045,
+    -0.245
+  ],
+  "isl": [
+    6,
+    1,
+    9,
+    0
+  ],
+  "summary": "Rolling hash string search. O(n+m) average. Dùng rolling hash để tránh O(nm). Tốt cho multi-pattern search.",
+  "facts": [
+    {
+      "sym": "rolling hash",
+      "text": "update hash trong O(1) khi slide window"
+    },
+    {
+      "sym": "collision",
+      "text": "hash collision → false positive → verify explicitly"
+    },
+    {
+      "sym": "multi-pattern",
+      "text": "có thể search nhiều patterns cùng lúc hiệu quả"
+    }
+  ],
+  "tags": [
+    "rabin-karp",
+    "string-search",
+    "hash",
+    "rolling-hash"
+  ],
+  "related": [
+    "KMP",
+    "hashmap",
+    "string",
+    "two-pointer",
+    "bloom-filter"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "hash collision: spurious match"
+  ],
+  "confidence": 0.97,
+  "source": "builtin"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "finite-state-machine",
+  "sym": "FSM",
+  "symbol": "FSM",
+  "layer": 6,
+  "category": "concept",
+  "sdf": [
+    -0.2,
+    0.1,
+    -0.28
+  ],
+  "isl": [
+    6,
+    2,
+    9,
+    0
+  ],
+  "summary": "States + transitions. Deterministic (DFA) hoặc Non-deterministic (NFA). Regex là FSM. Parser, protocol.",
+  "facts": [
+    {
+      "sym": "DFA",
+      "text": "DFA: deterministic — 1 state tại 1 thời điểm"
+    },
+    {
+      "sym": "NFA→DFA",
+      "text": "mọi NFA có thể convert sang DFA (có thể exponentially larger)"
+    },
+    {
+      "sym": "applications",
+      "text": "regex engine, lexer, protocol parsing, game AI"
+    }
+  ],
+  "tags": [
+    "fsm",
+    "automata",
+    "state",
+    "regex",
+    "parser"
+  ],
+  "related": [
+    "regex",
+    "parser",
+    "enum",
+    "pattern-matching",
+    "graph"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

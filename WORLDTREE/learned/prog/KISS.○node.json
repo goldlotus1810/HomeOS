@@ -1,0 +1,51 @@
+{
+  "name": "KISS",
+  "sym": "simple",
+  "symbol": "simple",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.23,
+    0.51,
+    0.11
+  ],
+  "isl": [
+    7,
+    0,
+    3,
+    0
+  ],
+  "summary": "Keep It Simple, Stupid. Giải pháp đơn giản nhất thường là tốt nhất. Complexity kills.",
+  "facts": [
+    {
+      "sym": "simple != easy",
+      "text": "simple: ít moving parts. Easy: quen thuộc. Khác nhau"
+    },
+    {
+      "sym": "Occam",
+      "text": "Occam's razor: với cùng evidence, explanation đơn giản hơn likely đúng hơn"
+    },
+    {
+      "sym": "complexity",
+      "text": "complexity: mỗi abstraction thêm có thể không worth it"
+    }
+  ],
+  "tags": [
+    "kiss",
+    "simplicity",
+    "design",
+    "principle"
+  ],
+  "related": [
+    "DRY",
+    "YAGNI",
+    "refactoring",
+    "abstraction"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

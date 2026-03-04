@@ -1,0 +1,58 @@
+{
+  "name": "Scala",
+  "sym": "S∪",
+  "symbol": "S∪",
+  "layer": 5,
+  "category": "language",
+  "sdf": [
+    0.4,
+    0.5,
+    0.2
+  ],
+  "isl": [
+    5,
+    4,
+    2,
+    0
+  ],
+  "summary": "JVM lang. OOP + FP hybrid. Implicits, type classes, Akka actors, Spark. Powerful nhưng complex.",
+  "facts": [
+    {
+      "sym": "hybrid",
+      "text": "OOP + FP: class kết hợp với immutable collections, map/filter"
+    },
+    {
+      "sym": "implicits",
+      "text": "implicit conversions/parameters: powerful nhưng khó debug"
+    },
+    {
+      "sym": "Spark",
+      "text": "Apache Spark: distributed data processing — Scala native API"
+    }
+  ],
+  "tags": [
+    "scala",
+    "jvm",
+    "functional",
+    "oop",
+    "spark"
+  ],
+  "related": [
+    "Java",
+    "JVM",
+    "Haskell",
+    "functional",
+    "Monad",
+    "Akka",
+    "actor"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "implicit resolution: confusing compiler errors",
+    "compile time chậm"
+  ],
+  "confidence": 0.97,
+  "source": "builtin"
+}

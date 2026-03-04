@@ -1,0 +1,60 @@
+{
+  "name": "observer-pattern",
+  "sym": "👁→",
+  "symbol": "👁→",
+  "layer": 6,
+  "category": "pattern",
+  "sdf": [
+    0.35,
+    0.4,
+    0.2
+  ],
+  "isl": [
+    6,
+    0,
+    11,
+    0
+  ],
+  "summary": "Subject notify Observers khi state thay đổi. Event-driven. Pub/Sub pattern.",
+  "facts": [
+    {
+      "sym": "subscribe",
+      "text": "Observer subscribe vào Subject"
+    },
+    {
+      "sym": "notify",
+      "text": "Subject thay đổi → notify tất cả Observers"
+    },
+    {
+      "sym": "decouple",
+      "text": "Subject không biết Observer là gì — loose coupling"
+    }
+  ],
+  "tags": [
+    "observer",
+    "event",
+    "pubsub",
+    "pattern"
+  ],
+  "related": [
+    "event-sourcing",
+    "reactive",
+    "channel",
+    "callback",
+    "decorator-pattern"
+  ],
+  "exists_in": [
+    "Java",
+    "JavaScript",
+    "Python",
+    "Go"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "memory leak: Observer không unsubscribe",
+    "order of notification không guaranteed"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

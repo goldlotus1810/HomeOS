@@ -1,0 +1,67 @@
+{
+  "name": "virtual-dispatch",
+  "sym": "vtable→",
+  "symbol": "vtable→",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    -0.15,
+    0.2,
+    -0.2
+  ],
+  "isl": [
+    3,
+    4,
+    7,
+    0
+  ],
+  "summary": "Runtime dispatch qua vtable. C++ virtual, Java interface, Rust dyn Trait. Overhead nhỏ nhưng ngăn inlining.",
+  "facts": [
+    {
+      "sym": "vtable",
+      "text": "vtable: array of function pointers per class"
+    },
+    {
+      "sym": "cost",
+      "text": "overhead: 1 pointer deref + branch misprediction"
+    },
+    {
+      "sym": "devirtualize",
+      "text": "compiler devirtualize khi biết concrete type"
+    }
+  ],
+  "tags": [
+    "vtable",
+    "virtual",
+    "dispatch",
+    "oop",
+    "runtime"
+  ],
+  "related": [
+    "OOP",
+    "class",
+    "interface",
+    "polymorphism",
+    "monomorphization",
+    "Rust",
+    "C++"
+  ],
+  "exists_in": [
+    "C++",
+    "Java",
+    "Rust(dyn)"
+  ],
+  "not_in": [
+    "C",
+    "Go(interface has 2-ptr)"
+  ],
+  "NOT_in": [
+    "C"
+  ],
+  "danger": [
+    "ngăn inlining → less optimization",
+    "cache miss: vtable thường cold"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

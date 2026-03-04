@@ -1,0 +1,57 @@
+{
+  "name": "authorization",
+  "sym": "🔑✓",
+  "symbol": "🔑✓",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.46,
+    0.56,
+    0.26
+  ],
+  "isl": [
+    5,
+    2,
+    5,
+    0
+  ],
+  "summary": "Verify permissions: what can you do? RBAC, ABAC, ACL. Sau authentication.",
+  "facts": [
+    {
+      "sym": "RBAC",
+      "text": "Role-Based: user → roles → permissions"
+    },
+    {
+      "sym": "ABAC",
+      "text": "Attribute-Based: policy theo attributes (department, time, location)"
+    },
+    {
+      "sym": "principle of least privilege",
+      "text": "grant minimum permissions cần thiết"
+    }
+  ],
+  "tags": [
+    "authorization",
+    "rbac",
+    "abac",
+    "permissions",
+    "security"
+  ],
+  "related": [
+    "authentication",
+    "JWT",
+    "role",
+    "permission",
+    "Kubernetes"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "horizontal privilege escalation: access other user's data",
+    "missing authorization check",
+    "insecure direct object reference"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

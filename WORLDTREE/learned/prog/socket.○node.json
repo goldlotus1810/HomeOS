@@ -1,0 +1,67 @@
+{
+  "name": "socket",
+  "sym": "⊃←→⊃",
+  "symbol": "⊃←→⊃",
+  "layer": 3,
+  "category": "os",
+  "sdf": [
+    -0.2,
+    0.0,
+    -0.25
+  ],
+  "isl": [
+    3,
+    3,
+    3,
+    0
+  ],
+  "summary": "Network endpoint. TCP/UDP socket. Bidirectional byte stream. BSD socket API.",
+  "facts": [
+    {
+      "sym": "API",
+      "text": "socket() → bind() → listen() → accept() → read/write()"
+    },
+    {
+      "sym": "TCP",
+      "text": "SOCK_STREAM: TCP — reliable, ordered"
+    },
+    {
+      "sym": "UDP",
+      "text": "SOCK_DGRAM: UDP — fast, unreliable"
+    },
+    {
+      "sym": "Unix socket",
+      "text": "Unix domain socket: IPC giữa processes cùng host — nhanh hơn TCP loopback"
+    }
+  ],
+  "tags": [
+    "socket",
+    "network",
+    "tcp",
+    "udp",
+    "ipc"
+  ],
+  "related": [
+    "TCP",
+    "HTTP",
+    "TLS",
+    "process",
+    "pipe",
+    "select-epoll"
+  ],
+  "exists_in": [
+    "C",
+    "Go",
+    "Python",
+    "Rust",
+    "Java"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "socket leak: không close",
+    "blocking accept: dùng non-blocking + epoll"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

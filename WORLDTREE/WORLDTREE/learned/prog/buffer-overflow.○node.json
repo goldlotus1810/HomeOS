@@ -1,0 +1,76 @@
+{
+  "name": "buffer-overflow",
+  "sym": "⊗buf",
+  "symbol": "⊗buf",
+  "layer": 3,
+  "category": "vulnerability",
+  "sdf": [
+    -0.7,
+    -0.85,
+    -0.75
+  ],
+  "isl": [
+    3,
+    1,
+    1,
+    0
+  ],
+  "summary": "Ghi vượt ranh giới buffer. Nguyên nhân #1 của security vulnerabilities trong C/C++. CVE phổ biến nhất.",
+  "facts": [
+    {
+      "sym": "stack smash",
+      "text": "stack buffer overflow: ghi đè return address → execute shellcode"
+    },
+    {
+      "sym": "heap overflow",
+      "text": "heap overflow: corrupt heap metadata"
+    },
+    {
+      "sym": "off-by-one",
+      "text": "off-by-one: quên null terminator → tràn 1 byte"
+    },
+    {
+      "sym": "safe langs",
+      "text": "Rust/Go/Java: không có buffer overflow tại safe code"
+    }
+  ],
+  "tags": [
+    "buffer-overflow",
+    "security",
+    "vulnerability",
+    "c"
+  ],
+  "related": [
+    "array",
+    "string",
+    "pointer",
+    "malloc",
+    "C",
+    "stack",
+    "memory-safety"
+  ],
+  "exists_in": [
+    "C",
+    "C++",
+    "assembly"
+  ],
+  "not_in": [
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "NOT_in": [
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "danger": [
+    "RCE: remote code execution",
+    "arbitrary write primitive",
+    "ASLR/DEP bypass techniques"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

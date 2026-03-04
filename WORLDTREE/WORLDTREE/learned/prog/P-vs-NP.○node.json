@@ -1,0 +1,51 @@
+{
+  "name": "P-vs-NP",
+  "sym": "P?NP",
+  "symbol": "P?NP",
+  "layer": 6,
+  "category": "math",
+  "sdf": [
+    0.6,
+    0.2,
+    0.5
+  ],
+  "isl": [
+    6,
+    2,
+    3,
+    0
+  ],
+  "summary": "P: solvable in polynomial time. NP: verifiable in polynomial time. P=NP chưa được chứng minh.",
+  "facts": [
+    {
+      "sym": "P",
+      "text": "P: O(n^k) deterministic. Ví dụ: sort, search, shortest path"
+    },
+    {
+      "sym": "NP",
+      "text": "NP: solution verify O(n^k). Ví dụ: SAT, knapsack, TSP"
+    },
+    {
+      "sym": "NP-complete",
+      "text": "NP-complete: hardest in NP. Nếu giải 1 → giải tất cả NP"
+    }
+  ],
+  "tags": [
+    "p-np",
+    "complexity",
+    "theory",
+    "computability"
+  ],
+  "related": [
+    "Big-O",
+    "algorithm",
+    "halting-problem",
+    "dynamic-programming"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

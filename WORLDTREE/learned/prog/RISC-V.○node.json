@@ -1,0 +1,58 @@
+{
+  "name": "RISC-V",
+  "sym": "⚙RV",
+  "symbol": "⚙RV",
+  "layer": 5,
+  "category": "language",
+  "sdf": [
+    -0.98,
+    -0.94,
+    -0.98
+  ],
+  "isl": [
+    5,
+    0,
+    15,
+    0
+  ],
+  "summary": "Open-source ISA 2010. Modular: RV32I base + extensions (M=mul, A=atomic, F=float, C=compressed).",
+  "facts": [
+    {
+      "sym": "open",
+      "text": "RISC-V: open standard, không royalty"
+    },
+    {
+      "sym": "modular",
+      "text": "RV32I: 47 instructions base. Extensions tùy chọn"
+    },
+    {
+      "sym": "embedded",
+      "text": "embedded đến server: scalable từ microcontroller đến HPC"
+    },
+    {
+      "sym": "vs x86",
+      "text": "x86: 1000+ instructions, RISC-V base: 47 — đơn giản hơn nhiều"
+    }
+  ],
+  "tags": [
+    "risc-v",
+    "isa",
+    "hardware",
+    "open",
+    "embedded"
+  ],
+  "related": [
+    "assembly",
+    "register",
+    "bit",
+    "byte",
+    "load",
+    "store"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

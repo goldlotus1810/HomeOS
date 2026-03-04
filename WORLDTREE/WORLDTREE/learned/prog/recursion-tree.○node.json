@@ -1,0 +1,52 @@
+{
+  "name": "recursion-tree",
+  "sym": "🌲↺",
+  "symbol": "🌲↺",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.2,
+    0.15,
+    -0.3
+  ],
+  "isl": [
+    6,
+    0,
+    24,
+    0
+  ],
+  "summary": "Visualize recursive algorithm. Mỗi node = 1 call. Depth = recursion depth. Dùng phân tích complexity.",
+  "facts": [
+    {
+      "sym": "analysis",
+      "text": "total work = sum of work tại mỗi level"
+    },
+    {
+      "sym": "mergesort",
+      "text": "mergesort: depth=log n, mỗi level O(n) → O(n log n)"
+    },
+    {
+      "sym": "master theorem",
+      "text": "T(n)=aT(n/b)+f(n) → Master Theorem giải complexity"
+    }
+  ],
+  "tags": [
+    "recursion",
+    "tree",
+    "complexity",
+    "analysis"
+  ],
+  "related": [
+    "recursion",
+    "mergesort",
+    "dynamic-programming",
+    "divide-conquer",
+    "binary-search"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

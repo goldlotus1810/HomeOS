@@ -1,0 +1,52 @@
+{
+  "name": "modular-arithmetic",
+  "sym": "mod",
+  "symbol": "mod",
+  "layer": 6,
+  "category": "math",
+  "sdf": [
+    0.1,
+    0.1,
+    0.05
+  ],
+  "isl": [
+    6,
+    2,
+    5,
+    0
+  ],
+  "summary": "Số học theo modulus. a mod n: remainder khi chia a cho n. Ring Z/nZ. Dùng trong crypto, hashing.",
+  "facts": [
+    {
+      "sym": "clock",
+      "text": "clock arithmetic: 23 + 5 = 4 (mod 24)"
+    },
+    {
+      "sym": "RSA",
+      "text": "RSA: d·e ≡ 1 (mod λ(n)) — modular inverse"
+    },
+    {
+      "sym": "hash",
+      "text": "hash table: index = hash(key) mod bucket_count"
+    }
+  ],
+  "tags": [
+    "modulo",
+    "modular-arithmetic",
+    "math",
+    "crypto"
+  ],
+  "related": [
+    "modulo",
+    "hashmap",
+    "encryption",
+    "RSA",
+    "number-theory"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

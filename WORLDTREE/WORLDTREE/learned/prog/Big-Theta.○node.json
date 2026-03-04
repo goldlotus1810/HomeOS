@@ -1,0 +1,46 @@
+{
+  "name": "Big-Theta",
+  "sym": "Θ()",
+  "symbol": "Θ()",
+  "layer": 6,
+  "category": "math",
+  "sdf": [
+    -0.045,
+    0.245,
+    -0.145
+  ],
+  "isl": [
+    6,
+    2,
+    2,
+    0
+  ],
+  "summary": "Tight bound: cả upper và lower. Θ(n log n) nghĩa là exactly grows as n log n.",
+  "facts": [
+    {
+      "sym": "definition",
+      "text": "f(n) = Θ(g(n)): f(n) = O(g(n)) AND f(n) = Ω(g(n))"
+    },
+    {
+      "sym": "precise",
+      "text": "Θ chính xác hơn O. mergesort Θ(n log n), không chỉ O(n log n)"
+    }
+  ],
+  "tags": [
+    "big-theta",
+    "complexity",
+    "math",
+    "tight-bound"
+  ],
+  "related": [
+    "Big-O",
+    "Big-Omega",
+    "complexity-analysis"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

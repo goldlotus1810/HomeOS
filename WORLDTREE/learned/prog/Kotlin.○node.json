@@ -1,0 +1,58 @@
+{
+  "name": "Kotlin",
+  "sym": "🎯K",
+  "symbol": "🎯K",
+  "layer": 5,
+  "category": "language",
+  "sdf": [
+    0.35,
+    0.45,
+    -0.05
+  ],
+  "isl": [
+    5,
+    0,
+    13,
+    0
+  ],
+  "summary": "JetBrains 2016. Modern JVM language. Null safety, coroutines, interop với Java.",
+  "facts": [
+    {
+      "sym": "null safety",
+      "text": "T? vs T: nullable vs non-nullable — compile-time null check"
+    },
+    {
+      "sym": "coroutines",
+      "text": "kotlinx.coroutines: structured concurrency, suspend fun"
+    },
+    {
+      "sym": "data class",
+      "text": "data class: tự generate equals, hashCode, copy, toString"
+    },
+    {
+      "sym": "extension",
+      "text": "extension functions: thêm method mà không subclass"
+    }
+  ],
+  "tags": [
+    "kotlin",
+    "jvm",
+    "null-safety",
+    "coroutines",
+    "android"
+  ],
+  "related": [
+    "Java",
+    "JVM",
+    "null-safety",
+    "async-await",
+    "OOP",
+    "data-class"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

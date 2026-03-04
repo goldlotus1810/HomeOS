@@ -1,0 +1,57 @@
+{
+  "name": "finite-automaton",
+  "sym": "→q→",
+  "symbol": "→q→",
+  "layer": 6,
+  "category": "concept",
+  "sdf": [
+    -0.4,
+    0.2,
+    -0.4
+  ],
+  "isl": [
+    6,
+    2,
+    3,
+    0
+  ],
+  "summary": "DFA/NFA: states + transitions + accept states. Nền tảng của regex, lexer, protocol parsing.",
+  "facts": [
+    {
+      "sym": "DFA",
+      "text": "DFA: deterministic — 1 transition per input"
+    },
+    {
+      "sym": "NFA",
+      "text": "NFA: non-deterministic — multiple transitions, ε-transitions"
+    },
+    {
+      "sym": "regex",
+      "text": "regex → NFA → DFA — Thompson's construction"
+    },
+    {
+      "sym": "lexer",
+      "text": "lexer dùng DFA: O(n) tokenization"
+    }
+  ],
+  "tags": [
+    "dfa",
+    "nfa",
+    "automaton",
+    "regex",
+    "theory"
+  ],
+  "related": [
+    "regex",
+    "KMP",
+    "parsing",
+    "theory",
+    "compiler"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

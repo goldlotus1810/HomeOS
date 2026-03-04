@@ -1,0 +1,57 @@
+{
+  "name": "service-mesh",
+  "sym": "⬡↔⬡m",
+  "symbol": "⬡↔⬡m",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.62,
+    0.72,
+    0.42
+  ],
+  "isl": [
+    5,
+    3,
+    4,
+    0
+  ],
+  "summary": "Infrastructure layer cho service-to-service communication. Istio, Linkerd. mTLS, observability, traffic control.",
+  "facts": [
+    {
+      "sym": "sidecar",
+      "text": "sidecar proxy (Envoy): intercept tất cả network traffic"
+    },
+    {
+      "sym": "mTLS",
+      "text": "automatic mTLS giữa services"
+    },
+    {
+      "sym": "traffic",
+      "text": "traffic splitting: canary, A/B testing, blue-green"
+    }
+  ],
+  "tags": [
+    "service-mesh",
+    "istio",
+    "envoy",
+    "microservice",
+    "infrastructure"
+  ],
+  "related": [
+    "microservice",
+    "Kubernetes",
+    "mTLS",
+    "circuit-breaker",
+    "load-balancer",
+    "monitoring"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "added latency: sidecar overhead",
+    "complexity: another layer to debug"
+  ],
+  "confidence": 0.97,
+  "source": "builtin"
+}

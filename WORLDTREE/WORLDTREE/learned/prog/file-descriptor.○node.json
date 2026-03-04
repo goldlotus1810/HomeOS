@@ -1,0 +1,63 @@
+{
+  "name": "file-descriptor",
+  "sym": "fd",
+  "symbol": "fd",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    -0.4,
+    -0.3,
+    -0.45
+  ],
+  "isl": [
+    5,
+    3,
+    2,
+    0
+  ],
+  "summary": "Integer handle cho files, sockets, pipes. 0=stdin, 1=stdout, 2=stderr. open(), close(), read(), write().",
+  "facts": [
+    {
+      "sym": "integer",
+      "text": "fd là integer: index vào process file descriptor table"
+    },
+    {
+      "sym": "0/1/2",
+      "text": "0: stdin, 1: stdout, 2: stderr — mặc định mở sẵn"
+    },
+    {
+      "sym": "limit",
+      "text": "ulimit -n: max open files per process (default 1024)"
+    }
+  ],
+  "tags": [
+    "fd",
+    "file",
+    "linux",
+    "os",
+    "io"
+  ],
+  "related": [
+    "process",
+    "socket",
+    "pipe",
+    "read",
+    "write",
+    "epoll"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Python",
+    "Java"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "fd leak: không close() → exhaust limit",
+    "TOCTOU: check sau đó dùng — race condition"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

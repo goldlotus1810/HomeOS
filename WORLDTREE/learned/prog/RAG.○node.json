@@ -1,0 +1,57 @@
+{
+  "name": "RAG",
+  "sym": "R·A·G",
+  "symbol": "R·A·G",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.86,
+    0.76,
+    0.75
+  ],
+  "isl": [
+    5,
+    4,
+    8,
+    0
+  ],
+  "summary": "Retrieval-Augmented Generation. LLM + external knowledge base. Giảm hallucination, update knowledge.",
+  "facts": [
+    {
+      "sym": "flow",
+      "text": "query → embed → vector search → retrieve → context + LLM → answer"
+    },
+    {
+      "sym": "chunking",
+      "text": "chunk documents: 256-1024 tokens, overlap"
+    },
+    {
+      "sym": "reranking",
+      "text": "reranking: refine top-k retrieved docs trước khi đưa vào LLM"
+    }
+  ],
+  "tags": [
+    "rag",
+    "llm",
+    "retrieval",
+    "vector-db",
+    "ai"
+  ],
+  "related": [
+    "vector-database",
+    "embedding",
+    "transformer",
+    "attention-mechanism",
+    "database"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "context window limit",
+    "retrieved context irrelevant",
+    "knowledge cutoff"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

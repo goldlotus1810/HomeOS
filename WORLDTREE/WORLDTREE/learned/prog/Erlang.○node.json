@@ -1,0 +1,62 @@
+{
+  "name": "Erlang",
+  "sym": "☀E",
+  "symbol": "☀E",
+  "layer": 5,
+  "category": "language",
+  "sdf": [
+    0.3,
+    0.5,
+    -0.1
+  ],
+  "isl": [
+    5,
+    0,
+    9,
+    0
+  ],
+  "summary": "Ericsson 1986. Actor model, fault-tolerant, distributed. 99.9999999% uptime.",
+  "facts": [
+    {
+      "sym": "BEAM",
+      "text": "BEAM VM: lightweight processes (không phải OS thread)"
+    },
+    {
+      "sym": "let it crash",
+      "text": "let it crash: supervisor restart failed process"
+    },
+    {
+      "sym": "hot reload",
+      "text": "hot code reload: update code không downtime"
+    },
+    {
+      "sym": "immutable",
+      "text": "immutable data: không có shared mutable state"
+    }
+  ],
+  "tags": [
+    "erlang",
+    "actor",
+    "fault-tolerant",
+    "distributed",
+    "telecom"
+  ],
+  "related": [
+    "BEAM",
+    "actor",
+    "CSP",
+    "supervisor",
+    "Elixir",
+    "concurrent"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "syntax khác lạ",
+    "slow single-threaded",
+    "không có shared memory"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

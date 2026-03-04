@@ -1,0 +1,57 @@
+{
+  "name": "bitwise-and",
+  "sym": "&",
+  "symbol": "&",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.92,
+    -0.87,
+    -0.91
+  ],
+  "isl": [
+    2,
+    0,
+    6,
+    0
+  ],
+  "summary": "Bitwise AND. Mask bits. x & 0xFF = byte thấp nhất.",
+  "facts": [
+    {
+      "sym": "mask",
+      "text": "x & mask → giữ bits tương ứng bit 1 của mask"
+    },
+    {
+      "sym": "check bit",
+      "text": "x & (1<<n) != 0 → kiểm tra bit n có set không"
+    },
+    {
+      "sym": "clear bit",
+      "text": "x & ~(1<<n) → xóa bit n"
+    }
+  ],
+  "tags": [
+    "bitwise",
+    "and",
+    "mask"
+  ],
+  "related": [
+    "bitwise-or",
+    "bitwise-xor",
+    "bitwise-not",
+    "left-shift",
+    "bit"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "assembly"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

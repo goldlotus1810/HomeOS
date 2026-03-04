@@ -1,0 +1,61 @@
+{
+  "name": "memoization",
+  "sym": "💾↺",
+  "symbol": "💾↺",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    0.1,
+    0.2,
+    -0.1
+  ],
+  "isl": [
+    6,
+    1,
+    10,
+    0
+  ],
+  "summary": "Cache kết quả của function call. Top-down DP. @functools.lru_cache trong Python.",
+  "facts": [
+    {
+      "sym": "cache",
+      "text": "nếu đã tính rồi → trả từ cache"
+    },
+    {
+      "sym": "Python",
+      "text": "@functools.lru_cache(maxsize=None) hoặc @cache"
+    },
+    {
+      "sym": "Rust",
+      "text": "Rust: dùng HashMap hoặc lazy_static cho memo"
+    }
+  ],
+  "tags": [
+    "memoization",
+    "cache",
+    "dp",
+    "recursion"
+  ],
+  "related": [
+    "dynamic-programming",
+    "cache",
+    "LRU-cache",
+    "recursion",
+    "higher-order-function"
+  ],
+  "exists_in": [
+    "Python",
+    "Haskell",
+    "JavaScript",
+    "Rust",
+    "Go"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "memory leak: unbounded cache",
+    "incorrect key: phụ thuộc vào inputs nào?"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

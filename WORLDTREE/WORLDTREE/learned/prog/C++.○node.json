@@ -1,0 +1,64 @@
+{
+  "name": "C++",
+  "sym": "⚙C++",
+  "symbol": "⚙C++",
+  "layer": 5,
+  "category": "language",
+  "sdf": [
+    -0.6,
+    -0.1,
+    -0.7
+  ],
+  "isl": [
+    5,
+    0,
+    7,
+    0
+  ],
+  "summary": "Bjarne Stroustrup 1985. C + OOP + templates + RAII. Powerful nhưng complex.",
+  "facts": [
+    {
+      "sym": "RAII",
+      "text": "RAII: constructor acquire, destructor release resource"
+    },
+    {
+      "sym": "template",
+      "text": "templates: compile-time generics, monomorphization"
+    },
+    {
+      "sym": "move semantics",
+      "text": "C++11: move semantics, smart pointers (unique_ptr, shared_ptr)"
+    },
+    {
+      "sym": "UB",
+      "text": "nhiều UB hơn C: thêm object model, vtable, exception"
+    }
+  ],
+  "tags": [
+    "cpp",
+    "c++",
+    "systems",
+    "oop",
+    "templates"
+  ],
+  "related": [
+    "RAII",
+    "ownership",
+    "template",
+    "OOP",
+    "class",
+    "inheritance",
+    "pointer"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "UB phổ biến",
+    "complex: khó đọc",
+    "compile time chậm với templates",
+    "ABI compatibility"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

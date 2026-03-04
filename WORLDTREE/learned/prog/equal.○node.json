@@ -1,0 +1,61 @@
+{
+  "name": "equal",
+  "sym": "==",
+  "symbol": "==",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.83,
+    -0.75,
+    -0.83
+  ],
+  "isl": [
+    2,
+    0,
+    12,
+    0
+  ],
+  "summary": "So sánh bằng nhau. JS: == vs === (coercion vs strict). Float: tránh x==y.",
+  "facts": [
+    {
+      "sym": "float",
+      "text": "float: không dùng x==y, dùng |x-y| < epsilon"
+    },
+    {
+      "sym": "JS",
+      "text": "JS: == với type coercion, === strict equality"
+    },
+    {
+      "sym": "NaN",
+      "text": "NaN == NaN = false (dùng isNaN())"
+    }
+  ],
+  "tags": [
+    "equal",
+    "comparison",
+    "equality"
+  ],
+  "related": [
+    "not-equal",
+    "less-than",
+    "greater-than",
+    "bool",
+    "NaN"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python",
+    "JavaScript"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "float equality: rounding errors",
+    "JS ==: type coercion bugs"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

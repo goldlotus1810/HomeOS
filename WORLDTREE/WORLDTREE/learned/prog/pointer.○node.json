@@ -1,0 +1,69 @@
+{
+  "name": "pointer",
+  "sym": "*→",
+  "symbol": "*→",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.68,
+    -0.76,
+    -0.66
+  ],
+  "isl": [
+    1,
+    0,
+    17,
+    0
+  ],
+  "summary": "Địa chỉ memory. Trỏ tới vùng nhớ chứa giá trị. Nền tảng của C/C++/Rust.",
+  "facts": [
+    {
+      "sym": "address",
+      "text": "pointer chứa địa chỉ bộ nhớ (số nguyên)"
+    },
+    {
+      "sym": "deref",
+      "text": "*ptr để lấy giá trị tại địa chỉ"
+    },
+    {
+      "sym": "null",
+      "text": "null/nil pointer: địa chỉ 0 — deref → crash"
+    }
+  ],
+  "tags": [
+    "pointer",
+    "memory",
+    "address"
+  ],
+  "related": [
+    "dereference",
+    "address-of",
+    "null-safety",
+    "malloc",
+    "buffer-overflow"
+  ],
+  "exists_in": [
+    "C",
+    "C++",
+    "Rust",
+    "Go",
+    "assembly"
+  ],
+  "not_in": [
+    "Java",
+    "Python",
+    "JavaScript"
+  ],
+  "NOT_in": [
+    "Java",
+    "Python",
+    "JavaScript"
+  ],
+  "danger": [
+    "null deref: *null_ptr → segfault",
+    "dangling pointer: trỏ tới memory đã free",
+    "wild pointer: chưa initialize"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

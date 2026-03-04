@@ -1,0 +1,51 @@
+{
+  "name": "bitwise-or",
+  "sym": "|",
+  "symbol": "|",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.915,
+    -0.865,
+    -0.905
+  ],
+  "isl": [
+    2,
+    0,
+    7,
+    0
+  ],
+  "summary": "Bitwise OR. Set bits. flags | FLAG_READ để bật cờ.",
+  "facts": [
+    {
+      "sym": "set bit",
+      "text": "x | (1<<n) → set bit n"
+    },
+    {
+      "sym": "combine flags",
+      "text": "READ|WRITE|EXEC → combine permission flags"
+    }
+  ],
+  "tags": [
+    "bitwise",
+    "or",
+    "flags"
+  ],
+  "related": [
+    "bitwise-and",
+    "bitwise-xor",
+    "bit"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "assembly"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

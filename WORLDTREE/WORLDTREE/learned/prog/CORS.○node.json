@@ -1,0 +1,56 @@
+{
+  "name": "CORS",
+  "sym": "⊗CORS",
+  "symbol": "⊗CORS",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.62,
+    0.72,
+    0.42
+  ],
+  "isl": [
+    5,
+    2,
+    3,
+    0
+  ],
+  "summary": "Cross-Origin Resource Sharing. Browser security: block cross-origin requests. Server nói với browser: 'cho phép'.",
+  "facts": [
+    {
+      "sym": "same-origin",
+      "text": "same-origin: scheme + domain + port phải match"
+    },
+    {
+      "sym": "preflight",
+      "text": "OPTIONS preflight: browser hỏi trước POST/PUT"
+    },
+    {
+      "sym": "headers",
+      "text": "Access-Control-Allow-Origin: * (hoặc specific domain)"
+    }
+  ],
+  "tags": [
+    "cors",
+    "security",
+    "http",
+    "browser",
+    "web"
+  ],
+  "related": [
+    "HTTP",
+    "authentication",
+    "XSS",
+    "API",
+    "browser"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "Allow-Origin: * với credentials: không được",
+    "misconfigured CORS → credential leak"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

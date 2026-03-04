@@ -1,0 +1,62 @@
+{
+  "name": "linked-list",
+  "sym": "→□→□",
+  "symbol": "→□→□",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    -0.4,
+    -0.3,
+    -0.42
+  ],
+  "isl": [
+    3,
+    2,
+    25,
+    0
+  ],
+  "summary": "Node chứa data + pointer tới node tiếp theo. O(1) insert/delete. O(n) random access. Cache unfriendly.",
+  "facts": [
+    {
+      "sym": "O(1) insert",
+      "text": "insert tại head/tail: O(1) nếu có pointer"
+    },
+    {
+      "sym": "O(n) access",
+      "text": "random access: O(n) — phải traverse từ đầu"
+    },
+    {
+      "sym": "cache",
+      "text": "linked list cache-unfriendly: nodes rải rác trong memory"
+    }
+  ],
+  "tags": [
+    "linked-list",
+    "data-structure",
+    "pointer",
+    "node"
+  ],
+  "related": [
+    "array",
+    "vector",
+    "LRU-cache",
+    "pointer",
+    "heap",
+    "cache"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "cache miss: nodes không contiguous",
+    "memory overhead: pointer per node",
+    "Rust: khó implement vì borrow checker"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

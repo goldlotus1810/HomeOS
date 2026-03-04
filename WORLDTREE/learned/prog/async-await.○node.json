@@ -1,0 +1,68 @@
+{
+  "name": "async-await",
+  "sym": "⏳await",
+  "symbol": "⏳await",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    0.05,
+    0.28,
+    -0.14
+  ],
+  "isl": [
+    3,
+    0,
+    12,
+    0
+  ],
+  "summary": "Async/await: viết async code như sync. Không block thread. Dựa trên coroutine/Future.",
+  "facts": [
+    {
+      "sym": "non-blocking",
+      "text": "await tạm dừng tại point, trả control cho executor"
+    },
+    {
+      "sym": "Rust",
+      "text": "Rust Future: lazy — phải await để chạy"
+    },
+    {
+      "sym": "JS",
+      "text": "JS Promise: eager — chạy ngay khi tạo, await để unwrap"
+    }
+  ],
+  "tags": [
+    "async",
+    "await",
+    "future",
+    "promise"
+  ],
+  "related": [
+    "coroutine",
+    "event-loop",
+    "goroutine",
+    "Promise",
+    "JavaScript",
+    "Rust"
+  ],
+  "exists_in": [
+    "Rust",
+    "JavaScript",
+    "Python",
+    "C#",
+    "Kotlin"
+  ],
+  "not_in": [
+    "Go",
+    "C"
+  ],
+  "NOT_in": [
+    "Go",
+    "C"
+  ],
+  "danger": [
+    "forgetting await: Rust Future không run",
+    "async poison: một sync call block whole thread"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

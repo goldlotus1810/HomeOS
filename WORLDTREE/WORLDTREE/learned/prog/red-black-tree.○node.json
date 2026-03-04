@@ -1,0 +1,56 @@
+{
+  "name": "red-black-tree",
+  "sym": "🌲RB",
+  "symbol": "🌲RB",
+  "layer": 6,
+  "category": "concept",
+  "sdf": [
+    -0.07,
+    0.11,
+    -0.17
+  ],
+  "isl": [
+    6,
+    3,
+    1,
+    0
+  ],
+  "summary": "Self-balancing BST. O(log n) guaranteed. Java TreeMap, C++ std::map. Phức tạp hơn AVL nhưng ít rotation hơn.",
+  "facts": [
+    {
+      "sym": "properties",
+      "text": "5 rules: root black, leaf (NIL) black, red→black children, same black-height path"
+    },
+    {
+      "sym": "O(log n)",
+      "text": "insert/delete/search: O(log n) guaranteed"
+    },
+    {
+      "sym": "Java",
+      "text": "Java TreeMap, TreeSet: red-black tree"
+    }
+  ],
+  "tags": [
+    "red-black-tree",
+    "bst",
+    "balanced",
+    "data-structure"
+  ],
+  "related": [
+    "B-tree",
+    "binary-search",
+    "hashmap",
+    "AVL-tree",
+    "sort"
+  ],
+  "exists_in": [
+    "Java",
+    "C++",
+    "Rust(BTreeMap)"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

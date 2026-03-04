@@ -1,0 +1,52 @@
+{
+  "name": "Big-O",
+  "sym": "O()",
+  "symbol": "O()",
+  "layer": 6,
+  "category": "math",
+  "sdf": [
+    -0.05,
+    0.25,
+    -0.15
+  ],
+  "isl": [
+    6,
+    2,
+    1,
+    0
+  ],
+  "summary": "Upper bound của growth rate. O(1), O(log n), O(n), O(n log n), O(n²), O(2^n), O(n!).",
+  "facts": [
+    {
+      "sym": "definition",
+      "text": "f(n) = O(g(n)): ∃c,n₀ such that f(n) ≤ c·g(n) ∀n>n₀"
+    },
+    {
+      "sym": "common",
+      "text": "O(1)<O(log n)<O(n)<O(n log n)<O(n²)<O(2ⁿ)<O(n!)"
+    },
+    {
+      "sym": "amortized",
+      "text": "amortized O(1): occasional O(n) nhưng average O(1)"
+    }
+  ],
+  "tags": [
+    "big-o",
+    "complexity",
+    "algorithm",
+    "math"
+  ],
+  "related": [
+    "complexity-analysis",
+    "Big-Theta",
+    "Big-Omega",
+    "algorithm",
+    "space-complexity"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

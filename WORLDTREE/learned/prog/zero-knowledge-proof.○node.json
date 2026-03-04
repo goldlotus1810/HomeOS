@@ -1,0 +1,54 @@
+{
+  "name": "zero-knowledge-proof",
+  "sym": "ZKP",
+  "symbol": "ZKP",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.1,
+    0.8,
+    -0.2
+  ],
+  "isl": [
+    5,
+    5,
+    10,
+    0
+  ],
+  "summary": "Prove knowledge mà không reveal knowledge itself. ZK-SNARKs, ZK-STARKs. Blockchain privacy, auth.",
+  "facts": [
+    {
+      "sym": "interactive",
+      "text": "interactive proof: prover ↔ verifier rounds"
+    },
+    {
+      "sym": "zk-SNARK",
+      "text": "zk-SNARK: Succinct Non-interactive ARgument of Knowledge"
+    },
+    {
+      "sym": "Ethereum",
+      "text": "zkRollup: batch transactions with ZK proof — Ethereum L2"
+    }
+  ],
+  "tags": [
+    "zkp",
+    "zero-knowledge",
+    "cryptography",
+    "privacy",
+    "blockchain"
+  ],
+  "related": [
+    "encryption",
+    "hashing",
+    "number-theory",
+    "authentication"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "trusted setup: some ZK systems require — single point of failure"
+  ],
+  "confidence": 0.94,
+  "source": "builtin"
+}

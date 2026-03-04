@@ -1,0 +1,61 @@
+{
+  "name": "atomic-op",
+  "sym": "⟳a",
+  "symbol": "⟳a",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.7,
+    0.1,
+    -0.6
+  ],
+  "isl": [
+    2,
+    1,
+    6,
+    0
+  ],
+  "summary": "Uninterruptible operation. CAS (Compare-And-Swap), fetch-add. Lock-free programming.",
+  "facts": [
+    {
+      "sym": "CAS",
+      "text": "compare_exchange(expected, new): atomic if *ptr == expected: *ptr = new"
+    },
+    {
+      "sym": "fetch-add",
+      "text": "fetch_add(n): atomic += n, trả old value"
+    },
+    {
+      "sym": "lock-free",
+      "text": "lock-free counter/flag không cần mutex"
+    }
+  ],
+  "tags": [
+    "atomic",
+    "lock-free",
+    "concurrency",
+    "hardware"
+  ],
+  "related": [
+    "mutex",
+    "data-race",
+    "goroutine",
+    "thread",
+    "memory-ordering"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "assembly"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "ABA problem: CAS không detect A→B→A",
+    "memory ordering: acquire/release semantics cần thiết"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

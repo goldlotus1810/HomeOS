@@ -1,0 +1,59 @@
+{
+  "name": "float32",
+  "sym": "𝐟32",
+  "symbol": "𝐟32",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.82,
+    -0.72,
+    -0.8
+  ],
+  "isl": [
+    1,
+    0,
+    12,
+    0
+  ],
+  "summary": "Số thực 32-bit (IEEE 754 single precision). 7 chữ số thập phân.",
+  "facts": [
+    {
+      "sym": "7 digits",
+      "text": "~7 chữ số thập phân chính xác"
+    },
+    {
+      "sym": "NaN",
+      "text": "NaN: Not a Number (0/0, sqrt(-1))"
+    },
+    {
+      "sym": "Inf",
+      "text": "Infinity: 1/0 = +Inf, -1/0 = -Inf"
+    }
+  ],
+  "tags": [
+    "float32",
+    "floating-point",
+    "ieee754"
+  ],
+  "related": [
+    "float64",
+    "NaN",
+    "divide",
+    "int32"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "NaN: không bằng chính nó (NaN != NaN)",
+    "rounding: 0.1 + 0.2 != 0.3"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

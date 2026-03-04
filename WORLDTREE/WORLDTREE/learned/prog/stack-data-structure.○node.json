@@ -1,0 +1,59 @@
+{
+  "name": "stack-data-structure",
+  "sym": "📚DS",
+  "symbol": "📚DS",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    -0.58,
+    -0.38,
+    -0.54
+  ],
+  "isl": [
+    3,
+    2,
+    27,
+    0
+  ],
+  "summary": "LIFO data structure. Push/pop. DFS, expression evaluation, undo. Khác với call stack.",
+  "facts": [
+    {
+      "sym": "LIFO",
+      "text": "Last In First Out"
+    },
+    {
+      "sym": "DFS",
+      "text": "DFS dùng stack (hoặc recursion = implicit stack)"
+    },
+    {
+      "sym": "expression",
+      "text": "expression evaluation: operator precedence bằng stack"
+    }
+  ],
+  "tags": [
+    "stack",
+    "lifo",
+    "data-structure",
+    "dfs"
+  ],
+  "related": [
+    "DFS",
+    "queue",
+    "linked-list",
+    "recursion",
+    "call",
+    "heap"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

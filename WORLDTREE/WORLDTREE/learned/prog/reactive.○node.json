@@ -1,0 +1,57 @@
+{
+  "name": "reactive",
+  "sym": "→👂",
+  "symbol": "→👂",
+  "layer": 4,
+  "category": "paradigm",
+  "sdf": [
+    0.3,
+    0.35,
+    0.05
+  ],
+  "isl": [
+    4,
+    0,
+    5,
+    0
+  ],
+  "summary": "Reactive programming. Data streams, event-driven, propagate changes. RxJS, Akka Streams.",
+  "facts": [
+    {
+      "sym": "stream",
+      "text": "asynchronous stream of events/data"
+    },
+    {
+      "sym": "backpressure",
+      "text": "consumer slow → backpressure lên producer"
+    },
+    {
+      "sym": "observable",
+      "text": "Observable: stream có thể subscribe"
+    }
+  ],
+  "tags": [
+    "reactive",
+    "stream",
+    "event",
+    "observable"
+  ],
+  "related": [
+    "event-loop",
+    "async-await",
+    "JavaScript",
+    "observable",
+    "actor"
+  ],
+  "exists_in": [
+    "JavaScript",
+    "Java",
+    "Scala",
+    "Kotlin"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

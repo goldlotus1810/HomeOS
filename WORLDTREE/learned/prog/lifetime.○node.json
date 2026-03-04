@@ -1,0 +1,63 @@
+{
+  "name": "lifetime",
+  "sym": "'a",
+  "symbol": "'a",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.1,
+    -0.74,
+    -0.37
+  ],
+  "isl": [
+    3,
+    0,
+    8,
+    0
+  ],
+  "summary": "Rust: annotation về thời gian sống của reference. Compiler verify không có dangling refs.",
+  "facts": [
+    {
+      "sym": "'a",
+      "text": "lifetime parameter: fn foo<'a>(x: &'a str) -> &'a str"
+    },
+    {
+      "sym": "borrow check",
+      "text": "borrow checker dùng lifetimes để verify safety"
+    },
+    {
+      "sym": "static",
+      "text": "'static: sống suốt chương trình (string literals)"
+    }
+  ],
+  "tags": [
+    "lifetime",
+    "borrow",
+    "rust",
+    "safety"
+  ],
+  "related": [
+    "borrow",
+    "ownership",
+    "dangling-reference",
+    "Rust"
+  ],
+  "exists_in": [
+    "Rust"
+  ],
+  "not_in": [
+    "C",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "NOT_in": [
+    "C",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

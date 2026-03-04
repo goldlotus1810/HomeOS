@@ -1,0 +1,72 @@
+{
+  "name": "higher-order-function",
+  "sym": "𝑓(𝑓)",
+  "symbol": "𝑓(𝑓)",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    0.5,
+    0.3,
+    0.6
+  ],
+  "isl": [
+    3,
+    2,
+    15,
+    0
+  ],
+  "summary": "Function nhận hoặc trả về function. map, filter, reduce/fold. Nền tảng của functional programming.",
+  "facts": [
+    {
+      "sym": "map",
+      "text": "map(f, list): apply f cho mỗi phần tử → list mới"
+    },
+    {
+      "sym": "filter",
+      "text": "filter(pred, list): giữ phần tử thỏa pred → subset"
+    },
+    {
+      "sym": "fold",
+      "text": "fold/reduce(f, acc, list): accumulate → single value"
+    },
+    {
+      "sym": "compose",
+      "text": "compose(f, g)(x) = f(g(x)) — function composition"
+    }
+  ],
+  "tags": [
+    "higher-order",
+    "function",
+    "functional",
+    "map",
+    "filter"
+  ],
+  "related": [
+    "map-function",
+    "filter-function",
+    "lambda",
+    "closure",
+    "iterator",
+    "functional",
+    "fold"
+  ],
+  "exists_in": [
+    "Haskell",
+    "Python",
+    "Rust",
+    "JavaScript",
+    "Go",
+    "Scala"
+  ],
+  "not_in": [
+    "C",
+    "assembly"
+  ],
+  "NOT_in": [
+    "C",
+    "assembly"
+  ],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

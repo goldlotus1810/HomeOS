@@ -1,0 +1,68 @@
+{
+  "name": "free",
+  "sym": "dealloc",
+  "symbol": "dealloc",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.49,
+    -0.39,
+    -0.54
+  ],
+  "isl": [
+    2,
+    1,
+    2,
+    0
+  ],
+  "summary": "Giải phóng memory đã malloc. Phải đúng cặp. Sai → UB.",
+  "facts": [
+    {
+      "sym": "pair",
+      "text": "mỗi malloc phải có đúng 1 free"
+    },
+    {
+      "sym": "after free",
+      "text": "dùng pointer sau free() → undefined behavior"
+    },
+    {
+      "sym": "double free",
+      "text": "free() 2 lần cùng pointer → heap corruption"
+    }
+  ],
+  "tags": [
+    "free",
+    "dealloc",
+    "memory",
+    "c"
+  ],
+  "related": [
+    "malloc",
+    "pointer",
+    "RAII",
+    "ownership",
+    "heap",
+    "use-after-free"
+  ],
+  "exists_in": [
+    "C",
+    "C++"
+  ],
+  "not_in": [
+    "Go",
+    "Java",
+    "Rust"
+  ],
+  "NOT_in": [
+    "Go",
+    "Java",
+    "Rust"
+  ],
+  "danger": [
+    "use after free → UB",
+    "double free → heap corruption",
+    "forgot free → memory leak"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "LLVM",
+  "sym": "LLVM",
+  "symbol": "LLVM",
+  "layer": 5,
+  "category": "tool",
+  "sdf": [
+    -0.5,
+    0.05,
+    -0.6
+  ],
+  "isl": [
+    5,
+    2,
+    6,
+    0
+  ],
+  "summary": "Compiler infrastructure. IR, optimizer, backends (x86/ARM/RISC-V). Rust, Swift, Clang dùng LLVM.",
+  "facts": [
+    {
+      "sym": "IR",
+      "text": "LLVM IR: Static Single Assignment (SSA) form"
+    },
+    {
+      "sym": "passes",
+      "text": "optimization passes: inlining, DCE, vectorization, loop unroll"
+    },
+    {
+      "sym": "target",
+      "text": "target: x86-64, ARM64, WASM, RISC-V, NVPTX (CUDA)"
+    }
+  ],
+  "tags": [
+    "llvm",
+    "compiler",
+    "ir",
+    "optimization",
+    "backend"
+  ],
+  "related": [
+    "compiler",
+    "Rust",
+    "C",
+    "assembly",
+    "IR",
+    "WASM"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

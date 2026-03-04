@@ -1,0 +1,59 @@
+{
+  "name": "iterator",
+  "sym": "→∀",
+  "symbol": "→∀",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.38,
+    0.05,
+    -0.3
+  ],
+  "isl": [
+    3,
+    0,
+    15,
+    0
+  ],
+  "summary": "Lazy sequence. Tính toán từng phần tử khi cần. Chain map/filter/collect.",
+  "facts": [
+    {
+      "sym": "lazy",
+      "text": "Rust iterator: lazy — không compute cho đến terminal op"
+    },
+    {
+      "sym": "chain",
+      "text": "iter.map(f).filter(g).collect() — zero intermediate allocation"
+    },
+    {
+      "sym": "infinite",
+      "text": "(0..).take(10) — infinite range, lấy 10 phần tử đầu"
+    }
+  ],
+  "tags": [
+    "iterator",
+    "lazy",
+    "functional",
+    "sequence"
+  ],
+  "related": [
+    "map-function",
+    "filter-function",
+    "fold",
+    "for",
+    "closure",
+    "functional"
+  ],
+  "exists_in": [
+    "Rust",
+    "Java",
+    "Python",
+    "JavaScript",
+    "Haskell"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

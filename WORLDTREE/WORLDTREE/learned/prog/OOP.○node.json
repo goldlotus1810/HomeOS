@@ -1,0 +1,73 @@
+{
+  "name": "OOP",
+  "sym": "🏛→",
+  "symbol": "🏛→",
+  "layer": 4,
+  "category": "paradigm",
+  "sdf": [
+    0.1,
+    0.2,
+    -0.2
+  ],
+  "isl": [
+    4,
+    0,
+    2,
+    0
+  ],
+  "summary": "Object-Oriented Programming. Encapsulation, Inheritance, Polymorphism, Abstraction.",
+  "facts": [
+    {
+      "sym": "encapsulation",
+      "text": "ẩn internal state, expose qua methods"
+    },
+    {
+      "sym": "inheritance",
+      "text": "class con kế thừa từ class cha"
+    },
+    {
+      "sym": "polymorphism",
+      "text": "cùng interface, hành vi khác nhau tùy type"
+    }
+  ],
+  "tags": [
+    "oop",
+    "object",
+    "class",
+    "inheritance"
+  ],
+  "related": [
+    "Java",
+    "Python",
+    "C++",
+    "class",
+    "inheritance",
+    "interface",
+    "trait",
+    "duck-typing"
+  ],
+  "exists_in": [
+    "Java",
+    "Python",
+    "C++",
+    "Ruby",
+    "Kotlin",
+    "Swift"
+  ],
+  "not_in": [
+    "C",
+    "Haskell",
+    "Go(partial)"
+  ],
+  "NOT_in": [
+    "C",
+    "Haskell"
+  ],
+  "danger": [
+    "inheritance coupling",
+    "god class",
+    "tight coupling"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "vector-database",
+  "sym": "🗄→ℝ",
+  "symbol": "🗄→ℝ",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.85,
+    0.75,
+    0.73
+  ],
+  "isl": [
+    5,
+    4,
+    6,
+    0
+  ],
+  "summary": "Database lưu và query high-dimensional vectors. ANN search: HNSW, IVF. RAG, semantic search.",
+  "facts": [
+    {
+      "sym": "ANN",
+      "text": "Approximate Nearest Neighbor: HNSW, Faiss, Annoy"
+    },
+    {
+      "sym": "HNSW",
+      "text": "HNSW: Hierarchical Navigable Small World — O(log n) query"
+    },
+    {
+      "sym": "RAG",
+      "text": "RAG: Retrieval-Augmented Generation dùng vector DB"
+    }
+  ],
+  "tags": [
+    "vector-db",
+    "embedding",
+    "semantic-search",
+    "rag",
+    "ann"
+  ],
+  "related": [
+    "embedding",
+    "database",
+    "transformer",
+    "similarity",
+    "HNSW"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

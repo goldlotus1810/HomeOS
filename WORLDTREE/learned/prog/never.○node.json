@@ -1,0 +1,61 @@
+{
+  "name": "never",
+  "sym": "⊥",
+  "symbol": "⊥",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.72,
+    -0.82,
+    -0.76
+  ],
+  "isl": [
+    1,
+    0,
+    32,
+    0
+  ],
+  "summary": "Kiểu không bao giờ có giá trị. Function không bao giờ return (loop vô hạn, panic, exit).",
+  "facts": [
+    {
+      "sym": "!",
+      "text": "Rust: ! là never type"
+    },
+    {
+      "sym": "diverge",
+      "text": "function diverges: không return, không panic"
+    },
+    {
+      "sym": "coerce",
+      "text": "never coerce thành bất kỳ type nào"
+    }
+  ],
+  "tags": [
+    "never",
+    "bottom",
+    "diverge"
+  ],
+  "related": [
+    "void",
+    "panic",
+    "loop",
+    "function"
+  ],
+  "exists_in": [
+    "Rust",
+    "TypeScript"
+  ],
+  "not_in": [
+    "C",
+    "Java",
+    "Go"
+  ],
+  "NOT_in": [
+    "C",
+    "Java",
+    "Go"
+  ],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

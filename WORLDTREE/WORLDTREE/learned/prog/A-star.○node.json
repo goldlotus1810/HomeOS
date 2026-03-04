@@ -1,0 +1,63 @@
+{
+  "name": "A-star",
+  "sym": "A*",
+  "symbol": "A*",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.125,
+    0.082,
+    -0.225
+  ],
+  "isl": [
+    6,
+    4,
+    5,
+    0
+  ],
+  "summary": "Informed shortest path. f(n) = g(n) + h(n). Heuristic hướng search. Game pathfinding, maps.",
+  "facts": [
+    {
+      "sym": "heuristic",
+      "text": "h(n): estimate cost đến goal. Admissible: không overestimate"
+    },
+    {
+      "sym": "Manhattan",
+      "text": "Manhattan distance: heuristic cho grid maps"
+    },
+    {
+      "sym": "vs Dijkstra",
+      "text": "A*: guided by heuristic. Dijkstra: uniform cost search"
+    }
+  ],
+  "tags": [
+    "astar",
+    "shortest-path",
+    "heuristic",
+    "game",
+    "graph"
+  ],
+  "related": [
+    "Dijkstra",
+    "BFS",
+    "heuristic",
+    "graph",
+    "priority-queue",
+    "pathfinding"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "inadmissible heuristic: không optimal",
+    "memory: O(V) open list"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "ownership",
+  "sym": "⊢T",
+  "symbol": "⊢T",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.15,
+    -0.75,
+    -0.35
+  ],
+  "isl": [
+    3,
+    0,
+    6,
+    0
+  ],
+  "summary": "Rust: mỗi value có đúng 1 owner. Khi owner ra scope → value bị drop. Không cần GC.",
+  "facts": [
+    {
+      "sym": "one owner",
+      "text": "mỗi value chỉ có 1 owner tại một thời điểm"
+    },
+    {
+      "sym": "move",
+      "text": "gán = move ownership (không phải copy)"
+    },
+    {
+      "sym": "drop",
+      "text": "khi owner ra scope → Drop::drop() tự động gọi"
+    }
+  ],
+  "tags": [
+    "ownership",
+    "rust",
+    "memory",
+    "linear"
+  ],
+  "related": [
+    "borrow",
+    "lifetime",
+    "RAII",
+    "drop",
+    "GC",
+    "malloc"
+  ],
+  "exists_in": [
+    "Rust"
+  ],
+  "not_in": [
+    "C",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "NOT_in": [
+    "C",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

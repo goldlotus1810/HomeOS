@@ -1,0 +1,66 @@
+{
+  "name": "error-handling",
+  "sym": "⚡→",
+  "symbol": "⚡→",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    0.05,
+    0.45,
+    0.1
+  ],
+  "isl": [
+    3,
+    0,
+    16,
+    0
+  ],
+  "summary": "Xử lý lỗi. Exception (Java/Python) vs Result type (Rust) vs error value (Go/C).",
+  "facts": [
+    {
+      "sym": "exception",
+      "text": "Java/Python: throw exception, try/catch/finally"
+    },
+    {
+      "sym": "Result",
+      "text": "Rust: Result<T,E>, ? operator propagate"
+    },
+    {
+      "sym": "Go",
+      "text": "Go: if err != nil { return err } — explicit"
+    },
+    {
+      "sym": "C",
+      "text": "C: return code (int), errno global — easy to ignore"
+    }
+  ],
+  "tags": [
+    "error",
+    "exception",
+    "handling"
+  ],
+  "related": [
+    "result-type",
+    "Option",
+    "exception",
+    "panic",
+    "Go",
+    "Rust"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python",
+    "JavaScript"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "C: dễ ignore return code",
+    "unchecked exception: crash runtime"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

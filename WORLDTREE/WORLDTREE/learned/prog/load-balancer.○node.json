@@ -1,0 +1,55 @@
+{
+  "name": "load-balancer",
+  "sym": "⚖→",
+  "symbol": "⚖→",
+  "layer": 6,
+  "category": "pattern",
+  "sdf": [
+    0.5,
+    0.6,
+    0.3
+  ],
+  "isl": [
+    6,
+    0,
+    17,
+    0
+  ],
+  "summary": "Phân phối traffic đến nhiều servers. Round-robin, least-connections, weighted, consistent hashing.",
+  "facts": [
+    {
+      "sym": "round-robin",
+      "text": "round-robin: đơn giản, phân phối đều"
+    },
+    {
+      "sym": "least-conn",
+      "text": "least-connections: gửi đến server ít connections nhất"
+    },
+    {
+      "sym": "health check",
+      "text": "health check: remove unhealthy server khỏi pool"
+    }
+  ],
+  "tags": [
+    "load-balancer",
+    "distributed",
+    "scalability",
+    "traffic"
+  ],
+  "related": [
+    "circuit-breaker",
+    "retry",
+    "hashmap",
+    "microservice",
+    "cache"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "session affinity: stateful apps cần sticky session",
+    "thundering herd khi restart"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

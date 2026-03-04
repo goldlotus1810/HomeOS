@@ -1,0 +1,65 @@
+{
+  "name": "select-epoll",
+  "sym": "⊗fd",
+  "symbol": "⊗fd",
+  "layer": 3,
+  "category": "os",
+  "sdf": [
+    -0.4,
+    -0.1,
+    -0.45
+  ],
+  "isl": [
+    3,
+    3,
+    4,
+    0
+  ],
+  "summary": "I/O multiplexing. select/poll/epoll: chờ nhiều fd đồng thời. epoll: O(1) vs select O(n).",
+  "facts": [
+    {
+      "sym": "epoll",
+      "text": "epoll: Linux, O(1) event notification, thêm/xóa fd động"
+    },
+    {
+      "sym": "kqueue",
+      "text": "kqueue: macOS/BSD — tương tự epoll"
+    },
+    {
+      "sym": "io_uring",
+      "text": "io_uring: Linux 5.1+, async I/O zero-syscall"
+    },
+    {
+      "sym": "Go",
+      "text": "Go net: dùng epoll internally cho goroutine scheduler"
+    }
+  ],
+  "tags": [
+    "epoll",
+    "select",
+    "io",
+    "multiplexing",
+    "linux"
+  ],
+  "related": [
+    "socket",
+    "goroutine",
+    "async-await",
+    "event-loop",
+    "Linux",
+    "io-uring"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go(internal)"
+  ],
+  "not_in": [
+    "Python(abstracted)",
+    "Java(NIO)"
+  ],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

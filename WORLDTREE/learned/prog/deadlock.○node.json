@@ -1,0 +1,59 @@
+{
+  "name": "deadlock",
+  "sym": "∥⊗",
+  "symbol": "∥⊗",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.07,
+    0.26,
+    -0.17
+  ],
+  "isl": [
+    3,
+    0,
+    19,
+    0
+  ],
+  "summary": "Hai goroutines/threads chờ nhau mãi mãi. A chờ B release lock, B chờ A. Không tự giải.",
+  "facts": [
+    {
+      "sym": "cycle",
+      "text": "deadlock = cycle trong wait-for graph"
+    },
+    {
+      "sym": "prevent",
+      "text": "lock ordering: luôn acquire locks theo cùng thứ tự"
+    },
+    {
+      "sym": "Go",
+      "text": "Go: deadlock → runtime panic 'all goroutines are asleep'"
+    }
+  ],
+  "tags": [
+    "deadlock",
+    "concurrency",
+    "lock"
+  ],
+  "related": [
+    "mutex",
+    "goroutine",
+    "channel",
+    "thread",
+    "livelock"
+  ],
+  "exists_in": [
+    "Go",
+    "Java",
+    "C",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "program hangs forever",
+    "Go: runtime detect deadlock và panic"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

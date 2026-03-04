@@ -1,0 +1,61 @@
+{
+  "name": "topological-sort",
+  "sym": "→topo",
+  "symbol": "→topo",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.16,
+    0.095,
+    -0.26
+  ],
+  "isl": [
+    6,
+    4,
+    2,
+    0
+  ],
+  "summary": "Sắp xếp nodes của DAG sao cho A→B thì A trước B. DFS-based hoặc Kahn's algorithm. Build order, dependencies.",
+  "facts": [
+    {
+      "sym": "DFS",
+      "text": "DFS post-order reverse = topological order"
+    },
+    {
+      "sym": "Kahn's",
+      "text": "Kahn's: BFS với in-degree queue"
+    },
+    {
+      "sym": "cycle",
+      "text": "nếu có cycle → không có topological order"
+    }
+  ],
+  "tags": [
+    "topological-sort",
+    "dag",
+    "graph",
+    "dependency",
+    "build"
+  ],
+  "related": [
+    "DFS",
+    "BFS",
+    "graph",
+    "dependency-graph",
+    "directed-graph"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "cycle detection: Kahn's tự nhiên detect (không dequeue đủ nodes)"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,67 @@
+{
+  "name": "panic",
+  "sym": "💥",
+  "symbol": "💥",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.35,
+    0.2,
+    -0.2
+  ],
+  "isl": [
+    3,
+    2,
+    3,
+    0
+  ],
+  "summary": "Unrecoverable error. Rust/Go: terminate goroutine/thread với stack trace. Không dùng cho recoverable errors.",
+  "facts": [
+    {
+      "sym": "Rust panic",
+      "text": "Rust panic: unwind stack (cleanup) hoặc abort. Bắt bằng catch_unwind"
+    },
+    {
+      "sym": "Go panic",
+      "text": "Go panic: stop goroutine, chạy deferred, propagate. recover() bắt được"
+    },
+    {
+      "sym": "use case",
+      "text": "panic: contract violation, invariant broken, logic error"
+    }
+  ],
+  "tags": [
+    "panic",
+    "crash",
+    "unrecoverable",
+    "error"
+  ],
+  "related": [
+    "result-type",
+    "Option",
+    "error-handling",
+    "stack",
+    "recover",
+    "Go",
+    "Rust"
+  ],
+  "exists_in": [
+    "Rust",
+    "Go",
+    "Python(raise)"
+  ],
+  "not_in": [
+    "C",
+    "Java"
+  ],
+  "NOT_in": [
+    "C",
+    "Java"
+  ],
+  "danger": [
+    "panic không phải cho expected errors — dùng Result/error",
+    "Go: recover() phải trong defer"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

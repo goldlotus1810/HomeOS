@@ -1,0 +1,72 @@
+{
+  "name": "Option",
+  "sym": "?T",
+  "symbol": "?T",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.28,
+    0.6,
+    0.08
+  ],
+  "isl": [
+    3,
+    2,
+    1,
+    0
+  ],
+  "summary": "Some(T) hoặc None. An toàn thay thế null. Compiler buộc phải xử lý cả hai trường hợp.",
+  "facts": [
+    {
+      "sym": "Some(T)",
+      "text": "Some(x): có giá trị"
+    },
+    {
+      "sym": "None",
+      "text": "None: không có giá trị — tương đương null nhưng safe"
+    },
+    {
+      "sym": "?",
+      "text": "Rust ? operator: propagate None lên caller (như Result)"
+    },
+    {
+      "sym": "unwrap",
+      "text": "unwrap(): lấy value hoặc panic — chỉ dùng khi chắc chắn Some"
+    }
+  ],
+  "tags": [
+    "option",
+    "maybe",
+    "nullable",
+    "rust"
+  ],
+  "related": [
+    "null",
+    "result-type",
+    "match",
+    "null-safety",
+    "pattern-matching",
+    "Rust",
+    "Haskell"
+  ],
+  "exists_in": [
+    "Rust",
+    "Haskell",
+    "Swift",
+    "Kotlin",
+    "Scala"
+  ],
+  "not_in": [
+    "C",
+    "Java<8"
+  ],
+  "NOT_in": [
+    "C"
+  ],
+  "danger": [
+    "unwrap() panic nếu None",
+    "expect() tốt hơn unwrap() vì có message"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

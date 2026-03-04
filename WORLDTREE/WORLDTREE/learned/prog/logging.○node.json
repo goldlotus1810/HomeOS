@@ -1,0 +1,54 @@
+{
+  "name": "logging",
+  "sym": "📝log",
+  "symbol": "📝log",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.52,
+    0.72,
+    0.37
+  ],
+  "isl": [
+    7,
+    2,
+    3,
+    0
+  ],
+  "summary": "Structured logging (JSON). Log levels: DEBUG/INFO/WARN/ERROR. Correlation ID. Centralize.",
+  "facts": [
+    {
+      "sym": "structured",
+      "text": "structured JSON log: machine-parseable, filterable"
+    },
+    {
+      "sym": "levels",
+      "text": "DEBUG: verbose dev. INFO: normal. WARN: recoverable. ERROR: action needed"
+    },
+    {
+      "sym": "correlation",
+      "text": "request_id: trace 1 request qua nhiều services/logs"
+    }
+  ],
+  "tags": [
+    "logging",
+    "structured",
+    "observability",
+    "debug"
+  ],
+  "related": [
+    "monitoring",
+    "CI-CD",
+    "debugging",
+    "distributed-tracing"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "log sensitive data: PII, passwords, tokens",
+    "excessive logging: storage cost, performance"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "greedy",
+  "sym": "max→",
+  "symbol": "max→",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.11,
+    0.06,
+    -0.21
+  ],
+  "isl": [
+    6,
+    4,
+    7,
+    0
+  ],
+  "summary": "Luôn chọn locally optimal. Không backtrack. Đúng với: MST, Dijkstra, activity selection, Huffman.",
+  "facts": [
+    {
+      "sym": "exchange argument",
+      "text": "prove greedy: exchange argument — nếu swap không cải thiện"
+    },
+    {
+      "sym": "matroid",
+      "text": "greedy tối ưu trên matroid structure"
+    },
+    {
+      "sym": "counter example",
+      "text": "greedy không always optimal: coin change với bộ coins bất thường"
+    }
+  ],
+  "tags": [
+    "greedy",
+    "algorithm",
+    "optimization",
+    "local-optimal"
+  ],
+  "related": [
+    "Kruskal",
+    "Prim",
+    "Dijkstra",
+    "dynamic-programming",
+    "activity-selection"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "greedy có thể sai: cần prove exchange argument"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

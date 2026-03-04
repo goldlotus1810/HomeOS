@@ -1,0 +1,54 @@
+{
+  "name": "B-tree",
+  "sym": "🌲B",
+  "symbol": "🌲B",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.05,
+    0.12,
+    -0.13
+  ],
+  "isl": [
+    6,
+    0,
+    9,
+    0
+  ],
+  "summary": "Self-balancing tree, nhiều children. Database index: O(log n), disk-friendly, cache-friendly.",
+  "facts": [
+    {
+      "sym": "disk",
+      "text": "B-tree giảm I/O: 1 node = 1 disk block (4KB)"
+    },
+    {
+      "sym": "order m",
+      "text": "B-tree order m: mỗi node có tối đa m children"
+    },
+    {
+      "sym": "balanced",
+      "text": "tất cả leaves cùng depth → O(log n) guaranteed"
+    }
+  ],
+  "tags": [
+    "b-tree",
+    "database",
+    "index",
+    "disk",
+    "balanced"
+  ],
+  "related": [
+    "binary-search",
+    "hashmap",
+    "SQL",
+    "database",
+    "AVL",
+    "cache"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

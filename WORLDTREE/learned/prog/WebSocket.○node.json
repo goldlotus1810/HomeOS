@@ -1,0 +1,57 @@
+{
+  "name": "WebSocket",
+  "sym": "↔WS",
+  "symbol": "↔WS",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.62,
+    0.72,
+    0.52
+  ],
+  "isl": [
+    5,
+    5,
+    1,
+    0
+  ],
+  "summary": "Full-duplex TCP connection qua HTTP upgrade. Real-time apps: chat, live updates, games.",
+  "facts": [
+    {
+      "sym": "upgrade",
+      "text": "HTTP Upgrade header → WebSocket handshake"
+    },
+    {
+      "sym": "bidirectional",
+      "text": "server có thể push tới client bất kỳ lúc nào"
+    },
+    {
+      "sym": "frame",
+      "text": "message framing: text, binary, ping/pong, close"
+    }
+  ],
+  "tags": [
+    "websocket",
+    "realtime",
+    "tcp",
+    "bidirectional",
+    "web"
+  ],
+  "related": [
+    "HTTP",
+    "TCP",
+    "socket",
+    "event-loop",
+    "async-await",
+    "gRPC"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "no backpressure built-in",
+    "proxy timeout: idle connection dropped"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

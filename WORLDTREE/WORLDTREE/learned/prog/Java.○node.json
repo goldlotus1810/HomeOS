@@ -1,0 +1,63 @@
+{
+  "name": "Java",
+  "sym": "☕",
+  "symbol": "☕",
+  "layer": 5,
+  "category": "language",
+  "sdf": [
+    0.2,
+    0.4,
+    -0.1
+  ],
+  "isl": [
+    5,
+    0,
+    5,
+    0
+  ],
+  "summary": "Sun Microsystems 1995. Write Once Run Anywhere. JVM, OOP, enterprise. Verbose nhưng safe.",
+  "facts": [
+    {
+      "sym": "JVM",
+      "text": "JVM: bytecode → JIT native code"
+    },
+    {
+      "sym": "GC",
+      "text": "G1GC default: generational, concurrent"
+    },
+    {
+      "sym": "null",
+      "text": "null: NullPointerException = lỗi phổ biến nhất"
+    },
+    {
+      "sym": "generics",
+      "text": "generics với type erasure: mất type info tại runtime"
+    }
+  ],
+  "tags": [
+    "java",
+    "jvm",
+    "oop",
+    "enterprise"
+  ],
+  "related": [
+    "JVM",
+    "garbage-collector",
+    "OOP",
+    "interface",
+    "class",
+    "type-erasure",
+    "null"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "NullPointerException",
+    "type erasure",
+    "verbose boilerplate",
+    "checked exceptions"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

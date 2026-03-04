@@ -1,0 +1,53 @@
+{
+  "name": "attention-mechanism",
+  "sym": "Q·K·V",
+  "symbol": "Q·K·V",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.84,
+    0.79,
+    0.74
+  ],
+  "isl": [
+    5,
+    4,
+    7,
+    0
+  ],
+  "summary": "Self-attention: mỗi token attend tới mọi token khác. Multi-head: nhiều attention patterns song song.",
+  "facts": [
+    {
+      "sym": "QKV",
+      "text": "Query, Key, Value: attention(Q,K,V) = softmax(QKᵀ/√dₖ)V"
+    },
+    {
+      "sym": "multi-head",
+      "text": "Multi-head: h attention heads song song, concat kết quả"
+    },
+    {
+      "sym": "causal",
+      "text": "causal mask: autoregressive generation — chỉ attend vào past"
+    }
+  ],
+  "tags": [
+    "attention",
+    "transformer",
+    "qkv",
+    "multi-head",
+    "nlp"
+  ],
+  "related": [
+    "transformer",
+    "neural-network",
+    "embedding",
+    "softmax",
+    "matrix-multiplication"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

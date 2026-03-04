@@ -1,0 +1,58 @@
+{
+  "name": "graph",
+  "sym": "⬡↔⬡",
+  "symbol": "⬡↔⬡",
+  "layer": 6,
+  "category": "concept",
+  "sdf": [
+    0.05,
+    0.15,
+    -0.1
+  ],
+  "isl": [
+    6,
+    1,
+    2,
+    0
+  ],
+  "summary": "Nodes + edges. Directed/Undirected. Weighted/Unweighted. BFS/DFS traversal. Shortest path, cycle detection.",
+  "facts": [
+    {
+      "sym": "adjacency list",
+      "text": "adjacency list: O(V+E) space — thường dùng"
+    },
+    {
+      "sym": "adjacency matrix",
+      "text": "adjacency matrix: O(V²) space — dense graph"
+    },
+    {
+      "sym": "DAG",
+      "text": "DAG: Directed Acyclic Graph — topological sort, dependency"
+    },
+    {
+      "sym": "tree",
+      "text": "tree là special graph: connected, acyclic, 1 root"
+    }
+  ],
+  "tags": [
+    "graph",
+    "node",
+    "edge",
+    "data-structure"
+  ],
+  "related": [
+    "BFS",
+    "DFS",
+    "Dijkstra",
+    "topological-sort",
+    "cycle-detection",
+    "tree",
+    "dynamic-programming"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

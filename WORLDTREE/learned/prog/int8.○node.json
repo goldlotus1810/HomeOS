@@ -1,0 +1,58 @@
+{
+  "name": "int8",
+  "sym": "𝐢8",
+  "symbol": "𝐢8",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.88,
+    -0.7,
+    -0.85
+  ],
+  "isl": [
+    1,
+    0,
+    3,
+    0
+  ],
+  "summary": "Số nguyên có dấu 8-bit. Phạm vi -128 đến 127.",
+  "facts": [
+    {
+      "sym": "-128..127",
+      "text": "range: -128 đến 127"
+    },
+    {
+      "sym": "overflow",
+      "text": "127 + 1 = -128 (overflow — UB trong C)"
+    },
+    {
+      "sym": "two's complement",
+      "text": "biểu diễn số âm bằng two's complement"
+    }
+  ],
+  "tags": [
+    "int8",
+    "integer",
+    "signed"
+  ],
+  "related": [
+    "byte",
+    "int16",
+    "add",
+    "subtract",
+    "overflow"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "overflow: 127+1 = -128 (UB trong C)"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

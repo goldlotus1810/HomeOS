@@ -1,0 +1,65 @@
+{
+  "name": "Functor",
+  "sym": "F(T)",
+  "symbol": "F(T)",
+  "layer": 4,
+  "category": "concept",
+  "sdf": [
+    0.78,
+    0.54,
+    0.78
+  ],
+  "isl": [
+    4,
+    1,
+    4,
+    0
+  ],
+  "summary": "Haskell: typeclass với fmap. Apply function bên trong context. fmap f (Just x) = Just (f x).",
+  "facts": [
+    {
+      "sym": "fmap",
+      "text": "fmap :: (a -> b) -> f a -> f b"
+    },
+    {
+      "sym": "laws",
+      "text": "functor laws: identity, composition"
+    },
+    {
+      "sym": "examples",
+      "text": "Maybe, List, IO, Either đều là Functor"
+    }
+  ],
+  "tags": [
+    "functor",
+    "haskell",
+    "fmap",
+    "typeclass",
+    "fp"
+  ],
+  "related": [
+    "Monad",
+    "Haskell",
+    "higher-order-function",
+    "map-function",
+    "functional"
+  ],
+  "exists_in": [
+    "Haskell",
+    "Scala",
+    "Purescript"
+  ],
+  "not_in": [
+    "Go",
+    "C",
+    "Java"
+  ],
+  "NOT_in": [
+    "Go",
+    "C",
+    "Java"
+  ],
+  "danger": [],
+  "confidence": 0.96,
+  "source": "builtin"
+}

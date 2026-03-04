@@ -1,0 +1,65 @@
+{
+  "name": "type-inference",
+  "sym": "⊢T",
+  "symbol": "⊢T",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    -0.2,
+    0.6,
+    0.0
+  ],
+  "isl": [
+    3,
+    4,
+    2,
+    0
+  ],
+  "summary": "Compiler tự suy ra kiểu từ context. Hindley-Milner (Haskell), local inference (Rust/Go). Ít phải annotate.",
+  "facts": [
+    {
+      "sym": "HM",
+      "text": "Hindley-Milner: let x = 5 → x: i32 (hoặc Int)"
+    },
+    {
+      "sym": "Rust",
+      "text": "Rust: let v: Vec<_> = ... — _ tự suy"
+    },
+    {
+      "sym": "Go",
+      "text": "Go: x := 5 → x: int"
+    }
+  ],
+  "tags": [
+    "type-inference",
+    "types",
+    "compiler",
+    "hindley-milner"
+  ],
+  "related": [
+    "type-system",
+    "generic",
+    "Rust",
+    "Go",
+    "Haskell",
+    "trait"
+  ],
+  "exists_in": [
+    "Rust",
+    "Go",
+    "Haskell",
+    "Scala",
+    "Swift",
+    "Kotlin"
+  ],
+  "not_in": [
+    "C",
+    "Java(limited)"
+  ],
+  "NOT_in": [
+    "C"
+  ],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

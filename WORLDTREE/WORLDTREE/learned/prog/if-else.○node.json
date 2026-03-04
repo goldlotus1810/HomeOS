@@ -1,0 +1,59 @@
+{
+  "name": "if-else",
+  "sym": "?→",
+  "symbol": "?→",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.5,
+    -0.3,
+    -0.5
+  ],
+  "isl": [
+    3,
+    0,
+    1,
+    0
+  ],
+  "summary": "Phân nhánh điều kiện. Nền tảng của mọi logic. if/else if/else.",
+  "facts": [
+    {
+      "sym": "branch",
+      "text": "CPU branch prediction: nếu predict sai → pipeline flush"
+    },
+    {
+      "sym": "ternary",
+      "text": "cond ? a : b — inline if"
+    },
+    {
+      "sym": "match",
+      "text": "Rust match = exhaustive if-else"
+    }
+  ],
+  "tags": [
+    "if",
+    "else",
+    "conditional",
+    "branch"
+  ],
+  "related": [
+    "bool",
+    "match",
+    "ternary",
+    "conditional-jump",
+    "pattern-matching"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python",
+    "JavaScript"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

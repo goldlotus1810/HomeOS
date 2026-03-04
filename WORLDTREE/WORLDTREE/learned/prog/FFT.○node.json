@@ -1,0 +1,58 @@
+{
+  "name": "FFT",
+  "sym": "FFT",
+  "symbol": "FFT",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.1,
+    0.08,
+    -0.15
+  ],
+  "isl": [
+    6,
+    2,
+    8,
+    0
+  ],
+  "summary": "Fast Fourier Transform. O(n log n) tính DFT. Audio processing, polynomial multiplication, signal processing.",
+  "facts": [
+    {
+      "sym": "DFT",
+      "text": "DFT: O(n²). FFT: O(n log n) — same result, faster"
+    },
+    {
+      "sym": "Cooley-Tukey",
+      "text": "Cooley-Tukey: divide-and-conquer trên n=2^k"
+    },
+    {
+      "sym": "applications",
+      "text": "audio compression (MP3), filtering, convolution"
+    }
+  ],
+  "tags": [
+    "fft",
+    "signal",
+    "math",
+    "algorithm",
+    "audio"
+  ],
+  "related": [
+    "divide-conquer",
+    "linear-algebra",
+    "recursion",
+    "audio",
+    "complex-numbers"
+  ],
+  "exists_in": [
+    "C",
+    "Python(numpy)",
+    "Rust",
+    "Julia"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

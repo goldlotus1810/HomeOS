@@ -1,0 +1,55 @@
+{
+  "name": "uint16",
+  "sym": "𝐮16",
+  "symbol": "𝐮16",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.87,
+    -0.685,
+    -0.84
+  ],
+  "isl": [
+    1,
+    0,
+    8,
+    0
+  ],
+  "summary": "Số nguyên không dấu 16-bit. 0-65535. Port numbers, Unicode code points.",
+  "facts": [
+    {
+      "sym": "0..65535",
+      "text": "range: 0 đến 65535"
+    },
+    {
+      "sym": "port",
+      "text": "TCP/UDP port: uint16 (0-65535)"
+    }
+  ],
+  "tags": [
+    "uint16",
+    "unsigned",
+    "port"
+  ],
+  "related": [
+    "uint8",
+    "uint32",
+    "int16"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go"
+  ],
+  "not_in": [
+    "Java"
+  ],
+  "NOT_in": [
+    "Java"
+  ],
+  "danger": [
+    "underflow: 0-1 = 65535"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

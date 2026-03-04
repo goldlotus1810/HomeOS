@@ -1,0 +1,62 @@
+{
+  "name": "sort",
+  "sym": "↕",
+  "symbol": "↕",
+  "layer": 6,
+  "category": "concept",
+  "sdf": [
+    -0.1,
+    0.05,
+    -0.2
+  ],
+  "isl": [
+    6,
+    1,
+    5,
+    0
+  ],
+  "summary": "Sắp xếp collection theo thứ tự. Stable vs unstable. Comparison-based: O(n log n) lower bound.",
+  "facts": [
+    {
+      "sym": "stable",
+      "text": "stable sort: equal elements giữ relative order"
+    },
+    {
+      "sym": "O(n log n)",
+      "text": "comparison-based sorting: không thể nhanh hơn O(n log n) worst case"
+    },
+    {
+      "sym": "counting sort",
+      "text": "counting sort: O(n+k) — nhanh hơn khi key range nhỏ"
+    },
+    {
+      "sym": "Timsort",
+      "text": "Python/Java: Timsort — hybrid mergesort+insertion sort, O(n log n), stable"
+    }
+  ],
+  "tags": [
+    "sort",
+    "algorithm",
+    "comparison",
+    "order"
+  ],
+  "related": [
+    "quicksort",
+    "mergesort",
+    "heapsort",
+    "binary-search",
+    "comparison"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

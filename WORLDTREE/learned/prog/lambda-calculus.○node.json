@@ -1,0 +1,54 @@
+{
+  "name": "lambda-calculus",
+  "sym": "λ",
+  "symbol": "λ",
+  "layer": 6,
+  "category": "math",
+  "sdf": [
+    0.75,
+    0.2,
+    0.7
+  ],
+  "isl": [
+    6,
+    2,
+    11,
+    0
+  ],
+  "summary": "Formal system: function abstraction và application. Foundation của functional programming và type theory.",
+  "facts": [
+    {
+      "sym": "lambda",
+      "text": "λx.M: abstraction. M N: application"
+    },
+    {
+      "sym": "beta reduction",
+      "text": "(λx.M) N → M[x:=N]: substitution"
+    },
+    {
+      "sym": "Church-Turing",
+      "text": "lambda calculus ≡ Turing machine về computational power"
+    }
+  ],
+  "tags": [
+    "lambda",
+    "calculus",
+    "functional",
+    "theory",
+    "fp"
+  ],
+  "related": [
+    "lambda",
+    "closure",
+    "functional",
+    "Haskell",
+    "Turing-machine",
+    "type-theory"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

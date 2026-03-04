@@ -1,0 +1,54 @@
+{
+  "name": "blue-green-deployment",
+  "sym": "🔵🟢deploy",
+  "symbol": "🔵🟢deploy",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.57,
+    0.77,
+    0.42
+  ],
+  "isl": [
+    7,
+    2,
+    9,
+    0
+  ],
+  "summary": "2 identical environments: Blue (live) + Green (new). Switch traffic khi Green ready. Instant rollback.",
+  "facts": [
+    {
+      "sym": "zero downtime",
+      "text": "zero downtime deployment: switch load balancer"
+    },
+    {
+      "sym": "rollback",
+      "text": "rollback: switch LB back to Blue — instant"
+    },
+    {
+      "sym": "cost",
+      "text": "double infrastructure cost — chỉ trong thời gian deploy"
+    }
+  ],
+  "tags": [
+    "blue-green",
+    "deployment",
+    "zero-downtime",
+    "devops"
+  ],
+  "related": [
+    "canary-deployment",
+    "load-balancer",
+    "CI-CD",
+    "feature-flag"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "database schema migrations: hard với blue-green",
+    "double cost"
+  ],
+  "confidence": 0.97,
+  "source": "builtin"
+}

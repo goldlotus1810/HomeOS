@@ -1,0 +1,61 @@
+{
+  "name": "Dijkstra",
+  "sym": "⟨d⟩→",
+  "symbol": "⟨d⟩→",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.13,
+    0.085,
+    -0.21
+  ],
+  "isl": [
+    6,
+    0,
+    6,
+    0
+  ],
+  "summary": "Shortest path với non-negative weights. O((V+E) log V) với priority queue.",
+  "facts": [
+    {
+      "sym": "priority queue",
+      "text": "min-heap: luôn process node có distance nhỏ nhất"
+    },
+    {
+      "sym": "non-negative",
+      "text": "CHỈ dùng với non-negative weights. Negative → Bellman-Ford"
+    },
+    {
+      "sym": "greedy",
+      "text": "greedy: relaxation — update distance khi tìm path ngắn hơn"
+    }
+  ],
+  "tags": [
+    "dijkstra",
+    "shortest-path",
+    "graph",
+    "greedy"
+  ],
+  "related": [
+    "BFS",
+    "priority-queue",
+    "graph",
+    "A-star",
+    "Bellman-Ford"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "negative weights → wrong result",
+    "dense graph: O(V²) với array-based PQ"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

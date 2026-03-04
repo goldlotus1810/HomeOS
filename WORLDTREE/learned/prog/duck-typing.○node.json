@@ -1,0 +1,69 @@
+{
+  "name": "duck-typing",
+  "sym": "🦆T",
+  "symbol": "🦆T",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    0.5,
+    0.6,
+    0.3
+  ],
+  "isl": [
+    3,
+    2,
+    11,
+    0
+  ],
+  "summary": "Nếu object có method/attribute thì có thể dùng — không cần khai báo explicit interface.",
+  "facts": [
+    {
+      "sym": "Python",
+      "text": "Python: if has .read() method → treat as file-like object"
+    },
+    {
+      "sym": "Go implicit",
+      "text": "Go: implicit interface satisfaction = duck typing at compile time"
+    },
+    {
+      "sym": "TypeScript",
+      "text": "TypeScript structural typing: tương tự duck typing nhưng compile-time"
+    }
+  ],
+  "tags": [
+    "duck-typing",
+    "dynamic",
+    "python",
+    "go",
+    "structural"
+  ],
+  "related": [
+    "interface",
+    "trait",
+    "Python",
+    "Go",
+    "TypeScript",
+    "OOP"
+  ],
+  "exists_in": [
+    "Python",
+    "Ruby",
+    "JavaScript",
+    "Go(structural)"
+  ],
+  "not_in": [
+    "Java",
+    "Rust",
+    "C"
+  ],
+  "NOT_in": [
+    "Java",
+    "Rust",
+    "C"
+  ],
+  "danger": [
+    "runtime error: method không tồn tại phát hiện muộn"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

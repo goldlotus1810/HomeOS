@@ -1,0 +1,63 @@
+{
+  "name": "closure",
+  "sym": "λ[]",
+  "symbol": "λ[]",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.3,
+    -0.1,
+    -0.2
+  ],
+  "isl": [
+    1,
+    0,
+    27,
+    0
+  ],
+  "summary": "Function capture biến từ enclosing scope. Lambda + environment.",
+  "facts": [
+    {
+      "sym": "capture",
+      "text": "closure = function + captured variables"
+    },
+    {
+      "sym": "by ref/val",
+      "text": "Rust: move || capture by value, |x| capture by ref"
+    },
+    {
+      "sym": "Go closure",
+      "text": "Go closure capture by reference — cẩn thận với loop variable"
+    }
+  ],
+  "tags": [
+    "closure",
+    "lambda",
+    "capture"
+  ],
+  "related": [
+    "lambda",
+    "higher-order-function",
+    "functional",
+    "scope",
+    "immutability"
+  ],
+  "exists_in": [
+    "Rust",
+    "Go",
+    "JavaScript",
+    "Python",
+    "Haskell"
+  ],
+  "not_in": [
+    "C"
+  ],
+  "NOT_in": [
+    "C"
+  ],
+  "danger": [
+    "Go loop var: for i := range items { go func() { use(i) } } — i share"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

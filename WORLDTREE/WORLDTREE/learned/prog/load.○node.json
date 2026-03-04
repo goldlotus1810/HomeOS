@@ -1,0 +1,57 @@
+{
+  "name": "load",
+  "sym": "←m",
+  "symbol": "←m",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.87,
+    -0.82,
+    -0.87
+  ],
+  "isl": [
+    2,
+    0,
+    15,
+    0
+  ],
+  "summary": "Đọc giá trị từ memory vào register. Assembly: mov rax, [addr].",
+  "facts": [
+    {
+      "sym": "cache",
+      "text": "load có thể được cache trong CPU cache"
+    },
+    {
+      "sym": "volatile",
+      "text": "volatile load: ngăn compiler optimize away"
+    },
+    {
+      "sym": "atomic",
+      "text": "atomic load: đảm bảo memory consistency"
+    }
+  ],
+  "tags": [
+    "load",
+    "memory",
+    "read"
+  ],
+  "related": [
+    "store",
+    "register",
+    "pointer",
+    "cache",
+    "byte"
+  ],
+  "exists_in": [
+    "assembly",
+    "C",
+    "Rust"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "race condition: concurrent load+store không atomic"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

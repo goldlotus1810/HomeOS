@@ -1,0 +1,61 @@
+{
+  "name": "TLS",
+  "sym": "🔒TLS",
+  "symbol": "🔒TLS",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.52,
+    0.62,
+    0.42
+  ],
+  "isl": [
+    5,
+    1,
+    13,
+    0
+  ],
+  "summary": "Transport Layer Security. Encrypt in transit. Handshake, certificates, symmetric encryption.",
+  "facts": [
+    {
+      "sym": "handshake",
+      "text": "TLS 1.3: 1 RTT. TLS 1.2: 2 RTT"
+    },
+    {
+      "sym": "certificate",
+      "text": "X.509 certificate: public key + identity + CA signature"
+    },
+    {
+      "sym": "HTTPS",
+      "text": "HTTPS = HTTP + TLS on port 443"
+    },
+    {
+      "sym": "mTLS",
+      "text": "mutual TLS: cả client và server authenticate nhau"
+    }
+  ],
+  "tags": [
+    "tls",
+    "ssl",
+    "encryption",
+    "security",
+    "https"
+  ],
+  "related": [
+    "HTTP",
+    "TCP",
+    "certificate",
+    "encryption",
+    "security"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "expired certificate",
+    "weak cipher suites (RC4, MD5)",
+    "certificate pinning bypass"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

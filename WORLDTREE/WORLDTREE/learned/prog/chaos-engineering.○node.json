@@ -1,0 +1,56 @@
+{
+  "name": "chaos-engineering",
+  "sym": "⚡chaos",
+  "symbol": "⚡chaos",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.5,
+    0.65,
+    0.35
+  ],
+  "isl": [
+    7,
+    2,
+    7,
+    0
+  ],
+  "summary": "Intentionally inject failures vào production để test resilience. Netflix Chaos Monkey. Gameday.",
+  "facts": [
+    {
+      "sym": "hypothesis",
+      "text": "start với hypothesis về steady state"
+    },
+    {
+      "sym": "blast radius",
+      "text": "minimize blast radius: start nhỏ, production sau"
+    },
+    {
+      "sym": "Chaos Monkey",
+      "text": "Netflix Chaos Monkey: randomly terminate EC2 instances"
+    }
+  ],
+  "tags": [
+    "chaos",
+    "resilience",
+    "testing",
+    "netflix",
+    "devops"
+  ],
+  "related": [
+    "circuit-breaker",
+    "retry",
+    "monitoring",
+    "microservice",
+    "load-balancer"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "không có rollback plan",
+    "run trong production mà không notify on-call"
+  ],
+  "confidence": 0.96,
+  "source": "builtin"
+}

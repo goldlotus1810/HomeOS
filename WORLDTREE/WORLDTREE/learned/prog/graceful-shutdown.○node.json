@@ -1,0 +1,60 @@
+{
+  "name": "graceful-shutdown",
+  "sym": "→TERM→",
+  "symbol": "→TERM→",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.46,
+    0.76,
+    0.36
+  ],
+  "isl": [
+    7,
+    3,
+    5,
+    0
+  ],
+  "summary": "Khi nhận SIGTERM: ngừng nhận requests mới, hoàn thành in-flight, cleanup, exit. Zero data loss.",
+  "facts": [
+    {
+      "sym": "SIGTERM",
+      "text": "container orchestrator gửi SIGTERM trước khi kill"
+    },
+    {
+      "sym": "drain",
+      "text": "drain: chờ in-flight requests hoàn thành (timeout)"
+    },
+    {
+      "sym": "Go",
+      "text": "Go: select { case <-ctx.Done(): cleanup() }"
+    }
+  ],
+  "tags": [
+    "graceful-shutdown",
+    "signal",
+    "kubernetes",
+    "reliability"
+  ],
+  "related": [
+    "signal",
+    "Docker",
+    "Kubernetes",
+    "context",
+    "Go",
+    "HTTP"
+  ],
+  "exists_in": [
+    "Go",
+    "Rust",
+    "Node.js",
+    "Java"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "không xử lý SIGTERM → Kubernetes force kill sau 30s"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

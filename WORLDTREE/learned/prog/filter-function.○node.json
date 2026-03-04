@@ -1,0 +1,60 @@
+{
+  "name": "filter-function",
+  "sym": "𝑓filt",
+  "symbol": "𝑓filt",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    0.475,
+    0.275,
+    0.575
+  ],
+  "isl": [
+    3,
+    2,
+    17,
+    0
+  ],
+  "summary": "Giữ phần tử thỏa điều kiện predicate. Trả về subset. Có thể trả về 0 phần tử.",
+  "facts": [
+    {
+      "sym": "predicate",
+      "text": "filter(pred): giữ x nếu pred(x) = true"
+    },
+    {
+      "sym": "Rust",
+      "text": "Rust: iter().filter(|x| x > 0).collect()"
+    },
+    {
+      "sym": "SQL WHERE",
+      "text": "SQL WHERE tương đương filter"
+    }
+  ],
+  "tags": [
+    "filter",
+    "functional",
+    "predicate",
+    "collection"
+  ],
+  "related": [
+    "map-function",
+    "fold",
+    "iterator",
+    "lambda",
+    "higher-order-function",
+    "SQL"
+  ],
+  "exists_in": [
+    "Rust",
+    "Python",
+    "JavaScript",
+    "Go",
+    "Haskell",
+    "Java"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

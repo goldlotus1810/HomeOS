@@ -1,0 +1,56 @@
+{
+  "name": "CSRF",
+  "sym": "⊗CSRF",
+  "symbol": "⊗CSRF",
+  "layer": 5,
+  "category": "vulnerability",
+  "sdf": [
+    -0.56,
+    -0.78,
+    -0.46
+  ],
+  "isl": [
+    5,
+    2,
+    3,
+    0
+  ],
+  "summary": "Cross-Site Request Forgery. Forged request từ site khác dùng victim's credentials.",
+  "facts": [
+    {
+      "sym": "CSRF token",
+      "text": "CSRF token: unique per session, verify với mỗi state-changing request"
+    },
+    {
+      "sym": "SameSite",
+      "text": "SameSite cookie: Strict/Lax — ngăn cross-site requests"
+    },
+    {
+      "sym": "state-changing",
+      "text": "chỉ ảnh hưởng state-changing requests (POST, DELETE) không GET"
+    }
+  ],
+  "tags": [
+    "csrf",
+    "security",
+    "web",
+    "cookie"
+  ],
+  "related": [
+    "XSS",
+    "HTTP",
+    "cookie",
+    "authentication",
+    "session"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "fund transfer",
+    "password change",
+    "account takeover"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

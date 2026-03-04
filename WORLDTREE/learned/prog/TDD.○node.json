@@ -1,0 +1,59 @@
+{
+  "name": "TDD",
+  "sym": "🔴🟢↺",
+  "symbol": "🔴🟢↺",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.3,
+    0.6,
+    0.2
+  ],
+  "isl": [
+    7,
+    0,
+    4,
+    0
+  ],
+  "summary": "Test-Driven Development. Red→Green→Refactor. Viết test trước, sau mới implement.",
+  "facts": [
+    {
+      "sym": "red",
+      "text": "Red: viết failing test trước"
+    },
+    {
+      "sym": "green",
+      "text": "Green: code tối thiểu để pass test"
+    },
+    {
+      "sym": "refactor",
+      "text": "Refactor: clean up, test vẫn pass"
+    },
+    {
+      "sym": "design",
+      "text": "TDD cũng là design tool: buộc suy nghĩ về API trước"
+    }
+  ],
+  "tags": [
+    "tdd",
+    "testing",
+    "red-green-refactor",
+    "design"
+  ],
+  "related": [
+    "unit-testing",
+    "refactoring",
+    "SOLID",
+    "dependency-injection",
+    "pair-programming"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "over-testing: test implementation detail thay vì behavior",
+    "slow tests → không chạy thường xuyên"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

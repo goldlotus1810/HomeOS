@@ -1,0 +1,55 @@
+{
+  "name": "less-than",
+  "sym": "<",
+  "symbol": "<",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.825,
+    -0.745,
+    -0.825
+  ],
+  "isl": [
+    2,
+    0,
+    13,
+    0
+  ],
+  "summary": "Phép so sánh nhỏ hơn. a < b trả về true nếu a nhỏ hơn b.",
+  "facts": [
+    {
+      "sym": "NaN",
+      "text": "NaN < x = false, NaN > x = false — cả 2 đều false"
+    },
+    {
+      "sym": "unsigned",
+      "text": "unsigned comparison: cẩn thận wrap-around"
+    }
+  ],
+  "tags": [
+    "less-than",
+    "comparison",
+    "order"
+  ],
+  "related": [
+    "greater-than",
+    "equal",
+    "bool",
+    "sort"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python",
+    "JavaScript"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "unsigned: (uint)-1 < 0 = false (wrap)"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

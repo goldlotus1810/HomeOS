@@ -1,0 +1,54 @@
+{
+  "name": "complexity-analysis",
+  "sym": "O()",
+  "symbol": "O()",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    -0.05,
+    0.25,
+    -0.15
+  ],
+  "isl": [
+    7,
+    0,
+    10,
+    0
+  ],
+  "summary": "Big-O notation. Đo scalability, không absolute time. Time complexity + Space complexity.",
+  "facts": [
+    {
+      "sym": "Big-O",
+      "text": "O(n): linear. O(log n): logarithmic. O(n²): quadratic"
+    },
+    {
+      "sym": "worst case",
+      "text": "Big-O = worst case. Big-Theta = exact. Big-Omega = best case"
+    },
+    {
+      "sym": "constant",
+      "text": "O(1): không tăng theo input. O(n!): factorial — tránh bằng mọi giá"
+    }
+  ],
+  "tags": [
+    "big-o",
+    "complexity",
+    "algorithm",
+    "scalability"
+  ],
+  "related": [
+    "quicksort",
+    "binary-search",
+    "hashmap",
+    "dynamic-programming",
+    "space-complexity"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "ignore constant factors: O(n) với n=10 chậm hơn O(n²) với n=3"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

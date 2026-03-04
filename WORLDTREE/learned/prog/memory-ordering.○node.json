@@ -1,0 +1,63 @@
+{
+  "name": "memory-ordering",
+  "sym": "≺m",
+  "symbol": "≺m",
+  "layer": 2,
+  "category": "concept",
+  "sdf": [
+    -0.75,
+    0.05,
+    -0.65
+  ],
+  "isl": [
+    2,
+    1,
+    7,
+    0
+  ],
+  "summary": "CPU và compiler có thể reorder instructions. Memory barriers ngăn reorder. SeqCst, Acquire, Release.",
+  "facts": [
+    {
+      "sym": "SeqCst",
+      "text": "Sequential Consistency: strongest, tốn kém nhất"
+    },
+    {
+      "sym": "Acquire/Release",
+      "text": "Acquire: no-reorder-before. Release: no-reorder-after"
+    },
+    {
+      "sym": "Relaxed",
+      "text": "Relaxed: chỉ guarantee atomicity, không ordering"
+    }
+  ],
+  "tags": [
+    "memory-ordering",
+    "barrier",
+    "atomic",
+    "concurrency"
+  ],
+  "related": [
+    "atomic-op",
+    "data-race",
+    "mutex",
+    "C",
+    "Rust",
+    "hardware"
+  ],
+  "exists_in": [
+    "C",
+    "C++",
+    "Rust"
+  ],
+  "not_in": [
+    "Go",
+    "Java(high level)"
+  ],
+  "NOT_in": [],
+  "danger": [
+    "relaxed ordering: data race subtle bugs",
+    "wrong ordering → incorrect program"
+  ],
+  "confidence": 0.97,
+  "source": "builtin"
+}

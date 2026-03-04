@@ -1,0 +1,53 @@
+{
+  "name": "uint64",
+  "sym": "𝐮64",
+  "symbol": "𝐮64",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.84,
+    -0.665,
+    -0.81
+  ],
+  "isl": [
+    1,
+    0,
+    10,
+    0
+  ],
+  "summary": "Số nguyên không dấu 64-bit. 0 đến 18.4 quintillion.",
+  "facts": [
+    {
+      "sym": "0..2^64",
+      "text": "range: 0 đến 18,446,744,073,709,551,615"
+    },
+    {
+      "sym": "file size",
+      "text": "file size, memory address dùng uint64/usize"
+    }
+  ],
+  "tags": [
+    "uint64",
+    "unsigned",
+    "size"
+  ],
+  "related": [
+    "uint32",
+    "int64",
+    "usize"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go"
+  ],
+  "not_in": [
+    "Java"
+  ],
+  "NOT_in": [
+    "Java"
+  ],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

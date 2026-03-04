@@ -1,0 +1,67 @@
+{
+  "name": "continuation",
+  "sym": "k(v)",
+  "symbol": "k(v)",
+  "layer": 4,
+  "category": "concept",
+  "sdf": [
+    0.65,
+    0.35,
+    0.7
+  ],
+  "isl": [
+    4,
+    4,
+    3,
+    0
+  ],
+  "summary": "Reified rest of computation. CPS: Continuation-Passing Style. Nền tảng của async/await, call/cc (Scheme).",
+  "facts": [
+    {
+      "sym": "CPS",
+      "text": "CPS: mọi function nhận thêm continuation argument"
+    },
+    {
+      "sym": "call/cc",
+      "text": "call-with-current-continuation (Scheme): capture execution state"
+    },
+    {
+      "sym": "async",
+      "text": "async/await là syntactic sugar cho continuations"
+    }
+  ],
+  "tags": [
+    "continuation",
+    "cps",
+    "scheme",
+    "async",
+    "functional"
+  ],
+  "related": [
+    "async-await",
+    "functional",
+    "Monad",
+    "tail-call",
+    "Scheme",
+    "callback"
+  ],
+  "exists_in": [
+    "Scheme",
+    "Haskell",
+    "JavaScript(async)",
+    "Rust(async)"
+  ],
+  "not_in": [
+    "Go",
+    "C",
+    "Java"
+  ],
+  "NOT_in": [
+    "Go",
+    "C",
+    "Java"
+  ],
+  "danger": [],
+  "confidence": 0.96,
+  "source": "builtin"
+}

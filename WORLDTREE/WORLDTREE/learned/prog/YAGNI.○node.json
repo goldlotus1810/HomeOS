@@ -1,0 +1,52 @@
+{
+  "name": "YAGNI",
+  "sym": "∅future",
+  "symbol": "∅future",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.22,
+    0.52,
+    0.12
+  ],
+  "isl": [
+    7,
+    0,
+    2,
+    0
+  ],
+  "summary": "You Ain't Gonna Need It. Không build feature chưa cần. Tránh speculative generality.",
+  "facts": [
+    {
+      "sym": "XP",
+      "text": "từ XP (Extreme Programming)"
+    },
+    {
+      "sym": "cost",
+      "text": "feature không dùng: write cost + maintain cost + complexity"
+    },
+    {
+      "sym": "KISS",
+      "text": "kết hợp với KISS: simple, direct, no excess"
+    }
+  ],
+  "tags": [
+    "yagni",
+    "simplicity",
+    "xp",
+    "agile"
+  ],
+  "related": [
+    "DRY",
+    "KISS",
+    "SOLID",
+    "refactoring",
+    "technical-debt"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

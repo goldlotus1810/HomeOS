@@ -1,0 +1,60 @@
+{
+  "name": "enum",
+  "sym": "∑T",
+  "symbol": "∑T",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.45,
+    -0.35,
+    -0.4
+  ],
+  "isl": [
+    1,
+    0,
+    24,
+    0
+  ],
+  "summary": "Kiểu có tập giá trị hữu hạn. Rust enum có thể chứa data. Exhaustive matching.",
+  "facts": [
+    {
+      "sym": "exhaustive",
+      "text": "compiler check mọi case đã handle"
+    },
+    {
+      "sym": "Rust enum",
+      "text": "Rust enum = sum type: có thể chứa data"
+    },
+    {
+      "sym": "C enum",
+      "text": "C enum = named integers, không safe"
+    }
+  ],
+  "tags": [
+    "enum",
+    "variant",
+    "sum-type"
+  ],
+  "related": [
+    "match",
+    "pattern-matching",
+    "Option",
+    "result-type",
+    "bool"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python",
+    "Haskell"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "C enum: không exhaustive, implicit int conversion"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

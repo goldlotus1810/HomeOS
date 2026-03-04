@@ -1,0 +1,67 @@
+{
+  "name": "overflow",
+  "sym": "⊗ovf",
+  "symbol": "⊗ovf",
+  "layer": 2,
+  "category": "vulnerability",
+  "sdf": [
+    -0.8,
+    -0.6,
+    -0.82
+  ],
+  "isl": [
+    2,
+    1,
+    3,
+    0
+  ],
+  "summary": "Integer overflow: vượt quá MAX/MIN của kiểu số. Signed: UB trong C. Unsigned: wrap around.",
+  "facts": [
+    {
+      "sym": "C UB",
+      "text": "C signed overflow: undefined behavior — compiler có thể optimize away"
+    },
+    {
+      "sym": "wrap",
+      "text": "Rust: debug mode panic, release mode wrap. C unsigned: wrap"
+    },
+    {
+      "sym": "checked",
+      "text": "Rust: checked_add(), saturating_add(), wrapping_add()"
+    },
+    {
+      "sym": "sec",
+      "text": "integer overflow → heap/stack corruption trong C"
+    }
+  ],
+  "tags": [
+    "overflow",
+    "integer",
+    "arithmetic",
+    "security"
+  ],
+  "related": [
+    "add",
+    "multiply",
+    "int32",
+    "uint32",
+    "checked-arithmetic",
+    "C",
+    "Rust"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "assembly"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "C signed overflow: UB → unpredictable",
+    "wrap-around: 255 + 1 = 0 cho uint8"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

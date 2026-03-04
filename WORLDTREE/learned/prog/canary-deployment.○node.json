@@ -1,0 +1,53 @@
+{
+  "name": "canary-deployment",
+  "sym": "🐦deploy",
+  "symbol": "🐦deploy",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.56,
+    0.76,
+    0.41
+  ],
+  "isl": [
+    7,
+    2,
+    6,
+    0
+  ],
+  "summary": "Deploy version mới cho subset nhỏ users trước. Monitor metrics, roll forward hoặc rollback.",
+  "facts": [
+    {
+      "sym": "percentage",
+      "text": "1% → 5% → 25% → 100% nếu metrics OK"
+    },
+    {
+      "sym": "metrics",
+      "text": "monitor error rate, latency, business metrics"
+    },
+    {
+      "sym": "automatic",
+      "text": "Argo Rollouts: automatic analysis và rollback"
+    }
+  ],
+  "tags": [
+    "canary",
+    "deployment",
+    "release",
+    "devops",
+    "rollout"
+  ],
+  "related": [
+    "feature-flag",
+    "load-balancer",
+    "monitoring",
+    "CI-CD",
+    "rollback"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

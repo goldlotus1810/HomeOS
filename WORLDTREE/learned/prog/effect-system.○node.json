@@ -1,0 +1,69 @@
+{
+  "name": "effect-system",
+  "sym": "E[T]",
+  "symbol": "E[T]",
+  "layer": 4,
+  "category": "concept",
+  "sdf": [
+    0.82,
+    0.56,
+    0.82
+  ],
+  "isl": [
+    4,
+    4,
+    4,
+    0
+  ],
+  "summary": "Track side effects trong type system. IO, State, Error. Algebraic effects (Koka, OCaml5). Monad tương tự.",
+  "facts": [
+    {
+      "sym": "algebraic",
+      "text": "algebraic effects: define + handle effects modularly"
+    },
+    {
+      "sym": "Haskell",
+      "text": "Haskell IO Monad: tất cả side effects track trong type"
+    },
+    {
+      "sym": "Koka",
+      "text": "Koka lang: row-typed effects — precise effect tracking"
+    }
+  ],
+  "tags": [
+    "effect",
+    "type-system",
+    "functional",
+    "side-effect",
+    "algebraic"
+  ],
+  "related": [
+    "Monad",
+    "Functor",
+    "Haskell",
+    "functional",
+    "type-system",
+    "IO"
+  ],
+  "exists_in": [
+    "Haskell",
+    "Koka",
+    "OCaml5",
+    "Effekt"
+  ],
+  "not_in": [
+    "Go",
+    "Java",
+    "Python",
+    "C"
+  ],
+  "NOT_in": [
+    "Go",
+    "Java",
+    "Python",
+    "C"
+  ],
+  "danger": [],
+  "confidence": 0.95,
+  "source": "builtin"
+}

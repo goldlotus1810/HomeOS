@@ -1,0 +1,59 @@
+{
+  "name": "Git-rebase",
+  "sym": "🌿↕r",
+  "symbol": "🌿↕r",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.42,
+    0.72,
+    0.32
+  ],
+  "isl": [
+    7,
+    1,
+    2,
+    0
+  ],
+  "summary": "Reapply commits lên base mới. Linear history. Interactive rebase: squash, fixup, edit, reorder.",
+  "facts": [
+    {
+      "sym": "linear",
+      "text": "rebase tạo linear history — dễ bisect hơn"
+    },
+    {
+      "sym": "interactive",
+      "text": "git rebase -i HEAD~5: squash, fixup, edit commits"
+    },
+    {
+      "sym": "golden rule",
+      "text": "không rebase shared branches (main, develop)"
+    },
+    {
+      "sym": "force push",
+      "text": "sau rebase phải git push --force-with-lease"
+    }
+  ],
+  "tags": [
+    "git",
+    "rebase",
+    "history",
+    "linear"
+  ],
+  "related": [
+    "git",
+    "code-review",
+    "bisection-debugging",
+    "branching-strategy",
+    "merge"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "rebase public branch → force push → conflict cho mọi người",
+    "lose commits nếu không cẩn thận"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

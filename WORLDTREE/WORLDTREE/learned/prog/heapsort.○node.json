@@ -1,0 +1,60 @@
+{
+  "name": "heapsort",
+  "sym": "↕🌲",
+  "symbol": "↕🌲",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.09,
+    0.055,
+    -0.19
+  ],
+  "isl": [
+    6,
+    1,
+    3,
+    0
+  ],
+  "summary": "O(n log n) guaranteed. In-place. Unstable. Dùng max-heap. Không cache-friendly như quicksort.",
+  "facts": [
+    {
+      "sym": "O(n log n)",
+      "text": "O(n log n) worst case — tốt hơn quicksort worst case"
+    },
+    {
+      "sym": "in-place",
+      "text": "in-place: O(1) extra space"
+    },
+    {
+      "sym": "unstable",
+      "text": "unstable: equal elements có thể đảo thứ tự"
+    }
+  ],
+  "tags": [
+    "heapsort",
+    "sort",
+    "heap",
+    "priority-queue"
+  ],
+  "related": [
+    "quicksort",
+    "mergesort",
+    "priority-queue",
+    "B-tree",
+    "sort"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "không cache-friendly: random access trong heap"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

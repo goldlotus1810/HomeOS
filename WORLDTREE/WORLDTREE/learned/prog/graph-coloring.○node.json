@@ -1,0 +1,53 @@
+{
+  "name": "graph-coloring",
+  "sym": "⬡🎨",
+  "symbol": "⬡🎨",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    0.05,
+    0.15,
+    -0.1
+  ],
+  "isl": [
+    6,
+    2,
+    13,
+    0
+  ],
+  "summary": "Assign colors tới vertices sao cho adjacent vertices khác màu. NP-complete cho k≥3 colors. Register allocation.",
+  "facts": [
+    {
+      "sym": "k-colorable",
+      "text": "2-colorable ≡ bipartite. 3-colorable: NP-complete"
+    },
+    {
+      "sym": "4-color",
+      "text": "4-color theorem: planar graph cần ≤4 colors"
+    },
+    {
+      "sym": "register allocation",
+      "text": "register allocation: variable = vertex, conflict = edge, color = register"
+    }
+  ],
+  "tags": [
+    "graph-coloring",
+    "graph",
+    "NP",
+    "compiler",
+    "register-allocation"
+  ],
+  "related": [
+    "graph",
+    "P-vs-NP",
+    "register",
+    "compiler",
+    "algorithm"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.96,
+  "source": "builtin"
+}

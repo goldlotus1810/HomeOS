@@ -1,0 +1,64 @@
+{
+  "name": "match",
+  "sym": "⊗M",
+  "symbol": "⊗M",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.28,
+    -0.35,
+    -0.25
+  ],
+  "isl": [
+    3,
+    0,
+    4,
+    0
+  ],
+  "summary": "Exhaustive pattern matching. Compiler check mọi case đã handle. Rust/Haskell.",
+  "facts": [
+    {
+      "sym": "exhaustive",
+      "text": "phải handle mọi variant — không bỏ sót"
+    },
+    {
+      "sym": "guard",
+      "text": "match x if x > 0 => ... — thêm điều kiện"
+    },
+    {
+      "sym": "binding",
+      "text": "match Some(x) => use x — destructure và bind"
+    }
+  ],
+  "tags": [
+    "match",
+    "pattern",
+    "exhaustive"
+  ],
+  "related": [
+    "if-else",
+    "pattern-matching",
+    "enum",
+    "Option",
+    "Rust"
+  ],
+  "exists_in": [
+    "Rust",
+    "Haskell",
+    "Scala",
+    "Python 3.10+"
+  ],
+  "not_in": [
+    "C",
+    "Java<14",
+    "Go"
+  ],
+  "NOT_in": [
+    "C",
+    "Java<14",
+    "Go"
+  ],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

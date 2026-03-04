@@ -1,0 +1,59 @@
+{
+  "name": "Prim",
+  "sym": "MST-P",
+  "symbol": "MST-P",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.132,
+    0.086,
+    -0.232
+  ],
+  "isl": [
+    6,
+    4,
+    4,
+    0
+  ],
+  "summary": "Minimum Spanning Tree bằng Prim. Grow từ 1 node, luôn chọn edge nhỏ nhất đến unvisited. O(E log V).",
+  "facts": [
+    {
+      "sym": "priority queue",
+      "text": "min-heap chọn edge nhỏ nhất tiếp theo"
+    },
+    {
+      "sym": "dense graph",
+      "text": "dense graph: O(V²) matrix Prim tốt hơn Kruskal"
+    },
+    {
+      "sym": "vs Kruskal",
+      "text": "Prim tốt cho dense, Kruskal tốt cho sparse"
+    }
+  ],
+  "tags": [
+    "prim",
+    "mst",
+    "graph",
+    "greedy",
+    "algorithm"
+  ],
+  "related": [
+    "Kruskal",
+    "Dijkstra",
+    "priority-queue",
+    "graph",
+    "greedy"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

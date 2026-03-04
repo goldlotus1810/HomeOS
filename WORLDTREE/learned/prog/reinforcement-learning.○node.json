@@ -1,0 +1,56 @@
+{
+  "name": "reinforcement-learning",
+  "sym": "R∈t",
+  "symbol": "R∈t",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.9,
+    0.8,
+    0.8
+  ],
+  "isl": [
+    5,
+    4,
+    5,
+    0
+  ],
+  "summary": "Agent học qua trial-and-error với rewards. MDP: States, Actions, Rewards, Policy. Q-learning, PPO.",
+  "facts": [
+    {
+      "sym": "MDP",
+      "text": "Markov Decision Process: (S,A,R,P,γ)"
+    },
+    {
+      "sym": "Q-learning",
+      "text": "Q(s,a): expected cumulative reward từ state s, action a"
+    },
+    {
+      "sym": "PPO",
+      "text": "PPO: Proximal Policy Optimization — ChatGPT RLHF"
+    }
+  ],
+  "tags": [
+    "rl",
+    "reinforcement-learning",
+    "ml",
+    "agent",
+    "reward"
+  ],
+  "related": [
+    "neural-network",
+    "gradient-descent",
+    "game-theory",
+    "MDP"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "reward hacking",
+    "distribution shift",
+    "sample inefficiency"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

@@ -1,0 +1,55 @@
+{
+  "name": "technical-debt",
+  "sym": "💳→",
+  "symbol": "💳→",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.25,
+    0.55,
+    0.15
+  ],
+  "isl": [
+    7,
+    0,
+    12,
+    0
+  ],
+  "summary": "Code hoặc design shortcuts tích lũy. Trả sau với interest. Cần quản lý, không tránh hoàn toàn.",
+  "facts": [
+    {
+      "sym": "deliberate",
+      "text": "deliberate debt: consciously take shortcut, pay later"
+    },
+    {
+      "sym": "accidental",
+      "text": "accidental debt: không biết best practice lúc viết"
+    },
+    {
+      "sym": "interest",
+      "text": "interest: phải làm workaround mỗi lần touch code cũ"
+    }
+  ],
+  "tags": [
+    "technical-debt",
+    "refactoring",
+    "quality",
+    "maintenance"
+  ],
+  "related": [
+    "refactoring",
+    "DRY",
+    "YAGNI",
+    "code-review",
+    "SOLID"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "ignored debt: system becomes unmaintainable",
+    "refactoring too late: big-bang rewrite risk"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "KMP",
+  "sym": "KMP",
+  "symbol": "KMP",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.15,
+    0.05,
+    -0.25
+  ],
+  "isl": [
+    6,
+    1,
+    8,
+    0
+  ],
+  "summary": "Knuth-Morris-Pratt string search. O(n+m). Tránh backtrack bằng failure function.",
+  "facts": [
+    {
+      "sym": "O(n+m)",
+      "text": "O(n+m): n=text length, m=pattern length"
+    },
+    {
+      "sym": "failure function",
+      "text": "failure function: tính prefix = suffix để skip"
+    },
+    {
+      "sym": "vs naive",
+      "text": "naive: O(nm). KMP: O(n+m) — tốt hơn nhiều với repeated patterns"
+    }
+  ],
+  "tags": [
+    "kmp",
+    "string-search",
+    "pattern",
+    "algorithm"
+  ],
+  "related": [
+    "Rabin-Karp",
+    "string",
+    "array",
+    "two-pointer"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

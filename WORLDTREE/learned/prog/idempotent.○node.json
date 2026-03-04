@@ -1,0 +1,56 @@
+{
+  "name": "idempotent",
+  "sym": "f(f(x))=f(x)",
+  "symbol": "f(f(x))=f(x)",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.43,
+    0.53,
+    0.23
+  ],
+  "isl": [
+    5,
+    5,
+    5,
+    0
+  ],
+  "summary": "Gọi nhiều lần = gọi 1 lần. PUT/DELETE idempotent, POST không. Cần thiết cho retry và at-least-once delivery.",
+  "facts": [
+    {
+      "sym": "HTTP",
+      "text": "GET/PUT/DELETE: idempotent. POST: không"
+    },
+    {
+      "sym": "dedup",
+      "text": "deduplication: idempotency key để detect duplicate requests"
+    },
+    {
+      "sym": "retry",
+      "text": "chỉ retry idempotent operations — POST không retry được"
+    }
+  ],
+  "tags": [
+    "idempotent",
+    "api",
+    "retry",
+    "distributed",
+    "reliability"
+  ],
+  "related": [
+    "retry",
+    "API",
+    "HTTP",
+    "message-queue",
+    "at-least-once"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "không enforce idempotency → duplicate data",
+    "missing idempotency key → duplicate charges (payment)"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

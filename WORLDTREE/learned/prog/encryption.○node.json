@@ -1,0 +1,58 @@
+{
+  "name": "encryption",
+  "sym": "🔐",
+  "symbol": "🔐",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.4,
+    0.6,
+    0.2
+  ],
+  "isl": [
+    5,
+    2,
+    6,
+    0
+  ],
+  "summary": "Symmetric (AES) và Asymmetric (RSA/EC). At-rest và in-transit. Key management là vấn đề thực tế.",
+  "facts": [
+    {
+      "sym": "AES-256-GCM",
+      "text": "AES-256-GCM: authenticated encryption — integrity + confidentiality"
+    },
+    {
+      "sym": "RSA",
+      "text": "RSA-2048: asymmetric, key exchange, signing. Chậm hơn AES"
+    },
+    {
+      "sym": "key management",
+      "text": "key rotation, HSM, KMS — quản lý key phức tạp hơn encryption"
+    }
+  ],
+  "tags": [
+    "encryption",
+    "aes",
+    "rsa",
+    "security",
+    "cryptography"
+  ],
+  "related": [
+    "TLS",
+    "AES",
+    "RSA",
+    "hashing",
+    "authentication",
+    "key-management"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "ECB mode: không dùng",
+    "roll your own crypto: không bao giờ",
+    "weak key: <128 bit"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

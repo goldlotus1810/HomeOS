@@ -1,0 +1,58 @@
+{
+  "name": "char",
+  "sym": "𝐜",
+  "symbol": "𝐜",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.86,
+    -0.74,
+    -0.86
+  ],
+  "isl": [
+    1,
+    0,
+    15,
+    0
+  ],
+  "summary": "Ký tự đơn. C: 1 byte (ASCII). Rust/Go: Unicode code point (4 bytes).",
+  "facts": [
+    {
+      "sym": "C char",
+      "text": "C: char = 1 byte, thường là ASCII"
+    },
+    {
+      "sym": "Rust char",
+      "text": "Rust: char = Unicode scalar value (U+0000 đến U+D7FF, U+E000 đến U+10FFFF)"
+    },
+    {
+      "sym": "Go rune",
+      "text": "Go: rune = int32, alias cho Unicode code point"
+    }
+  ],
+  "tags": [
+    "char",
+    "character",
+    "unicode"
+  ],
+  "related": [
+    "byte",
+    "string",
+    "rune",
+    "UTF-32"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "C: char có thể signed hoặc unsigned tùy compiler"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

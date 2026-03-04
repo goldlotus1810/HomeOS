@@ -1,0 +1,60 @@
+{
+  "name": "bool",
+  "sym": "𝐛",
+  "symbol": "𝐛",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.9,
+    -0.75,
+    -0.88
+  ],
+  "isl": [
+    1,
+    0,
+    14,
+    0
+  ],
+  "summary": "Boolean: true hoặc false. Nền tảng của mọi logic điều kiện.",
+  "facts": [
+    {
+      "sym": "true|false",
+      "text": "chỉ 2 giá trị: true và false"
+    },
+    {
+      "sym": "1 bit",
+      "text": "conceptually 1 bit nhưng thường store 1 byte"
+    },
+    {
+      "sym": "C",
+      "text": "C: dùng int (0=false, nonzero=true) trước C99"
+    }
+  ],
+  "tags": [
+    "bool",
+    "boolean",
+    "logic"
+  ],
+  "related": [
+    "equal",
+    "less-than",
+    "greater-than",
+    "conditional-jump",
+    "if-else"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python",
+    "JavaScript"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "C: không có bool native trước C99"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

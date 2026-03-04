@@ -1,0 +1,67 @@
+{
+  "name": "machine-learning",
+  "sym": "∑W·x",
+  "symbol": "∑W·x",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.8,
+    0.4,
+    0.6
+  ],
+  "isl": [
+    5,
+    5,
+    11,
+    0
+  ],
+  "summary": "Học từ data. Supervised (labels), Unsupervised (clustering), Reinforcement (reward). Neural nets, gradient descent.",
+  "facts": [
+    {
+      "sym": "gradient descent",
+      "text": "minimize loss: w = w - lr * ∂L/∂w"
+    },
+    {
+      "sym": "backprop",
+      "text": "backpropagation: chain rule để tính gradients"
+    },
+    {
+      "sym": "overfitting",
+      "text": "overfitting: model memorize train, fail test — regularization, dropout"
+    },
+    {
+      "sym": "PyTorch",
+      "text": "PyTorch: dynamic graph, pythonic. TensorFlow: static/dynamic"
+    }
+  ],
+  "tags": [
+    "ml",
+    "machine-learning",
+    "neural-network",
+    "ai",
+    "gradient"
+  ],
+  "related": [
+    "matrix",
+    "float64",
+    "GPU",
+    "Python",
+    "numpy",
+    "optimization"
+  ],
+  "exists_in": [
+    "Python",
+    "C++(libs)",
+    "Julia"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "data bias → biased model",
+    "overfitting",
+    "hallucination (LLMs)",
+    "eval metric gaming"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,70 @@
+{
+  "name": "memory-safety",
+  "sym": "safe mem",
+  "symbol": "safe mem",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    -0.2,
+    0.8,
+    -0.15
+  ],
+  "isl": [
+    3,
+    4,
+    6,
+    0
+  ],
+  "summary": "Đảm bảo không có memory errors: buffer overflow, use-after-free, null deref. Rust borrow checker, GC, safe languages.",
+  "facts": [
+    {
+      "sym": "GC langs",
+      "text": "GC: Java/Go/Python — không buffer overflow, không UAF"
+    },
+    {
+      "sym": "Rust",
+      "text": "Rust borrow checker: memory safety không cần GC"
+    },
+    {
+      "sym": "unsafe",
+      "text": "C/C++: memory unsafe — CVE 70% từ memory safety issues"
+    },
+    {
+      "sym": "MISRA C",
+      "text": "MISRA C/C++: coding standard giảm memory bugs trong embedded"
+    }
+  ],
+  "tags": [
+    "memory-safety",
+    "rust",
+    "gc",
+    "security",
+    "borrow"
+  ],
+  "related": [
+    "borrow",
+    "ownership",
+    "GC",
+    "buffer-overflow",
+    "use-after-free",
+    "Rust",
+    "C"
+  ],
+  "exists_in": [
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [
+    "C",
+    "C++"
+  ],
+  "NOT_in": [
+    "C",
+    "C++"
+  ],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

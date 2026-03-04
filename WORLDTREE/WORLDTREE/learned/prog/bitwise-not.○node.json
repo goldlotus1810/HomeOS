@@ -1,0 +1,56 @@
+{
+  "name": "bitwise-not",
+  "sym": "~",
+  "symbol": "~",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.905,
+    -0.855,
+    -0.895
+  ],
+  "isl": [
+    2,
+    0,
+    9,
+    0
+  ],
+  "summary": "Bitwise NOT. Flip tất cả bits. ~0 = MAX_UINT. Two's complement.",
+  "facts": [
+    {
+      "sym": "~0",
+      "text": "~0 = 0xFFFFFFFF = MAX_UINT32"
+    },
+    {
+      "sym": "two's complement",
+      "text": "-x = ~x + 1 (two's complement)"
+    },
+    {
+      "sym": "!",
+      "text": "! là logical NOT, ~ là bitwise NOT"
+    }
+  ],
+  "tags": [
+    "bitwise",
+    "not",
+    "complement"
+  ],
+  "related": [
+    "bitwise-and",
+    "bitwise-or",
+    "bit",
+    "two-complement"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "assembly"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

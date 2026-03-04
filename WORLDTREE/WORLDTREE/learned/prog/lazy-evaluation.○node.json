@@ -1,0 +1,68 @@
+{
+  "name": "lazy-evaluation",
+  "sym": "?→T",
+  "symbol": "?→T",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    0.7,
+    0.4,
+    0.8
+  ],
+  "isl": [
+    3,
+    4,
+    1,
+    0
+  ],
+  "summary": "Compute chỉ khi cần. Haskell mặc định. Infinite lists. Thunk: unevaluated expression.",
+  "facts": [
+    {
+      "sym": "thunk",
+      "text": "thunk: unevaluated expression, forced khi cần"
+    },
+    {
+      "sym": "infinite",
+      "text": "[1..] trong Haskell: vô hạn list — OK vì lazy"
+    },
+    {
+      "sym": "space leak",
+      "text": "space leak: thunks tích lũy chiếm RAM mà không compute"
+    }
+  ],
+  "tags": [
+    "lazy",
+    "evaluation",
+    "haskell",
+    "thunk",
+    "infinite"
+  ],
+  "related": [
+    "Haskell",
+    "functional",
+    "tail-call",
+    "Monad",
+    "infinite-list"
+  ],
+  "exists_in": [
+    "Haskell",
+    "Clojure",
+    "Scala",
+    "Rust(iterators)"
+  ],
+  "not_in": [
+    "Go",
+    "Python(default eager)",
+    "Java"
+  ],
+  "NOT_in": [
+    "Go",
+    "Python"
+  ],
+  "danger": [
+    "space leak: accumulated thunks",
+    "unexpected evaluation order"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

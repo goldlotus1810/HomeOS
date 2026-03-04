@@ -1,0 +1,71 @@
+{
+  "name": "malloc",
+  "sym": "alloc",
+  "symbol": "alloc",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.5,
+    -0.4,
+    -0.55
+  ],
+  "isl": [
+    2,
+    1,
+    1,
+    0
+  ],
+  "summary": "Cấp phát dynamic memory từ heap. C: malloc/free. Rust: Box::new. Go/Java: tự động.",
+  "facts": [
+    {
+      "sym": "C malloc",
+      "text": "void* malloc(size_t) — trả NULL nếu OOM"
+    },
+    {
+      "sym": "free",
+      "text": "PHẢI gọi free() sau khi xong — không free → memory leak"
+    },
+    {
+      "sym": "calloc",
+      "text": "calloc: malloc + zero-initialize. realloc: resize"
+    }
+  ],
+  "tags": [
+    "malloc",
+    "heap",
+    "memory",
+    "allocation"
+  ],
+  "related": [
+    "free",
+    "pointer",
+    "heap",
+    "RAII",
+    "ownership",
+    "GC",
+    "buffer-overflow"
+  ],
+  "exists_in": [
+    "C",
+    "C++"
+  ],
+  "not_in": [
+    "Go",
+    "Java",
+    "Python",
+    "Rust(direct)"
+  ],
+  "NOT_in": [
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "danger": [
+    "memory leak: không gọi free",
+    "use after free: dùng ptr sau free",
+    "double free: free 2 lần → heap corruption",
+    "null deref: malloc trả NULL khi OOM"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

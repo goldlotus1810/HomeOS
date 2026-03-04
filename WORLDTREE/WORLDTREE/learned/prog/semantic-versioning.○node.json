@@ -1,0 +1,54 @@
+{
+  "name": "semantic-versioning",
+  "sym": "v1.2.3",
+  "symbol": "v1.2.3",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.43,
+    0.63,
+    0.28
+  ],
+  "isl": [
+    7,
+    2,
+    8,
+    0
+  ],
+  "summary": "MAJOR.MINOR.PATCH. MAJOR: breaking. MINOR: backward-compatible new feature. PATCH: bug fix.",
+  "facts": [
+    {
+      "sym": "breaking",
+      "text": "MAJOR bump: breaking API change"
+    },
+    {
+      "sym": "compatible",
+      "text": "MINOR: new features, backward-compatible"
+    },
+    {
+      "sym": "pre-release",
+      "text": "1.0.0-alpha.1, 1.0.0-rc.1: pre-release"
+    }
+  ],
+  "tags": [
+    "semver",
+    "versioning",
+    "api",
+    "dependency",
+    "release"
+  ],
+  "related": [
+    "API-design",
+    "dependency-graph",
+    "git",
+    "CI-CD"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "version hell: incompatible transitive dependencies"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

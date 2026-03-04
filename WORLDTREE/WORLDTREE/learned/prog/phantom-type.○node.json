@@ -1,0 +1,69 @@
+{
+  "name": "phantom-type",
+  "sym": "<Ghost>",
+  "symbol": "<Ghost>",
+  "layer": 4,
+  "category": "concept",
+  "sdf": [
+    0.75,
+    0.52,
+    0.75
+  ],
+  "isl": [
+    4,
+    4,
+    5,
+    0
+  ],
+  "summary": "Type parameter không xuất hiện trong runtime data. Encode state machine trong type system. Zero-cost.",
+  "facts": [
+    {
+      "sym": "state machine",
+      "text": "struct Door<State>; impl Door<Locked> { fn unlock() -> Door<Unlocked> }"
+    },
+    {
+      "sym": "zero cost",
+      "text": "phantom type: không tốn runtime memory"
+    },
+    {
+      "sym": "Rust",
+      "text": "PhantomData<T>: tell compiler about variance"
+    }
+  ],
+  "tags": [
+    "phantom-type",
+    "type-system",
+    "rust",
+    "haskell",
+    "state-machine"
+  ],
+  "related": [
+    "type-system",
+    "generic",
+    "Rust",
+    "Haskell",
+    "zero-cost",
+    "state-machine"
+  ],
+  "exists_in": [
+    "Rust",
+    "Haskell",
+    "Scala",
+    "OCaml"
+  ],
+  "not_in": [
+    "Go",
+    "Java",
+    "Python",
+    "C"
+  ],
+  "NOT_in": [
+    "Go",
+    "Java",
+    "Python",
+    "C"
+  ],
+  "danger": [],
+  "confidence": 0.95,
+  "source": "builtin"
+}

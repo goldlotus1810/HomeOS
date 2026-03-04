@@ -1,0 +1,76 @@
+{
+  "name": "garbage-collection-algorithms",
+  "sym": "♻alg",
+  "symbol": "♻alg",
+  "layer": 4,
+  "category": "concept",
+  "sdf": [
+    -0.08,
+    0.72,
+    -0.08
+  ],
+  "isl": [
+    4,
+    4,
+    2,
+    0
+  ],
+  "summary": "Mark-and-sweep, tri-color marking, generational, reference counting. Trade-offs: throughput vs latency.",
+  "facts": [
+    {
+      "sym": "mark-sweep",
+      "text": "mark reachable → sweep unreachable. Stop-the-world pause"
+    },
+    {
+      "sym": "tri-color",
+      "text": "tri-color: white(unvisited), gray(queued), black(done) — concurrent"
+    },
+    {
+      "sym": "generational",
+      "text": "generational: young gen collected thường xuyên, old gen ít hơn"
+    },
+    {
+      "sym": "ref count",
+      "text": "Swift/Python: immediate dealloc, cycles cần cycle collector"
+    }
+  ],
+  "tags": [
+    "gc",
+    "garbage-collection",
+    "mark-sweep",
+    "generational",
+    "ref-count"
+  ],
+  "related": [
+    "GC",
+    "garbage-collector",
+    "Go",
+    "Java",
+    "Python",
+    "Rust",
+    "ownership"
+  ],
+  "exists_in": [
+    "Go",
+    "Java",
+    "Python",
+    "Swift",
+    "C#"
+  ],
+  "not_in": [
+    "C",
+    "C++",
+    "Rust"
+  ],
+  "NOT_in": [
+    "C",
+    "C++",
+    "Rust"
+  ],
+  "danger": [
+    "GC pause: latency spike",
+    "fragmentation: heap fragmented sau nhiều alloc/free"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

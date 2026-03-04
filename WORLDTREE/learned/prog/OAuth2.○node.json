@@ -1,0 +1,57 @@
+{
+  "name": "OAuth2",
+  "sym": "🔑O2",
+  "symbol": "🔑O2",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.62,
+    0.72,
+    0.42
+  ],
+  "isl": [
+    5,
+    5,
+    2,
+    0
+  ],
+  "summary": "Authorization framework. Delegate access không chia sẻ password. Access token + refresh token.",
+  "facts": [
+    {
+      "sym": "flows",
+      "text": "Authorization Code (web), PKCE (mobile/SPA), Client Credentials (M2M)"
+    },
+    {
+      "sym": "JWT",
+      "text": "access token thường là JWT — stateless"
+    },
+    {
+      "sym": "OIDC",
+      "text": "OpenID Connect (OIDC): OAuth2 + identity (id_token)"
+    }
+  ],
+  "tags": [
+    "oauth2",
+    "authentication",
+    "authorization",
+    "jwt",
+    "security"
+  ],
+  "related": [
+    "authentication",
+    "JWT",
+    "TLS",
+    "HTTP",
+    "API",
+    "OpenID"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "open redirect: state param cần validate",
+    "PKCE: required cho public clients"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

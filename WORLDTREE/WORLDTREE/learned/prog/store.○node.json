@@ -1,0 +1,53 @@
+{
+  "name": "store",
+  "sym": "→m",
+  "symbol": "→m",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.865,
+    -0.815,
+    -0.865
+  ],
+  "isl": [
+    2,
+    0,
+    16,
+    0
+  ],
+  "summary": "Ghi giá trị từ register ra memory. Assembly: mov [addr], rax.",
+  "facts": [
+    {
+      "sym": "write-back",
+      "text": "CPU có thể delay write (write buffer) → memory ordering"
+    },
+    {
+      "sym": "atomic store",
+      "text": "atomic store đảm bảo visibility với threads khác"
+    }
+  ],
+  "tags": [
+    "store",
+    "memory",
+    "write"
+  ],
+  "related": [
+    "load",
+    "register",
+    "pointer",
+    "cache",
+    "byte"
+  ],
+  "exists_in": [
+    "assembly",
+    "C",
+    "Rust"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "data race: concurrent store không sync"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

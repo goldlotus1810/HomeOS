@@ -1,0 +1,57 @@
+{
+  "name": "monitoring",
+  "sym": "📊→",
+  "symbol": "📊→",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.55,
+    0.75,
+    0.4
+  ],
+  "isl": [
+    7,
+    2,
+    2,
+    0
+  ],
+  "summary": "Metrics, Logs, Traces (3 pillars). Prometheus + Grafana, ELK, Jaeger. SLI/SLO/SLA.",
+  "facts": [
+    {
+      "sym": "3 pillars",
+      "text": "metrics: counters/gauges. logs: events. traces: request flow"
+    },
+    {
+      "sym": "SLO",
+      "text": "SLO: 99.9% uptime = 8.7h downtime/year"
+    },
+    {
+      "sym": "alerting",
+      "text": "alert on symptoms (latency/error rate) không causes"
+    }
+  ],
+  "tags": [
+    "monitoring",
+    "observability",
+    "metrics",
+    "logging",
+    "tracing"
+  ],
+  "related": [
+    "CI-CD",
+    "Docker",
+    "Kubernetes",
+    "logging",
+    "distributed-tracing",
+    "SLO"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "alert fatigue: too many alerts",
+    "metric cardinality explosion"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

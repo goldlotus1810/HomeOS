@@ -1,0 +1,62 @@
+{
+  "name": "lambda",
+  "sym": "λ",
+  "symbol": "λ",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.32,
+    -0.08,
+    -0.22
+  ],
+  "isl": [
+    1,
+    0,
+    28,
+    0
+  ],
+  "summary": "Anonymous function. Không có tên. Dùng inline hoặc pass như argument.",
+  "facts": [
+    {
+      "sym": "anonymous",
+      "text": "không có tên, thường dùng 1 lần"
+    },
+    {
+      "sym": "Python",
+      "text": "Python: lambda x: x*2"
+    },
+    {
+      "sym": "Java",
+      "text": "Java: (x) -> x*2 (từ Java 8)"
+    }
+  ],
+  "tags": [
+    "lambda",
+    "anonymous",
+    "functional"
+  ],
+  "related": [
+    "closure",
+    "higher-order-function",
+    "map-function",
+    "filter-function",
+    "functional"
+  ],
+  "exists_in": [
+    "Python",
+    "Java",
+    "Rust",
+    "JavaScript",
+    "Haskell",
+    "Scala"
+  ],
+  "not_in": [
+    "C"
+  ],
+  "NOT_in": [
+    "C"
+  ],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

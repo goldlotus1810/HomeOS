@@ -1,0 +1,56 @@
+{
+  "name": "testing",
+  "sym": "✓→",
+  "symbol": "✓→",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.28,
+    0.58,
+    0.18
+  ],
+  "isl": [
+    7,
+    0,
+    15,
+    0
+  ],
+  "summary": "Unit, Integration, E2E tests. Testing pyramid: nhiều unit, ít E2E. Test behavior, không implementation.",
+  "facts": [
+    {
+      "sym": "pyramid",
+      "text": "testing pyramid: unit (fast) > integration > E2E (slow)"
+    },
+    {
+      "sym": "behavior",
+      "text": "test behavior/interface, không internal implementation"
+    },
+    {
+      "sym": "coverage",
+      "text": "100% coverage không = 100% tested. Test quality > quantity"
+    }
+  ],
+  "tags": [
+    "testing",
+    "unit-test",
+    "integration",
+    "e2e",
+    "quality"
+  ],
+  "related": [
+    "TDD",
+    "CI-CD",
+    "dependency-injection",
+    "mocking",
+    "debugging"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "test implementation detail → brittle tests",
+    "flaky tests: random failures → ignore all tests"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

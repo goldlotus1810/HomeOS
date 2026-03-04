@@ -1,0 +1,60 @@
+{
+  "name": "ISL",
+  "sym": "[L|G|T|ID]",
+  "symbol": "[L|G|T|ID]",
+  "layer": 4,
+  "category": "homeos",
+  "sdf": [
+    -0.1,
+    0.9,
+    0.1
+  ],
+  "isl": [
+    4,
+    3,
+    1,
+    0
+  ],
+  "summary": "Internal Shared Language của HomeOS. 64-bit address thay thế text. 75% bandwidth saving vs JSON.",
+  "facts": [
+    {
+      "sym": "format",
+      "text": "[Layer 1B][Group 1B][Type 1B][ID 1B][Attributes 4B]"
+    },
+    {
+      "sym": "example",
+      "text": "ABa1 = Image>Animal>Bird. DCb4 = Location>Coastal>Beach"
+    },
+    {
+      "sym": "bandwidth",
+      "text": "JSON ~280 bytes/cmd. ISL ~68 bytes + AES-256-GCM built-in"
+    },
+    {
+      "sym": "SDF",
+      "text": "ISL address + SDF coordinates = position trong knowledge space"
+    }
+  ],
+  "tags": [
+    "isl",
+    "homeos",
+    "encoding",
+    "address",
+    "bandwidth"
+  ],
+  "related": [
+    "WORLDTREE",
+    "opSmoothUnion",
+    "SDF",
+    "UTF-32",
+    "encryption",
+    "AAM"
+  ],
+  "exists_in": [
+    "HomeOS"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Swift",
+  "sym": "🦅S",
+  "symbol": "🦅S",
+  "layer": 5,
+  "category": "language",
+  "sdf": [
+    0.4,
+    0.55,
+    0.1
+  ],
+  "isl": [
+    5,
+    0,
+    14,
+    0
+  ],
+  "summary": "Apple 2014. iOS/macOS. Optional, ARC memory management, protocol-oriented.",
+  "facts": [
+    {
+      "sym": "optional",
+      "text": "Optional<T>: T? — safe null handling"
+    },
+    {
+      "sym": "ARC",
+      "text": "ARC: Automatic Reference Counting, không phải GC"
+    },
+    {
+      "sym": "protocol",
+      "text": "protocol: như interface nhưng mạnh hơn — default impl, associated types"
+    },
+    {
+      "sym": "value types",
+      "text": "struct/enum là value types (copy) — phổ biến hơn C++"
+    }
+  ],
+  "tags": [
+    "swift",
+    "ios",
+    "macos",
+    "apple",
+    "arc"
+  ],
+  "related": [
+    "null-safety",
+    "RAII",
+    "interface",
+    "OOP",
+    "functional"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "ARC retain cycle: strong reference cycle → memory leak"
+  ],
+  "confidence": 0.97,
+  "source": "builtin"
+}

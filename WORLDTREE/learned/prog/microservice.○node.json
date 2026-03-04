@@ -1,0 +1,58 @@
+{
+  "name": "microservice",
+  "sym": "⬡→⬡",
+  "symbol": "⬡→⬡",
+  "layer": 6,
+  "category": "pattern",
+  "sdf": [
+    0.58,
+    0.68,
+    0.38
+  ],
+  "isl": [
+    6,
+    0,
+    23,
+    0
+  ],
+  "summary": "Chia monolith thành services nhỏ, independent deployable. API communication. Phức tạp hơn nhưng scalable.",
+  "facts": [
+    {
+      "sym": "independent",
+      "text": "mỗi service: own database, deploy riêng"
+    },
+    {
+      "sym": "API",
+      "text": "giao tiếp qua HTTP/gRPC/message queue"
+    },
+    {
+      "sym": "complexity",
+      "text": "distributed system problems: latency, partial failure, consistency"
+    }
+  ],
+  "tags": [
+    "microservice",
+    "distributed",
+    "scalability",
+    "architecture"
+  ],
+  "related": [
+    "load-balancer",
+    "circuit-breaker",
+    "rate-limiting",
+    "API",
+    "Docker",
+    "Kubernetes"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "distributed complexity",
+    "network latency",
+    "data consistency",
+    "harder to debug"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

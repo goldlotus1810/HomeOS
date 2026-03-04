@@ -1,0 +1,58 @@
+{
+  "name": "JVM",
+  "sym": "☕VM",
+  "symbol": "☕VM",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.2,
+    0.4,
+    -0.1
+  ],
+  "isl": [
+    5,
+    1,
+    2,
+    0
+  ],
+  "summary": "Java Virtual Machine. Bytecode → JIT native. Platform-independent. HotSpot, GraalVM, OpenJ9.",
+  "facts": [
+    {
+      "sym": "bytecode",
+      "text": "Java compile → .class bytecode → JVM interpret/JIT"
+    },
+    {
+      "sym": "JIT",
+      "text": "JIT compilation: hot code → native machine code"
+    },
+    {
+      "sym": "GraalVM",
+      "text": "GraalVM: native image, polyglot, AOT compilation"
+    },
+    {
+      "sym": "memory model",
+      "text": "JMM: Java Memory Model — visibility, ordering guarantees"
+    }
+  ],
+  "tags": [
+    "jvm",
+    "java",
+    "bytecode",
+    "jit",
+    "runtime"
+  ],
+  "related": [
+    "Java",
+    "garbage-collector",
+    "thread",
+    "generic",
+    "type-erasure",
+    "Kotlin"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

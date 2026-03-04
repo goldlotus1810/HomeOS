@@ -1,0 +1,62 @@
+{
+  "name": "DFS",
+  "sym": "→∀↓",
+  "symbol": "→∀↓",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.14,
+    0.095,
+    -0.215
+  ],
+  "isl": [
+    6,
+    0,
+    5,
+    0
+  ],
+  "summary": "Depth-First Search. O(V+E). Dùng stack (hoặc recursion). Tìm cycles, topological sort.",
+  "facts": [
+    {
+      "sym": "stack",
+      "text": "dùng stack (hoặc recursion implicit stack)"
+    },
+    {
+      "sym": "backtrack",
+      "text": "backtrack: thử một path, nếu fail quay lại"
+    },
+    {
+      "sym": "topo sort",
+      "text": "DFS → topological sort (với visited tracking)"
+    }
+  ],
+  "tags": [
+    "dfs",
+    "graph",
+    "recursion",
+    "backtrack"
+  ],
+  "related": [
+    "BFS",
+    "recursion",
+    "stack",
+    "graph",
+    "topological-sort",
+    "cycle-detection"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "stack overflow với deep recursion",
+    "không detect cycle → infinite loop"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

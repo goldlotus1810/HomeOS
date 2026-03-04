@@ -1,0 +1,60 @@
+{
+  "name": "Kruskal",
+  "sym": "MST-K",
+  "symbol": "MST-K",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.135,
+    0.088,
+    -0.235
+  ],
+  "isl": [
+    6,
+    4,
+    3,
+    0
+  ],
+  "summary": "Minimum Spanning Tree bằng Kruskal. Sort edges by weight, add nếu không tạo cycle (Union-Find). O(E log E).",
+  "facts": [
+    {
+      "sym": "greedy",
+      "text": "greedy: luôn chọn edge nhỏ nhất không tạo cycle"
+    },
+    {
+      "sym": "union-find",
+      "text": "Union-Find: detect cycle trong O(α(n))"
+    },
+    {
+      "sym": "O(E log E)",
+      "text": "sort edges: O(E log E). Total: O(E log E)"
+    }
+  ],
+  "tags": [
+    "kruskal",
+    "mst",
+    "graph",
+    "greedy",
+    "algorithm"
+  ],
+  "related": [
+    "union-find",
+    "graph",
+    "Prim",
+    "sort",
+    "greedy",
+    "spanning-tree"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

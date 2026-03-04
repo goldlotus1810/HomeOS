@@ -1,0 +1,55 @@
+{
+  "name": "pair-programming",
+  "sym": "👥code",
+  "symbol": "👥code",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.38,
+    0.68,
+    0.28
+  ],
+  "isl": [
+    7,
+    0,
+    13,
+    0
+  ],
+  "summary": "2 người làm 1 task. Driver viết code, Navigator review real-time. Reduce bugs, share knowledge.",
+  "facts": [
+    {
+      "sym": "driver",
+      "text": "driver: viết code, focus tactical"
+    },
+    {
+      "sym": "navigator",
+      "text": "navigator: review, think strategic, catch bugs"
+    },
+    {
+      "sym": "switch",
+      "text": "swap roles thường xuyên — thường 25-30 phút"
+    }
+  ],
+  "tags": [
+    "pair-programming",
+    "collaboration",
+    "xp",
+    "quality"
+  ],
+  "related": [
+    "TDD",
+    "code-review",
+    "DRY",
+    "knowledge-sharing"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "exhausting nếu liên tục",
+    "personality conflicts",
+    "one person dominating"
+  ],
+  "confidence": 0.97,
+  "source": "builtin"
+}

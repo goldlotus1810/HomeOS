@@ -1,0 +1,59 @@
+{
+  "name": "protobuf",
+  "sym": "⬡proto",
+  "symbol": "⬡proto",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.5,
+    0.6,
+    0.3
+  ],
+  "isl": [
+    5,
+    1,
+    12,
+    0
+  ],
+  "summary": "Protocol Buffers. Google binary serialization. Smaller + faster than JSON. Schema required.",
+  "facts": [
+    {
+      "sym": "binary",
+      "text": "binary: 3-10x nhỏ hơn JSON, 5-10x nhanh hơn parse"
+    },
+    {
+      "sym": "schema",
+      "text": "schema .proto: strongly typed, versioned"
+    },
+    {
+      "sym": "gRPC",
+      "text": "gRPC dùng protobuf làm serialization format"
+    },
+    {
+      "sym": "backward compat",
+      "text": "field numbers: không thay đổi, chỉ thêm mới"
+    }
+  ],
+  "tags": [
+    "protobuf",
+    "serialization",
+    "binary",
+    "grpc",
+    "google"
+  ],
+  "related": [
+    "gRPC",
+    "JSON",
+    "API",
+    "microservice",
+    "schema"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "schema evolution: không xóa/reuse field numbers"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

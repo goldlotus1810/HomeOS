@@ -1,0 +1,56 @@
+{
+  "name": "supply-chain-attack",
+  "sym": "⊗supply",
+  "symbol": "⊗supply",
+  "layer": 5,
+  "category": "vulnerability",
+  "sdf": [
+    -0.48,
+    -0.68,
+    -0.38
+  ],
+  "isl": [
+    5,
+    2,
+    11,
+    0
+  ],
+  "summary": "Compromise software qua dependencies. SolarWinds, Log4Shell, event-stream. 3rd-party packages là risk.",
+  "facts": [
+    {
+      "sym": "lock files",
+      "text": "lock files: pin exact versions, verify checksums"
+    },
+    {
+      "sym": "audit",
+      "text": "npm audit, cargo audit, govulncheck — scan dependencies"
+    },
+    {
+      "sym": "SBOM",
+      "text": "SBOM: Software Bill of Materials — inventory dependencies"
+    }
+  ],
+  "tags": [
+    "supply-chain",
+    "security",
+    "dependencies",
+    "npm",
+    "cargo"
+  ],
+  "related": [
+    "OWASP-Top10",
+    "dependency-graph",
+    "CI-CD",
+    "Docker"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "transitive dependencies: risk ẩn",
+    "malicious package: typosquatting",
+    "dependency confusion attack"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

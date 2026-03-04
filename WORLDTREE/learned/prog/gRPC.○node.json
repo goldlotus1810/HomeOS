@@ -1,0 +1,61 @@
+{
+  "name": "gRPC",
+  "sym": "⬡gRPC",
+  "symbol": "⬡gRPC",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.48,
+    0.58,
+    0.28
+  ],
+  "isl": [
+    5,
+    3,
+    7,
+    0
+  ],
+  "summary": "Google RPC framework. HTTP/2 + Protocol Buffers. Bidirectional streaming. Code generation.",
+  "facts": [
+    {
+      "sym": "HTTP/2",
+      "text": "HTTP/2: multiplexing, binary framing"
+    },
+    {
+      "sym": "streaming",
+      "text": "4 modes: unary, server-stream, client-stream, bidi-stream"
+    },
+    {
+      "sym": "codegen",
+      "text": "protoc generate client/server code nhiều ngôn ngữ"
+    },
+    {
+      "sym": "deadline",
+      "text": "deadline propagation: timeout tự động pass đến downstream"
+    }
+  ],
+  "tags": [
+    "grpc",
+    "rpc",
+    "protobuf",
+    "http2",
+    "microservice"
+  ],
+  "related": [
+    "protobuf",
+    "HTTP",
+    "API",
+    "microservice",
+    "streaming",
+    "gRPC-web"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "gRPC-web: browser cần proxy",
+    "error codes: khác với HTTP status codes"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "ret",
+  "sym": "←𝑓",
+  "symbol": "←𝑓",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.745,
+    -0.645,
+    -0.745
+  ],
+  "isl": [
+    2,
+    0,
+    18,
+    0
+  ],
+  "summary": "Return từ function. Pop return address từ stack, jump về.",
+  "facts": [
+    {
+      "sym": "return value",
+      "text": "return value thường trong rax (x86-64)"
+    },
+    {
+      "sym": "stack cleanup",
+      "text": "caller/callee cleanup tùy calling convention"
+    }
+  ],
+  "tags": [
+    "return",
+    "function",
+    "stack"
+  ],
+  "related": [
+    "call",
+    "stack",
+    "function",
+    "tail-call"
+  ],
+  "exists_in": [
+    "assembly",
+    "C",
+    "Rust",
+    "Go",
+    "Java"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "return address overwrite: buffer overflow exploit"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

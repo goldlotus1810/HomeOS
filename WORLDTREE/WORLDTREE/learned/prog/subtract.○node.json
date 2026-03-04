@@ -1,0 +1,53 @@
+{
+  "name": "subtract",
+  "sym": "⊖",
+  "symbol": "⊖",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.795,
+    -0.695,
+    -0.795
+  ],
+  "isl": [
+    2,
+    0,
+    2,
+    0
+  ],
+  "summary": "Phép trừ. Underflow với unsigned: 0u - 1 = MAX_UINT.",
+  "facts": [
+    {
+      "sym": "underflow",
+      "text": "unsigned: 0 - 1 = MAX_UINT (wrap around)"
+    },
+    {
+      "sym": "C UB",
+      "text": "signed overflow: UB trong C"
+    }
+  ],
+  "tags": [
+    "subtract",
+    "arithmetic"
+  ],
+  "related": [
+    "add",
+    "multiply",
+    "overflow",
+    "underflow"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "assembly"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "unsigned underflow: 0 - 1 wraps"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

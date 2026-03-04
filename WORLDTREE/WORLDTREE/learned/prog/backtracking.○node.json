@@ -1,0 +1,61 @@
+{
+  "name": "backtracking",
+  "sym": "↺←",
+  "symbol": "↺←",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.16,
+    0.12,
+    -0.28
+  ],
+  "isl": [
+    6,
+    4,
+    6,
+    0
+  ],
+  "summary": "Try all possibilities với undo. N-queens, Sudoku, subset sum. DFS + undo = backtracking.",
+  "facts": [
+    {
+      "sym": "choice",
+      "text": "choose → explore → unchoose (undo)"
+    },
+    {
+      "sym": "pruning",
+      "text": "pruning: cắt nhánh sớm khi không thể reach goal"
+    },
+    {
+      "sym": "NP",
+      "text": "backtracking giải NP problems — exponential worst case"
+    }
+  ],
+  "tags": [
+    "backtracking",
+    "search",
+    "recursion",
+    "combinatorial"
+  ],
+  "related": [
+    "DFS",
+    "recursion",
+    "pruning",
+    "N-queens",
+    "Sudoku",
+    "dynamic-programming"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "exponential: phải prune tốt để practical"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

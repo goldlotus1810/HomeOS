@@ -1,0 +1,63 @@
+{
+  "name": "loop",
+  "sym": "↺",
+  "symbol": "↺",
+  "layer": 2,
+  "category": "construct",
+  "sdf": [
+    -0.6,
+    -0.5,
+    -0.58
+  ],
+  "isl": [
+    2,
+    1,
+    4,
+    0
+  ],
+  "summary": "Lặp đi lặp lại. for, while, do-while, loop. Bản chất: conditional jump + counter/state.",
+  "facts": [
+    {
+      "sym": "assembly",
+      "text": "assembly: loop là JMP + condition check"
+    },
+    {
+      "sym": "break/continue",
+      "text": "break: thoát loop. continue: skip iteration hiện tại"
+    },
+    {
+      "sym": "labeled",
+      "text": "Rust/Java: labeled loop — break outer từ inner loop"
+    }
+  ],
+  "tags": [
+    "loop",
+    "iterate",
+    "control-flow"
+  ],
+  "related": [
+    "for",
+    "while",
+    "break",
+    "continue",
+    "iterator",
+    "recursion"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python",
+    "JavaScript",
+    "assembly"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "infinite loop: thiếu exit condition",
+    "off-by-one trong counter"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

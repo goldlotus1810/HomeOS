@@ -1,0 +1,53 @@
+{
+  "name": "OWASP-Top10",
+  "sym": "⊗10",
+  "symbol": "⊗10",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    -0.5,
+    -0.7,
+    -0.4
+  ],
+  "isl": [
+    5,
+    2,
+    8,
+    0
+  ],
+  "summary": "Top 10 web security risks. 2021: Broken Access Control, Cryptographic Failures, Injection, Insecure Design...",
+  "facts": [
+    {
+      "sym": "#1 2021",
+      "text": "A01: Broken Access Control"
+    },
+    {
+      "sym": "#3 2021",
+      "text": "A03: Injection (SQL, NoSQL, OS, LDAP)"
+    },
+    {
+      "sym": "#7 2021",
+      "text": "A07: Identification and Authentication Failures"
+    }
+  ],
+  "tags": [
+    "owasp",
+    "security",
+    "web",
+    "vulnerability"
+  ],
+  "related": [
+    "SQL-injection",
+    "XSS",
+    "CSRF",
+    "authentication",
+    "authorization",
+    "encryption"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

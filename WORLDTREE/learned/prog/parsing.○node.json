@@ -1,0 +1,57 @@
+{
+  "name": "parsing",
+  "sym": "→AST",
+  "symbol": "→AST",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    -0.3,
+    0.2,
+    -0.3
+  ],
+  "isl": [
+    5,
+    2,
+    4,
+    0
+  ],
+  "summary": "Token stream → AST. Recursive descent, LL(k), LR(k). Nền tảng của compiler/interpreter.",
+  "facts": [
+    {
+      "sym": "lexer",
+      "text": "lexer/tokenizer: text → token stream"
+    },
+    {
+      "sym": "AST",
+      "text": "AST: Abstract Syntax Tree — cấu trúc cú pháp của chương trình"
+    },
+    {
+      "sym": "recursive descent",
+      "text": "recursive descent: easy to write by hand, LL(1)"
+    },
+    {
+      "sym": "error recovery",
+      "text": "error recovery: tiếp tục parse sau lỗi để tìm thêm lỗi"
+    }
+  ],
+  "tags": [
+    "parsing",
+    "ast",
+    "compiler",
+    "grammar",
+    "syntax"
+  ],
+  "related": [
+    "compiler",
+    "finite-automaton",
+    "regex",
+    "LLVM",
+    "grammar"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

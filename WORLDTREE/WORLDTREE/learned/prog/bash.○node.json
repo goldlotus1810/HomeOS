@@ -1,0 +1,58 @@
+{
+  "name": "bash",
+  "sym": "$_",
+  "symbol": "$_",
+  "layer": 5,
+  "category": "language",
+  "sdf": [
+    -0.5,
+    -0.6,
+    0.0
+  ],
+  "isl": [
+    5,
+    3,
+    1,
+    0
+  ],
+  "summary": "Bourne Again Shell. Scripting, automation, pipe, redirect. Nhỏ gọn nhưng nhiều edge cases.",
+  "facts": [
+    {
+      "sym": "shebang",
+      "text": "#!/bin/bash hoặc #!/usr/bin/env bash"
+    },
+    {
+      "sym": "errexit",
+      "text": "set -euo pipefail: fail fast trên errors"
+    },
+    {
+      "sym": "quote",
+      "text": "'$var' không expand. \"$var\" expand. Luôn quote variables"
+    }
+  ],
+  "tags": [
+    "bash",
+    "shell",
+    "scripting",
+    "linux",
+    "unix"
+  ],
+  "related": [
+    "pipe",
+    "process",
+    "regex",
+    "CI-CD",
+    "Makefile",
+    "Linux"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "word splitting: $var không quote → bug với spaces",
+    "glob expansion unexpected",
+    "no types: silent type errors"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

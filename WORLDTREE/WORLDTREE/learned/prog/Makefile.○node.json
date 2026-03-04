@@ -1,0 +1,55 @@
+{
+  "name": "Makefile",
+  "sym": "make",
+  "symbol": "make",
+  "layer": 7,
+  "category": "tool",
+  "sdf": [
+    0.38,
+    0.68,
+    0.28
+  ],
+  "isl": [
+    7,
+    3,
+    1,
+    0
+  ],
+  "summary": "Build automation. Target: dependencies → commands. Make chỉ rebuild khi input thay đổi.",
+  "facts": [
+    {
+      "sym": "target",
+      "text": "target: deps\\n\\t$(CC) -o target deps"
+    },
+    {
+      "sym": "phony",
+      "text": ".PHONY: clean test — target không phải file"
+    },
+    {
+      "sym": "tab",
+      "text": "PHẢI dùng TAB, không SPACE — cực kỳ dễ bug"
+    }
+  ],
+  "tags": [
+    "make",
+    "makefile",
+    "build",
+    "automation"
+  ],
+  "related": [
+    "CI-CD",
+    "git",
+    "compiler",
+    "bash",
+    "shell"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "TAB vs SPACE: silent error",
+    "recursive make: slow, hard to parallelize"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

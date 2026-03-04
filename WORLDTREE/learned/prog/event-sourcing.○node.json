@@ -1,0 +1,57 @@
+{
+  "name": "event-sourcing",
+  "sym": "→📋",
+  "symbol": "→📋",
+  "layer": 6,
+  "category": "pattern",
+  "sdf": [
+    0.45,
+    0.55,
+    0.25
+  ],
+  "isl": [
+    6,
+    0,
+    16,
+    0
+  ],
+  "summary": "Store state như sequence of events. Có thể replay để reconstruct state tại bất kỳ thời điểm.",
+  "facts": [
+    {
+      "sym": "append-only",
+      "text": "event log: append-only, không sửa/xóa"
+    },
+    {
+      "sym": "replay",
+      "text": "rebuild state bằng cách replay events từ đầu"
+    },
+    {
+      "sym": "audit",
+      "text": "full audit trail: biết chính xác điều gì đã xảy ra và khi nào"
+    }
+  ],
+  "tags": [
+    "event-sourcing",
+    "cqrs",
+    "audit",
+    "append-only",
+    "distributed"
+  ],
+  "related": [
+    "observer-pattern",
+    "CQRS",
+    "database",
+    "append-only",
+    "stream"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "event schema evolution: hard",
+    "storage grows forever",
+    "eventual consistency"
+  ],
+  "confidence": 0.97,
+  "source": "builtin"
+}

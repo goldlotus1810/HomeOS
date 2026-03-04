@@ -1,0 +1,64 @@
+{
+  "name": "epoll",
+  "sym": "epoll",
+  "symbol": "epoll",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    -0.5,
+    -0.4,
+    -0.52
+  ],
+  "isl": [
+    5,
+    3,
+    3,
+    0
+  ],
+  "summary": "Linux I/O event notification. O(1) per event. Basis của Node.js, Go net, nginx, Redis event loops.",
+  "facts": [
+    {
+      "sym": "O(1)",
+      "text": "epoll: O(1) khi file descriptor ready — khác với select O(n)"
+    },
+    {
+      "sym": "edge/level",
+      "text": "EPOLLET: edge-triggered. EPOLLIN/EPOLLOUT: level-triggered"
+    },
+    {
+      "sym": "Go runtime",
+      "text": "Go net: epoll-based. goroutine block → runtime switch"
+    }
+  ],
+  "tags": [
+    "epoll",
+    "linux",
+    "io",
+    "event",
+    "async",
+    "networking"
+  ],
+  "related": [
+    "event-loop",
+    "file-descriptor",
+    "goroutine",
+    "async-await",
+    "syscall"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go(runtime)"
+  ],
+  "not_in": [
+    "Windows"
+  ],
+  "NOT_in": [
+    "Windows"
+  ],
+  "danger": [
+    "edge-triggered: phải drain buffer hoàn toàn"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

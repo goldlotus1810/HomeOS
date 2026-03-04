@@ -1,0 +1,57 @@
+{
+  "name": "API-design",
+  "sym": "⊃→",
+  "symbol": "⊃→",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.4,
+    0.6,
+    0.3
+  ],
+  "isl": [
+    7,
+    0,
+    11,
+    0
+  ],
+  "summary": "Design API tốt: easy to use, hard to misuse. Consistency, versioning, error messages rõ ràng.",
+  "facts": [
+    {
+      "sym": "easy right",
+      "text": "make easy things easy, hard things possible"
+    },
+    {
+      "sym": "versioning",
+      "text": "API versioning: /v1/, v2/ — backward compatible khi có thể"
+    },
+    {
+      "sym": "errors",
+      "text": "error messages: rõ ràng cho user, không expose internal"
+    }
+  ],
+  "tags": [
+    "api",
+    "design",
+    "interface",
+    "rest",
+    "grpc"
+  ],
+  "related": [
+    "REST",
+    "gRPC",
+    "dependency-injection",
+    "SOLID",
+    "abstraction"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "breaking change không versioned",
+    "leaking internals",
+    "inconsistent naming"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

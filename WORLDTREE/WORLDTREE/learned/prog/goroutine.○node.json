@@ -1,0 +1,69 @@
+{
+  "name": "goroutine",
+  "sym": "go𝑓",
+  "symbol": "go𝑓",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.05,
+    0.2,
+    -0.25
+  ],
+  "isl": [
+    3,
+    0,
+    9,
+    0
+  ],
+  "summary": "Go lightweight thread. ~2KB stack. Millions có thể chạy cùng lúc. Quản lý bởi Go runtime.",
+  "facts": [
+    {
+      "sym": "2KB",
+      "text": "goroutine bắt đầu với ~2KB stack, grow as needed"
+    },
+    {
+      "sym": "M:N",
+      "text": "M goroutines → N OS threads (Go runtime scheduler)"
+    },
+    {
+      "sym": "go func",
+      "text": "go func() { ... }() — launch goroutine"
+    }
+  ],
+  "tags": [
+    "goroutine",
+    "concurrency",
+    "go",
+    "green-thread"
+  ],
+  "related": [
+    "channel",
+    "mutex",
+    "CSP",
+    "concurrent",
+    "thread",
+    "sync",
+    "Go"
+  ],
+  "exists_in": [
+    "Go"
+  ],
+  "not_in": [
+    "Rust",
+    "Java",
+    "Python",
+    "C"
+  ],
+  "NOT_in": [
+    "Rust",
+    "Java",
+    "Python",
+    "C"
+  ],
+  "danger": [
+    "data race: goroutines share heap",
+    "goroutine leak: channel không receive mãi"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

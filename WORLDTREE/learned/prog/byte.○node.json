@@ -1,0 +1,57 @@
+{
+  "name": "byte",
+  "sym": "𝟎𝒙",
+  "symbol": "𝟎𝒙",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.93,
+    -0.88,
+    -0.93
+  ],
+  "isl": [
+    1,
+    0,
+    2,
+    0
+  ],
+  "summary": "8 bits. Đơn vị cơ bản của memory. Giá trị 0-255 (unsigned).",
+  "facts": [
+    {
+      "sym": "8 bits",
+      "text": "1 byte = 8 bits"
+    },
+    {
+      "sym": "0-255",
+      "text": "unsigned byte: 0 đến 255"
+    },
+    {
+      "sym": "ASCII",
+      "text": "ASCII dùng 1 byte mỗi ký tự"
+    }
+  ],
+  "tags": [
+    "byte",
+    "memory",
+    "primitive"
+  ],
+  "related": [
+    "bit",
+    "int8",
+    "char",
+    "load",
+    "store"
+  ],
+  "exists_in": [
+    "C",
+    "Go",
+    "Rust",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

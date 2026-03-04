@@ -1,0 +1,62 @@
+{
+  "name": "string",
+  "sym": "𝐬",
+  "symbol": "𝐬",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.75,
+    -0.6,
+    -0.7
+  ],
+  "isl": [
+    1,
+    0,
+    16,
+    0
+  ],
+  "summary": "Chuỗi ký tự. Rust/Go: UTF-8 bytes. C: null-terminated char array.",
+  "facts": [
+    {
+      "sym": "UTF-8",
+      "text": "Rust/Go string: UTF-8 encoded bytes"
+    },
+    {
+      "sym": "immutable",
+      "text": "Rust string literals là immutable &str"
+    },
+    {
+      "sym": "null-term",
+      "text": "C string: char array kết thúc bằng '\\0'"
+    }
+  ],
+  "tags": [
+    "string",
+    "text",
+    "utf8"
+  ],
+  "related": [
+    "char",
+    "byte",
+    "rune",
+    "KMP",
+    "Rabin-Karp",
+    "str"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python",
+    "JavaScript"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "C: buffer overflow khi copy string không kiểm tra length",
+    "off-by-one với null terminator"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

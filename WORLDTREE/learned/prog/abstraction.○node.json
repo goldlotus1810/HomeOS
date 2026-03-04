@@ -1,0 +1,56 @@
+{
+  "name": "abstraction",
+  "sym": "⊃abs",
+  "symbol": "⊃abs",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    0.3,
+    0.4,
+    0.2
+  ],
+  "isl": [
+    3,
+    2,
+    12,
+    0
+  ],
+  "summary": "Ẩn complexity, expose interface đơn giản. Leaky abstraction: detail rỉ ra ngoài.",
+  "facts": [
+    {
+      "sym": "hide complexity",
+      "text": "abstraction ẩn implementation, expose chỉ cần thiết"
+    },
+    {
+      "sym": "leaky",
+      "text": "Joel Spolsky: 'All non-trivial abstractions are leaky'"
+    },
+    {
+      "sym": "cost",
+      "text": "abstraction có cost: indirection, harder to optimize, harder to debug"
+    }
+  ],
+  "tags": [
+    "abstraction",
+    "design",
+    "interface",
+    "oop"
+  ],
+  "related": [
+    "interface",
+    "trait",
+    "OOP",
+    "SOLID",
+    "API-design",
+    "encapsulation"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "wrong abstraction tệ hơn duplication",
+    "over-abstraction: premature"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

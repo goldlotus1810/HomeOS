@@ -1,0 +1,80 @@
+{
+  "name": "class",
+  "sym": "🏛C",
+  "symbol": "🏛C",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    0.2,
+    0.25,
+    -0.1
+  ],
+  "isl": [
+    3,
+    2,
+    8,
+    0
+  ],
+  "summary": "OOP blueprint cho objects. Fields + methods + constructor. Inheritance, encapsulation.",
+  "facts": [
+    {
+      "sym": "blueprint",
+      "text": "class = template. object = instance"
+    },
+    {
+      "sym": "constructor",
+      "text": "constructor: khởi tạo object state"
+    },
+    {
+      "sym": "static",
+      "text": "static members: thuộc về class, không phải instance"
+    },
+    {
+      "sym": "virtual",
+      "text": "virtual method: override được bởi subclass"
+    }
+  ],
+  "tags": [
+    "class",
+    "oop",
+    "object",
+    "inheritance"
+  ],
+  "related": [
+    "OOP",
+    "inheritance",
+    "interface",
+    "struct",
+    "trait",
+    "polymorphism",
+    "Java",
+    "Python",
+    "C++"
+  ],
+  "exists_in": [
+    "Java",
+    "Python",
+    "C++",
+    "C#",
+    "Kotlin",
+    "Swift"
+  ],
+  "not_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Haskell"
+  ],
+  "NOT_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Haskell"
+  ],
+  "danger": [
+    "deep inheritance: khó maintain",
+    "god class: làm quá nhiều thứ"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "polymorphism",
+  "sym": "T→*",
+  "symbol": "T→*",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    0.15,
+    0.3,
+    -0.05
+  ],
+  "isl": [
+    3,
+    4,
+    3,
+    0
+  ],
+  "summary": "Cùng interface, nhiều implementations. Subtype (OOP), parametric (generics), ad-hoc (overloading).",
+  "facts": [
+    {
+      "sym": "subtype",
+      "text": "subtype: Dog extends Animal — runtime dispatch"
+    },
+    {
+      "sym": "parametric",
+      "text": "parametric: fn f<T>(x: T) — compile time"
+    },
+    {
+      "sym": "ad-hoc",
+      "text": "ad-hoc: function overloading, operator overloading"
+    }
+  ],
+  "tags": [
+    "polymorphism",
+    "oop",
+    "generic",
+    "overload",
+    "type"
+  ],
+  "related": [
+    "OOP",
+    "generic",
+    "trait",
+    "interface",
+    "type-system",
+    "virtual-dispatch"
+  ],
+  "exists_in": [
+    "Java",
+    "Rust",
+    "C++",
+    "Haskell",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

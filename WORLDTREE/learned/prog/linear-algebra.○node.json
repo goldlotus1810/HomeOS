@@ -1,0 +1,53 @@
+{
+  "name": "linear-algebra",
+  "sym": "Ax=b",
+  "symbol": "Ax=b",
+  "layer": 6,
+  "category": "math",
+  "sdf": [
+    0.4,
+    0.1,
+    0.35
+  ],
+  "isl": [
+    6,
+    2,
+    7,
+    0
+  ],
+  "summary": "Vectors, matrices, eigenvalues. Nền tảng của ML, computer graphics, physics simulation.",
+  "facts": [
+    {
+      "sym": "matrix mult",
+      "text": "matrix multiplication: O(n³) naive, O(n^2.37) Strassen"
+    },
+    {
+      "sym": "eigenvalue",
+      "text": "eigenvalue: Av = λv — principal directions"
+    },
+    {
+      "sym": "GPU",
+      "text": "GPU: thousands of cores cho matrix ops — basis của deep learning"
+    }
+  ],
+  "tags": [
+    "linear-algebra",
+    "matrix",
+    "vector",
+    "math",
+    "ml"
+  ],
+  "related": [
+    "GPU",
+    "matrix-multiplication",
+    "neural-network",
+    "SDF",
+    "statistics"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

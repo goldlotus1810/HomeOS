@@ -1,0 +1,61 @@
+{
+  "name": "Floyd-Warshall",
+  "sym": "FW→*",
+  "symbol": "FW→*",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.115,
+    0.072,
+    -0.215
+  ],
+  "isl": [
+    6,
+    4,
+    11,
+    0
+  ],
+  "summary": "All-pairs shortest path. O(V³). Dynamic programming. Dense graph nhỏ.",
+  "facts": [
+    {
+      "sym": "all pairs",
+      "text": "tính shortest path giữa mọi cặp nodes"
+    },
+    {
+      "sym": "O(V³)",
+      "text": "O(V³): chậm với V > 1000"
+    },
+    {
+      "sym": "DP",
+      "text": "dp[i][j][k] = shortest path qua nodes {1..k}"
+    }
+  ],
+  "tags": [
+    "floyd-warshall",
+    "shortest-path",
+    "all-pairs",
+    "dynamic-programming"
+  ],
+  "related": [
+    "Dijkstra",
+    "Bellman-Ford",
+    "dynamic-programming",
+    "graph",
+    "matrix"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "O(V³): không scale",
+    "float: precision issues với floating-point weights"
+  ],
+  "confidence": 0.97,
+  "source": "builtin"
+}

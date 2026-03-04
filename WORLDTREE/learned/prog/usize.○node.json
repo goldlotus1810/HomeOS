@@ -1,0 +1,58 @@
+{
+  "name": "usize",
+  "sym": "𝐮sz",
+  "symbol": "𝐮sz",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.835,
+    -0.66,
+    -0.8
+  ],
+  "isl": [
+    1,
+    0,
+    11,
+    0
+  ],
+  "summary": "Unsigned integer đủ lớn để chứa địa chỉ memory. 32-bit trên 32-bit CPU, 64-bit trên 64-bit CPU.",
+  "facts": [
+    {
+      "sym": "platform",
+      "text": "usize = pointer size của platform"
+    },
+    {
+      "sym": "Rust",
+      "text": "Rust: usize dùng cho index array, slice length"
+    },
+    {
+      "sym": "C size_t",
+      "text": "C: size_t tương đương usize"
+    }
+  ],
+  "tags": [
+    "usize",
+    "size",
+    "platform"
+  ],
+  "related": [
+    "uint64",
+    "pointer",
+    "malloc"
+  ],
+  "exists_in": [
+    "Rust",
+    "C(size_t)"
+  ],
+  "not_in": [
+    "Java",
+    "Python"
+  ],
+  "NOT_in": [
+    "Java",
+    "Python"
+  ],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

@@ -1,0 +1,49 @@
+{
+  "version": "2.1",
+  "description": "HomeOS ○ WORLDTREE — Programming Knowledge Graph",
+  "total_nodes": 348,
+  "total_slk_pairs": 348,
+  "by_layer": {
+    "6": 68,
+    "4": 25,
+    "7": 32,
+    "5": 87,
+    "2": 35,
+    "3": 68,
+    "1": 33
+  },
+  "by_category": {
+    "algorithm": 32,
+    "homeos": 3,
+    "skill": 30,
+    "concept": 109,
+    "math": 15,
+    "language": 19,
+    "hardware": 2,
+    "pattern": 13,
+    "paradigm": 8,
+    "vulnerability": 7,
+    "tool": 7,
+    "os": 3,
+    "primitive": 33,
+    "construct": 37,
+    "encoding": 3,
+    "operation": 26,
+    "optimization": 1
+  },
+  "danger_nodes": 224,
+  "related_refs": {
+    "total": 1848,
+    "resolved": 1589,
+    "pct": 86.0
+  },
+  "layers": {
+    "1": "Primitives (bit, byte, int, float, string, pointer...)",
+    "2": "Operations & Hardware (add, bitwise, SIMD, CPU-cache...)",
+    "3": "Constructs (if-else, class, trait, Option, panic...)",
+    "4": "Paradigms & Theory (functional, OOP, CSP, Monad, SDF...)",
+    "5": "Languages & Tools (Go, Rust, Python, Docker, K8s, DB...)",
+    "6": "Algorithms & Patterns (quicksort, DP, SOLID, A*...)",
+    "7": "Engineering Skills (TDD, CI-CD, debugging, monitoring...)"
+  }
+}

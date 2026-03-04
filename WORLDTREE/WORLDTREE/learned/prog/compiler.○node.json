@@ -1,0 +1,58 @@
+{
+  "name": "compiler",
+  "sym": "→bin",
+  "symbol": "→bin",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    -0.4,
+    0.1,
+    -0.5
+  ],
+  "isl": [
+    5,
+    2,
+    5,
+    0
+  ],
+  "summary": "Source code → machine code. Lexer → Parser → Semantic Analysis → Codegen → Optimizer.",
+  "facts": [
+    {
+      "sym": "phases",
+      "text": "lexing → parsing → type check → IR → optimize → codegen"
+    },
+    {
+      "sym": "LLVM",
+      "text": "LLVM IR: portable intermediate representation — backend cho Rust, Swift, Clang"
+    },
+    {
+      "sym": "JIT",
+      "text": "JIT: compile tại runtime — JavaScript V8, Java HotSpot"
+    },
+    {
+      "sym": "AOT",
+      "text": "AOT: compile trước runtime — Go, Rust, C"
+    }
+  ],
+  "tags": [
+    "compiler",
+    "llvm",
+    "aot",
+    "jit",
+    "codegen"
+  ],
+  "related": [
+    "parsing",
+    "LLVM",
+    "JVM",
+    "assembly",
+    "macro",
+    "IR"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "WORLDTREE",
+  "sym": "○tree",
+  "symbol": "○tree",
+  "layer": 4,
+  "category": "homeos",
+  "sdf": [
+    0.0,
+    1.0,
+    0.0
+  ],
+  "isl": [
+    4,
+    3,
+    2,
+    0
+  ],
+  "summary": "HomeOS immutable knowledge tree. UTF-32 cột sống. 141+ ○ nodes. Chỉ thêm, không xóa, không đổi tên.",
+  "facts": [
+    {
+      "sym": "spine",
+      "text": "UTF-32 spine: cột sống bất biến của vũ trụ tri thức"
+    },
+    {
+      "sym": "layers",
+      "text": "L1=primitives, L2=ops, L3=constructs, L4=paradigms, L5=languages, L6=algos, L7=skills"
+    },
+    {
+      "sym": "silk",
+      "text": "SILK: ledger engine tự cập nhật MANIFEST.md"
+    },
+    {
+      "sym": "SDF space",
+      "text": "mỗi node có tọa độ SDF: vị trí trong không gian tri thức"
+    }
+  ],
+  "tags": [
+    "worldtree",
+    "homeos",
+    "knowledge",
+    "utf32",
+    "immutable"
+  ],
+  "related": [
+    "ISL",
+    "SDF",
+    "opSmoothUnion",
+    "UTF-32",
+    "AAM",
+    "SILK"
+  ],
+  "exists_in": [
+    "HomeOS"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

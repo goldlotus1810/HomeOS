@@ -1,0 +1,57 @@
+{
+  "name": "modulo",
+  "sym": "%",
+  "symbol": "%",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.78,
+    -0.68,
+    -0.78
+  ],
+  "isl": [
+    2,
+    0,
+    5,
+    0
+  ],
+  "summary": "Phần dư của phép chia. Hành vi với số âm khác nhau giữa ngôn ngữ.",
+  "facts": [
+    {
+      "sym": "Python",
+      "text": "Python: -7 % 3 = 2 (luôn dương)"
+    },
+    {
+      "sym": "C/Rust/Go",
+      "text": "C/Rust/Go: -7 % 3 = -1 (dấu theo dividend)"
+    },
+    {
+      "sym": "use case",
+      "text": "kiểm tra chẵn lẻ, wrap index, hash table"
+    }
+  ],
+  "tags": [
+    "modulo",
+    "remainder",
+    "arithmetic"
+  ],
+  "related": [
+    "divide",
+    "multiply",
+    "hashmap"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "negative modulo: khác nhau giữa ngôn ngữ"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

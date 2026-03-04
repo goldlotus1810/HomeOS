@@ -1,0 +1,61 @@
+{
+  "name": "SQL",
+  "sym": "🗃",
+  "symbol": "🗃",
+  "layer": 5,
+  "category": "language",
+  "sdf": [
+    0.5,
+    0.8,
+    0.2
+  ],
+  "isl": [
+    5,
+    0,
+    10,
+    0
+  ],
+  "summary": "Structured Query Language. Declarative. SELECT, INSERT, UPDATE, DELETE. Relational algebra.",
+  "facts": [
+    {
+      "sym": "declarative",
+      "text": "khai báo WHAT, không phải HOW"
+    },
+    {
+      "sym": "ACID",
+      "text": "ACID: Atomicity, Consistency, Isolation, Durability"
+    },
+    {
+      "sym": "JOIN",
+      "text": "JOIN: combine tables — N+1 query là anti-pattern"
+    },
+    {
+      "sym": "index",
+      "text": "B-tree index: O(log n) lookup thay vì O(n) scan"
+    }
+  ],
+  "tags": [
+    "sql",
+    "database",
+    "query",
+    "relational"
+  ],
+  "related": [
+    "B-tree",
+    "index",
+    "JOIN",
+    "ACID",
+    "query-plan",
+    "hashmap"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "SQL injection: NEVER interpolate user input",
+    "N+1 query problem",
+    "missing index → full table scan"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

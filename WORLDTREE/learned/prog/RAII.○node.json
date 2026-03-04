@@ -1,0 +1,62 @@
+{
+  "name": "RAII",
+  "sym": "⊢~T",
+  "symbol": "⊢~T",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.2,
+    -0.68,
+    -0.3
+  ],
+  "isl": [
+    3,
+    0,
+    13,
+    0
+  ],
+  "summary": "Resource Acquisition Is Initialization. Constructor acquire, destructor release. C++/Rust.",
+  "facts": [
+    {
+      "sym": "C++",
+      "text": "C++: constructor open file, destructor close file"
+    },
+    {
+      "sym": "Rust Drop",
+      "text": "Rust: Drop trait — tự động gọi khi ra scope"
+    },
+    {
+      "sym": "exception safe",
+      "text": "RAII đảm bảo resource release kể cả khi có exception"
+    }
+  ],
+  "tags": [
+    "raii",
+    "resource",
+    "destructor"
+  ],
+  "related": [
+    "ownership",
+    "Drop",
+    "scope",
+    "GC",
+    "malloc"
+  ],
+  "exists_in": [
+    "C++",
+    "Rust"
+  ],
+  "not_in": [
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "NOT_in": [
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

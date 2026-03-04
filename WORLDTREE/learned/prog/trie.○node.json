@@ -1,0 +1,60 @@
+{
+  "name": "trie",
+  "sym": "🌲trie",
+  "symbol": "🌲trie",
+  "layer": 6,
+  "category": "concept",
+  "sdf": [
+    -0.1,
+    0.05,
+    -0.2
+  ],
+  "isl": [
+    6,
+    1,
+    6,
+    0
+  ],
+  "summary": "Prefix tree. O(L) search/insert (L=key length). Dùng cho autocomplete, spell check, IP routing.",
+  "facts": [
+    {
+      "sym": "O(L)",
+      "text": "search/insert: O(L) với L = length của key"
+    },
+    {
+      "sym": "prefix",
+      "text": "tất cả keys với cùng prefix share path"
+    },
+    {
+      "sym": "compressed",
+      "text": "compressed trie (radix tree): merge single-child nodes"
+    }
+  ],
+  "tags": [
+    "trie",
+    "prefix-tree",
+    "autocomplete",
+    "routing"
+  ],
+  "related": [
+    "B-tree",
+    "hashmap",
+    "binary-search",
+    "string",
+    "graph"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "memory: nhiều small nodes nếu không compressed"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

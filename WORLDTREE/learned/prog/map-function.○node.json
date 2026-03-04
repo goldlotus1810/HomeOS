@@ -1,0 +1,60 @@
+{
+  "name": "map-function",
+  "sym": "𝑓map",
+  "symbol": "𝑓map",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    0.48,
+    0.28,
+    0.58
+  ],
+  "isl": [
+    3,
+    2,
+    16,
+    0
+  ],
+  "summary": "Apply function cho mỗi phần tử của collection. Trả về collection mới. Lazy trong Rust.",
+  "facts": [
+    {
+      "sym": "lazy",
+      "text": "Rust: iter().map(f) — lazy, không compute cho đến collect()"
+    },
+    {
+      "sym": "Python",
+      "text": "Python: list(map(f, xs)) hoặc [f(x) for x in xs]"
+    },
+    {
+      "sym": "preserve length",
+      "text": "map giữ số phần tử — filter giảm"
+    }
+  ],
+  "tags": [
+    "map",
+    "functional",
+    "transform",
+    "collection"
+  ],
+  "related": [
+    "filter-function",
+    "fold",
+    "iterator",
+    "lambda",
+    "closure",
+    "higher-order-function"
+  ],
+  "exists_in": [
+    "Rust",
+    "Python",
+    "JavaScript",
+    "Go",
+    "Haskell",
+    "Java"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

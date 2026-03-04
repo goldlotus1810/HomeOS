@@ -1,0 +1,57 @@
+{
+  "name": "procedural",
+  "sym": "→→",
+  "symbol": "→→",
+  "layer": 4,
+  "category": "paradigm",
+  "sdf": [
+    -0.3,
+    -0.2,
+    -0.5
+  ],
+  "isl": [
+    4,
+    0,
+    3,
+    0
+  ],
+  "summary": "Lập trình thủ tục. Sequence của instructions. State qua variables. C, assembly.",
+  "facts": [
+    {
+      "sym": "sequence",
+      "text": "execute từng lệnh theo thứ tự"
+    },
+    {
+      "sym": "mutation",
+      "text": "state thay đổi qua assignment"
+    },
+    {
+      "sym": "functions",
+      "text": "procedures/functions để tổ chức code"
+    }
+  ],
+  "tags": [
+    "procedural",
+    "imperative",
+    "sequence"
+  ],
+  "related": [
+    "C",
+    "assembly",
+    "functional",
+    "OOP",
+    "for",
+    "while"
+  ],
+  "exists_in": [
+    "C",
+    "assembly",
+    "Pascal",
+    "BASIC"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

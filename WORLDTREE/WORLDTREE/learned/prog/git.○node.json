@@ -1,0 +1,59 @@
+{
+  "name": "git",
+  "sym": "🌿↕",
+  "symbol": "🌿↕",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.4,
+    0.7,
+    0.3
+  ],
+  "isl": [
+    7,
+    0,
+    6,
+    0
+  ],
+  "summary": "Distributed version control. Commit, branch, merge, rebase. Conventional commits.",
+  "facts": [
+    {
+      "sym": "commit",
+      "text": "atomic commit: 1 logical change, good message"
+    },
+    {
+      "sym": "branch",
+      "text": "feature branch: isolate work, PR để merge"
+    },
+    {
+      "sym": "rebase",
+      "text": "rebase vs merge: linear history vs preserve branches"
+    },
+    {
+      "sym": "bisect",
+      "text": "git bisect: binary search để tìm commit gây bug"
+    }
+  ],
+  "tags": [
+    "git",
+    "version-control",
+    "collaboration",
+    "branching"
+  ],
+  "related": [
+    "code-review",
+    "CI-CD",
+    "bisection-debugging",
+    "branching-strategy"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "force push on shared branch",
+    "merge conflicts",
+    "rebase rewrites history"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

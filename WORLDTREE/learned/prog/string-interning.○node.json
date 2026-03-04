@@ -1,0 +1,67 @@
+{
+  "name": "string-interning",
+  "sym": "str*",
+  "symbol": "str*",
+  "layer": 3,
+  "category": "optimization",
+  "sdf": [
+    -0.18,
+    0.55,
+    -0.1
+  ],
+  "isl": [
+    3,
+    5,
+    4,
+    0
+  ],
+  "summary": "Tái sử dụng identical string objects. Java String pool, Python intern. O(1) equality check với ==.",
+  "facts": [
+    {
+      "sym": "Java",
+      "text": "Java: string literals tự động interned. String.intern() manual"
+    },
+    {
+      "sym": "Go",
+      "text": "Go: immutable strings, compiler intern constants"
+    },
+    {
+      "sym": "symbol",
+      "text": "Ruby Symbol: interned string — :name tốt hơn 'name' làm hash key"
+    }
+  ],
+  "tags": [
+    "string",
+    "intern",
+    "optimization",
+    "memory",
+    "equality"
+  ],
+  "related": [
+    "string",
+    "hashmap",
+    "cache",
+    "immutability",
+    "Java",
+    "Python"
+  ],
+  "exists_in": [
+    "Java",
+    "Python",
+    "Ruby",
+    "Go"
+  ],
+  "not_in": [
+    "C",
+    "Rust(no runtime)"
+  ],
+  "NOT_in": [
+    "C"
+  ],
+  "danger": [
+    "Java: String.intern() leak nếu quá nhiều unique strings",
+    "không dùng == so sánh non-interned strings (Java)"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

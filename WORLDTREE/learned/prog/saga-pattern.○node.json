@@ -1,0 +1,56 @@
+{
+  "name": "saga-pattern",
+  "sym": "→saga→",
+  "symbol": "→saga→",
+  "layer": 6,
+  "category": "pattern",
+  "sdf": [
+    0.49,
+    0.59,
+    0.29
+  ],
+  "isl": [
+    6,
+    5,
+    2,
+    0
+  ],
+  "summary": "Long-lived distributed transactions. Sequence of local transactions với compensating transactions khi fail.",
+  "facts": [
+    {
+      "sym": "choreography",
+      "text": "choreography: services react to events"
+    },
+    {
+      "sym": "orchestration",
+      "text": "orchestration: central saga orchestrator gọi services"
+    },
+    {
+      "sym": "compensating",
+      "text": "compensating transaction: undo step đã làm khi có failure"
+    }
+  ],
+  "tags": [
+    "saga",
+    "distributed",
+    "transaction",
+    "pattern",
+    "microservice"
+  ],
+  "related": [
+    "event-sourcing",
+    "CQRS",
+    "microservice",
+    "message-queue",
+    "distributed"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "partial failure: khó debug",
+    "compensating tx có thể fail cũng"
+  ],
+  "confidence": 0.96,
+  "source": "builtin"
+}

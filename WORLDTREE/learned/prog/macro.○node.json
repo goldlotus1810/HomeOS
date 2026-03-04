@@ -1,0 +1,66 @@
+{
+  "name": "macro",
+  "sym": "!m",
+  "symbol": "!m",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.4,
+    -0.1,
+    -0.15
+  ],
+  "isl": [
+    3,
+    0,
+    25,
+    0
+  ],
+  "summary": "Code generation tại compile time. C: text substitution (nguy hiểm). Rust: hygienic AST macro.",
+  "facts": [
+    {
+      "sym": "C macro",
+      "text": "C: #define MAX(a,b) ((a)>(b)?(a):(b)) — text substitution, không safe"
+    },
+    {
+      "sym": "Rust macro",
+      "text": "Rust: macro_rules! — hygienic, type-aware"
+    },
+    {
+      "sym": "proc macro",
+      "text": "Rust proc macro: arbitrary code generation (derive, attribute)"
+    }
+  ],
+  "tags": [
+    "macro",
+    "metaprogramming",
+    "codegen"
+  ],
+  "related": [
+    "template",
+    "generic",
+    "metaprogramming",
+    "C",
+    "Rust"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Lisp",
+    "Julia"
+  ],
+  "not_in": [
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "NOT_in": [
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "danger": [
+    "C macro: double evaluation, no type safety, debug nightmare"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "vector",
+  "sym": "[]T~v",
+  "symbol": "[]T~v",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    -0.56,
+    -0.36,
+    -0.46
+  ],
+  "isl": [
+    3,
+    2,
+    23,
+    0
+  ],
+  "summary": "Dynamic array với amortized O(1) append. C++ std::vector, Rust Vec<T>. Grows by doubling.",
+  "facts": [
+    {
+      "sym": "amortized O(1)",
+      "text": "append: amortized O(1) — doubling strategy"
+    },
+    {
+      "sym": "contiguous",
+      "text": "contiguous memory → cache-friendly, O(1) random access"
+    },
+    {
+      "sym": "Rust Vec",
+      "text": "Rust Vec<T>: heap-allocated, owned, droppable"
+    }
+  ],
+  "tags": [
+    "vector",
+    "dynamic-array",
+    "rust",
+    "cpp"
+  ],
+  "related": [
+    "array",
+    "slice",
+    "malloc",
+    "heap",
+    "iterator",
+    "append",
+    "C++",
+    "Rust"
+  ],
+  "exists_in": [
+    "C++",
+    "Rust",
+    "Java(ArrayList)",
+    "Python(list)"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "iterator invalidation: push_back có thể reallocate → dangling ref"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

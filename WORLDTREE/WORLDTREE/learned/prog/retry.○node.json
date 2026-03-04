@@ -1,0 +1,54 @@
+{
+  "name": "retry",
+  "sym": "↺→",
+  "symbol": "↺→",
+  "layer": 6,
+  "category": "pattern",
+  "sdf": [
+    0.42,
+    0.52,
+    0.22
+  ],
+  "isl": [
+    6,
+    0,
+    19,
+    0
+  ],
+  "summary": "Retry khi failure. Exponential backoff với jitter. Idempotent operations only.",
+  "facts": [
+    {
+      "sym": "exponential backoff",
+      "text": "wait 1s, 2s, 4s, 8s... với jitter để tránh thundering herd"
+    },
+    {
+      "sym": "idempotent",
+      "text": "CHỈ retry idempotent operations (GET, PUT, DELETE — không phải POST)"
+    },
+    {
+      "sym": "max retries",
+      "text": "max retries + timeout để tránh infinite retry"
+    }
+  ],
+  "tags": [
+    "retry",
+    "resilience",
+    "backoff",
+    "idempotent"
+  ],
+  "related": [
+    "circuit-breaker",
+    "timeout",
+    "idempotent",
+    "load-balancer"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "retry non-idempotent: duplicate side effects",
+    "retry storm: nhiều clients retry cùng lúc"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "rune",
+  "sym": "ℝᵤ",
+  "symbol": "ℝᵤ",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.74,
+    -0.54,
+    -0.69
+  ],
+  "isl": [
+    1,
+    0,
+    18,
+    0
+  ],
+  "summary": "Go: alias của int32 cho Unicode code point. Một rune = một ký tự Unicode.",
+  "facts": [
+    {
+      "sym": "int32",
+      "text": "rune = int32, represents Unicode code point"
+    },
+    {
+      "sym": "range",
+      "text": "for r := range str { } — iter qua runes, không phải bytes"
+    },
+    {
+      "sym": "UTF-8",
+      "text": "Go string là UTF-8, len() đếm bytes, len([]rune(s)) đếm chars"
+    }
+  ],
+  "tags": [
+    "rune",
+    "unicode",
+    "go"
+  ],
+  "related": [
+    "char",
+    "string",
+    "byte",
+    "UTF-32"
+  ],
+  "exists_in": [
+    "Go"
+  ],
+  "not_in": [
+    "C",
+    "Rust",
+    "Java"
+  ],
+  "NOT_in": [
+    "C",
+    "Rust",
+    "Java"
+  ],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

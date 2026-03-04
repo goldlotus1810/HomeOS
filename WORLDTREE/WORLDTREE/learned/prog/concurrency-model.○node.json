@@ -1,0 +1,60 @@
+{
+  "name": "concurrency-model",
+  "sym": "⟳model",
+  "symbol": "⟳model",
+  "layer": 4,
+  "category": "concept",
+  "sdf": [
+    -0.05,
+    0.25,
+    -0.25
+  ],
+  "isl": [
+    4,
+    4,
+    1,
+    0
+  ],
+  "summary": "Cách handle concurrent work. Threads (Java/C), goroutines (Go), actors (Erlang), async/await (JS/Rust).",
+  "facts": [
+    {
+      "sym": "shared memory",
+      "text": "shared memory: threads + locks. Race condition prone"
+    },
+    {
+      "sym": "CSP",
+      "text": "CSP: communicate by channel, không share. Go"
+    },
+    {
+      "sym": "actor",
+      "text": "actor: isolated state, message passing. Erlang"
+    },
+    {
+      "sym": "async",
+      "text": "async/await: single-threaded non-blocking. JS, Python asyncio"
+    }
+  ],
+  "tags": [
+    "concurrency",
+    "model",
+    "thread",
+    "goroutine",
+    "actor",
+    "async"
+  ],
+  "related": [
+    "thread",
+    "goroutine",
+    "actor",
+    "CSP",
+    "async-await",
+    "channel",
+    "mutex"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

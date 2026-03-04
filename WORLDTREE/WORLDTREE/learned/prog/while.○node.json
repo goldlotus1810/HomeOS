@@ -1,0 +1,56 @@
+{
+  "name": "while",
+  "sym": "↺?",
+  "symbol": "↺?",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.62,
+    -0.52,
+    -0.595
+  ],
+  "isl": [
+    3,
+    0,
+    3,
+    0
+  ],
+  "summary": "Lặp khi điều kiện còn đúng. while(cond) { }. Kiểm tra trước.",
+  "facts": [
+    {
+      "sym": "do-while",
+      "text": "do { } while(cond) — kiểm tra sau, luôn chạy ít nhất 1 lần"
+    },
+    {
+      "sym": "Rust",
+      "text": "Rust: loop { if !cond { break } } hoặc while cond { }"
+    }
+  ],
+  "tags": [
+    "while",
+    "loop",
+    "condition"
+  ],
+  "related": [
+    "for",
+    "loop",
+    "break",
+    "continue",
+    "do-while"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python",
+    "JavaScript"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "infinite loop: condition không bao giờ false"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

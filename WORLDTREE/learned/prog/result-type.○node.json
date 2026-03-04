@@ -1,0 +1,63 @@
+{
+  "name": "result-type",
+  "sym": "!T",
+  "symbol": "!T",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.28,
+    0.62,
+    0.12
+  ],
+  "isl": [
+    3,
+    0,
+    14,
+    0
+  ],
+  "summary": "Ok(T) hoặc Err(E). Error handling không dùng exception. Rust/Haskell/Go.",
+  "facts": [
+    {
+      "sym": "Ok(T)",
+      "text": "thành công, chứa giá trị T"
+    },
+    {
+      "sym": "Err(E)",
+      "text": "lỗi, chứa error E"
+    },
+    {
+      "sym": "?",
+      "text": "Rust ? operator: propagate error lên caller"
+    }
+  ],
+  "tags": [
+    "result",
+    "error",
+    "handling"
+  ],
+  "related": [
+    "Option",
+    "match",
+    "error-handling",
+    "exception",
+    "Rust",
+    "Haskell"
+  ],
+  "exists_in": [
+    "Rust",
+    "Haskell",
+    "Scala",
+    "Go"
+  ],
+  "not_in": [
+    "Java",
+    "Python"
+  ],
+  "NOT_in": [
+    "Java",
+    "Python"
+  ],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

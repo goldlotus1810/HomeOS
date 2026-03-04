@@ -1,0 +1,60 @@
+{
+  "name": "quicksort",
+  "sym": "⚡↕",
+  "symbol": "⚡↕",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.1,
+    0.05,
+    -0.2
+  ],
+  "isl": [
+    6,
+    0,
+    1,
+    0
+  ],
+  "summary": "O(n log n) average, O(n²) worst. In-place. Pivot chọn ảnh hưởng lớn đến performance.",
+  "facts": [
+    {
+      "sym": "pivot",
+      "text": "pivot chọn bad: sorted array → O(n²). Random pivot hoặc median-of-3"
+    },
+    {
+      "sym": "in-place",
+      "text": "in-place: O(log n) stack space"
+    },
+    {
+      "sym": "unstable",
+      "text": "unstable sort: equal elements có thể đổi thứ tự"
+    }
+  ],
+  "tags": [
+    "quicksort",
+    "sort",
+    "divide-conquer"
+  ],
+  "related": [
+    "mergesort",
+    "heapsort",
+    "binary-search",
+    "partition",
+    "divide-conquer"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "O(n²) worst case với bad pivot",
+    "stack overflow với deep recursion on sorted input"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

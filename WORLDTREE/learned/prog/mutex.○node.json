@@ -1,0 +1,60 @@
+{
+  "name": "mutex",
+  "sym": "🔒m",
+  "symbol": "🔒m",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.06,
+    0.15,
+    -0.2
+  ],
+  "isl": [
+    3,
+    0,
+    11,
+    0
+  ],
+  "summary": "Mutual exclusion lock. Chỉ 1 goroutine/thread giữ lock tại 1 thời điểm.",
+  "facts": [
+    {
+      "sym": "lock/unlock",
+      "text": "Lock() trước CS, Unlock() sau — dùng defer"
+    },
+    {
+      "sym": "deadlock",
+      "text": "A lock mA, chờ mB. B lock mB, chờ mA → deadlock"
+    },
+    {
+      "sym": "contention",
+      "text": "high contention mutex → performance bottleneck"
+    }
+  ],
+  "tags": [
+    "mutex",
+    "lock",
+    "synchronization"
+  ],
+  "related": [
+    "goroutine",
+    "channel",
+    "deadlock",
+    "RWMutex",
+    "thread"
+  ],
+  "exists_in": [
+    "Go",
+    "Rust",
+    "C",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "deadlock: A wait B, B wait A",
+    "lock contention: serializes goroutines"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

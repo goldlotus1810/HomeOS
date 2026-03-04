@@ -1,0 +1,59 @@
+{
+  "name": "struct",
+  "sym": "{}T",
+  "symbol": "{}T",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.42,
+    -0.28,
+    -0.38
+  ],
+  "isl": [
+    1,
+    0,
+    25,
+    0
+  ],
+  "summary": "Nhóm các fields có kiểu khác nhau. Product type. Nền tảng của data modeling.",
+  "facts": [
+    {
+      "sym": "product type",
+      "text": "struct = tích của các kiểu thành phần"
+    },
+    {
+      "sym": "layout",
+      "text": "fields sắp xếp trong memory theo thứ tự khai báo"
+    },
+    {
+      "sym": "padding",
+      "text": "compiler thêm padding để align fields"
+    }
+  ],
+  "tags": [
+    "struct",
+    "record",
+    "aggregate"
+  ],
+  "related": [
+    "class",
+    "pointer",
+    "ownership",
+    "OOP",
+    "memory-layout"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "padding: sizeof(struct) != sum(sizeof(fields))"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

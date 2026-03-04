@@ -1,0 +1,55 @@
+{
+  "name": "load-testing",
+  "sym": "⚡🔨",
+  "symbol": "⚡🔨",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.32,
+    0.62,
+    0.22
+  ],
+  "isl": [
+    7,
+    3,
+    3,
+    0
+  ],
+  "summary": "Đo hệ thống dưới tải cao. k6, wrk, locust, JMeter. Tìm bottleneck, capacity planning.",
+  "facts": [
+    {
+      "sym": "RPS",
+      "text": "requests per second: throughput metric"
+    },
+    {
+      "sym": "P99",
+      "text": "P99 latency: 99% requests hoàn thành trong X ms"
+    },
+    {
+      "sym": "saturation",
+      "text": "tìm saturation point: khi tăng load không tăng throughput nữa"
+    }
+  ],
+  "tags": [
+    "load-testing",
+    "performance",
+    "benchmarking",
+    "stress-test"
+  ],
+  "related": [
+    "profiling",
+    "monitoring",
+    "CI-CD",
+    "rate-limiting",
+    "benchmarking"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "load test production: cẩn thận",
+    "test với realistic data distribution"
+  ],
+  "confidence": 0.97,
+  "source": "builtin"
+}

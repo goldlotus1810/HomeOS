@@ -1,0 +1,64 @@
+{
+  "name": "interface",
+  "sym": "⊃()",
+  "symbol": "⊃()",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.2,
+    -0.1,
+    -0.15
+  ],
+  "isl": [
+    1,
+    0,
+    26,
+    0
+  ],
+  "summary": "Contract: tập methods mà type phải implement. Go: implicit. Java: explicit.",
+  "facts": [
+    {
+      "sym": "Go",
+      "text": "Go interface: implicit satisfaction — không cần khai báo"
+    },
+    {
+      "sym": "Java",
+      "text": "Java interface: phải khai báo implements"
+    },
+    {
+      "sym": "dynamic dispatch",
+      "text": "interface call = dynamic dispatch (vtable/itable)"
+    }
+  ],
+  "tags": [
+    "interface",
+    "contract",
+    "polymorphism"
+  ],
+  "related": [
+    "trait",
+    "duck-typing",
+    "OOP",
+    "abstraction",
+    "class"
+  ],
+  "exists_in": [
+    "Go",
+    "Java",
+    "TypeScript",
+    "Python"
+  ],
+  "not_in": [
+    "C",
+    "assembly"
+  ],
+  "NOT_in": [
+    "C",
+    "assembly"
+  ],
+  "danger": [
+    "nil interface: Go nil interface != nil pointer — subtle bug"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

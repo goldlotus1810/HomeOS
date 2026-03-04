@@ -1,0 +1,60 @@
+{
+  "name": "TypeScript",
+  "sym": "🌐TS",
+  "symbol": "🌐TS",
+  "layer": 5,
+  "category": "language",
+  "sdf": [
+    0.65,
+    0.6,
+    0.32
+  ],
+  "isl": [
+    5,
+    0,
+    11,
+    0
+  ],
+  "summary": "Microsoft 2012. JavaScript + static types. Compile to JS. Structural typing.",
+  "facts": [
+    {
+      "sym": "structural",
+      "text": "structural typing: nếu shape match thì compatible"
+    },
+    {
+      "sym": "any",
+      "text": "any: escape hatch, mất type safety"
+    },
+    {
+      "sym": "strict",
+      "text": "strict mode: noImplicitAny, strictNullChecks — nên bật"
+    },
+    {
+      "sym": "compile",
+      "text": "tsc compile → JS, không runtime overhead"
+    }
+  ],
+  "tags": [
+    "typescript",
+    "javascript",
+    "static",
+    "types"
+  ],
+  "related": [
+    "JavaScript",
+    "interface",
+    "generic",
+    "duck-typing",
+    "null-safety"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "any type phá vỡ type safety",
+    "type assertions unsafe",
+    "runtime JS vẫn có JS quirks"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

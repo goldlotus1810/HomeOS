@@ -1,0 +1,54 @@
+{
+  "name": "virtual-memory",
+  "sym": "VM@",
+  "symbol": "VM@",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    -0.8,
+    -0.7,
+    -0.82
+  ],
+  "isl": [
+    5,
+    3,
+    4,
+    0
+  ],
+  "summary": "Abstraction layer: process thấy linear address space. OS/hardware map sang physical. Paging, TLB.",
+  "facts": [
+    {
+      "sym": "paging",
+      "text": "4KB pages: virtual → physical mapping qua page tables"
+    },
+    {
+      "sym": "TLB",
+      "text": "TLB: cache cho page table lookups. Miss → expensive walk"
+    },
+    {
+      "sym": "ASLR",
+      "text": "ASLR: randomize address space layout — security"
+    }
+  ],
+  "tags": [
+    "virtual-memory",
+    "paging",
+    "os",
+    "hardware",
+    "mmu"
+  ],
+  "related": [
+    "mmap",
+    "malloc",
+    "process",
+    "cache",
+    "memory-layout",
+    "syscall"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

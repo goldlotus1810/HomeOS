@@ -1,0 +1,57 @@
+{
+  "name": "transformer",
+  "sym": "🤖T",
+  "symbol": "🤖T",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.85,
+    0.8,
+    0.75
+  ],
+  "isl": [
+    5,
+    4,
+    3,
+    0
+  ],
+  "summary": "Attention is all you need (Vaswani 2017). Self-attention mechanism. BERT, GPT, LLaMA, Claude.",
+  "facts": [
+    {
+      "sym": "attention",
+      "text": "attention(Q,K,V) = softmax(QKᵀ/√d)·V"
+    },
+    {
+      "sym": "positional",
+      "text": "positional encoding: vì không có recurrence"
+    },
+    {
+      "sym": "O(n²)",
+      "text": "O(n²) attention: context window bị giới hạn bởi memory"
+    }
+  ],
+  "tags": [
+    "transformer",
+    "attention",
+    "llm",
+    "nlp",
+    "ai"
+  ],
+  "related": [
+    "neural-network",
+    "attention-mechanism",
+    "BERT",
+    "GPT",
+    "embedding"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "hallucination",
+    "context window limit",
+    "bias từ training data"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

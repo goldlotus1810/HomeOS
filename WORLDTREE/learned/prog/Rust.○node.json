@@ -1,0 +1,61 @@
+{
+  "name": "Rust",
+  "sym": "⚙🦀",
+  "symbol": "⚙🦀",
+  "layer": 5,
+  "category": "language",
+  "sdf": [
+    -0.15,
+    0.8,
+    -0.2
+  ],
+  "isl": [
+    5,
+    0,
+    2,
+    0
+  ],
+  "summary": "Mozilla 2015. Systems language. Ownership+borrow checker: memory safe không cần GC.",
+  "facts": [
+    {
+      "sym": "ownership",
+      "text": "ownership + borrow checker: compile-time memory safety"
+    },
+    {
+      "sym": "zero cost",
+      "text": "zero cost abstractions: generics, iterators không overhead"
+    },
+    {
+      "sym": "unsafe",
+      "text": "unsafe block: escape hatch, manual memory"
+    },
+    {
+      "sym": "fearless concurrency",
+      "text": "data race impossible nếu không dùng unsafe"
+    }
+  ],
+  "tags": [
+    "rust",
+    "systems",
+    "memory-safe",
+    "ownership"
+  ],
+  "related": [
+    "ownership",
+    "borrow",
+    "lifetime",
+    "RAII",
+    "trait",
+    "async-await"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "learning curve cao",
+    "compile time chậm",
+    "unsafe: thoát khỏi borrow checker"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

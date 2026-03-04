@@ -1,0 +1,56 @@
+{
+  "name": "consensus",
+  "sym": "∀agree",
+  "symbol": "∀agree",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.63,
+    0.73,
+    0.43
+  ],
+  "isl": [
+    5,
+    5,
+    9,
+    0
+  ],
+  "summary": "Distributed consensus: tất cả nodes agree. Raft, Paxos. Nền tảng của etcd, ZooKeeper, CockroachDB.",
+  "facts": [
+    {
+      "sym": "Raft",
+      "text": "Raft: leader election + log replication. Dễ hiểu hơn Paxos"
+    },
+    {
+      "sym": "Paxos",
+      "text": "Paxos: gốc của distributed consensus. Khó implement đúng"
+    },
+    {
+      "sym": "etcd",
+      "text": "etcd dùng Raft: Kubernetes uses etcd for cluster state"
+    }
+  ],
+  "tags": [
+    "consensus",
+    "raft",
+    "paxos",
+    "distributed",
+    "agreement"
+  ],
+  "related": [
+    "distributed-lock",
+    "CAP-theorem",
+    "eventual-consistency",
+    "Kubernetes",
+    "distributed"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "split brain: network partition → 2 leaders",
+    "quorum: cần majority để make progress"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

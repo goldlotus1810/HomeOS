@@ -1,0 +1,52 @@
+{
+  "name": "int16",
+  "sym": "𝐢16",
+  "symbol": "𝐢16",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.87,
+    -0.69,
+    -0.84
+  ],
+  "isl": [
+    1,
+    0,
+    4,
+    0
+  ],
+  "summary": "Số nguyên có dấu 16-bit. Phạm vi -32768 đến 32767.",
+  "facts": [
+    {
+      "sym": "-32768..32767",
+      "text": "range: -32768 đến 32767"
+    },
+    {
+      "sym": "network",
+      "text": "port number dùng uint16 (0-65535)"
+    }
+  ],
+  "tags": [
+    "int16",
+    "integer",
+    "signed"
+  ],
+  "related": [
+    "int8",
+    "int32",
+    "overflow"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "overflow UB trong C"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

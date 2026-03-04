@@ -1,0 +1,61 @@
+{
+  "name": "for",
+  "sym": "∀→",
+  "symbol": "∀→",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.6,
+    -0.5,
+    -0.58
+  ],
+  "isl": [
+    3,
+    0,
+    2,
+    0
+  ],
+  "summary": "Vòng lặp đếm hoặc iterate. Nhiều dạng: C-style, range, while-like.",
+  "facts": [
+    {
+      "sym": "range",
+      "text": "Go/Rust: for i, v := range slice { }"
+    },
+    {
+      "sym": "C-style",
+      "text": "for(init; cond; post) { }"
+    },
+    {
+      "sym": "infinite",
+      "text": "Go: for { } — infinite loop"
+    }
+  ],
+  "tags": [
+    "for",
+    "loop",
+    "iterate"
+  ],
+  "related": [
+    "while",
+    "break",
+    "continue",
+    "range",
+    "iterator"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python",
+    "JavaScript"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "off-by-one: sai range boundary",
+    "infinite loop: thiếu exit condition"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

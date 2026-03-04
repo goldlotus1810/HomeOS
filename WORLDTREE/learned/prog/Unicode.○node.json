@@ -1,0 +1,57 @@
+{
+  "name": "Unicode",
+  "sym": "U+",
+  "symbol": "U+",
+  "layer": 4,
+  "category": "encoding",
+  "sdf": [
+    0.0,
+    0.85,
+    0.05
+  ],
+  "isl": [
+    4,
+    5,
+    1,
+    0
+  ],
+  "summary": "Universal character set. 159,801 characters (v17.0). Code points U+0000 đến U+10FFFF. Scripts, emoji, math.",
+  "facts": [
+    {
+      "sym": "code point",
+      "text": "code point: U+0041 = 'A', U+1F600 = 😀"
+    },
+    {
+      "sym": "planes",
+      "text": "BMP (plane 0): U+0000-FFFF. SMP (plane 1): U+10000-1FFFF"
+    },
+    {
+      "sym": "normalization",
+      "text": "NFC/NFD/NFKC/NFKD: normalization forms quan trọng khi compare strings"
+    }
+  ],
+  "tags": [
+    "unicode",
+    "utf",
+    "encoding",
+    "international",
+    "character"
+  ],
+  "related": [
+    "UTF-32",
+    "UTF-8",
+    "rune",
+    "char",
+    "string",
+    "WORLDTREE"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "normalization: 'é' có thể là 1 hoặc 2 code points",
+    "collation: sort order ngôn ngữ phức tạp"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

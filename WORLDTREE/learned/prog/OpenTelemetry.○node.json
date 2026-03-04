@@ -1,0 +1,53 @@
+{
+  "name": "OpenTelemetry",
+  "sym": "📡OTel",
+  "symbol": "📡OTel",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.54,
+    0.74,
+    0.39
+  ],
+  "isl": [
+    5,
+    5,
+    1,
+    0
+  ],
+  "summary": "Open standard cho observability: traces, metrics, logs. Vendor-neutral. OTLP protocol.",
+  "facts": [
+    {
+      "sym": "traces",
+      "text": "distributed trace: span tree qua services"
+    },
+    {
+      "sym": "auto-instrumentation",
+      "text": "auto-instrumentation: nhiều frameworks tự động"
+    },
+    {
+      "sym": "OTLP",
+      "text": "OTLP: OpenTelemetry Protocol — gửi telemetry tới backend"
+    }
+  ],
+  "tags": [
+    "opentelemetry",
+    "observability",
+    "tracing",
+    "metrics",
+    "otel"
+  ],
+  "related": [
+    "monitoring",
+    "logging",
+    "distributed-tracing",
+    "microservice",
+    "Jaeger"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

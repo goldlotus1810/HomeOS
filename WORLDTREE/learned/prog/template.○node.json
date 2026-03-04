@@ -1,0 +1,68 @@
+{
+  "name": "template",
+  "sym": "<T>C++",
+  "symbol": "<T>C++",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.3,
+    -0.1,
+    -0.2
+  ],
+  "isl": [
+    3,
+    2,
+    19,
+    0
+  ],
+  "summary": "C++ compile-time code generation. Turing-complete template metaprogramming. Zero runtime overhead.",
+  "facts": [
+    {
+      "sym": "monomorphize",
+      "text": "instantiate template cho mỗi type dùng → code bloat"
+    },
+    {
+      "sym": "Turing complete",
+      "text": "template metaprogramming: Turing-complete tại compile time"
+    },
+    {
+      "sym": "SFINAE",
+      "text": "SFINAE: Substitution Failure Is Not An Error — type-based selection"
+    }
+  ],
+  "tags": [
+    "template",
+    "c++",
+    "metaprogramming",
+    "generic"
+  ],
+  "related": [
+    "generic",
+    "C++",
+    "macro",
+    "meta-programming",
+    "monomorphization"
+  ],
+  "exists_in": [
+    "C++"
+  ],
+  "not_in": [
+    "C",
+    "Java",
+    "Go",
+    "Rust"
+  ],
+  "NOT_in": [
+    "C",
+    "Java",
+    "Go",
+    "Rust"
+  ],
+  "danger": [
+    "compile time chậm",
+    "error messages khó đọc",
+    "code bloat"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

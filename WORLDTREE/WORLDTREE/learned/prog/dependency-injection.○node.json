@@ -1,0 +1,57 @@
+{
+  "name": "dependency-injection",
+  "sym": "→⊃",
+  "symbol": "→⊃",
+  "layer": 6,
+  "category": "pattern",
+  "sdf": [
+    0.3,
+    0.35,
+    0.15
+  ],
+  "isl": [
+    6,
+    0,
+    15,
+    0
+  ],
+  "summary": "Inject dependencies từ ngoài vào, không tự tạo. Loose coupling, dễ test, dễ swap.",
+  "facts": [
+    {
+      "sym": "constructor injection",
+      "text": "truyền dep vào constructor — rõ ràng nhất"
+    },
+    {
+      "sym": "interface",
+      "text": "inject interface, không phải concrete type → dễ mock"
+    },
+    {
+      "sym": "IoC container",
+      "text": "Spring, Guice, Wire: tự động wire dependencies"
+    }
+  ],
+  "tags": [
+    "di",
+    "dependency-injection",
+    "pattern",
+    "testable"
+  ],
+  "related": [
+    "factory-pattern",
+    "interface",
+    "OOP",
+    "singleton-pattern",
+    "testing"
+  ],
+  "exists_in": [
+    "Java",
+    "Go",
+    "Python",
+    "C#"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

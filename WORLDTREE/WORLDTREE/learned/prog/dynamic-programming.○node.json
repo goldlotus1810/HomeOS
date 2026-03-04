@@ -1,0 +1,62 @@
+{
+  "name": "dynamic-programming",
+  "sym": "⊕↑",
+  "symbol": "⊕↑",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    0.1,
+    0.2,
+    -0.1
+  ],
+  "isl": [
+    6,
+    0,
+    7,
+    0
+  ],
+  "summary": "Chia bài toán thành subproblems, cache kết quả. Optimal substructure + overlapping subproblems.",
+  "facts": [
+    {
+      "sym": "memoization",
+      "text": "top-down: recursion + cache kết quả đã tính"
+    },
+    {
+      "sym": "tabulation",
+      "text": "bottom-up: fill table từ base cases"
+    },
+    {
+      "sym": "optimal substructure",
+      "text": "optimal solution của bài toán chứa optimal của subproblem"
+    }
+  ],
+  "tags": [
+    "dp",
+    "dynamic-programming",
+    "optimization",
+    "cache"
+  ],
+  "related": [
+    "memoization",
+    "recursion",
+    "knapsack",
+    "LCS",
+    "LIS",
+    "fibonacci"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "xác định state sai → wrong answer",
+    "không nhận ra overlapping subproblems"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

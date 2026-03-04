@@ -1,0 +1,52 @@
+{
+  "name": "number-theory",
+  "sym": "ℤp",
+  "symbol": "ℤp",
+  "layer": 4,
+  "category": "math",
+  "sdf": [
+    0.05,
+    -0.15,
+    0.25
+  ],
+  "isl": [
+    4,
+    2,
+    2,
+    0
+  ],
+  "summary": "Primes, GCD, modular inverse. Nền tảng mã hóa và competitive programming.",
+  "facts": [
+    {
+      "sym": "Euclidean",
+      "text": "Euclidean GCD: gcd(a,b) = gcd(b, a%b), O(log min(a,b))"
+    },
+    {
+      "sym": "Sieve",
+      "text": "Sieve of Eratosthenes: primes đến N trong O(N log log N)"
+    },
+    {
+      "sym": "Fermat",
+      "text": "Fermat's little theorem: a^(p-1) ≡ 1 (mod p) cho prime p"
+    }
+  ],
+  "tags": [
+    "number-theory",
+    "prime",
+    "gcd",
+    "math",
+    "crypto"
+  ],
+  "related": [
+    "modular-arithmetic",
+    "encryption",
+    "hashmap",
+    "competitive"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

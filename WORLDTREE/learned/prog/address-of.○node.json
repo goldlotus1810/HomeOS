@@ -1,0 +1,57 @@
+{
+  "name": "address-of",
+  "sym": "&p",
+  "symbol": "&p",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.845,
+    -0.785,
+    -0.845
+  ],
+  "isl": [
+    2,
+    0,
+    20,
+    0
+  ],
+  "summary": "Lấy địa chỉ của variable. &x trong C/Rust. Tạo pointer từ value.",
+  "facts": [
+    {
+      "sym": "&x",
+      "text": "C: &x cho địa chỉ của x"
+    },
+    {
+      "sym": "Rust &",
+      "text": "Rust: &x là borrow (checked), &raw const x là raw pointer"
+    }
+  ],
+  "tags": [
+    "address",
+    "pointer",
+    "borrow"
+  ],
+  "related": [
+    "pointer",
+    "dereference",
+    "borrow",
+    "load"
+  ],
+  "exists_in": [
+    "C",
+    "C++",
+    "Rust",
+    "assembly"
+  ],
+  "not_in": [
+    "Java",
+    "Python"
+  ],
+  "NOT_in": [
+    "Java",
+    "Python"
+  ],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

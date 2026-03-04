@@ -1,0 +1,52 @@
+{
+  "name": "CAP-theorem",
+  "sym": "C∧A∧P",
+  "symbol": "C∧A∧P",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    0.55,
+    0.65,
+    0.35
+  ],
+  "isl": [
+    6,
+    0,
+    21,
+    0
+  ],
+  "summary": "Distributed system chỉ có thể đảm bảo 2/3: Consistency, Availability, Partition Tolerance.",
+  "facts": [
+    {
+      "sym": "P always",
+      "text": "Partition Tolerance không thể tránh → chọn C hoặc A"
+    },
+    {
+      "sym": "CP",
+      "text": "CP: consistent khi partition (HBase, Zookeeper)"
+    },
+    {
+      "sym": "AP",
+      "text": "AP: available khi partition, eventual consistent (Cassandra, DynamoDB)"
+    }
+  ],
+  "tags": [
+    "cap",
+    "distributed",
+    "consistency",
+    "availability"
+  ],
+  "related": [
+    "ACID",
+    "eventual-consistency",
+    "distributed",
+    "database",
+    "event-sourcing"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

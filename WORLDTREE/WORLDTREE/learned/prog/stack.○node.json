@@ -1,0 +1,60 @@
+{
+  "name": "stack",
+  "sym": "📚↑",
+  "symbol": "📚↑",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.6,
+    -0.4,
+    -0.56
+  ],
+  "isl": [
+    3,
+    0,
+    20,
+    0
+  ],
+  "summary": "LIFO memory. Call stack: mỗi function call tạo frame. Nhanh: chỉ điều chỉnh stack pointer.",
+  "facts": [
+    {
+      "sym": "LIFO",
+      "text": "Last In First Out — push/pop"
+    },
+    {
+      "sym": "frame",
+      "text": "stack frame: return addr, locals, saved registers"
+    },
+    {
+      "sym": "size",
+      "text": "stack có kích thước giới hạn (~1-8MB) → stack overflow"
+    }
+  ],
+  "tags": [
+    "stack",
+    "memory",
+    "lifo",
+    "call-stack"
+  ],
+  "related": [
+    "heap",
+    "call",
+    "ret",
+    "recursion",
+    "stack-overflow"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "assembly"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "stack overflow: đệ quy sâu hoặc local vars quá lớn"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

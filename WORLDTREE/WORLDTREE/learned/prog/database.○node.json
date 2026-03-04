@@ -1,0 +1,64 @@
+{
+  "name": "database",
+  "sym": "🗄",
+  "symbol": "🗄",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.5,
+    0.6,
+    0.2
+  ],
+  "isl": [
+    5,
+    1,
+    1,
+    0
+  ],
+  "summary": "Persistent, organized data storage. Relational (SQL) hoặc NoSQL. ACID transactions. Index cho performance.",
+  "facts": [
+    {
+      "sym": "relational",
+      "text": "relational: tables, foreign keys, SQL, ACID"
+    },
+    {
+      "sym": "NoSQL",
+      "text": "NoSQL: document (MongoDB), KV (Redis), graph (Neo4j), column (Cassandra)"
+    },
+    {
+      "sym": "index",
+      "text": "index: B-tree/hash index — O(log n) thay vì O(n) scan"
+    },
+    {
+      "sym": "N+1",
+      "text": "N+1 query: classic ORM antipattern — use JOIN hoặc eager loading"
+    }
+  ],
+  "tags": [
+    "database",
+    "sql",
+    "nosql",
+    "storage",
+    "persistence"
+  ],
+  "related": [
+    "SQL",
+    "B-tree",
+    "ACID",
+    "CAP-theorem",
+    "index",
+    "hashmap",
+    "event-sourcing"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "SQL injection",
+    "N+1 query",
+    "missing index → full table scan",
+    "unindexed column in WHERE"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

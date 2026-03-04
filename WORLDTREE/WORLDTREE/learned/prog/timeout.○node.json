@@ -1,0 +1,60 @@
+{
+  "name": "timeout",
+  "sym": "⏱⊗",
+  "symbol": "⏱⊗",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.43,
+    0.53,
+    0.23
+  ],
+  "isl": [
+    5,
+    1,
+    5,
+    0
+  ],
+  "summary": "Giới hạn thời gian chờ. Tránh hang vô hạn. Context deadline trong Go. Cancellation.",
+  "facts": [
+    {
+      "sym": "Go context",
+      "text": "Go: ctx, cancel := context.WithTimeout(ctx, 5*time.Second)"
+    },
+    {
+      "sym": "cancel",
+      "text": "cancel() để release resources kể cả khi không timeout"
+    },
+    {
+      "sym": "cascade",
+      "text": "timeout cascade: service A call B, B call C — deadline propagation"
+    }
+  ],
+  "tags": [
+    "timeout",
+    "context",
+    "deadline",
+    "resilience"
+  ],
+  "related": [
+    "circuit-breaker",
+    "retry",
+    "rate-limiting",
+    "Go",
+    "async-await"
+  ],
+  "exists_in": [
+    "Go",
+    "Java",
+    "Python",
+    "JavaScript"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "không set timeout → hang forever",
+    "timeout quá ngắn → spurious failures"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

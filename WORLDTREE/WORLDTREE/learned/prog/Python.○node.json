@@ -1,0 +1,61 @@
+{
+  "name": "Python",
+  "sym": "🐍",
+  "symbol": "🐍",
+  "layer": 5,
+  "category": "language",
+  "sdf": [
+    0.6,
+    0.7,
+    0.2
+  ],
+  "isl": [
+    5,
+    0,
+    3,
+    0
+  ],
+  "summary": "Guido van Rossum 1991. Dynamic, interpreted, batteries included. Số 1 AI/ML/scripting.",
+  "facts": [
+    {
+      "sym": "GIL",
+      "text": "GIL: chỉ 1 thread chạy Python bytecode cùng lúc"
+    },
+    {
+      "sym": "duck typing",
+      "text": "duck typing: nếu có method thì dùng được"
+    },
+    {
+      "sym": "CPython",
+      "text": "CPython: reference implementation, C extensions cho speed"
+    },
+    {
+      "sym": "pip",
+      "text": "pip: package manager, PyPI: 400k+ packages"
+    }
+  ],
+  "tags": [
+    "python",
+    "dynamic",
+    "scripting",
+    "ai",
+    "ml"
+  ],
+  "related": [
+    "CPython",
+    "GIL",
+    "duck-typing",
+    "lambda",
+    "list-comprehension"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "GIL: không true parallelism với threads",
+    "slow: 10-100x slower than C",
+    "type errors tại runtime"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

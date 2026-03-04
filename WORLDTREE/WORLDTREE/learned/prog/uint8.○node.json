@@ -1,0 +1,59 @@
+{
+  "name": "uint8",
+  "sym": "𝐮8",
+  "symbol": "𝐮8",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.88,
+    -0.695,
+    -0.85
+  ],
+  "isl": [
+    1,
+    0,
+    7,
+    0
+  ],
+  "summary": "Số nguyên không dấu 8-bit. 0-255. Dùng cho bytes, màu RGB.",
+  "facts": [
+    {
+      "sym": "0..255",
+      "text": "range: 0 đến 255"
+    },
+    {
+      "sym": "RGB",
+      "text": "màu RGB dùng 3 uint8 (r,g,b)"
+    },
+    {
+      "sym": "no negative",
+      "text": "không có số âm — tránh confuse với int8"
+    }
+  ],
+  "tags": [
+    "uint8",
+    "byte",
+    "unsigned"
+  ],
+  "related": [
+    "byte",
+    "int8",
+    "uint16"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go"
+  ],
+  "not_in": [
+    "Java"
+  ],
+  "NOT_in": [
+    "Java"
+  ],
+  "danger": [
+    "underflow: 0 - 1 = 255 (wrap around)"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

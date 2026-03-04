@@ -1,0 +1,60 @@
+{
+  "name": "WASM",
+  "sym": "⬡Wasm",
+  "symbol": "⬡Wasm",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.4,
+    0.3,
+    0.3
+  ],
+  "isl": [
+    5,
+    2,
+    7,
+    0
+  ],
+  "summary": "WebAssembly. Binary format cho browser và server (WASI). Near-native speed. Rust/C/Go compile to WASM.",
+  "facts": [
+    {
+      "sym": "sandbox",
+      "text": "sandbox: không direct syscall, memory safe"
+    },
+    {
+      "sym": "WASI",
+      "text": "WASI: WASM System Interface — serverside WASM"
+    },
+    {
+      "sym": "Rust",
+      "text": "Rust → WASM: wasm-pack, wasm-bindgen"
+    },
+    {
+      "sym": "speed",
+      "text": "~70-80% của native speed — much faster than JS"
+    }
+  ],
+  "tags": [
+    "wasm",
+    "webassembly",
+    "browser",
+    "portable",
+    "binary"
+  ],
+  "related": [
+    "Rust",
+    "LLVM",
+    "JavaScript",
+    "browser",
+    "WASI",
+    "Go"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "không thể access DOM trực tiếp — cần JS glue code"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

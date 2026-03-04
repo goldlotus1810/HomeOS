@@ -1,0 +1,61 @@
+{
+  "name": "CPU-cache",
+  "sym": "L1L2L3",
+  "symbol": "L1L2L3",
+  "layer": 2,
+  "category": "hardware",
+  "sdf": [
+    -0.92,
+    -0.9,
+    -0.93
+  ],
+  "isl": [
+    2,
+    3,
+    1,
+    0
+  ],
+  "summary": "Hierarchy: L1(~4ns) L2(~12ns) L3(~40ns) RAM(~100ns). Cache-friendly code: sequential access, small structs.",
+  "facts": [
+    {
+      "sym": "L1",
+      "text": "L1: per-core, 32-64KB, 4 cycles"
+    },
+    {
+      "sym": "L2",
+      "text": "L2: per-core, 256KB-1MB, 12 cycles"
+    },
+    {
+      "sym": "L3",
+      "text": "L3: shared, 4-32MB, 40 cycles"
+    },
+    {
+      "sym": "cacheline",
+      "text": "cache line: 64 bytes — read/write unit"
+    }
+  ],
+  "tags": [
+    "cache",
+    "cpu",
+    "hardware",
+    "performance",
+    "memory"
+  ],
+  "related": [
+    "cache",
+    "memory-layout",
+    "array",
+    "struct",
+    "hashmap",
+    "false-sharing"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "false sharing: 2 threads write khác variables cùng cache line",
+    "cache miss gây 25x slow down"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

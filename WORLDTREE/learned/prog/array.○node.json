@@ -1,0 +1,60 @@
+{
+  "name": "array",
+  "sym": "[]T",
+  "symbol": "[]T",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.6,
+    -0.4,
+    -0.5
+  ],
+  "isl": [
+    1,
+    0,
+    22,
+    0
+  ],
+  "summary": "Dãy các phần tử cùng kiểu, kích thước cố định. O(1) access theo index.",
+  "facts": [
+    {
+      "sym": "O(1)",
+      "text": "random access: O(1)"
+    },
+    {
+      "sym": "fixed size",
+      "text": "size phải biết tại compile time (C array, Rust [T;N])"
+    },
+    {
+      "sym": "contiguous",
+      "text": "các phần tử nằm liên tiếp trong memory → cache friendly"
+    }
+  ],
+  "tags": [
+    "array",
+    "sequence",
+    "index"
+  ],
+  "related": [
+    "slice",
+    "vector",
+    "buffer-overflow",
+    "binary-search",
+    "loop"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python",
+    "JavaScript"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "buffer overflow: index ngoài range → UB trong C/assembly"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "int64",
+  "sym": "𝐢64",
+  "symbol": "𝐢64",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.84,
+    -0.67,
+    -0.81
+  ],
+  "isl": [
+    1,
+    0,
+    6,
+    0
+  ],
+  "summary": "Số nguyên có dấu 64-bit. Phù hợp cho timestamp, file size.",
+  "facts": [
+    {
+      "sym": "±2^63",
+      "text": "range: ±9,223,372,036,854,775,807"
+    },
+    {
+      "sym": "timestamp",
+      "text": "Unix timestamp (nanoseconds) dùng int64"
+    },
+    {
+      "sym": "Go int",
+      "text": "Go: int là i64 trên 64-bit platform"
+    }
+  ],
+  "tags": [
+    "int64",
+    "integer",
+    "signed"
+  ],
+  "related": [
+    "int32",
+    "uint64",
+    "overflow"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "overflow hiếm hơn i32 nhưng vẫn có thể xảy ra"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

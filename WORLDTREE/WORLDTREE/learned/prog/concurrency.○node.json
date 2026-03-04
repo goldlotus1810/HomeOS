@@ -1,0 +1,66 @@
+{
+  "name": "concurrency",
+  "sym": "∥",
+  "symbol": "∥",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.1,
+    0.3,
+    -0.2
+  ],
+  "isl": [
+    3,
+    0,
+    17,
+    0
+  ],
+  "summary": "Nhiều tasks tiến hành trong thời gian trùng nhau. Threads, goroutines, async. Khó vì shared state.",
+  "facts": [
+    {
+      "sym": "parallelism",
+      "text": "concurrency != parallelism. Concurrency: structure. Parallelism: execution"
+    },
+    {
+      "sym": "shared state",
+      "text": "shared mutable state = source of bugs"
+    },
+    {
+      "sym": "CSP",
+      "text": "share by communicating, don't communicate by sharing"
+    }
+  ],
+  "tags": [
+    "concurrency",
+    "parallel",
+    "thread",
+    "async"
+  ],
+  "related": [
+    "goroutine",
+    "thread",
+    "mutex",
+    "channel",
+    "CSP",
+    "data-race",
+    "actor"
+  ],
+  "exists_in": [
+    "Go",
+    "Rust",
+    "Java",
+    "Python",
+    "C",
+    "JavaScript"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "data race",
+    "deadlock",
+    "livelock",
+    "starvation"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

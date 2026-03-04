@@ -1,0 +1,61 @@
+{
+  "name": "pipe",
+  "sym": "→|→",
+  "symbol": "→|→",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    -0.35,
+    -0.25,
+    -0.38
+  ],
+  "isl": [
+    5,
+    3,
+    6,
+    0
+  ],
+  "summary": "Unix pipe: output của process → input của process khác. | trong shell. Unidirectional, buffered.",
+  "facts": [
+    {
+      "sym": "unidirectional",
+      "text": "pipe là one-way. socketpair() để bidirectional"
+    },
+    {
+      "sym": "buffer",
+      "text": "pipe buffer: 64KB trên Linux"
+    },
+    {
+      "sym": "channel",
+      "text": "Go channel tương tự pipe — typed, concurrent"
+    }
+  ],
+  "tags": [
+    "pipe",
+    "unix",
+    "ipc",
+    "shell",
+    "process"
+  ],
+  "related": [
+    "process",
+    "file-descriptor",
+    "channel",
+    "goroutine",
+    "socket"
+  ],
+  "exists_in": [
+    "C",
+    "Go",
+    "Rust",
+    "Python",
+    "shell"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "broken pipe: reader closed trước writer"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

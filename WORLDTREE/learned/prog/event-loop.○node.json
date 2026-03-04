@@ -1,0 +1,71 @@
+{
+  "name": "event-loop",
+  "sym": "↺📨",
+  "symbol": "↺📨",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    0.25,
+    0.35,
+    -0.05
+  ],
+  "isl": [
+    3,
+    2,
+    21,
+    0
+  ],
+  "summary": "Single-threaded loop xử lý events/callbacks. JavaScript, Node.js. Non-blocking I/O với 1 thread.",
+  "facts": [
+    {
+      "sym": "single thread",
+      "text": "JavaScript: 1 event loop, không bao giờ block"
+    },
+    {
+      "sym": "microtask",
+      "text": "microtask queue (Promise) chạy trước macrotask (setTimeout)"
+    },
+    {
+      "sym": "call stack",
+      "text": "call stack: sync code. callback queue: async code sau khi done"
+    }
+  ],
+  "tags": [
+    "event-loop",
+    "async",
+    "javascript",
+    "nodejs",
+    "non-blocking"
+  ],
+  "related": [
+    "async-await",
+    "JavaScript",
+    "goroutine",
+    "concurrency",
+    "Promise",
+    "callback"
+  ],
+  "exists_in": [
+    "JavaScript",
+    "Node.js",
+    "Python(asyncio)"
+  ],
+  "not_in": [
+    "Go",
+    "Java",
+    "C",
+    "Rust"
+  ],
+  "NOT_in": [
+    "Go",
+    "Java",
+    "C",
+    "Rust"
+  ],
+  "danger": [
+    "blocking event loop: 1 sync op delay tất cả",
+    "callback hell"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

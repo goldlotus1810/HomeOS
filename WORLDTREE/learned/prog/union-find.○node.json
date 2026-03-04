@@ -1,0 +1,58 @@
+{
+  "name": "union-find",
+  "sym": "∪-find",
+  "symbol": "∪-find",
+  "layer": 6,
+  "category": "concept",
+  "sdf": [
+    -0.12,
+    0.07,
+    -0.22
+  ],
+  "isl": [
+    6,
+    3,
+    3,
+    0
+  ],
+  "summary": "Disjoint Set Union. O(α(n)) ≈ O(1) amortized. Connected components, Kruskal MST.",
+  "facts": [
+    {
+      "sym": "union",
+      "text": "union(a,b): merge sets"
+    },
+    {
+      "sym": "find",
+      "text": "find(a): root với path compression"
+    },
+    {
+      "sym": "inverse Ackermann",
+      "text": "α(n): inverse Ackermann — practically O(1)"
+    }
+  ],
+  "tags": [
+    "union-find",
+    "dsu",
+    "disjoint-set",
+    "graph"
+  ],
+  "related": [
+    "graph",
+    "BFS",
+    "DFS",
+    "Kruskal",
+    "connected-components"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Docker",
+  "sym": "🐳",
+  "symbol": "🐳",
+  "layer": 5,
+  "category": "tool",
+  "sdf": [
+    0.6,
+    0.7,
+    0.4
+  ],
+  "isl": [
+    5,
+    1,
+    4,
+    0
+  ],
+  "summary": "Container runtime. Package app + dependencies vào portable container. Build once, run anywhere.",
+  "facts": [
+    {
+      "sym": "image",
+      "text": "image: immutable template. container: running instance"
+    },
+    {
+      "sym": "Dockerfile",
+      "text": "Dockerfile: RUN, COPY, FROM, CMD, EXPOSE"
+    },
+    {
+      "sym": "layers",
+      "text": "image layers: copy-on-write, cache-efficient"
+    },
+    {
+      "sym": "compose",
+      "text": "docker-compose: multi-container apps"
+    }
+  ],
+  "tags": [
+    "docker",
+    "container",
+    "devops",
+    "deployment"
+  ],
+  "related": [
+    "Kubernetes",
+    "CI-CD",
+    "microservice",
+    "linux",
+    "DevOps"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "run as root inside container",
+    "exposed secrets in image",
+    "outdated base images with CVEs"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

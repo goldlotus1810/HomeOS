@@ -1,0 +1,57 @@
+{
+  "name": "SSH",
+  "sym": "🔑SSH",
+  "symbol": "🔑SSH",
+  "layer": 5,
+  "category": "tool",
+  "sdf": [
+    0.28,
+    0.68,
+    0.18
+  ],
+  "isl": [
+    5,
+    3,
+    11,
+    0
+  ],
+  "summary": "Secure Shell. Encrypted remote access. Key-based auth. Tunneling, port forwarding.",
+  "facts": [
+    {
+      "sym": "key auth",
+      "text": "key pair: public trên server, private giữ local"
+    },
+    {
+      "sym": "tunnel",
+      "text": "ssh -L 5432:db:5432 user@host — local port forward"
+    },
+    {
+      "sym": "agent",
+      "text": "ssh-agent: cache private key passphrase"
+    }
+  ],
+  "tags": [
+    "ssh",
+    "security",
+    "remote",
+    "tunnel",
+    "linux"
+  ],
+  "related": [
+    "TLS",
+    "authentication",
+    "Linux",
+    "encryption",
+    "networking"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "PermitRootLogin yes: nguy hiểm",
+    "PasswordAuthentication yes: dễ brute force",
+    "exposed port 22: scan by bots"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

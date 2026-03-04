@@ -1,0 +1,70 @@
+{
+  "name": "null-safety",
+  "sym": "T?",
+  "symbol": "T?",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.2,
+    0.65,
+    0.05
+  ],
+  "isl": [
+    3,
+    2,
+    2,
+    0
+  ],
+  "summary": "Kiểu phân biệt nullable (T?) và non-nullable (T). Kotlin, Swift, TypeScript. Loại NPE tại compile time.",
+  "facts": [
+    {
+      "sym": "T vs T?",
+      "text": "T: không bao giờ null. T?: có thể null"
+    },
+    {
+      "sym": "safe call",
+      "text": "Kotlin: obj?.method() — không crash nếu null"
+    },
+    {
+      "sym": "elvis",
+      "text": "Kotlin: val x = y ?: default — fallback khi null"
+    },
+    {
+      "sym": "TS",
+      "text": "TypeScript strict: strictNullChecks loại null/undefined implicit"
+    }
+  ],
+  "tags": [
+    "null-safety",
+    "kotlin",
+    "swift",
+    "nullable"
+  ],
+  "related": [
+    "null",
+    "Option",
+    "Kotlin",
+    "Swift",
+    "TypeScript",
+    "NullPointerException"
+  ],
+  "exists_in": [
+    "Kotlin",
+    "Swift",
+    "TypeScript",
+    "C#(nullable ref types)"
+  ],
+  "not_in": [
+    "Java<17",
+    "Python",
+    "C"
+  ],
+  "NOT_in": [
+    "Java<17",
+    "Python",
+    "C"
+  ],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "producer-consumer",
+  "sym": "→⬡←",
+  "symbol": "→⬡←",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    -0.12,
+    0.08,
+    -0.22
+  ],
+  "isl": [
+    3,
+    5,
+    3,
+    0
+  ],
+  "summary": "Producer tạo, Consumer tiêu thụ qua shared buffer. Classic concurrency pattern. Channel trong Go.",
+  "facts": [
+    {
+      "sym": "Go channel",
+      "text": "Go: ch := make(chan T, 100) — buffered channel là producer-consumer"
+    },
+    {
+      "sym": "backpressure",
+      "text": "backpressure: buffer đầy → producer block"
+    },
+    {
+      "sym": "bounded",
+      "text": "bounded buffer tránh OOM khi consumer chậm"
+    }
+  ],
+  "tags": [
+    "producer-consumer",
+    "concurrency",
+    "buffer",
+    "channel",
+    "pattern"
+  ],
+  "related": [
+    "channel",
+    "goroutine",
+    "mutex",
+    "semaphore",
+    "queue",
+    "message-queue"
+  ],
+  "exists_in": [
+    "Go",
+    "Java",
+    "Python",
+    "C++",
+    "Rust"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "unbounded: OOM khi producer > consumer",
+    "deadlock: cả hai block nhau"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

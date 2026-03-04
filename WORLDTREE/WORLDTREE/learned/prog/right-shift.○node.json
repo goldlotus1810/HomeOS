@@ -1,0 +1,58 @@
+{
+  "name": "right-shift",
+  "sym": ">>",
+  "symbol": ">>",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.895,
+    -0.845,
+    -0.885
+  ],
+  "isl": [
+    2,
+    0,
+    11,
+    0
+  ],
+  "summary": "Shift right. Logical (zero fill) vs Arithmetic (sign-extend).",
+  "facts": [
+    {
+      "sym": "logical",
+      "text": "unsigned >> : zero fill (logical shift)"
+    },
+    {
+      "sym": "arithmetic",
+      "text": "signed >>: sign-extend (arithmetic shift)"
+    },
+    {
+      "sym": "divide by 2",
+      "text": "x >> 1 = x / 2 (integer)"
+    }
+  ],
+  "tags": [
+    "shift",
+    "right",
+    "divide"
+  ],
+  "related": [
+    "left-shift",
+    "bitwise-and",
+    "divide",
+    "bit"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "assembly"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "C signed >> : implementation defined"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

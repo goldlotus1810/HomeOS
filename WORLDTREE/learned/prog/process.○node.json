@@ -1,0 +1,63 @@
+{
+  "name": "process",
+  "sym": "▣",
+  "symbol": "▣",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    -0.3,
+    -0.2,
+    -0.35
+  ],
+  "isl": [
+    5,
+    3,
+    1,
+    0
+  ],
+  "summary": "OS process: isolated execution unit. PID, address space, file descriptors. fork(), exec().",
+  "facts": [
+    {
+      "sym": "address space",
+      "text": "virtual address space: isolated từ other processes"
+    },
+    {
+      "sym": "fork",
+      "text": "fork(): copy parent process (CoW). exec(): replace với new program"
+    },
+    {
+      "sym": "IPC",
+      "text": "IPC: pipes, sockets, shared memory, signals"
+    }
+  ],
+  "tags": [
+    "process",
+    "os",
+    "linux",
+    "pid",
+    "fork"
+  ],
+  "related": [
+    "thread",
+    "goroutine",
+    "fork",
+    "exec",
+    "IPC",
+    "memory-layout",
+    "copy-on-write"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "zombie process: không wait() cho child",
+    "fork bomb: unlimited process creation"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

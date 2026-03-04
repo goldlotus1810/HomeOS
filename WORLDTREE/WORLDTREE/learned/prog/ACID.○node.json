@@ -1,0 +1,53 @@
+{
+  "name": "ACID",
+  "sym": "A·C·I·D",
+  "symbol": "A·C·I·D",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    0.52,
+    0.62,
+    0.32
+  ],
+  "isl": [
+    6,
+    0,
+    22,
+    0
+  ],
+  "summary": "Database transaction properties: Atomicity, Consistency, Isolation, Durability.",
+  "facts": [
+    {
+      "sym": "Atomicity",
+      "text": "all or nothing: commit hoặc rollback"
+    },
+    {
+      "sym": "Isolation",
+      "text": "concurrent transactions không thấy nhau's intermediate state"
+    },
+    {
+      "sym": "Durability",
+      "text": "committed data không mất kể cả crash"
+    }
+  ],
+  "tags": [
+    "acid",
+    "database",
+    "transaction",
+    "consistency"
+  ],
+  "related": [
+    "CAP-theorem",
+    "SQL",
+    "database",
+    "event-sourcing"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "serializability đắt: dùng lower isolation level → anomalies"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

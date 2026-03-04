@@ -1,0 +1,53 @@
+{
+  "name": "divide-conquer",
+  "sym": "÷→",
+  "symbol": "÷→",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.2,
+    0.1,
+    -0.3
+  ],
+  "isl": [
+    6,
+    1,
+    1,
+    0
+  ],
+  "summary": "Chia bài toán thành subproblems nhỏ hơn, giải đệ quy, combine kết quả. Mergesort, quicksort, binary search.",
+  "facts": [
+    {
+      "sym": "recurrence",
+      "text": "T(n) = aT(n/b) + f(n) — Master Theorem giải complexity"
+    },
+    {
+      "sym": "examples",
+      "text": "mergesort, quicksort, binary search, Karatsuba, FFT"
+    },
+    {
+      "sym": "vs DP",
+      "text": "D&C vs DP: D&C subproblems không overlap. DP có overlap → cache"
+    }
+  ],
+  "tags": [
+    "divide-conquer",
+    "algorithm",
+    "recursion",
+    "paradigm"
+  ],
+  "related": [
+    "mergesort",
+    "quicksort",
+    "binary-search",
+    "recursion",
+    "dynamic-programming",
+    "FFT"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

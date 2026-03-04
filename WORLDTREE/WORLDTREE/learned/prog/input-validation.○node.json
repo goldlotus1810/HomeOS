@@ -1,0 +1,55 @@
+{
+  "name": "input-validation",
+  "sym": "✓in",
+  "symbol": "✓in",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.35,
+    0.55,
+    0.15
+  ],
+  "isl": [
+    5,
+    2,
+    9,
+    0
+  ],
+  "summary": "Validate và sanitize mọi user input. Whitelist approach. Server-side required (client-side: UI only).",
+  "facts": [
+    {
+      "sym": "whitelist",
+      "text": "whitelist: chỉ allow known-good. Blacklist: miss cases"
+    },
+    {
+      "sym": "server-side",
+      "text": "client-side validation: UX only. Server-side: security"
+    },
+    {
+      "sym": "length limits",
+      "text": "max length, character set, format (email regex)"
+    }
+  ],
+  "tags": [
+    "validation",
+    "sanitization",
+    "security",
+    "input"
+  ],
+  "related": [
+    "SQL-injection",
+    "XSS",
+    "buffer-overflow",
+    "API-design",
+    "regex"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "trust user input → injection",
+    "bypass: intercept request, modify"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

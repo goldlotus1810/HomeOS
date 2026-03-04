@@ -1,0 +1,62 @@
+{
+  "name": "benchmarking",
+  "sym": "⏱bench",
+  "symbol": "⏱bench",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.12,
+    0.42,
+    0.02
+  ],
+  "isl": [
+    7,
+    3,
+    4,
+    0
+  ],
+  "summary": "Đo performance của code cụ thể. Go testing.B, Rust criterion. Tránh microbenchmark fallacies.",
+  "facts": [
+    {
+      "sym": "Go",
+      "text": "func BenchmarkFoo(b *testing.B) { for range b.N { ... } }"
+    },
+    {
+      "sym": "warmup",
+      "text": "JVM/JIT: cần warmup iterations — cold vs hot"
+    },
+    {
+      "sym": "dead code",
+      "text": "compiler có thể optimize away benchmark — dùng black_box(Rust)"
+    }
+  ],
+  "tags": [
+    "benchmarking",
+    "performance",
+    "go",
+    "rust",
+    "measure"
+  ],
+  "related": [
+    "profiling",
+    "testing",
+    "Go",
+    "Rust",
+    "complexity-analysis",
+    "load-testing"
+  ],
+  "exists_in": [
+    "Go",
+    "Rust",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "microbenchmark không reflect real workload",
+    "compiler optimization của benchmark code"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

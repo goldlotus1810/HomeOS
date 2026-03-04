@@ -1,0 +1,64 @@
+{
+  "name": "tuple",
+  "sym": "(,)",
+  "symbol": "(,)",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.55,
+    -0.35,
+    -0.48
+  ],
+  "isl": [
+    1,
+    0,
+    33,
+    0
+  ],
+  "summary": "Nhóm cố định các giá trị khác kiểu. Immutable. (1, 'a', true).",
+  "facts": [
+    {
+      "sym": "heterogeneous",
+      "text": "mỗi phần tử có thể khác kiểu"
+    },
+    {
+      "sym": "fixed size",
+      "text": "số phần tử cố định tại compile time"
+    },
+    {
+      "sym": "destructure",
+      "text": "let (a, b) = (1, 2) — destructuring"
+    }
+  ],
+  "tags": [
+    "tuple",
+    "product",
+    "record"
+  ],
+  "related": [
+    "struct",
+    "array",
+    "pattern-matching",
+    "destructure"
+  ],
+  "exists_in": [
+    "Rust",
+    "Python",
+    "Haskell",
+    "Scala",
+    "Swift"
+  ],
+  "not_in": [
+    "C",
+    "Java(old)",
+    "Go"
+  ],
+  "NOT_in": [
+    "C",
+    "Java(old)",
+    "Go"
+  ],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

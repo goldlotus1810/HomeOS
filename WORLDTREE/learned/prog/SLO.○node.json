@@ -1,0 +1,53 @@
+{
+  "name": "SLO",
+  "sym": "SLI≥SLO",
+  "symbol": "SLI≥SLO",
+  "layer": 7,
+  "category": "concept",
+  "sdf": [
+    0.51,
+    0.71,
+    0.36
+  ],
+  "isl": [
+    7,
+    2,
+    10,
+    0
+  ],
+  "summary": "Service Level Objective. SLI: metric. SLO: target. SLA: contractual. Error budget: 1 - SLO.",
+  "facts": [
+    {
+      "sym": "SLI",
+      "text": "SLI: actual measurement (latency p99, error rate)"
+    },
+    {
+      "sym": "SLO",
+      "text": "SLO: target (p99 < 200ms, error rate < 0.1%)"
+    },
+    {
+      "sym": "error budget",
+      "text": "error budget: 99.9% SLO → 0.1% = 43.8 min/month budget"
+    }
+  ],
+  "tags": [
+    "slo",
+    "sla",
+    "sli",
+    "reliability",
+    "devops",
+    "sre"
+  ],
+  "related": [
+    "monitoring",
+    "alerting",
+    "circuit-breaker",
+    "canary-deployment"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

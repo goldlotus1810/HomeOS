@@ -1,0 +1,62 @@
+{
+  "name": "backpressure",
+  "sym": "←⊗",
+  "symbol": "←⊗",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.41,
+    0.51,
+    0.21
+  ],
+  "isl": [
+    5,
+    5,
+    6,
+    0
+  ],
+  "summary": "Slow consumer signals slow down producer. Tránh OOM. Reactive streams, Go buffered channel.",
+  "facts": [
+    {
+      "sym": "Go channel",
+      "text": "Go buffered channel: send blocks khi full → natural backpressure"
+    },
+    {
+      "sym": "TCP",
+      "text": "TCP receive window: built-in backpressure"
+    },
+    {
+      "sym": "reactive",
+      "text": "Reactive Streams: request(n) — pull-based, demand-driven"
+    }
+  ],
+  "tags": [
+    "backpressure",
+    "flow-control",
+    "reactive",
+    "async",
+    "streaming"
+  ],
+  "related": [
+    "channel",
+    "producer-consumer",
+    "message-queue",
+    "TCP",
+    "reactive",
+    "Go"
+  ],
+  "exists_in": [
+    "Go",
+    "Rust(async)",
+    "Akka",
+    "RxJava"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "no backpressure: producer OOM consumer",
+    "buffer too large: latency increases"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

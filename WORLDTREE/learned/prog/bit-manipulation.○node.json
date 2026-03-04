@@ -1,0 +1,66 @@
+{
+  "name": "bit-manipulation",
+  "sym": "&|^~",
+  "symbol": "&|^~",
+  "layer": 2,
+  "category": "concept",
+  "sdf": [
+    -0.85,
+    -0.7,
+    -0.85
+  ],
+  "isl": [
+    2,
+    2,
+    2,
+    0
+  ],
+  "summary": "Thao tác trực tiếp trên bits. Set/clear/toggle bit. Fast, low-level tricks.",
+  "facts": [
+    {
+      "sym": "set bit",
+      "text": "n |= (1 << k) — set bit k"
+    },
+    {
+      "sym": "clear bit",
+      "text": "n &= ~(1 << k) — clear bit k"
+    },
+    {
+      "sym": "toggle",
+      "text": "n ^= (1 << k) — toggle bit k"
+    },
+    {
+      "sym": "check",
+      "text": "(n >> k) & 1 — check bit k"
+    }
+  ],
+  "tags": [
+    "bitwise",
+    "bits",
+    "manipulation",
+    "low-level"
+  ],
+  "related": [
+    "bitwise-and",
+    "bitwise-or",
+    "bitwise-xor",
+    "bitwise-not",
+    "left-shift",
+    "right-shift"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "assembly"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "signed right shift: arithmetic vs logical",
+    "bit width: 1 << 31 vs 1 << 32"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

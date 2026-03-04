@@ -1,0 +1,56 @@
+{
+  "name": "OpenAPI",
+  "sym": "📋API",
+  "symbol": "📋API",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.52,
+    0.62,
+    0.32
+  ],
+  "isl": [
+    5,
+    3,
+    8,
+    0
+  ],
+  "summary": "Specification cho REST APIs. YAML/JSON schema. Codegen, documentation, validation.",
+  "facts": [
+    {
+      "sym": "swagger",
+      "text": "Swagger UI: interactive API documentation"
+    },
+    {
+      "sym": "codegen",
+      "text": "openapi-generator: generate client/server từ spec"
+    },
+    {
+      "sym": "validation",
+      "text": "request/response validation against schema"
+    }
+  ],
+  "tags": [
+    "openapi",
+    "swagger",
+    "rest",
+    "api",
+    "specification"
+  ],
+  "related": [
+    "API",
+    "REST",
+    "JSON",
+    "gRPC",
+    "API-design",
+    "documentation"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "spec drift: code thay đổi nhưng spec không update"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

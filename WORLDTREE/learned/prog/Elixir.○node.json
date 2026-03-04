@@ -1,0 +1,54 @@
+{
+  "name": "Elixir",
+  "sym": "💧E",
+  "symbol": "💧E",
+  "layer": 5,
+  "category": "language",
+  "sdf": [
+    0.32,
+    0.52,
+    -0.08
+  ],
+  "isl": [
+    5,
+    4,
+    1,
+    0
+  ],
+  "summary": "BEAM lang. Phoenix framework. Pattern matching, pipe operator |>, hot reload. Erlang interop.",
+  "facts": [
+    {
+      "sym": "pipe",
+      "text": "|> pipe: user |> get_name() |> String.upcase()"
+    },
+    {
+      "sym": "Phoenix",
+      "text": "Phoenix: web framework, LiveView, real-time"
+    },
+    {
+      "sym": "OTP",
+      "text": "OTP: GenServer, Supervisor, Application — production patterns"
+    }
+  ],
+  "tags": [
+    "elixir",
+    "beam",
+    "erlang",
+    "functional",
+    "web"
+  ],
+  "related": [
+    "Erlang",
+    "BEAM",
+    "functional",
+    "actor",
+    "CSP",
+    "pattern-matching"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "singleton-pattern",
+  "sym": "①",
+  "symbol": "①",
+  "layer": 6,
+  "category": "pattern",
+  "sdf": [
+    0.25,
+    0.35,
+    0.1
+  ],
+  "isl": [
+    6,
+    0,
+    12,
+    0
+  ],
+  "summary": "Đảm bảo chỉ 1 instance của class. Global access. Thường được coi là anti-pattern.",
+  "facts": [
+    {
+      "sym": "global",
+      "text": "global state: khó test, hidden dependency"
+    },
+    {
+      "sym": "thread-safe",
+      "text": "double-checked locking hoặc dùng sync.Once (Go)"
+    },
+    {
+      "sym": "anti-pattern",
+      "text": "nhiều người coi là anti-pattern vì tight coupling"
+    }
+  ],
+  "tags": [
+    "singleton",
+    "pattern",
+    "global",
+    "instance"
+  ],
+  "related": [
+    "dependency-injection",
+    "OOP",
+    "class",
+    "mutex"
+  ],
+  "exists_in": [
+    "Java",
+    "Python",
+    "Go",
+    "C++"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "global state khó test",
+    "hidden dependencies",
+    "concurrency issues"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

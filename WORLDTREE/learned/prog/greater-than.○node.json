@@ -1,0 +1,53 @@
+{
+  "name": "greater-than",
+  "sym": ">",
+  "symbol": ">",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.82,
+    -0.74,
+    -0.82
+  ],
+  "isl": [
+    2,
+    0,
+    14,
+    0
+  ],
+  "summary": "Phép so sánh lớn hơn. a > b trả về true nếu a lớn hơn b.",
+  "facts": [
+    {
+      "sym": "NaN",
+      "text": "NaN > x = false luôn"
+    },
+    {
+      "sym": "total order",
+      "text": "Rust: PartialOrd vs Ord — float chỉ có PartialOrd vì NaN"
+    }
+  ],
+  "tags": [
+    "greater-than",
+    "comparison",
+    "order"
+  ],
+  "related": [
+    "less-than",
+    "equal",
+    "bool",
+    "sort"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python",
+    "JavaScript"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "two-pointer",
+  "sym": "←→p",
+  "symbol": "←→p",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.18,
+    0.13,
+    -0.28
+  ],
+  "isl": [
+    6,
+    0,
+    25,
+    0
+  ],
+  "summary": "Hai con trỏ di chuyển trong array/string. O(n) thay vì O(n²). Tìm pairs, palindrome, sliding window.",
+  "facts": [
+    {
+      "sym": "O(n)",
+      "text": "thay nested loop O(n²) bằng 2 pointer O(n)"
+    },
+    {
+      "sym": "sorted",
+      "text": "thường dùng với sorted array"
+    },
+    {
+      "sym": "sliding window",
+      "text": "sliding window: fixed/variable size window"
+    }
+  ],
+  "tags": [
+    "two-pointer",
+    "array",
+    "optimization",
+    "O(n)"
+  ],
+  "related": [
+    "binary-search",
+    "array",
+    "sliding-window",
+    "string",
+    "quicksort"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

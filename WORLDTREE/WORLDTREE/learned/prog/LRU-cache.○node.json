@@ -1,0 +1,60 @@
+{
+  "name": "LRU-cache",
+  "sym": "⚡💾LRU",
+  "symbol": "⚡💾LRU",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    0.2,
+    0.3,
+    0.05
+  ],
+  "isl": [
+    6,
+    0,
+    10,
+    0
+  ],
+  "summary": "Least Recently Used cache. HashMap + doubly linked list. O(1) get/put. Evict item ít dùng nhất.",
+  "facts": [
+    {
+      "sym": "O(1)",
+      "text": "hashmap: O(1) lookup. Linked list: O(1) move-to-front"
+    },
+    {
+      "sym": "eviction",
+      "text": "khi full: remove tail (least recently used)"
+    },
+    {
+      "sym": "use case",
+      "text": "DNS cache, CPU cache, web cache, database buffer pool"
+    }
+  ],
+  "tags": [
+    "lru",
+    "cache",
+    "hashmap",
+    "linked-list"
+  ],
+  "related": [
+    "hashmap",
+    "doubly-linked-list",
+    "cache",
+    "B-tree"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "thread-safe: cần lock hoặc concurrent map",
+    "cache invalidation là 1 trong 2 hard problems"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

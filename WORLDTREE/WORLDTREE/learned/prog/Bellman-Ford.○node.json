@@ -1,0 +1,59 @@
+{
+  "name": "Bellman-Ford",
+  "sym": "BF→",
+  "symbol": "BF→",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.12,
+    0.075,
+    -0.22
+  ],
+  "isl": [
+    6,
+    4,
+    10,
+    0
+  ],
+  "summary": "Shortest path với negative weights. O(VE). Detect negative cycles. Chậm hơn Dijkstra nhưng tổng quát hơn.",
+  "facts": [
+    {
+      "sym": "negative",
+      "text": "hoạt động với negative edge weights — Dijkstra không"
+    },
+    {
+      "sym": "V-1 relaxations",
+      "text": "V-1 lần relax tất cả edges: đủ để propagate"
+    },
+    {
+      "sym": "negative cycle",
+      "text": "nếu round thứ V vẫn có relaxation → negative cycle"
+    }
+  ],
+  "tags": [
+    "bellman-ford",
+    "shortest-path",
+    "graph",
+    "negative-weight"
+  ],
+  "related": [
+    "Dijkstra",
+    "graph",
+    "dynamic-programming",
+    "negative-cycle"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "O(VE): chậm cho dense graphs"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

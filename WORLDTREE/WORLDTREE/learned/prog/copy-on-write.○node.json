@@ -1,0 +1,57 @@
+{
+  "name": "copy-on-write",
+  "sym": "CoW",
+  "symbol": "CoW",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    0.1,
+    0.5,
+    0.2
+  ],
+  "isl": [
+    3,
+    2,
+    28,
+    0
+  ],
+  "summary": "Lazy copying: share data cho đến khi 1 bên muốn write, khi đó mới copy. OS fork(), Python str, Docker layers.",
+  "facts": [
+    {
+      "sym": "fork",
+      "text": "Linux fork(): CoW memory pages — không copy cho đến khi write"
+    },
+    {
+      "sym": "Docker",
+      "text": "Docker image layers: CoW filesystem (overlay2)"
+    },
+    {
+      "sym": "Rust Cow",
+      "text": "Rust Cow<'a, B>: Borrowed hoặc Owned — lazy clone"
+    }
+  ],
+  "tags": [
+    "cow",
+    "copy-on-write",
+    "optimization",
+    "lazy"
+  ],
+  "related": [
+    "immutability",
+    "malloc",
+    "GC",
+    "Docker",
+    "fork",
+    "string"
+  ],
+  "exists_in": [
+    "Rust",
+    "Linux",
+    "Docker"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "hashmap",
+  "sym": "{}K→V",
+  "symbol": "{}K→V",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    0.05,
+    0.15,
+    -0.05
+  ],
+  "isl": [
+    6,
+    0,
+    8,
+    0
+  ],
+  "summary": "O(1) average insert/lookup. Hash function → bucket. Collision: chaining hoặc open addressing.",
+  "facts": [
+    {
+      "sym": "O(1) avg",
+      "text": "average O(1) lookup/insert. Worst case O(n) với bad hash"
+    },
+    {
+      "sym": "load factor",
+      "text": "load factor > 0.75 → resize (double) → O(n) amortized"
+    },
+    {
+      "sym": "hash function",
+      "text": "key → hash → bucket index. Good hash phân phối đều"
+    }
+  ],
+  "tags": [
+    "hashmap",
+    "hash",
+    "dictionary",
+    "O(1)"
+  ],
+  "related": [
+    "B-tree",
+    "array",
+    "binary-search",
+    "hash-function",
+    "cache",
+    "modulo"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python",
+    "JavaScript"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "hash collision DoS: user input → predictable hash → O(n)",
+    "không thread-safe mặc định"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

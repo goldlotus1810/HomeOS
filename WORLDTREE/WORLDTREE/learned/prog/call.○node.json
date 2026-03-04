@@ -1,0 +1,59 @@
+{
+  "name": "call",
+  "sym": "→𝑓",
+  "symbol": "→𝑓",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.75,
+    -0.65,
+    -0.75
+  ],
+  "isl": [
+    2,
+    0,
+    17,
+    0
+  ],
+  "summary": "Gọi function. Push return address lên stack, jump tới function.",
+  "facts": [
+    {
+      "sym": "stack frame",
+      "text": "call tạo stack frame: return addr, saved regs, locals"
+    },
+    {
+      "sym": "overhead",
+      "text": "function call overhead: push/pop + indirect jump"
+    },
+    {
+      "sym": "inline",
+      "text": "compiler có thể inline nhỏ → bỏ overhead"
+    }
+  ],
+  "tags": [
+    "call",
+    "function",
+    "stack"
+  ],
+  "related": [
+    "ret",
+    "recursion",
+    "stack",
+    "function",
+    "tail-call"
+  ],
+  "exists_in": [
+    "assembly",
+    "C",
+    "Rust",
+    "Go",
+    "Java"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "stack overflow: đệ quy quá sâu"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

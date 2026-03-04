@@ -1,0 +1,64 @@
+{
+  "name": "C",
+  "sym": "⚙C",
+  "symbol": "⚙C",
+  "layer": 5,
+  "category": "language",
+  "sdf": [
+    -0.8,
+    -0.2,
+    -0.9
+  ],
+  "isl": [
+    5,
+    0,
+    6,
+    0
+  ],
+  "summary": "Dennis Ritchie 1972. Nền tảng của mọi ngôn ngữ. Pointer, manual memory, undefined behavior.",
+  "facts": [
+    {
+      "sym": "pointer",
+      "text": "pointer trực tiếp vào memory — power và danger"
+    },
+    {
+      "sym": "UB",
+      "text": "undefined behavior: compiler giả định UB không xảy ra → tối ưu aggressively"
+    },
+    {
+      "sym": "no GC",
+      "text": "malloc/free: manual memory management"
+    },
+    {
+      "sym": "portable assembly",
+      "text": "C = portable assembly, kiểm soát hoàn toàn hardware"
+    }
+  ],
+  "tags": [
+    "c",
+    "systems",
+    "pointer",
+    "unsafe",
+    "low-level"
+  ],
+  "related": [
+    "pointer",
+    "malloc",
+    "undefined-behavior",
+    "dereference",
+    "buffer-overflow",
+    "assembly"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "buffer overflow",
+    "use after free",
+    "integer overflow UB",
+    "null deref",
+    "UB: compiler không warn mặc định"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

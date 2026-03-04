@@ -1,0 +1,58 @@
+{
+  "name": "opSmoothUnion",
+  "sym": "∪k",
+  "symbol": "∪k",
+  "layer": 4,
+  "category": "math",
+  "sdf": [
+    -0.28,
+    0.12,
+    -0.58
+  ],
+  "isl": [
+    4,
+    2,
+    5,
+    0
+  ],
+  "summary": "Smooth blend giữa hai SDF shapes. Tránh hard edge. k=blend factor. Inigo Quilez formula.",
+  "facts": [
+    {
+      "sym": "formula",
+      "text": "h = clamp(0.5 + 0.5*(b-a)/k, 0,1); return mix(b,a,h) - k*h*(1-h)"
+    },
+    {
+      "sym": "k",
+      "text": "k lớn → blend mềm hơn. k=0 → opUnion thường"
+    },
+    {
+      "sym": "WORLDTREE",
+      "text": "HomeOS dùng smooth union để blend concepts trong SDF space"
+    }
+  ],
+  "tags": [
+    "sdf",
+    "smooth-union",
+    "blend",
+    "graphics",
+    "homeos"
+  ],
+  "related": [
+    "SDF",
+    "raymarching",
+    "float64",
+    "vector",
+    "WORLDTREE",
+    "ISL"
+  ],
+  "exists_in": [
+    "GLSL",
+    "Rust",
+    "C++"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

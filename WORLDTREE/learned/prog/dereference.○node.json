@@ -1,0 +1,68 @@
+{
+  "name": "dereference",
+  "sym": "*p",
+  "symbol": "*p",
+  "layer": 2,
+  "category": "operation",
+  "sdf": [
+    -0.85,
+    -0.79,
+    -0.85
+  ],
+  "isl": [
+    2,
+    0,
+    19,
+    0
+  ],
+  "summary": "Lấy giá trị tại địa chỉ pointer trỏ tới. *ptr trong C/Rust.",
+  "facts": [
+    {
+      "sym": "null check",
+      "text": "luôn kiểm tra null trước khi deref"
+    },
+    {
+      "sym": "Rust",
+      "text": "Rust: unsafe để deref raw pointer"
+    },
+    {
+      "sym": "dangling",
+      "text": "deref dangling pointer → UB/crash"
+    }
+  ],
+  "tags": [
+    "dereference",
+    "pointer",
+    "memory"
+  ],
+  "related": [
+    "pointer",
+    "address-of",
+    "null",
+    "load",
+    "store"
+  ],
+  "exists_in": [
+    "C",
+    "C++",
+    "Rust",
+    "assembly"
+  ],
+  "not_in": [
+    "Java",
+    "Python",
+    "JavaScript"
+  ],
+  "NOT_in": [
+    "Java",
+    "Python",
+    "JavaScript"
+  ],
+  "danger": [
+    "null deref: crash",
+    "dangling deref: UB",
+    "wild pointer deref: UB"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "overfitting",
+  "sym": "⊗fit",
+  "symbol": "⊗fit",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.7,
+    0.7,
+    0.6
+  ],
+  "isl": [
+    5,
+    4,
+    2,
+    0
+  ],
+  "summary": "Model học noise của training data thay vì pattern. Tốt trên train, kém trên test. Regularization, dropout.",
+  "facts": [
+    {
+      "sym": "bias-variance",
+      "text": "high variance = overfit. High bias = underfit"
+    },
+    {
+      "sym": "regularization",
+      "text": "L1/L2 regularization: penalize large weights"
+    },
+    {
+      "sym": "dropout",
+      "text": "dropout: randomly set neurons to 0 during training"
+    }
+  ],
+  "tags": [
+    "overfitting",
+    "ml",
+    "regularization",
+    "generalization"
+  ],
+  "related": [
+    "neural-network",
+    "cross-validation",
+    "regularization",
+    "training-data",
+    "bias-variance"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

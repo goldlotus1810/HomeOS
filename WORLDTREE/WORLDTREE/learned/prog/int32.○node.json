@@ -1,0 +1,59 @@
+{
+  "name": "int32",
+  "sym": "𝐢32",
+  "symbol": "𝐢32",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.85,
+    -0.68,
+    -0.82
+  ],
+  "isl": [
+    1,
+    0,
+    5,
+    0
+  ],
+  "summary": "Số nguyên có dấu 32-bit. int mặc định của C/Java.",
+  "facts": [
+    {
+      "sym": "±2^31",
+      "text": "range: -2,147,483,648 đến 2,147,483,647"
+    },
+    {
+      "sym": "Java int",
+      "text": "Java: int là i32 luôn (không phụ thuộc platform)"
+    },
+    {
+      "sym": "C int",
+      "text": "C: int thường là i32 trên x86-64"
+    }
+  ],
+  "tags": [
+    "int32",
+    "integer",
+    "signed"
+  ],
+  "related": [
+    "int16",
+    "int64",
+    "add",
+    "multiply",
+    "overflow"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "overflow: vượt quá ±2^31 → UB trong C"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

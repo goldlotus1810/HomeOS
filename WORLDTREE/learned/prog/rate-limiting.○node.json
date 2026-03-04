@@ -1,0 +1,53 @@
+{
+  "name": "rate-limiting",
+  "sym": "⏱⊗",
+  "symbol": "⏱⊗",
+  "layer": 6,
+  "category": "pattern",
+  "sdf": [
+    0.48,
+    0.58,
+    0.28
+  ],
+  "isl": [
+    6,
+    0,
+    18,
+    0
+  ],
+  "summary": "Giới hạn số requests trong thời gian. Token bucket, sliding window, fixed window.",
+  "facts": [
+    {
+      "sym": "token bucket",
+      "text": "token bucket: refill theo rate, burst allowed"
+    },
+    {
+      "sym": "sliding window",
+      "text": "sliding window: count requests trong rolling window"
+    },
+    {
+      "sym": "429",
+      "text": "HTTP 429 Too Many Requests với Retry-After header"
+    }
+  ],
+  "tags": [
+    "rate-limit",
+    "throttle",
+    "api",
+    "protection"
+  ],
+  "related": [
+    "circuit-breaker",
+    "load-balancer",
+    "API",
+    "cache"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "distributed rate limiting: cần sync giữa nodes"
+  ],
+  "confidence": 0.97,
+  "source": "builtin"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "distributed-lock",
+  "sym": "🔒dist",
+  "symbol": "🔒dist",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.49,
+    0.59,
+    0.29
+  ],
+  "isl": [
+    5,
+    5,
+    8,
+    0
+  ],
+  "summary": "Lock qua distributed system. Redis SETNX/Redlock, ZooKeeper. Khó đúng. Prefer idempotent operations.",
+  "facts": [
+    {
+      "sym": "Redis",
+      "text": "Redis SETNX + TTL: đơn giản nhưng không perfect"
+    },
+    {
+      "sym": "Redlock",
+      "text": "Redlock: Martin Kleppmann critique — có flaws với clock skew"
+    },
+    {
+      "sym": "prefer idempotent",
+      "text": "tốt nhất: thiết kế idempotent operations thay vì distributed lock"
+    }
+  ],
+  "tags": [
+    "distributed-lock",
+    "redis",
+    "zookeeper",
+    "concurrency",
+    "distributed"
+  ],
+  "related": [
+    "mutex",
+    "Redis",
+    "idempotent",
+    "distributed",
+    "eventual-consistency"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "clock skew: TTL không reliable",
+    "network partition: lock holder crash → lock stuck"
+  ],
+  "confidence": 0.97,
+  "source": "builtin"
+}

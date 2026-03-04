@@ -1,0 +1,55 @@
+{
+  "name": "cgroup",
+  "sym": "⬡cg",
+  "symbol": "⬡cg",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    -0.65,
+    -0.55,
+    -0.67
+  ],
+  "isl": [
+    5,
+    3,
+    8,
+    0
+  ],
+  "summary": "Linux control groups: giới hạn CPU, memory, I/O cho process groups. Basis của Docker containers.",
+  "facts": [
+    {
+      "sym": "memory limit",
+      "text": "memory.limit_in_bytes: OOM kill khi vượt"
+    },
+    {
+      "sym": "cpu quota",
+      "text": "cpu.cfs_quota_us: limit CPU time"
+    },
+    {
+      "sym": "Docker",
+      "text": "Docker dùng cgroups v2 để resource isolation"
+    }
+  ],
+  "tags": [
+    "cgroup",
+    "linux",
+    "container",
+    "resource",
+    "docker"
+  ],
+  "related": [
+    "Docker",
+    "process",
+    "Kubernetes",
+    "virtual-memory",
+    "scheduler"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "OOM kill unexpected nếu limit quá thấp"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

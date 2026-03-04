@@ -1,0 +1,63 @@
+{
+  "name": "immutable-data-structure",
+  "sym": "const[]",
+  "symbol": "const[]",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    0.42,
+    0.72,
+    0.62
+  ],
+  "isl": [
+    3,
+    2,
+    24,
+    0
+  ],
+  "summary": "Data structure không thay đổi sau khi tạo. Structural sharing: O(log n) update với path copying.",
+  "facts": [
+    {
+      "sym": "persistent",
+      "text": "persistent DS: giữ lại version cũ khi 'update'"
+    },
+    {
+      "sym": "structural sharing",
+      "text": "Clojure: O(log n) update bằng cách share subtrees"
+    },
+    {
+      "sym": "thread safe",
+      "text": "immutable DS tự động thread-safe — không cần lock"
+    }
+  ],
+  "tags": [
+    "immutable",
+    "persistent",
+    "data-structure",
+    "functional"
+  ],
+  "related": [
+    "immutability",
+    "functional",
+    "Haskell",
+    "Clojure",
+    "array",
+    "vector"
+  ],
+  "exists_in": [
+    "Haskell",
+    "Clojure",
+    "Scala",
+    "Rust(default)"
+  ],
+  "not_in": [
+    "C",
+    "Java(mutable default)"
+  ],
+  "NOT_in": [
+    "C"
+  ],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

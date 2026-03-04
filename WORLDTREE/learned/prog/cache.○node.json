@@ -1,0 +1,61 @@
+{
+  "name": "cache",
+  "sym": "⚡💾",
+  "symbol": "⚡💾",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    0.1,
+    0.3,
+    0.0
+  ],
+  "isl": [
+    3,
+    2,
+    5,
+    0
+  ],
+  "summary": "Lưu kết quả tính toán để dùng lại. CPU cache L1/L2/L3. Software cache. 'Two hard problems'.",
+  "facts": [
+    {
+      "sym": "CPU cache",
+      "text": "L1: 4KB-256KB, ~4 cycles. L2: 256KB-4MB, ~12 cycles. L3: 4-32MB, ~40 cycles"
+    },
+    {
+      "sym": "locality",
+      "text": "spatial locality: truy cập vùng memory lân cận → cache hit"
+    },
+    {
+      "sym": "invalidation",
+      "text": "'Two hard problems: cache invalidation và naming things'"
+    },
+    {
+      "sym": "LRU",
+      "text": "LRU eviction phổ biến nhất"
+    }
+  ],
+  "tags": [
+    "cache",
+    "memory",
+    "performance",
+    "cpu"
+  ],
+  "related": [
+    "LRU-cache",
+    "B-tree",
+    "hashmap",
+    "CPU",
+    "memory-hierarchy",
+    "load",
+    "store"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "stale cache: data thay đổi nhưng cache chưa invalidate",
+    "cache stampede: nhiều requests miss cùng lúc"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "mergesort",
+  "sym": "↕↕→",
+  "symbol": "↕↕→",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.08,
+    0.06,
+    -0.18
+  ],
+  "isl": [
+    6,
+    0,
+    2,
+    0
+  ],
+  "summary": "O(n log n) guaranteed. Stable. O(n) extra space. Tốt cho linked list, external sort.",
+  "facts": [
+    {
+      "sym": "stable",
+      "text": "stable: equal elements giữ thứ tự gốc"
+    },
+    {
+      "sym": "O(n) space",
+      "text": "O(n) extra memory — không in-place"
+    },
+    {
+      "sym": "external",
+      "text": "external sort: dữ liệu không vừa RAM → dùng merge"
+    }
+  ],
+  "tags": [
+    "mergesort",
+    "sort",
+    "stable",
+    "divide-conquer"
+  ],
+  "related": [
+    "quicksort",
+    "heapsort",
+    "divide-conquer",
+    "recursion"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

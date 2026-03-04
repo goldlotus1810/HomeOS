@@ -1,0 +1,51 @@
+{
+  "name": "NP-hard",
+  "sym": "NP",
+  "symbol": "NP",
+  "layer": 6,
+  "category": "concept",
+  "sdf": [
+    0.7,
+    0.3,
+    0.5
+  ],
+  "isl": [
+    6,
+    2,
+    2,
+    0
+  ],
+  "summary": "No known polynomial time algorithm. TSP, SAT, knapsack. Dùng approximation hoặc heuristic.",
+  "facts": [
+    {
+      "sym": "NP",
+      "text": "NP: verifiable in polynomial time. NP-hard: at least as hard as NP"
+    },
+    {
+      "sym": "heuristic",
+      "text": "practical: greedy, simulated annealing, genetic algorithm"
+    },
+    {
+      "sym": "P vs NP",
+      "text": "P=NP? — unsolved. $1M Millennium Prize"
+    }
+  ],
+  "tags": [
+    "np-hard",
+    "complexity",
+    "theory",
+    "intractable"
+  ],
+  "related": [
+    "dynamic-programming",
+    "complexity-analysis",
+    "graph",
+    "approximation"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

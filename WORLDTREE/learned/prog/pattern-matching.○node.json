@@ -1,0 +1,74 @@
+{
+  "name": "pattern-matching",
+  "sym": "⊗M",
+  "symbol": "⊗M",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.25,
+    0.35,
+    -0.18
+  ],
+  "isl": [
+    3,
+    2,
+    13,
+    0
+  ],
+  "summary": "Destructure và match giá trị theo pattern. Exhaustive. Hơn switch/case rất nhiều.",
+  "facts": [
+    {
+      "sym": "exhaustive",
+      "text": "compiler check tất cả cases đã cover"
+    },
+    {
+      "sym": "nested",
+      "text": "match có thể nested: match (x, y) { (1, 2) => ... }"
+    },
+    {
+      "sym": "guard",
+      "text": "match x if condition => ... — thêm điều kiện"
+    },
+    {
+      "sym": "binding",
+      "text": "match Some(x) if x > 0 => use x — binding + guard"
+    }
+  ],
+  "tags": [
+    "pattern-matching",
+    "match",
+    "destructure",
+    "rust",
+    "haskell"
+  ],
+  "related": [
+    "match",
+    "enum",
+    "Option",
+    "result-type",
+    "Rust",
+    "Haskell",
+    "destructure"
+  ],
+  "exists_in": [
+    "Rust",
+    "Haskell",
+    "Scala",
+    "Elixir",
+    "Python 3.10+",
+    "Swift"
+  ],
+  "not_in": [
+    "C",
+    "Java<21",
+    "Go"
+  ],
+  "NOT_in": [
+    "C",
+    "Java<21",
+    "Go"
+  ],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

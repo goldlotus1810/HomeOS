@@ -1,0 +1,52 @@
+{
+  "name": "threat-modeling",
+  "sym": "⊗model",
+  "symbol": "⊗model",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    -0.4,
+    -0.6,
+    -0.3
+  ],
+  "isl": [
+    7,
+    2,
+    1,
+    0
+  ],
+  "summary": "STRIDE: Spoofing, Tampering, Repudiation, Information disclosure, DoS, Elevation. Phân tích attack surfaces.",
+  "facts": [
+    {
+      "sym": "STRIDE",
+      "text": "STRIDE: 6 threat categories từ Microsoft"
+    },
+    {
+      "sym": "attack surface",
+      "text": "minimize attack surface: ít exposed endpoints hơn"
+    },
+    {
+      "sym": "data flow",
+      "text": "DFD: data flow diagram để identify threats"
+    }
+  ],
+  "tags": [
+    "threat-modeling",
+    "security",
+    "stride",
+    "architecture"
+  ],
+  "related": [
+    "OWASP-Top10",
+    "authentication",
+    "authorization",
+    "encryption",
+    "API-design"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

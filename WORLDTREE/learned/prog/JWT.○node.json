@@ -1,0 +1,62 @@
+{
+  "name": "JWT",
+  "sym": "🔑.payload",
+  "symbol": "🔑.payload",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.6,
+    0.7,
+    0.4
+  ],
+  "isl": [
+    5,
+    5,
+    3,
+    0
+  ],
+  "summary": "JSON Web Token. header.payload.signature. Stateless authentication. HS256/RS256.",
+  "facts": [
+    {
+      "sym": "structure",
+      "text": "base64(header).base64(payload).signature"
+    },
+    {
+      "sym": "verify",
+      "text": "verify signature: không thể fake nếu không có secret/private key"
+    },
+    {
+      "sym": "expiry",
+      "text": "exp claim: token expiry — không revoke được dễ"
+    },
+    {
+      "sym": "size",
+      "text": "JWT lớn hơn session token — gửi trong mỗi request"
+    }
+  ],
+  "tags": [
+    "jwt",
+    "auth",
+    "token",
+    "stateless",
+    "web"
+  ],
+  "related": [
+    "OAuth2",
+    "authentication",
+    "TLS",
+    "HMAC",
+    "API",
+    "encryption"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "alg=none: verify alg claim",
+    "weak secret: brute-forceable",
+    "không revoke: phải short-lived"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

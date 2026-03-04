@@ -1,0 +1,59 @@
+{
+  "name": "sliding-window",
+  "sym": "[→]",
+  "symbol": "[→]",
+  "layer": 6,
+  "category": "algorithm",
+  "sdf": [
+    -0.175,
+    0.125,
+    -0.275
+  ],
+  "isl": [
+    6,
+    4,
+    9,
+    0
+  ],
+  "summary": "Fixed/variable size window di chuyển qua array/string. O(n). Subarray sum, max, min, anagram.",
+  "facts": [
+    {
+      "sym": "fixed",
+      "text": "fixed window: đúng k phần tử — slide từng bước"
+    },
+    {
+      "sym": "variable",
+      "text": "variable window: expand/shrink dựa trên condition"
+    },
+    {
+      "sym": "O(n)",
+      "text": "O(n): mỗi phần tử vào/ra window đúng 1 lần"
+    }
+  ],
+  "tags": [
+    "sliding-window",
+    "array",
+    "string",
+    "O(n)",
+    "algorithm"
+  ],
+  "related": [
+    "two-pointer",
+    "array",
+    "string",
+    "hashmap",
+    "deque"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

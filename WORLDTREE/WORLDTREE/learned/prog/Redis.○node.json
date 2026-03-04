@@ -1,0 +1,60 @@
+{
+  "name": "Redis",
+  "sym": "🔴R",
+  "symbol": "🔴R",
+  "layer": 5,
+  "category": "tool",
+  "sdf": [
+    0.45,
+    0.55,
+    0.25
+  ],
+  "isl": [
+    5,
+    3,
+    9,
+    0
+  ],
+  "summary": "In-memory data store. Sub-millisecond. Strings, hashes, lists, sets, sorted sets, streams. Pub/Sub.",
+  "facts": [
+    {
+      "sym": "single thread",
+      "text": "single-threaded: không data race, atomic operations"
+    },
+    {
+      "sym": "persistence",
+      "text": "RDB snapshot + AOF log: durability options"
+    },
+    {
+      "sym": "pub/sub",
+      "text": "Pub/Sub: event broadcasting"
+    },
+    {
+      "sym": "Lua",
+      "text": "Lua scripting: atomic multi-command transactions"
+    }
+  ],
+  "tags": [
+    "redis",
+    "cache",
+    "memory",
+    "nosql",
+    "pubsub"
+  ],
+  "related": [
+    "cache",
+    "message-queue",
+    "LRU-cache",
+    "database",
+    "session"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "lost data nếu crash và chỉ dùng in-memory",
+    "maxmemory policy: eviction khi memory full"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

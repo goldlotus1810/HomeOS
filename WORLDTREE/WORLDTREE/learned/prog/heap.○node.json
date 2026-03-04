@@ -1,0 +1,63 @@
+{
+  "name": "heap",
+  "sym": "📦m",
+  "symbol": "📦m",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.4,
+    -0.35,
+    -0.4
+  ],
+  "isl": [
+    3,
+    0,
+    21,
+    0
+  ],
+  "summary": "Dynamic memory allocation. malloc/new allocate từ heap. Persist cho đến khi free/GC.",
+  "facts": [
+    {
+      "sym": "dynamic",
+      "text": "kích thước không cần biết tại compile time"
+    },
+    {
+      "sym": "fragmentation",
+      "text": "heap fragmentation: nhiều small allocations → wasted space"
+    },
+    {
+      "sym": "GC",
+      "text": "GC language: heap quản lý tự động"
+    }
+  ],
+  "tags": [
+    "heap",
+    "memory",
+    "dynamic",
+    "malloc"
+  ],
+  "related": [
+    "stack",
+    "malloc",
+    "GC",
+    "ownership",
+    "RAII"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "memory leak: không free",
+    "use after free",
+    "double free",
+    "heap corruption"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

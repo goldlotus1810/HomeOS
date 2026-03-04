@@ -1,0 +1,55 @@
+{
+  "name": "dependency-graph",
+  "sym": "⬡→⬡g",
+  "symbol": "⬡→⬡g",
+  "layer": 6,
+  "category": "concept",
+  "sdf": [
+    0.3,
+    0.4,
+    0.1
+  ],
+  "isl": [
+    6,
+    1,
+    11,
+    0
+  ],
+  "summary": "DAG biểu diễn dependencies giữa modules/packages. Topological sort để build order. Cycle = error.",
+  "facts": [
+    {
+      "sym": "topological sort",
+      "text": "topological sort: build order cho DAG"
+    },
+    {
+      "sym": "cycle",
+      "text": "circular dependency: A depends B depends A → error"
+    },
+    {
+      "sym": "build systems",
+      "text": "Make, Bazel, Gradle dùng dependency graph"
+    }
+  ],
+  "tags": [
+    "dependency",
+    "dag",
+    "build",
+    "graph",
+    "package"
+  ],
+  "related": [
+    "graph",
+    "topological-sort",
+    "DFS",
+    "build-system",
+    "module"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "circular dependency: build fails hoặc undefined initialization order"
+  ],
+  "confidence": 0.97,
+  "source": "builtin"
+}

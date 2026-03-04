@@ -1,0 +1,62 @@
+{
+  "name": "slice",
+  "sym": "[]T~",
+  "symbol": "[]T~",
+  "layer": 1,
+  "category": "primitive",
+  "sdf": [
+    -0.58,
+    -0.38,
+    -0.48
+  ],
+  "isl": [
+    1,
+    0,
+    23,
+    0
+  ],
+  "summary": "View vào array. Gồm: pointer, length, capacity. Động — có thể grow.",
+  "facts": [
+    {
+      "sym": "ptr+len+cap",
+      "text": "slice header: *ptr, len int, cap int"
+    },
+    {
+      "sym": "append",
+      "text": "append() có thể allocate mới nếu cap không đủ"
+    },
+    {
+      "sym": "Go slice",
+      "text": "Go: slice là cấu trúc dữ liệu trung tâm"
+    }
+  ],
+  "tags": [
+    "slice",
+    "view",
+    "dynamic"
+  ],
+  "related": [
+    "array",
+    "vector",
+    "string",
+    "pointer",
+    "append"
+  ],
+  "exists_in": [
+    "Go",
+    "Rust"
+  ],
+  "not_in": [
+    "C",
+    "Java"
+  ],
+  "NOT_in": [
+    "C",
+    "Java"
+  ],
+  "danger": [
+    "aliasing: 2 slices share array → mutation ảnh hưởng cả 2"
+  ],
+  "confidence": 0.98,
+  "source": "builtin"
+}

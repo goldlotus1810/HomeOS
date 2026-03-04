@@ -1,0 +1,54 @@
+{
+  "name": "DRY",
+  "sym": "∅dup",
+  "symbol": "∅dup",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.2,
+    0.5,
+    0.1
+  ],
+  "isl": [
+    7,
+    0,
+    1,
+    0
+  ],
+  "summary": "Don't Repeat Yourself. Mỗi piece of knowledge có 1 authoritative source. Tránh copy-paste.",
+  "facts": [
+    {
+      "sym": "abstraction",
+      "text": "khi thấy duplicate → extract function/class/module"
+    },
+    {
+      "sym": "DRY != YAGNI",
+      "text": "DRY về knowledge, không phải code — đôi khi duplicate OK"
+    },
+    {
+      "sym": "WET",
+      "text": "WET: Write Everything Twice — pragmatic rule: ok khi dup < 3 lần"
+    }
+  ],
+  "tags": [
+    "dry",
+    "duplication",
+    "refactoring",
+    "principle"
+  ],
+  "related": [
+    "SOLID",
+    "abstraction",
+    "refactoring",
+    "YAGNI",
+    "KISS"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "over-DRY: premature abstraction, wrong abstraction"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

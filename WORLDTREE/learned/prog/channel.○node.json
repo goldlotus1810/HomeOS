@@ -1,0 +1,68 @@
+{
+  "name": "channel",
+  "sym": "←→",
+  "symbol": "←→",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.04,
+    0.21,
+    -0.24
+  ],
+  "isl": [
+    3,
+    0,
+    10,
+    0
+  ],
+  "summary": "Go typed FIFO queue giữa goroutines. Buffered hoặc unbuffered. CSP model.",
+  "facts": [
+    {
+      "sym": "unbuffered",
+      "text": "ch := make(chan T) — synchronous, send block cho đến khi receive"
+    },
+    {
+      "sym": "buffered",
+      "text": "ch := make(chan T, n) — buffer n items, send block khi full"
+    },
+    {
+      "sym": "close",
+      "text": "close(ch) signal sender xong — receiver drain rồi nhận zero value"
+    }
+  ],
+  "tags": [
+    "channel",
+    "go",
+    "csp",
+    "queue"
+  ],
+  "related": [
+    "goroutine",
+    "mutex",
+    "CSP",
+    "select",
+    "Go"
+  ],
+  "exists_in": [
+    "Go"
+  ],
+  "not_in": [
+    "Rust",
+    "Java",
+    "Python",
+    "C"
+  ],
+  "NOT_in": [
+    "Rust",
+    "Java",
+    "Python",
+    "C"
+  ],
+  "danger": [
+    "goroutine leak: nobody receive",
+    "send to closed channel: panic",
+    "nil channel: block forever"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

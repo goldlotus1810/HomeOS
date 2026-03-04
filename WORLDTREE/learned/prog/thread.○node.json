@@ -1,0 +1,67 @@
+{
+  "name": "thread",
+  "sym": "⟨t⟩",
+  "symbol": "⟨t⟩",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    -0.1,
+    0.2,
+    -0.25
+  ],
+  "isl": [
+    3,
+    2,
+    6,
+    0
+  ],
+  "summary": "OS thread. Nặng hơn goroutine (~1MB stack). Kernel-scheduled. Java, C, Python dùng OS threads.",
+  "facts": [
+    {
+      "sym": "OS thread",
+      "text": "OS kernel quản lý: context switch ~1-10 microseconds"
+    },
+    {
+      "sym": "1MB stack",
+      "text": "Java thread: ~1MB stack default. Goroutine: 2KB"
+    },
+    {
+      "sym": "GIL",
+      "text": "Python GIL: chỉ 1 thread chạy Python code cùng lúc → dùng process"
+    },
+    {
+      "sym": "pool",
+      "text": "thread pool: tái sử dụng threads thay vì tạo mới"
+    }
+  ],
+  "tags": [
+    "thread",
+    "concurrency",
+    "os",
+    "parallelism"
+  ],
+  "related": [
+    "goroutine",
+    "mutex",
+    "data-race",
+    "deadlock",
+    "Java",
+    "Python",
+    "concurrent"
+  ],
+  "exists_in": [
+    "C",
+    "Java",
+    "Python",
+    "C++"
+  ],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "data race",
+    "deadlock",
+    "GIL bottleneck trong Python"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

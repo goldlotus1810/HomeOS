@@ -1,0 +1,64 @@
+{
+  "name": "lock-free",
+  "sym": "⟳∅lock",
+  "symbol": "⟳∅lock",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    -0.55,
+    0.15,
+    -0.5
+  ],
+  "isl": [
+    3,
+    5,
+    2,
+    0
+  ],
+  "summary": "Concurrent data structures không dùng mutex. CAS-based. Progress guarantee. Khó đúng nhưng hiệu quả.",
+  "facts": [
+    {
+      "sym": "CAS",
+      "text": "Compare-And-Swap: foundation của lock-free algorithms"
+    },
+    {
+      "sym": "progress",
+      "text": "lock-free: tổng thể tiến (không global deadlock)"
+    },
+    {
+      "sym": "wait-free",
+      "text": "wait-free: mọi thread tiến trong finite steps — stronger"
+    }
+  ],
+  "tags": [
+    "lock-free",
+    "concurrency",
+    "cas",
+    "atomic",
+    "algorithm"
+  ],
+  "related": [
+    "atomic-op",
+    "mutex",
+    "data-race",
+    "memory-ordering",
+    "goroutine"
+  ],
+  "exists_in": [
+    "C",
+    "Rust",
+    "Java",
+    "C++"
+  ],
+  "not_in": [
+    "Go(discouraged)"
+  ],
+  "NOT_in": [],
+  "danger": [
+    "ABA problem",
+    "memory ordering bugs",
+    "harder to reason about than locks"
+  ],
+  "confidence": 0.97,
+  "source": "builtin"
+}

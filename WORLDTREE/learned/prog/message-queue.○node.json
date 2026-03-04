@@ -1,0 +1,61 @@
+{
+  "name": "message-queue",
+  "sym": "→Q→",
+  "symbol": "→Q→",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.45,
+    0.55,
+    0.2
+  ],
+  "isl": [
+    5,
+    3,
+    3,
+    0
+  ],
+  "summary": "Async communication giữa services. Kafka, RabbitMQ, SQS. Decouple producer từ consumer.",
+  "facts": [
+    {
+      "sym": "Kafka",
+      "text": "Kafka: distributed log, retain messages, high throughput"
+    },
+    {
+      "sym": "RabbitMQ",
+      "text": "RabbitMQ: AMQP, routing, dead letter queue"
+    },
+    {
+      "sym": "at-least-once",
+      "text": "at-least-once delivery: consumer phải idempotent"
+    },
+    {
+      "sym": "backpressure",
+      "text": "backpressure: slow consumer → queue builds up → OOM"
+    }
+  ],
+  "tags": [
+    "message-queue",
+    "kafka",
+    "async",
+    "decoupling",
+    "distributed"
+  ],
+  "related": [
+    "microservice",
+    "event-sourcing",
+    "retry",
+    "idempotent",
+    "distributed"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "at-least-once: duplicate processing",
+    "message ordering không guaranteed (Kafka per-partition)",
+    "dead letter queue: không xử lý → lost messages"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

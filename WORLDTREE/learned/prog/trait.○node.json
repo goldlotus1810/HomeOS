@@ -1,0 +1,70 @@
+{
+  "name": "trait",
+  "sym": "⊃T",
+  "symbol": "⊃T",
+  "layer": 3,
+  "category": "construct",
+  "sdf": [
+    -0.1,
+    0.7,
+    -0.1
+  ],
+  "isl": [
+    3,
+    2,
+    10,
+    0
+  ],
+  "summary": "Rust trait = interface với default implementations. Định nghĩa behavior, không state. Composable.",
+  "facts": [
+    {
+      "sym": "interface++",
+      "text": "trait như interface nhưng có default method implementations"
+    },
+    {
+      "sym": "blanket impl",
+      "text": "blanket impl: impl<T: Display> ToString for T — implement cho mọi T"
+    },
+    {
+      "sym": "orphan rule",
+      "text": "orphan rule: chỉ implement trait nếu trait hoặc type thuộc về crate của bạn"
+    },
+    {
+      "sym": "object safe",
+      "text": "trait object: Box<dyn Trait> — dynamic dispatch"
+    }
+  ],
+  "tags": [
+    "trait",
+    "rust",
+    "interface",
+    "behavior"
+  ],
+  "related": [
+    "interface",
+    "OOP",
+    "generic",
+    "Rust",
+    "duck-typing",
+    "polymorphism",
+    "Haskell"
+  ],
+  "exists_in": [
+    "Rust",
+    "Haskell(typeclass)",
+    "Scala"
+  ],
+  "not_in": [
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "NOT_in": [
+    "Go",
+    "Java",
+    "Python"
+  ],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

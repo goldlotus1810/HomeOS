@@ -1,0 +1,57 @@
+{
+  "name": "debugging",
+  "sym": "🔍bug",
+  "symbol": "🔍bug",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.15,
+    0.45,
+    0.05
+  ],
+  "isl": [
+    7,
+    0,
+    7,
+    0
+  ],
+  "summary": "Tìm và fix bugs. Reproduce, isolate, hypothesize, verify. Rubber duck, bisect, minimal repro.",
+  "facts": [
+    {
+      "sym": "reproduce",
+      "text": "trước tiên: reproduce reliably. Bug không reproduce = không fix được"
+    },
+    {
+      "sym": "minimal repro",
+      "text": "minimal reproduction: bỏ code không liên quan cho đến khi bug vẫn còn"
+    },
+    {
+      "sym": "bisect",
+      "text": "git bisect: tìm commit gây ra bug bằng binary search"
+    },
+    {
+      "sym": "rubber duck",
+      "text": "giải thích code cho rubber duck → thường tự tìm ra bug"
+    }
+  ],
+  "tags": [
+    "debugging",
+    "bug",
+    "reproduce",
+    "bisect"
+  ],
+  "related": [
+    "git",
+    "TDD",
+    "testing",
+    "hypothesis",
+    "rubber-duck",
+    "binary-search"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.99,
+  "source": "builtin"
+}

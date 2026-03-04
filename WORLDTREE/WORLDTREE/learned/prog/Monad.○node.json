@@ -1,0 +1,72 @@
+{
+  "name": "Monad",
+  "sym": "M(T)",
+  "symbol": "M(T)",
+  "layer": 4,
+  "category": "concept",
+  "sdf": [
+    0.8,
+    0.55,
+    0.8
+  ],
+  "isl": [
+    4,
+    1,
+    3,
+    0
+  ],
+  "summary": "Haskell: typeclass với bind (>>=) và return. Cho phép chain operations trong context (IO, Maybe, List, Either).",
+  "facts": [
+    {
+      "sym": "bind",
+      "text": ">>= (bind): M a -> (a -> M b) -> M b"
+    },
+    {
+      "sym": "return",
+      "text": "return/pure: a -> M a — wrap value vào monad"
+    },
+    {
+      "sym": "IO Monad",
+      "text": "IO Monad: cô lập side effects, giữ code pure"
+    },
+    {
+      "sym": "Maybe Monad",
+      "text": "Maybe Monad: chain operations có thể fail, stop tại Nothing"
+    }
+  ],
+  "tags": [
+    "monad",
+    "haskell",
+    "functional",
+    "typeclass",
+    "fp"
+  ],
+  "related": [
+    "Haskell",
+    "Functor",
+    "functional",
+    "Option",
+    "result-type",
+    "higher-order-function"
+  ],
+  "exists_in": [
+    "Haskell",
+    "Scala",
+    "Purescript"
+  ],
+  "not_in": [
+    "Go",
+    "C",
+    "Java",
+    "Python"
+  ],
+  "NOT_in": [
+    "Go",
+    "C",
+    "Java",
+    "Python"
+  ],
+  "danger": [],
+  "confidence": 0.97,
+  "source": "builtin"
+}

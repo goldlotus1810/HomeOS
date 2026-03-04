@@ -1,0 +1,57 @@
+{
+  "name": "CDN",
+  "sym": "🌍→⚡",
+  "symbol": "🌍→⚡",
+  "layer": 5,
+  "category": "concept",
+  "sdf": [
+    0.7,
+    0.8,
+    0.5
+  ],
+  "isl": [
+    5,
+    3,
+    5,
+    0
+  ],
+  "summary": "Content Delivery Network. Cache static assets gần user. Giảm latency, giảm origin load.",
+  "facts": [
+    {
+      "sym": "edge",
+      "text": "edge nodes: distributed globally — serve từ gần user nhất"
+    },
+    {
+      "sym": "cache-control",
+      "text": "Cache-Control header: max-age, s-maxage, no-cache"
+    },
+    {
+      "sym": "invalidation",
+      "text": "cache invalidation: purge khi content thay đổi"
+    }
+  ],
+  "tags": [
+    "cdn",
+    "cache",
+    "network",
+    "performance",
+    "web"
+  ],
+  "related": [
+    "cache",
+    "HTTP",
+    "DNS",
+    "TLS",
+    "LRU-cache",
+    "load-balancer"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "stale content sau deploy nếu không invalidate",
+    "vary header: caching different responses"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

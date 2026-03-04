@@ -1,0 +1,67 @@
+{
+  "name": "use-after-free",
+  "sym": "⊗UAF",
+  "symbol": "⊗UAF",
+  "layer": 3,
+  "category": "vulnerability",
+  "sdf": [
+    -0.68,
+    -0.84,
+    -0.73
+  ],
+  "isl": [
+    3,
+    1,
+    2,
+    0
+  ],
+  "summary": "Dùng pointer sau khi đã free memory. Undefined behavior. Security vulnerability.",
+  "facts": [
+    {
+      "sym": "dangling",
+      "text": "dangling pointer: trỏ vào freed memory"
+    },
+    {
+      "sym": "exploit",
+      "text": "attacker có thể allocate lại vùng đó → control data"
+    },
+    {
+      "sym": "Rust",
+      "text": "Rust borrow checker: impossible tại safe code"
+    }
+  ],
+  "tags": [
+    "uaf",
+    "use-after-free",
+    "security",
+    "memory"
+  ],
+  "related": [
+    "free",
+    "malloc",
+    "pointer",
+    "Rust",
+    "borrow",
+    "dangling-pointer"
+  ],
+  "exists_in": [
+    "C",
+    "C++"
+  ],
+  "not_in": [
+    "Rust",
+    "Go",
+    "Java"
+  ],
+  "NOT_in": [
+    "Rust",
+    "Go",
+    "Java"
+  ],
+  "danger": [
+    "exploitation: type confusion, arbitrary code execution",
+    "silent corruption: crash không rõ nguyên nhân"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

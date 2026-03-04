@@ -1,0 +1,65 @@
+{
+  "name": "assembly",
+  "sym": "⚙asm",
+  "symbol": "⚙asm",
+  "layer": 5,
+  "category": "language",
+  "sdf": [
+    -0.99,
+    -0.95,
+    -0.99
+  ],
+  "isl": [
+    5,
+    0,
+    12,
+    0
+  ],
+  "summary": "Ngôn ngữ thấp nhất trên CPU instructions. x86-64: mov, add, jmp, call. 1 instruction = 1 CPU op.",
+  "facts": [
+    {
+      "sym": "register",
+      "text": "trực tiếp thao tác register: rax, rbx, rcx..."
+    },
+    {
+      "sym": "mnemonic",
+      "text": "mnemonic: mov, add, sub, mul, div, jmp, call, ret"
+    },
+    {
+      "sym": "no abstraction",
+      "text": "không có variable, loop, function — chỉ labels và jumps"
+    },
+    {
+      "sym": "nasm",
+      "text": "x86-64 NASM: section .text, global _start, _start:"
+    }
+  ],
+  "tags": [
+    "assembly",
+    "asm",
+    "x86",
+    "hardware",
+    "low-level"
+  ],
+  "related": [
+    "register",
+    "bit",
+    "byte",
+    "load",
+    "store",
+    "call",
+    "ret",
+    "C"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "buffer overflow",
+    "stack smashing",
+    "segment fault",
+    "no type safety"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

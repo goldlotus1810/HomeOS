@@ -1,0 +1,51 @@
+{
+  "name": "Turing-machine",
+  "sym": "TM",
+  "symbol": "TM",
+  "layer": 6,
+  "category": "math",
+  "sdf": [
+    0.6,
+    0.1,
+    0.5
+  ],
+  "isl": [
+    6,
+    2,
+    10,
+    0
+  ],
+  "summary": "Theoretical model of computation. Tape + states + transitions. Church-Turing: mọi thứ có thể tính được.",
+  "facts": [
+    {
+      "sym": "universal",
+      "text": "Universal Turing Machine: simulate bất kỳ TM nào"
+    },
+    {
+      "sym": "Church-Turing",
+      "text": "Church-Turing thesis: mọi effectively computable function = TM computable"
+    },
+    {
+      "sym": "modern",
+      "text": "modern CPU = Turing complete. Template metaprogramming = TC"
+    }
+  ],
+  "tags": [
+    "turing",
+    "computability",
+    "theory",
+    "abstract-machine"
+  ],
+  "related": [
+    "halting-problem",
+    "P-vs-NP",
+    "lambda-calculus",
+    "computability"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [],
+  "confidence": 0.98,
+  "source": "builtin"
+}

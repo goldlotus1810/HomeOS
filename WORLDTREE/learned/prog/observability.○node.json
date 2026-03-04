@@ -1,0 +1,60 @@
+{
+  "name": "observability",
+  "sym": "👁sys",
+  "symbol": "👁sys",
+  "layer": 7,
+  "category": "skill",
+  "sdf": [
+    0.54,
+    0.74,
+    0.39
+  ],
+  "isl": [
+    7,
+    3,
+    8,
+    0
+  ],
+  "summary": "3 pillars: Metrics, Logs, Traces. Understand what system is doing. OpenTelemetry standard.",
+  "facts": [
+    {
+      "sym": "metrics",
+      "text": "metrics: counters, gauges, histograms — aggregated"
+    },
+    {
+      "sym": "logs",
+      "text": "logs: events với context — structured JSON"
+    },
+    {
+      "sym": "traces",
+      "text": "traces: request journey across services — sampling"
+    },
+    {
+      "sym": "OTEL",
+      "text": "OpenTelemetry: vendor-neutral instrumentation standard"
+    }
+  ],
+  "tags": [
+    "observability",
+    "metrics",
+    "logs",
+    "traces",
+    "opentelemetry"
+  ],
+  "related": [
+    "monitoring",
+    "microservice",
+    "distributed",
+    "Kubernetes",
+    "alerting"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "sampling rate trop low: miss rare errors",
+    "log verbosity: cost vs signal ratio"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}

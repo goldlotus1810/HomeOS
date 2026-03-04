@@ -1,0 +1,56 @@
+{
+  "name": "CQRS",
+  "sym": "C|Q",
+  "symbol": "C|Q",
+  "layer": 6,
+  "category": "pattern",
+  "sdf": [
+    0.46,
+    0.56,
+    0.26
+  ],
+  "isl": [
+    6,
+    5,
+    1,
+    0
+  ],
+  "summary": "Command Query Responsibility Segregation. Write model ≠ Read model. Scale reads độc lập với writes.",
+  "facts": [
+    {
+      "sym": "command",
+      "text": "command: change state, không return data"
+    },
+    {
+      "sym": "query",
+      "text": "query: return data, không change state"
+    },
+    {
+      "sym": "event sourcing",
+      "text": "thường kết hợp với event sourcing"
+    }
+  ],
+  "tags": [
+    "cqrs",
+    "pattern",
+    "architecture",
+    "distributed",
+    "read-write"
+  ],
+  "related": [
+    "event-sourcing",
+    "microservice",
+    "database",
+    "eventual-consistency",
+    "CAP-theorem"
+  ],
+  "exists_in": [],
+  "not_in": [],
+  "NOT_in": [],
+  "danger": [
+    "eventual consistency: read model có thể stale",
+    "complexity: 2 models cần sync"
+  ],
+  "confidence": 0.97,
+  "source": "builtin"
+}

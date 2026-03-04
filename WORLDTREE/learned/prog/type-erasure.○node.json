@@ -1,0 +1,69 @@
+{
+  "name": "type-erasure",
+  "sym": "T→?",
+  "symbol": "T→?",
+  "layer": 3,
+  "category": "concept",
+  "sdf": [
+    0.15,
+    0.3,
+    -0.05
+  ],
+  "isl": [
+    3,
+    2,
+    20,
+    0
+  ],
+  "summary": "Java generics: xóa type info tại runtime. List<String> → List tại bytecode. Performance overhead zero nhưng mất safety runtime.",
+  "facts": [
+    {
+      "sym": "Java",
+      "text": "Java: List<String> → List<?> tại runtime"
+    },
+    {
+      "sym": "cast",
+      "text": "runtime cast: có thể ClassCastException"
+    },
+    {
+      "sym": "no reification",
+      "text": "không reified: không thể làm new T() hoặc instanceof T"
+    }
+  ],
+  "tags": [
+    "type-erasure",
+    "java",
+    "generics",
+    "runtime"
+  ],
+  "related": [
+    "generic",
+    "Java",
+    "class",
+    "OOP",
+    "interface",
+    "cast"
+  ],
+  "exists_in": [
+    "Java"
+  ],
+  "not_in": [
+    "Rust",
+    "C++",
+    "C#",
+    "Go"
+  ],
+  "NOT_in": [
+    "Rust",
+    "C++",
+    "C#",
+    "Go"
+  ],
+  "danger": [
+    "ClassCastException at runtime",
+    "cannot new T()",
+    "cannot instanceof T"
+  ],
+  "confidence": 0.99,
+  "source": "builtin"
+}
